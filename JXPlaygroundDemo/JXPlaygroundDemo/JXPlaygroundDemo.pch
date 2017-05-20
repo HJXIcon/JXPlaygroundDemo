@@ -1,0 +1,18 @@
+//
+//  JXPlaygroundDemo.pch
+//  JXPlaygroundDemo
+//
+//  Created by mac on 17/5/13.
+//  Copyright © 2017年 Mr.Gao. All rights reserved.
+//
+
+#ifndef JXPlaygroundDemo_pch
+#define JXPlaygroundDemo_pch
+
+
+#import "JXCaculatorMaker.h"
+#import "NSObject+caculator.h"
+#import "JXCaculator.h"
+
+
+#endif /* JXPlaygroundDemo_pch */
