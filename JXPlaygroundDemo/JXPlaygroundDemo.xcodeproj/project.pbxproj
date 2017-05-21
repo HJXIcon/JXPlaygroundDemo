@@ -11,6 +11,14 @@
 		046052721ECFD09100745224 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052711ECFD09100745224 /* FlagItem.m */; };
 		046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052761ECFD7ED00745224 /* ReativeSearchViewController.m */; };
 		0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052791ECFDE4800745224 /* ReactiveCocoaBlockViewController.m */; };
+		048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA051ED126910037DFE0 /* JXAMapViewController.m */; };
+		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
+		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
+		048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */; };
+		04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */; };
+		04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */; };
+		04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */; };
+		04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE81ED1840000459B2E /* JXActivitySearchViewController.m */; };
 		04D8420E1EC694CB00E14F48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8420D1EC694CB00E14F48 /* main.m */; };
 		04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D842101EC694CB00E14F48 /* AppDelegate.m */; };
 		04D842141EC694CB00E14F48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D842131EC694CB00E14F48 /* ViewController.m */; };
@@ -32,6 +40,23 @@
 		046052761ECFD7ED00745224 /* ReativeSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReativeSearchViewController.m; sourceTree = "<group>"; };
 		046052781ECFDE4800745224 /* ReactiveCocoaBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaBlockViewController.h; sourceTree = "<group>"; };
 		046052791ECFDE4800745224 /* ReactiveCocoaBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaBlockViewController.m; sourceTree = "<group>"; };
+		048DCA041ED126910037DFE0 /* JXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAMapViewController.h; sourceTree = "<group>"; };
+		048DCA051ED126910037DFE0 /* JXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAMapViewController.m; sourceTree = "<group>"; };
+		048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomCalloutView.h; sourceTree = "<group>"; };
+		048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomCalloutView.m; sourceTree = "<group>"; };
+		048DCA0B1ED133F60037DFE0 /* JXCustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomAnnotationView.h; sourceTree = "<group>"; };
+		048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomAnnotationView.m; sourceTree = "<group>"; };
+		048DCA0E1ED134A10037DFE0 /* JXCustomAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomAnnotationViewController.h; sourceTree = "<group>"; };
+		048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomAnnotationViewController.m; sourceTree = "<group>"; };
+		04BE3FDC1ED13CE600459B2E /* JXPOISearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPOISearchViewController.h; path = ../JXPOISearchViewController.h; sourceTree = "<group>"; };
+		04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPOISearchViewController.m; path = ../JXPOISearchViewController.m; sourceTree = "<group>"; };
+		04BE3FE01ED1453400459B2E /* JXPlaceAroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPlaceAroundTableView.h; sourceTree = "<group>"; };
+		04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPlaceAroundTableView.m; sourceTree = "<group>"; };
+		04BE3FE31ED17F5B00459B2E /* GlobalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		04BE3FE51ED1840000459B2E /* JXActivitySearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXActivitySearchResultViewController.h; sourceTree = "<group>"; };
+		04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXActivitySearchResultViewController.m; sourceTree = "<group>"; };
+		04BE3FE71ED1840000459B2E /* JXActivitySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXActivitySearchViewController.h; sourceTree = "<group>"; };
+		04BE3FE81ED1840000459B2E /* JXActivitySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXActivitySearchViewController.m; sourceTree = "<group>"; };
 		04D842091EC694CB00E14F48 /* JXPlaygroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXPlaygroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D8420D1EC694CB00E14F48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D8420F1EC694CB00E14F48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +122,70 @@
 			path = "block嵌套";
 			sourceTree = "<group>";
 		};
+		048DCA011ED1258D0037DFE0 /* Map(地图） */ = {
+			isa = PBXGroup;
+			children = (
+				048DCA021ED1258D0037DFE0 /* 百度地图 */,
+				048DCA031ED1258D0037DFE0 /* 高德地图 */,
+			);
+			name = "Map(地图）";
+			path = "Map(地图";
+			sourceTree = "<group>";
+		};
+		048DCA021ED1258D0037DFE0 /* 百度地图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "百度地图";
+			sourceTree = "<group>";
+		};
+		048DCA031ED1258D0037DFE0 /* 高德地图 */ = {
+			isa = PBXGroup;
+			children = (
+				04BE3FDF1ED1451F00459B2E /* POI */,
+				048DCA071ED132710037DFE0 /* View */,
+				048DCA041ED126910037DFE0 /* JXAMapViewController.h */,
+				048DCA051ED126910037DFE0 /* JXAMapViewController.m */,
+				048DCA0E1ED134A10037DFE0 /* JXCustomAnnotationViewController.h */,
+				048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */,
+			);
+			path = "高德地图";
+			sourceTree = "<group>";
+		};
+		048DCA071ED132710037DFE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */,
+				048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */,
+				048DCA0B1ED133F60037DFE0 /* JXCustomAnnotationView.h */,
+				048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE3FDF1ED1451F00459B2E /* POI */ = {
+			isa = PBXGroup;
+			children = (
+				04BE3FE41ED1838C00459B2E /* POIStyle2 */,
+				04BE3FDC1ED13CE600459B2E /* JXPOISearchViewController.h */,
+				04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */,
+				04BE3FE01ED1453400459B2E /* JXPlaceAroundTableView.h */,
+				04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */,
+			);
+			path = POI;
+			sourceTree = "<group>";
+		};
+		04BE3FE41ED1838C00459B2E /* POIStyle2 */ = {
+			isa = PBXGroup;
+			children = (
+				04BE3FE51ED1840000459B2E /* JXActivitySearchResultViewController.h */,
+				04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */,
+				04BE3FE71ED1840000459B2E /* JXActivitySearchViewController.h */,
+				04BE3FE81ED1840000459B2E /* JXActivitySearchViewController.m */,
+			);
+			path = POIStyle2;
+			sourceTree = "<group>";
+		};
 		04D842001EC694CB00E14F48 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +207,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				048DCA011ED1258D0037DFE0 /* Map(地图） */,
 				0460526C1ECFCC4300745224 /* ReactiveCocoa练习 */,
 				04D842231EC6952000E14F48 /* 模仿masonry加法计算器（链式编程） */,
 				04D8420F1EC694CB00E14F48 /* AppDelegate.h */,
@@ -137,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				04D8420D1EC694CB00E14F48 /* main.m */,
+				04BE3FE31ED17F5B00459B2E /* GlobalDefine.h */,
 				04D842241EC6953E00E14F48 /* JXPlaygroundDemo.pch */,
 			);
 			name = "Supporting Files";
@@ -206,6 +297,7 @@
 				TargetAttributes = {
 					04D842081EC694CB00E14F48 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TM5A6A2L6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,11 +386,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
+				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */,
 				04D842141EC694CB00E14F48 /* ViewController.m in Sources */,
+				048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */,
+				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
+				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
+				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
+				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
+				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
@@ -424,11 +524,12 @@
 			baseConfigurationReference = B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TM5A6A2L6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -438,11 +539,12 @@
 			baseConfigurationReference = A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TM5A6A2L6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -13,6 +13,8 @@
 #import "JXCaculatorMaker.h"
 #import "NSObject+caculator.h"
 #import "JXCaculator.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import "GlobalDefine.h"
 
 
 #endif /* JXPlaygroundDemo_pch */

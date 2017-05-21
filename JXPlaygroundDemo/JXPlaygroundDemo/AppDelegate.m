@@ -16,8 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    [self setupAMap];
+    
     return YES;
+}
+
+
+- (void)setupAMap{
+    [AMapServices sharedServices].apiKey = @"a471f4e0bfba855d516a47b3079bc092";
 }
 
 

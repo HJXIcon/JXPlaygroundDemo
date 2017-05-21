@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ReactiveCocoaViewController.h"
+#import "JXAMapViewController.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,8 @@
 - (NSArray *)dataSource{
     if (_dataSource == nil) {
         _dataSource = @[
-                        @"ReactiveCocoa练习"
+                        @"ReactiveCocoa练习",
+                        @"高德地图"
                         ];
     }
     return _dataSource;
@@ -94,6 +96,9 @@
             vc = [[ReactiveCocoaViewController alloc]init];
             break;
             
+        case 1:
+            vc = [[JXAMapViewController alloc]init];
+            break;
         default:
             break;
     }
