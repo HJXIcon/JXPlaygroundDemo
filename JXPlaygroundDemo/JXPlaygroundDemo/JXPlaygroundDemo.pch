@@ -15,6 +15,7 @@
 #import "JXCaculator.h"
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import "GlobalDefine.h"
-
+#import <Masonry/Masonry.h>
+#import <ZFPlayer/ZFPlayer.h>
 
 #endif /* JXPlaygroundDemo_pch */

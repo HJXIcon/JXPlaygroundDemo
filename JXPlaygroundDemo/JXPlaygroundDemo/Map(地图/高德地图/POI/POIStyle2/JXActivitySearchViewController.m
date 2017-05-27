@@ -153,7 +153,8 @@ static CGFloat const kSearchbarHeight = 40;
     }
     
     AMapPOIKeywordsSearchRequest *request = [[AMapPOIKeywordsSearchRequest alloc]init];
-    request.keywords = keyWord;
+//    request.keywords = keyWord;
+    request.keywords = @"广州";
     request.requireExtension = YES;
     /*  搜索SDK 3.2.0 中新增加的功能，只搜索本城市的POI。*/
     request.cityLimit           = YES;

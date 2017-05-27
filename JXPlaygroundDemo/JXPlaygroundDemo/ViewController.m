@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "ReactiveCocoaViewController.h"
 #import "JXAMapViewController.h"
+#import "GCDBaseViewController.h"
+#import "FDTemplateViewController.h"
+#import "NSThreadViewController.h"
+#import "TestZFPlayerViewController.h"
+#import "JSBridgeVC.h"
+#import "PicEditViewController.h"
 
 @interface ViewController ()
 
@@ -21,7 +27,13 @@
     if (_dataSource == nil) {
         _dataSource = @[
                         @"ReactiveCocoa练习",
-                        @"高德地图"
+                        @"高德地图",
+                        @"GCD基础篇",
+                        @"FDTemplateLayoutCell测试",
+                        @"NSThread",
+                        @"AVPlayer视频播放ZFPlayer",
+                        @"WebViewJavascriptBridge测试",
+                        @"图片添加水印"
                         ];
     }
     return _dataSource;
@@ -99,6 +111,32 @@
         case 1:
             vc = [[JXAMapViewController alloc]init];
             break;
+            
+        case 2:
+            vc = [[GCDBaseViewController alloc]init];
+            break;
+            
+        case 3:
+            vc = [[FDTemplateViewController alloc]init];
+            break;
+            
+        case 4:
+            vc = [[NSThreadViewController alloc]init];
+            break;
+
+        case 5:
+            vc = [[TestZFPlayerViewController alloc]init];
+            break;
+            
+        case 6:
+            vc = [[JSBridgeVC alloc]init];
+            break;
+            
+        case 7:
+            vc = [[PicEditViewController alloc]init];
+            break;
+            
+            
         default:
             break;
     }

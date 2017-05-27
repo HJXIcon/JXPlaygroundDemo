@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabbarVC.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,10 @@
     
     
     [self setupAMap];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[MainTabbarVC alloc]init];
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

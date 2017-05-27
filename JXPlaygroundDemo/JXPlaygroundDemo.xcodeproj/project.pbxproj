@@ -15,6 +15,21 @@
 		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
 		048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */; };
+		04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30BD1ED9187800841D63 /* GCDBaseViewController.m */; };
+		04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30C11ED91A7F00841D63 /* MainTabbarVC.m */; };
+		04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30C51ED91CE300841D63 /* FDTemplateViewController.m */; };
+		04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30C81ED91D3200841D63 /* FDTCell.m */; };
+		04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30C91ED91D3200841D63 /* FDTCell.xib */; };
+		04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30CD1ED91D7000841D63 /* FDTMasoryCell.m */; };
+		04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30CF1ED91D7000841D63 /* FDTModel.m */; };
+		04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30D41ED922F600841D63 /* NSThreadViewController.m */; };
+		04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30D81ED923DE00841D63 /* TestAVPlayerViewController.m */; };
+		04AC30DD1ED923DE00841D63 /* TestAVPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30D91ED923DE00841D63 /* TestAVPlayerViewController.xib */; };
+		04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30DB1ED923DE00841D63 /* TestZFPlayerViewController.m */; };
+		04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30DF1ED92A1200841D63 /* 智能拼图.mov */; };
+		04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30E21ED92B9C00841D63 /* ExampleApp.html */; };
+		04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */; };
+		04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E91ED92D2C00841D63 /* PicEditViewController.m */; };
 		04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */; };
 		04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */; };
 		04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */; };
@@ -48,6 +63,32 @@
 		048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomAnnotationView.m; sourceTree = "<group>"; };
 		048DCA0E1ED134A10037DFE0 /* JXCustomAnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomAnnotationViewController.h; sourceTree = "<group>"; };
 		048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomAnnotationViewController.m; sourceTree = "<group>"; };
+		04AC30BC1ED9187800841D63 /* GCDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDBaseViewController.h; sourceTree = "<group>"; };
+		04AC30BD1ED9187800841D63 /* GCDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDBaseViewController.m; sourceTree = "<group>"; };
+		04AC30C01ED91A7F00841D63 /* MainTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabbarVC.h; sourceTree = "<group>"; };
+		04AC30C11ED91A7F00841D63 /* MainTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabbarVC.m; sourceTree = "<group>"; };
+		04AC30C41ED91CE300841D63 /* FDTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTemplateViewController.h; sourceTree = "<group>"; };
+		04AC30C51ED91CE300841D63 /* FDTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTemplateViewController.m; sourceTree = "<group>"; };
+		04AC30C71ED91D3200841D63 /* FDTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTCell.h; sourceTree = "<group>"; };
+		04AC30C81ED91D3200841D63 /* FDTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTCell.m; sourceTree = "<group>"; };
+		04AC30C91ED91D3200841D63 /* FDTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDTCell.xib; sourceTree = "<group>"; };
+		04AC30CC1ED91D7000841D63 /* FDTMasoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTMasoryCell.h; sourceTree = "<group>"; };
+		04AC30CD1ED91D7000841D63 /* FDTMasoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTMasoryCell.m; sourceTree = "<group>"; };
+		04AC30CE1ED91D7000841D63 /* FDTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTModel.h; sourceTree = "<group>"; };
+		04AC30CF1ED91D7000841D63 /* FDTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTModel.m; sourceTree = "<group>"; };
+		04AC30D31ED922F600841D63 /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
+		04AC30D41ED922F600841D63 /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
+		04AC30D71ED923DE00841D63 /* TestAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAVPlayerViewController.h; sourceTree = "<group>"; };
+		04AC30D81ED923DE00841D63 /* TestAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAVPlayerViewController.m; sourceTree = "<group>"; };
+		04AC30D91ED923DE00841D63 /* TestAVPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestAVPlayerViewController.xib; sourceTree = "<group>"; };
+		04AC30DA1ED923DE00841D63 /* TestZFPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestZFPlayerViewController.h; sourceTree = "<group>"; };
+		04AC30DB1ED923DE00841D63 /* TestZFPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestZFPlayerViewController.m; sourceTree = "<group>"; };
+		04AC30DF1ED92A1200841D63 /* 智能拼图.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "智能拼图.mov"; sourceTree = "<group>"; };
+		04AC30E21ED92B9C00841D63 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		04AC30E31ED92B9C00841D63 /* JSBridgeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeVC.h; sourceTree = "<group>"; };
+		04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeVC.m; sourceTree = "<group>"; };
+		04AC30E81ED92D2C00841D63 /* PicEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicEditViewController.h; sourceTree = "<group>"; };
+		04AC30E91ED92D2C00841D63 /* PicEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicEditViewController.m; sourceTree = "<group>"; };
 		04BE3FDC1ED13CE600459B2E /* JXPOISearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPOISearchViewController.h; path = ../JXPOISearchViewController.h; sourceTree = "<group>"; };
 		04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPOISearchViewController.m; path = ../JXPOISearchViewController.m; sourceTree = "<group>"; };
 		04BE3FE01ED1453400459B2E /* JXPlaceAroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPlaceAroundTableView.h; sourceTree = "<group>"; };
@@ -163,6 +204,81 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04AC30BB1ED9185C00841D63 /* GCD基础篇 */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30BC1ED9187800841D63 /* GCDBaseViewController.h */,
+				04AC30BD1ED9187800841D63 /* GCDBaseViewController.m */,
+			);
+			path = "GCD基础篇";
+			sourceTree = "<group>";
+		};
+		04AC30BF1ED91A6400841D63 /* Tabbar点击动画 */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30C01ED91A7F00841D63 /* MainTabbarVC.h */,
+				04AC30C11ED91A7F00841D63 /* MainTabbarVC.m */,
+			);
+			path = "Tabbar点击动画";
+			sourceTree = "<group>";
+		};
+		04AC30C31ED91CC000841D63 /* FDTemplateLayoutCell测试 */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30C41ED91CE300841D63 /* FDTemplateViewController.h */,
+				04AC30C51ED91CE300841D63 /* FDTemplateViewController.m */,
+				04AC30C71ED91D3200841D63 /* FDTCell.h */,
+				04AC30C81ED91D3200841D63 /* FDTCell.m */,
+				04AC30C91ED91D3200841D63 /* FDTCell.xib */,
+				04AC30CC1ED91D7000841D63 /* FDTMasoryCell.h */,
+				04AC30CD1ED91D7000841D63 /* FDTMasoryCell.m */,
+				04AC30CE1ED91D7000841D63 /* FDTModel.h */,
+				04AC30CF1ED91D7000841D63 /* FDTModel.m */,
+			);
+			path = "FDTemplateLayoutCell测试";
+			sourceTree = "<group>";
+		};
+		04AC30D21ED922EB00841D63 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30D31ED922F600841D63 /* NSThreadViewController.h */,
+				04AC30D41ED922F600841D63 /* NSThreadViewController.m */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		04AC30D61ED923CF00841D63 /* AVPlayer视频播放ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30D71ED923DE00841D63 /* TestAVPlayerViewController.h */,
+				04AC30D81ED923DE00841D63 /* TestAVPlayerViewController.m */,
+				04AC30D91ED923DE00841D63 /* TestAVPlayerViewController.xib */,
+				04AC30DA1ED923DE00841D63 /* TestZFPlayerViewController.h */,
+				04AC30DB1ED923DE00841D63 /* TestZFPlayerViewController.m */,
+			);
+			name = "AVPlayer视频播放ZFPlayer";
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		04AC30E11ED92B8C00841D63 /* WebViewJavascriptBridge测试 */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30E21ED92B9C00841D63 /* ExampleApp.html */,
+				04AC30E31ED92B9C00841D63 /* JSBridgeVC.h */,
+				04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */,
+			);
+			path = "WebViewJavascriptBridge测试";
+			sourceTree = "<group>";
+		};
+		04AC30E71ED92D1300841D63 /* 图片添加水印 */ = {
+			isa = PBXGroup;
+			children = (
+				04AC30E81ED92D2C00841D63 /* PicEditViewController.h */,
+				04AC30E91ED92D2C00841D63 /* PicEditViewController.m */,
+			);
+			path = "图片添加水印";
+			sourceTree = "<group>";
+		};
 		04BE3FDF1ED1451F00459B2E /* POI */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +323,13 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04AC30E71ED92D1300841D63 /* 图片添加水印 */,
+				04AC30E11ED92B8C00841D63 /* WebViewJavascriptBridge测试 */,
+				04AC30D61ED923CF00841D63 /* AVPlayer视频播放ZFPlayer */,
+				04AC30D21ED922EB00841D63 /* NSThread */,
+				04AC30C31ED91CC000841D63 /* FDTemplateLayoutCell测试 */,
+				04AC30BF1ED91A6400841D63 /* Tabbar点击动画 */,
+				04AC30BB1ED9185C00841D63 /* GCD基础篇 */,
 				048DCA011ED1258D0037DFE0 /* Map(地图） */,
 				0460526C1ECFCC4300745224 /* ReactiveCocoa练习 */,
 				04D842231EC6952000E14F48 /* 模仿masonry加法计算器（链式编程） */,
@@ -226,6 +349,7 @@
 		04D8420C1EC694CB00E14F48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04AC30DF1ED92A1200841D63 /* 智能拼图.mov */,
 				04D8420D1EC694CB00E14F48 /* main.m */,
 				04BE3FE31ED17F5B00459B2E /* GlobalDefine.h */,
 				04D842241EC6953E00E14F48 /* JXPlaygroundDemo.pch */,
@@ -326,8 +450,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D8421C1EC694CB00E14F48 /* LaunchScreen.storyboard in Resources */,
+				04AC30DD1ED923DE00841D63 /* TestAVPlayerViewController.xib in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
+				04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */,
+				04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */,
 				04D842171EC694CB00E14F48 /* Main.storyboard in Resources */,
+				04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,22 +516,33 @@
 			files = (
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
+				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */,
 				04D842141EC694CB00E14F48 /* ViewController.m in Sources */,
 				048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */,
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
+				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
+				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
+				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
+				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
+				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
+				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
+				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
+				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
+				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
+				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -56,6 +56,8 @@
     
     self.navigationItem.title = @"POI搜索";
     
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [self initMapView];
     [self initTableview];
     [self initSearch];
@@ -236,8 +238,8 @@
 {
     self.mapView = [[MAMapView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), self.view.bounds.size.height/2)];
     self.mapView.delegate = self;
+    self.mapView.userTrackingMode = MAUserTrackingModeFollow;
     [self.view addSubview:self.mapView];
-    
     self.isLocated = NO;
 }
 
