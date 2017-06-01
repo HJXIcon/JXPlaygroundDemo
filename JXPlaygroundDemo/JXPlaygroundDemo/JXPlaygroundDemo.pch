@@ -21,5 +21,6 @@
 #import <MJRefresh/MJRefresh.h>
 #import <UIImageView+WebCache.h>
 #import <SDWebImage/SDImageCache.h>
+#import "JXBanTangConst.h"
 
 #endif /* JXPlaygroundDemo_pch */

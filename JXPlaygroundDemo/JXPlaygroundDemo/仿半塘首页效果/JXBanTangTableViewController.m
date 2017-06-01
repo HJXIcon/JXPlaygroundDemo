@@ -30,11 +30,16 @@
         
         [_tableView registerClass:[JXBTHomeTableViewCell class] forCellReuseIdentifier:NSStringFromClass([JXBTHomeTableViewCell class])];
         
-        
-        UIView *tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenW, 242)];
+        /// 1.头部视图
+        /// 136
+        UIView *tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenW, BTTableHeaderViewHeight)];
         tableHeaderView.backgroundColor = [UIColor whiteColor];
         
-        _tableView.scrollIndicatorInsets = UIEdgeInsetsMake(182, 0, 0, 0);
+        /// 2.状态条
+        // 状态条和scrollView边距的距离（暂时还没想明白为什么要有这个）。
+        // 136 + 46 =
+        _tableView.scrollIndicatorInsets = UIEdgeInsetsMake(BTScrollIndicatorInset_top, 0, 0, 0);
+        
         _tableView.tableHeaderView = tableHeaderView;
         
         

@@ -88,6 +88,7 @@
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
 		048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */; };
 		04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04915AD71EDFF121004D282D /* JXBTHomeRecomandModel.m */; };
+		04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 04915ADB1EE00A9F004D282D /* JXBanTangConst.m */; };
 		04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30BD1ED9187800841D63 /* GCDBaseViewController.m */; };
 		04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30C11ED91A7F00841D63 /* MainTabbarVC.m */; };
 		04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30C51ED91CE300841D63 /* FDTemplateViewController.m */; };
@@ -218,6 +219,8 @@
 		048DCA0F1ED134A10037DFE0 /* JXCustomAnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCustomAnnotationViewController.m; sourceTree = "<group>"; };
 		04915AD61EDFF121004D282D /* JXBTHomeRecomandModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBTHomeRecomandModel.h; sourceTree = "<group>"; };
 		04915AD71EDFF121004D282D /* JXBTHomeRecomandModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBTHomeRecomandModel.m; sourceTree = "<group>"; };
+		04915ADA1EE00A9F004D282D /* JXBanTangConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangConst.h; sourceTree = "<group>"; };
+		04915ADB1EE00A9F004D282D /* JXBanTangConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBanTangConst.m; sourceTree = "<group>"; };
 		04AC30BC1ED9187800841D63 /* GCDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDBaseViewController.h; sourceTree = "<group>"; };
 		04AC30BD1ED9187800841D63 /* GCDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDBaseViewController.m; sourceTree = "<group>"; };
 		04AC30C01ED91A7F00841D63 /* MainTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabbarVC.h; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 				0460B8D41EDFC60300C00DA5 /* JXBanTangViewController.m */,
 				044433A01EDFEEDB00C8E7C4 /* JXBanTangTableViewController.h */,
 				044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */,
+				04915ADA1EE00A9F004D282D /* JXBanTangConst.h */,
+				04915ADB1EE00A9F004D282D /* JXBanTangConst.m */,
 			);
 			path = "仿半塘首页效果";
 			sourceTree = "<group>";
@@ -928,6 +933,7 @@
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
+				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				0460B8DE1EDFC6C900C00DA5 /* UIButton+Size.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,

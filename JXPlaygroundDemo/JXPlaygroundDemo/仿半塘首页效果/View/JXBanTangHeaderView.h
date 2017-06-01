@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
+/**
+ 替换导航条View
+ */
 @interface JXBanTangHeaderView : UIView
 
 @property (nonatomic, weak) UITableView *tableView;

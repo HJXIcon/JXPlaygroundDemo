@@ -84,7 +84,7 @@ static CGFloat const kMaxOffset = 136;
             [self.tableViews addObject:jsdTableViewController.tableView];
             
             //下拉刷新动画
-            JXBanTangRefreshHeader *jqRefreshHeader  = [[JXBanTangRefreshHeader alloc] initWithFrame:CGRectMake(0, 212, kScreenW, 30)];
+            JXBanTangRefreshHeader *jqRefreshHeader  = [[JXBanTangRefreshHeader alloc] initWithFrame:CGRectMake(0, BTTableHeaderViewHeight - BTRefreshHeight, kScreenW, BTRefreshHeight)];
             jqRefreshHeader.backgroundColor = [UIColor whiteColor];
             /// 赋值tableView
             jqRefreshHeader.tableView = jsdTableViewController.tableView;
@@ -108,7 +108,7 @@ static CGFloat const kMaxOffset = 136;
     
     if (!_segmentScrollView) {
         
-        _segmentScrollView =  [[UIScrollView alloc]initWithFrame:CGRectMake(0, 200, kScreenW, 40)];
+        _segmentScrollView =  [[UIScrollView alloc]initWithFrame:CGRectMake(0, BTSDCycleScrollViewHeight, kScreenW, BTSegmentScrollViewHeight)];
         [_segmentScrollView addSubview:self.currentSelectedItemImageView];
         _segmentScrollView.showsHorizontalScrollIndicator = NO;
         _segmentScrollView.showsVerticalScrollIndicator = NO;
@@ -172,7 +172,7 @@ static CGFloat const kMaxOffset = 136;
             [imageMutableArray addObject:imageName];
         }
         
-        _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, kScreenW, 200) imageNamesGroup:imageMutableArray];
+        _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, kScreenW, BTSDCycleScrollViewHeight) imageNamesGroup:imageMutableArray];
         
         
     }
@@ -256,18 +256,18 @@ static CGFloat const kMaxOffset = 136;
     
     if ( tableViewoffsetY>=0 && tableViewoffsetY<=kMaxOffset) {
         
-        self.segmentScrollView.frame = CGRectMake(0, 200-tableViewoffsetY, kScreenW, 40);
-        self.cycleScrollView.frame = CGRectMake(0, 0-tableViewoffsetY, kScreenW, 200);
+        self.segmentScrollView.frame = CGRectMake(0, BTSDCycleScrollViewHeight-tableViewoffsetY, kScreenW, BTSegmentScrollViewHeight);
+        self.cycleScrollView.frame = CGRectMake(0, 0-tableViewoffsetY, kScreenW, BTSDCycleScrollViewHeight);
         
     }else if( tableViewoffsetY < 0){
         
-        self.segmentScrollView.frame = CGRectMake(0, 200, kScreenW, 40);
-        self.cycleScrollView.frame = CGRectMake(0, 0, kScreenW, 200);
+        self.segmentScrollView.frame = CGRectMake(0, BTSDCycleScrollViewHeight, kScreenW, BTSegmentScrollViewHeight);
+        self.cycleScrollView.frame = CGRectMake(0, 0, kScreenW, BTSDCycleScrollViewHeight);
         
     }else if (tableViewoffsetY > kMaxOffset){
         
-        self.segmentScrollView.frame = CGRectMake(0, 64, kScreenW, 40);
-        self.cycleScrollView.frame = CGRectMake(0, -kMaxOffset, kScreenW, 200);
+        self.segmentScrollView.frame = CGRectMake(0, 64, kScreenW, BTSegmentScrollViewHeight);
+        self.cycleScrollView.frame = CGRectMake(0, -kMaxOffset, kScreenW, BTSDCycleScrollViewHeight);
     }
 }
 
