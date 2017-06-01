@@ -15,6 +15,8 @@
 #import "TestZFPlayerViewController.h"
 #import "JSBridgeVC.h"
 #import "PicEditViewController.h"
+#import "TestAVPlayerViewController.h"
+#import "JXBanTangViewController.h"
 
 @interface ViewController ()
 
@@ -33,7 +35,8 @@
                         @"NSThread",
                         @"AVPlayer视频播放ZFPlayer",
                         @"WebViewJavascriptBridge测试",
-                        @"图片添加水印"
+                        @"图片添加水印",
+                        @"仿半塘首页效果"
                         ];
     }
     return _dataSource;
@@ -125,6 +128,8 @@
             break;
 
         case 5:
+            // TestZFPlayerViewController
+            // TestAVPlayerViewController
             vc = [[TestZFPlayerViewController alloc]init];
             break;
             
@@ -135,7 +140,10 @@
         case 7:
             vc = [[PicEditViewController alloc]init];
             break;
-            
+          
+        case 8:
+            vc = [[JXBanTangViewController alloc]init];
+            break;
             
         default:
             break;

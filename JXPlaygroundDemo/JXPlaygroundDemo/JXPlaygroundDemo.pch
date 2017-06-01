@@ -17,5 +17,9 @@
 #import "GlobalDefine.h"
 #import <Masonry/Masonry.h>
 #import <ZFPlayer/ZFPlayer.h>
+#import <SDCycleScrollView/SDCycleScrollView.h>
+#import <MJRefresh/MJRefresh.h>
+#import <UIImageView+WebCache.h>
+#import <SDWebImage/SDImageCache.h>
 
 #endif /* JXPlaygroundDemo_pch */

@@ -5,7 +5,10 @@ PODS:
   - AMapSearch (5.0.0):
     - AMapFoundation (~> 1.2)
   - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
   - ReactiveObjC (3.0.0)
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -18,7 +21,9 @@ DEPENDENCIES:
   - AMap3DMap
   - AMapSearch
   - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
   - ReactiveObjC (~> 3.0.0)
+  - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
   - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
   - WebViewJavascriptBridge
@@ -29,12 +34,14 @@ SPEC CHECKSUMS:
   AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
   AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: e98c5252ba1844ad65c51f570c650550eb2066f0
+PODFILE CHECKSUM: 39be24c638acf8070d90a4bc9dea76eb527796c3
 
 COCOAPODS: 1.2.0.beta.1
