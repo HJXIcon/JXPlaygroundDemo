@@ -23,6 +23,8 @@
 #define FONTMIN 14.0
 #define PADDING 15.0
 
+/*! 偏移量 */
+static CGFloat const kMaxOffset = 136;
 
 @interface JXBanTangViewController ()<UIScrollViewDelegate>
 
@@ -252,7 +254,7 @@
     
     self.lastTableViewOffsetY = tableViewoffsetY;
     
-    if ( tableViewoffsetY>=0 && tableViewoffsetY<=136) {
+    if ( tableViewoffsetY>=0 && tableViewoffsetY<=kMaxOffset) {
         
         self.segmentScrollView.frame = CGRectMake(0, 200-tableViewoffsetY, kScreenW, 40);
         self.cycleScrollView.frame = CGRectMake(0, 0-tableViewoffsetY, kScreenW, 200);
@@ -262,10 +264,10 @@
         self.segmentScrollView.frame = CGRectMake(0, 200, kScreenW, 40);
         self.cycleScrollView.frame = CGRectMake(0, 0, kScreenW, 200);
         
-    }else if (tableViewoffsetY > 136){
+    }else if (tableViewoffsetY > kMaxOffset){
         
         self.segmentScrollView.frame = CGRectMake(0, 64, kScreenW, 40);
-        self.cycleScrollView.frame = CGRectMake(0, -136, kScreenW, 200);
+        self.cycleScrollView.frame = CGRectMake(0, -kMaxOffset, kScreenW, 200);
     }
 }
 
@@ -293,7 +295,7 @@
     self.currentTableView  = self.tableViews[index];
     for (UITableView *tableView in self.tableViews) {
         
-        if ( self.lastTableViewOffsetY>=0 &&  self.lastTableViewOffsetY<=136) {
+        if ( self.lastTableViewOffsetY>=0 &&  self.lastTableViewOffsetY<=kMaxOffset) {
             
             tableView.contentOffset = CGPointMake(0,  self.lastTableViewOffsetY);
             
@@ -301,9 +303,9 @@
             
             tableView.contentOffset = CGPointMake(0, 0);
             
-        }else if ( self.lastTableViewOffsetY > 136){
+        }else if ( self.lastTableViewOffsetY > kMaxOffset){
             
-            tableView.contentOffset = CGPointMake(0, 136);
+            tableView.contentOffset = CGPointMake(0, kMaxOffset);
         }
         
     }
@@ -348,7 +350,7 @@
     self.currentTableView  = self.tableViews[index];
     for (UITableView *tableView in self.tableViews) {
         
-        if ( self.lastTableViewOffsetY>=0 &&  self.lastTableViewOffsetY<=136) {
+        if ( self.lastTableViewOffsetY>=0 &&  self.lastTableViewOffsetY<=kMaxOffset) {
             
             tableView.contentOffset = CGPointMake(0,  self.lastTableViewOffsetY);
             
@@ -356,9 +358,9 @@
             
             tableView.contentOffset = CGPointMake(0, 0);
             
-        }else if ( self.lastTableViewOffsetY > 136){
+        }else if ( self.lastTableViewOffsetY > kMaxOffset){
             
-            tableView.contentOffset = CGPointMake(0, 136);
+            tableView.contentOffset = CGPointMake(0, kMaxOffset);
         }
     }
     
