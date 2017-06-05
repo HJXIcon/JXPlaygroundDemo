@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E83091EE50B9800854151 /* JXNotificationViewController.m */; };
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
 		044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A41EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m */; };
@@ -83,6 +84,15 @@
 		0460B9691EDFC96000C00DA5 /* cycle_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460B9611EDFC96000C00DA5 /* cycle_06.jpg */; };
 		0460B96A1EDFC96000C00DA5 /* cycle_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460B9621EDFC96000C00DA5 /* cycle_07.jpg */; };
 		0460B96B1EDFC96000C00DA5 /* cycle_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0460B9631EDFC96000C00DA5 /* cycle_08.jpg */; };
+		046BFB9C1EE4EF1D009358B5 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFB9B1EE4EF1D009358B5 /* NotificationViewController.m */; };
+		046BFBA11EE4F4B2009358B5 /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFB9E1EE4F4B2009358B5 /* NSArray+log.m */; };
+		046BFBA21EE4F4B2009358B5 /* NSDictionary+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFBA01EE4F4B2009358B5 /* NSDictionary+log.m */; };
+		046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 046BFBA31EE4FD34009358B5 /* icon_certification_status1@2x.png */; };
+		046BFBA81EE500EF009358B5 /* flv视频测试用例1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 046BFBA51EE500EF009358B5 /* flv视频测试用例1.mp4 */; };
+		046BFBA91EE500EF009358B5 /* image01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 046BFBA61EE500EF009358B5 /* image01.jpg */; };
+		046BFBAA1EE500EF009358B5 /* test1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 046BFBA71EE500EF009358B5 /* test1.gif */; };
+		046BFBAE1EE5033E009358B5 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFBAD1EE5033E009358B5 /* NotificationService.m */; };
+		046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFBB01EE5034B009358B5 /* NotificationViewController2.m */; };
 		048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA051ED126910037DFE0 /* JXAMapViewController.m */; };
 		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
@@ -121,6 +131,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043E83081EE50B9800854151 /* JXNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNotificationViewController.h; sourceTree = "<group>"; };
+		043E83091EE50B9800854151 /* JXNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNotificationViewController.m; sourceTree = "<group>"; };
 		0444339D1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangRefreshHeader.h; sourceTree = "<group>"; };
 		0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBanTangRefreshHeader.m; sourceTree = "<group>"; };
 		044433A01EDFEEDB00C8E7C4 /* JXBanTangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangTableViewController.h; sourceTree = "<group>"; };
@@ -209,6 +221,20 @@
 		0460B9611EDFC96000C00DA5 /* cycle_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cycle_06.jpg; sourceTree = "<group>"; };
 		0460B9621EDFC96000C00DA5 /* cycle_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cycle_07.jpg; sourceTree = "<group>"; };
 		0460B9631EDFC96000C00DA5 /* cycle_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cycle_08.jpg; sourceTree = "<group>"; };
+		046BFB9A1EE4EF1D009358B5 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		046BFB9B1EE4EF1D009358B5 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		046BFB9D1EE4F4B2009358B5 /* NSArray+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
+		046BFB9E1EE4F4B2009358B5 /* NSArray+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
+		046BFB9F1EE4F4B2009358B5 /* NSDictionary+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+log.h"; sourceTree = "<group>"; };
+		046BFBA01EE4F4B2009358B5 /* NSDictionary+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+log.m"; sourceTree = "<group>"; };
+		046BFBA31EE4FD34009358B5 /* icon_certification_status1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_certification_status1@2x.png"; sourceTree = "<group>"; };
+		046BFBA51EE500EF009358B5 /* flv视频测试用例1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "flv视频测试用例1.mp4"; sourceTree = "<group>"; };
+		046BFBA61EE500EF009358B5 /* image01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image01.jpg; sourceTree = "<group>"; };
+		046BFBA71EE500EF009358B5 /* test1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test1.gif; sourceTree = "<group>"; };
+		046BFBAC1EE5033E009358B5 /* NotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		046BFBAD1EE5033E009358B5 /* NotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		046BFBAF1EE5034B009358B5 /* NotificationViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController2.h; sourceTree = "<group>"; };
+		046BFBB01EE5034B009358B5 /* NotificationViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController2.m; sourceTree = "<group>"; };
 		048DCA041ED126910037DFE0 /* JXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAMapViewController.h; sourceTree = "<group>"; };
 		048DCA051ED126910037DFE0 /* JXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAMapViewController.m; sourceTree = "<group>"; };
 		048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomCalloutView.h; sourceTree = "<group>"; };
@@ -348,6 +374,10 @@
 		0460B8D71EDFC6C900C00DA5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				046BFB9D1EE4F4B2009358B5 /* NSArray+log.h */,
+				046BFB9E1EE4F4B2009358B5 /* NSArray+log.m */,
+				046BFB9F1EE4F4B2009358B5 /* NSDictionary+log.h */,
+				046BFBA01EE4F4B2009358B5 /* NSDictionary+log.m */,
 				0460B8D81EDFC6C900C00DA5 /* UIButton+Size.h */,
 				0460B8D91EDFC6C900C00DA5 /* UIButton+Size.m */,
 				0460B8DA1EDFC6C900C00DA5 /* UIImage+JQImage.h */,
@@ -489,6 +519,33 @@
 				0460B9631EDFC96000C00DA5 /* cycle_08.jpg */,
 			);
 			path = Cycle;
+			sourceTree = "<group>";
+		};
+		046BFB991EE4EEA6009358B5 /* 本地推送 */ = {
+			isa = PBXGroup;
+			children = (
+				046BFBA51EE500EF009358B5 /* flv视频测试用例1.mp4 */,
+				046BFBA61EE500EF009358B5 /* image01.jpg */,
+				046BFBA71EE500EF009358B5 /* test1.gif */,
+				046BFBA31EE4FD34009358B5 /* icon_certification_status1@2x.png */,
+				046BFB9A1EE4EF1D009358B5 /* NotificationViewController.h */,
+				046BFB9B1EE4EF1D009358B5 /* NotificationViewController.m */,
+				043E83081EE50B9800854151 /* JXNotificationViewController.h */,
+				043E83091EE50B9800854151 /* JXNotificationViewController.m */,
+				046BFBAB1EE5032B009358B5 /* UNNotificationServiceExtension */,
+			);
+			path = "本地推送";
+			sourceTree = "<group>";
+		};
+		046BFBAB1EE5032B009358B5 /* UNNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				046BFBAF1EE5034B009358B5 /* NotificationViewController2.h */,
+				046BFBB01EE5034B009358B5 /* NotificationViewController2.m */,
+				046BFBAC1EE5033E009358B5 /* NotificationService.h */,
+				046BFBAD1EE5033E009358B5 /* NotificationService.m */,
+			);
+			path = UNNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		048DCA011ED1258D0037DFE0 /* Map(地图） */ = {
@@ -651,6 +708,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				046BFB991EE4EEA6009358B5 /* 本地推送 */,
 				0460B8D61EDFC6A200C00DA5 /* Resource */,
 				0460B8D21EDFC5D600C00DA5 /* 仿半塘首页效果 */,
 				04AC30E71ED92D1300841D63 /* 图片添加水印 */,
@@ -791,12 +849,14 @@
 				0460B93B1EDFC95200C00DA5 /* recomand_10.jpg in Resources */,
 				0460B9531EDFC95200C00DA5 /* refresh03.png in Resources */,
 				0460B9641EDFC96000C00DA5 /* cycle_01.jpg in Resources */,
+				046BFBA81EE500EF009358B5 /* flv视频测试用例1.mp4 in Resources */,
 				0460B9671EDFC96000C00DA5 /* cycle_04.jpg in Resources */,
 				0460B9541EDFC95200C00DA5 /* refresh04.png in Resources */,
 				0460B9041EDFC93A00C00DA5 /* tab_我的_pressed.png in Resources */,
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
+				046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */,
 				0460B9481EDFC95200C00DA5 /* header03@2x.jpg in Resources */,
 				0460B93F1EDFC95200C00DA5 /* recomand_14.jpg in Resources */,
 				0460B96B1EDFC96000C00DA5 /* cycle_08.jpg in Resources */,
@@ -807,6 +867,7 @@
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
 				0460B9331EDFC95200C00DA5 /* recomand_02.jpg in Resources */,
 				0460B8FA1EDFC93A00C00DA5 /* home_email_red.png in Resources */,
+				046BFBA91EE500EF009358B5 /* image01.jpg in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
 				0460B8FD1EDFC93A00C00DA5 /* home_search_icon.png in Resources */,
 				04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */,
@@ -823,6 +884,7 @@
 				0460B9681EDFC96000C00DA5 /* cycle_05.jpg in Resources */,
 				0460B9561EDFC95200C00DA5 /* refresh06.png in Resources */,
 				0460B8FC1EDFC93A00C00DA5 /* home_like.png in Resources */,
+				046BFBAA1EE500EF009358B5 /* test1.gif in Resources */,
 				0460B8F91EDFC93A00C00DA5 /* home_email_black.png in Resources */,
 				0460B94D1EDFC95200C00DA5 /* header08@2x.jpg in Resources */,
 				0460B9451EDFC95200C00DA5 /* recomand_20.jpg in Resources */,
@@ -913,7 +975,9 @@
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */,
+				046BFBA21EE4F4B2009358B5 /* NSDictionary+log.m in Sources */,
 				04D842141EC694CB00E14F48 /* ViewController.m in Sources */,
+				046BFBA11EE4F4B2009358B5 /* NSArray+log.m in Sources */,
 				048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */,
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
@@ -921,7 +985,9 @@
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
+				046BFB9C1EE4EF1D009358B5 /* NotificationViewController.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
+				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
@@ -944,6 +1010,8 @@
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
 				0460B8D51EDFC60300C00DA5 /* JXBanTangViewController.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
+				043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */,
+				046BFBAE1EE5033E009358B5 /* NotificationService.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,

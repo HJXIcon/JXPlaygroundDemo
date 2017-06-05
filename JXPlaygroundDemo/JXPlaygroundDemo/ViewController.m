@@ -17,6 +17,7 @@
 #import "PicEditViewController.h"
 #import "TestAVPlayerViewController.h"
 #import "JXBanTangViewController.h"
+#import "NotificationViewController.h"
 
 @interface ViewController ()
 
@@ -36,7 +37,8 @@
                         @"AVPlayer视频播放ZFPlayer",
                         @"WebViewJavascriptBridge测试",
                         @"图片添加水印",
-                        @"仿半塘首页效果"
+                        @"仿半塘首页效果",
+                        @"本地推送"
                         ];
     }
     return _dataSource;
@@ -143,6 +145,10 @@
           
         case 8:
             vc = [[JXBanTangViewController alloc]init];
+            break;
+            
+        case 9:
+            vc = [[NotificationViewController alloc]init];
             break;
             
         default:
