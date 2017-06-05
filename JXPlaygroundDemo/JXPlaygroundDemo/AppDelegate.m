@@ -11,6 +11,7 @@
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 #import <UserNotifications/UserNotifications.h>
 #endif
+#import "NewFeatureViewController.h"
 
 @interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
@@ -30,12 +31,31 @@
     [self setupNoti:application];
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[MainTabbarVC alloc]init];
+    self.window.rootViewController = [self setupNewFeature];
     [self.window makeKeyAndVisible];
     
     return YES;
 }
 
+- (NewFeatureViewController *)setupNewFeature
+{
+    NewFeatureViewController *newFeatureVC = [[NewFeatureViewController alloc] init];
+    // 设置本地视频路径数组
+    NSMutableArray *array = [NSMutableArray array];
+    for (int i = 0; i<4; i++) {
+        [array addObject:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"guide%d",i] ofType:@"mp4"]];
+    }
+    newFeatureVC.guideMoviePathArr = array;
+    // 设置封面图片数组
+    newFeatureVC.guideImagesArr = @[@"guide0", @"guide1", @"guide2", @"guide3"];
+    // 设置最后一个视频播放完成之后的block
+    [newFeatureVC setLastOnePlayFinished:^{
+        
+        [UIApplication sharedApplication].keyWindow.rootViewController = [[MainTabbarVC alloc]init];
+;
+    }];
+    return newFeatureVC;
+}
 
 - (void)setupNoti:(UIApplication *)application{
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 10.0) {

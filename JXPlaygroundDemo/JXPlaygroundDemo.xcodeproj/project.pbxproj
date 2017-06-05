@@ -127,6 +127,13 @@
 		04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D842261EC695A600E14F48 /* JXCaculatorMaker.m */; };
 		04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D842281EC695A600E14F48 /* NSObject+caculator.m */; };
 		04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8422C1EC696D300E14F48 /* JXCaculator.m */; };
+		04F2AE0C1EE55D850038C33C /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F2AE081EE55D850038C33C /* guide0.mp4 */; };
+		04F2AE0D1EE55D850038C33C /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F2AE091EE55D850038C33C /* guide1.mp4 */; };
+		04F2AE0E1EE55D850038C33C /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F2AE0A1EE55D850038C33C /* guide2.mp4 */; };
+		04F2AE0F1EE55D850038C33C /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F2AE0B1EE55D850038C33C /* guide3.mp4 */; };
+		04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE121EE55DA70038C33C /* NewFeatureViewController.m */; };
+		04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */; };
+		04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE181EE55DA70038C33C /* NewFeatureCell.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -299,6 +306,16 @@
 		04D842281EC695A600E14F48 /* NSObject+caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+caculator.m"; sourceTree = "<group>"; };
 		04D8422B1EC696D300E14F48 /* JXCaculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCaculator.h; sourceTree = "<group>"; };
 		04D8422C1EC696D300E14F48 /* JXCaculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCaculator.m; sourceTree = "<group>"; };
+		04F2AE081EE55D850038C33C /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide0.mp4; sourceTree = "<group>"; };
+		04F2AE091EE55D850038C33C /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide1.mp4; sourceTree = "<group>"; };
+		04F2AE0A1EE55D850038C33C /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide2.mp4; sourceTree = "<group>"; };
+		04F2AE0B1EE55D850038C33C /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide3.mp4; sourceTree = "<group>"; };
+		04F2AE111EE55DA70038C33C /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		04F2AE121EE55DA70038C33C /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		04F2AE141EE55DA70038C33C /* ALinFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALinFlowLayout.h; sourceTree = "<group>"; };
+		04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALinFlowLayout.m; sourceTree = "<group>"; };
+		04F2AE171EE55DA70038C33C /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
+		04F2AE181EE55DA70038C33C /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXPlaygroundDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -708,6 +725,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04F2AE061EE55D5A0038C33C /* 闲鱼新特性界面-视频动画 */,
 				046BFB991EE4EEA6009358B5 /* 本地推送 */,
 				0460B8D61EDFC6A200C00DA5 /* Resource */,
 				0460B8D21EDFC5D600C00DA5 /* 仿半塘首页效果 */,
@@ -756,6 +774,55 @@
 				04D8422C1EC696D300E14F48 /* JXCaculator.m */,
 			);
 			path = "模仿masonry加法计算器（链式编程）";
+			sourceTree = "<group>";
+		};
+		04F2AE061EE55D5A0038C33C /* 闲鱼新特性界面-视频动画 */ = {
+			isa = PBXGroup;
+			children = (
+				04F2AE101EE55DA70038C33C /* Controller */,
+				04F2AE131EE55DA70038C33C /* FlowLayout */,
+				04F2AE161EE55DA70038C33C /* View */,
+				04F2AE071EE55D850038C33C /* Resource */,
+			);
+			path = "闲鱼新特性界面-视频动画";
+			sourceTree = "<group>";
+		};
+		04F2AE071EE55D850038C33C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04F2AE081EE55D850038C33C /* guide0.mp4 */,
+				04F2AE091EE55D850038C33C /* guide1.mp4 */,
+				04F2AE0A1EE55D850038C33C /* guide2.mp4 */,
+				04F2AE0B1EE55D850038C33C /* guide3.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04F2AE101EE55DA70038C33C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04F2AE111EE55DA70038C33C /* NewFeatureViewController.h */,
+				04F2AE121EE55DA70038C33C /* NewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04F2AE131EE55DA70038C33C /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04F2AE141EE55DA70038C33C /* ALinFlowLayout.h */,
+				04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		04F2AE161EE55DA70038C33C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F2AE171EE55DA70038C33C /* NewFeatureCell.h */,
+				04F2AE181EE55DA70038C33C /* NewFeatureCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		10A89E0621688F017225F49B /* Pods */ = {
@@ -852,6 +919,7 @@
 				046BFBA81EE500EF009358B5 /* flv视频测试用例1.mp4 in Resources */,
 				0460B9671EDFC96000C00DA5 /* cycle_04.jpg in Resources */,
 				0460B9541EDFC95200C00DA5 /* refresh04.png in Resources */,
+				04F2AE0E1EE55D850038C33C /* guide2.mp4 in Resources */,
 				0460B9041EDFC93A00C00DA5 /* tab_我的_pressed.png in Resources */,
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
@@ -867,6 +935,7 @@
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
 				0460B9331EDFC95200C00DA5 /* recomand_02.jpg in Resources */,
 				0460B8FA1EDFC93A00C00DA5 /* home_email_red.png in Resources */,
+				04F2AE0D1EE55D850038C33C /* guide1.mp4 in Resources */,
 				046BFBA91EE500EF009358B5 /* image01.jpg in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
 				0460B8FD1EDFC93A00C00DA5 /* home_search_icon.png in Resources */,
@@ -890,6 +959,7 @@
 				0460B9451EDFC95200C00DA5 /* recomand_20.jpg in Resources */,
 				0460B9501EDFC95200C00DA5 /* refresh00.png in Resources */,
 				0460B9421EDFC95200C00DA5 /* recomand_17.jpg in Resources */,
+				04F2AE0F1EE55D850038C33C /* guide3.mp4 in Resources */,
 				0460B8FE1EDFC93A00C00DA5 /* home_watch.png in Resources */,
 				0460B93A1EDFC95200C00DA5 /* recomand_09.jpg in Resources */,
 				04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */,
@@ -912,6 +982,7 @@
 				0460B9061EDFC93A00C00DA5 /* tab_首页_pressed.png in Resources */,
 				0460B9411EDFC95200C00DA5 /* recomand_16.jpg in Resources */,
 				0460B9691EDFC96000C00DA5 /* cycle_06.jpg in Resources */,
+				04F2AE0C1EE55D850038C33C /* guide0.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -982,10 +1053,12 @@
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
+				04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
 				046BFB9C1EE4EF1D009358B5 /* NotificationViewController.m in Sources */,
+				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
@@ -1001,6 +1074,7 @@
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				0460B8DE1EDFC6C900C00DA5 /* UIButton+Size.m in Sources */,
+				04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
