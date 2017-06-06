@@ -19,6 +19,7 @@
 #import "JXBanTangViewController.h"
 #import "NotificationViewController.h"
 #import "SwipeCardViewController.h"
+#import "JXSwipeAbleTestViewController.h"
 
 @interface ViewController ()
 
@@ -40,7 +41,8 @@
                         @"图片添加水印",
                         @"仿半塘首页效果",
                         @"本地推送",
-                        @"11-卡片效果"
+                        @"11-卡片效果",
+                        @"12-卡片效果2-支持自定义显示View"
                         ];
     }
     return _dataSource;
@@ -155,6 +157,10 @@
             
         case 10:
             vc = [[SwipeCardViewController alloc]init];
+            break;
+            
+        case 11:
+            vc = [[JXSwipeAbleTestViewController alloc]init];
             break;
             
             

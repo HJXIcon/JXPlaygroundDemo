@@ -130,6 +130,17 @@
 		04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDD1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png */; };
 		04B77FEA1EE653A90049B82E /* yesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDE1EE653A90049B82E /* yesButton.png */; };
 		04B77FEB1EE653A90049B82E /* yesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDF1EE653A90049B82E /* yesButton@2x.png */; };
+		04B77FF11EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FF01EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m */; };
+		04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FF61EE69B510049B82E /* JXSwipeAbleView.m */; };
+		04B77FFA1EE69C7D0049B82E /* JXSwipeAbleViewMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FF91EE69C7D0049B82E /* JXSwipeAbleViewMovement.m */; };
+		04B780001EE6A1800049B82E /* JXViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FFF1EE6A1800049B82E /* JXViewManager.m */; };
+		04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B780021EE6A2540049B82E /* JXPanGestureRecognizer.m */; };
+		04B780061EE6A3C00049B82E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B780051EE6A3C00049B82E /* Utils.m */; };
+		04B780091EE6ACA90049B82E /* JXScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B780081EE6ACA90049B82E /* JXScheduler.m */; };
+		04B780101EE6AD330049B82E /* DefaultDirectionInterpretor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7800B1EE6AD330049B82E /* DefaultDirectionInterpretor.m */; };
+		04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7800D1EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m */; };
+		04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7800F1EE6AD330049B82E /* DefaultViewAnimator.m */; };
+		04B780151EE6AF810049B82E /* JXSwipeAbleTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B780141EE6AF810049B82E /* JXSwipeAbleTestViewController.m */; };
 		04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */; };
 		04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */; };
 		04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */; };
@@ -316,6 +327,28 @@
 		04B77FDD1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 8 + Rectangle 8 + Rectangle 9.png"; sourceTree = "<group>"; };
 		04B77FDE1EE653A90049B82E /* yesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesButton.png; sourceTree = "<group>"; };
 		04B77FDF1EE653A90049B82E /* yesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yesButton@2x.png"; sourceTree = "<group>"; };
+		04B77FEF1EE699FB0049B82E /* JXSwipeAbleSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeAbleSwipeOptions.h; sourceTree = "<group>"; };
+		04B77FF01EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeAbleSwipeOptions.m; sourceTree = "<group>"; };
+		04B77FF51EE69B510049B82E /* JXSwipeAbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeAbleView.h; sourceTree = "<group>"; };
+		04B77FF61EE69B510049B82E /* JXSwipeAbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeAbleView.m; sourceTree = "<group>"; };
+		04B77FF81EE69C7D0049B82E /* JXSwipeAbleViewMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeAbleViewMovement.h; sourceTree = "<group>"; };
+		04B77FF91EE69C7D0049B82E /* JXSwipeAbleViewMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeAbleViewMovement.m; sourceTree = "<group>"; };
+		04B77FFE1EE6A1800049B82E /* JXViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXViewManager.h; sourceTree = "<group>"; };
+		04B77FFF1EE6A1800049B82E /* JXViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXViewManager.m; sourceTree = "<group>"; };
+		04B780011EE6A2540049B82E /* JXPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPanGestureRecognizer.h; sourceTree = "<group>"; };
+		04B780021EE6A2540049B82E /* JXPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPanGestureRecognizer.m; sourceTree = "<group>"; };
+		04B780041EE6A3C00049B82E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		04B780051EE6A3C00049B82E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		04B780071EE6ACA90049B82E /* JXScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXScheduler.h; sourceTree = "<group>"; };
+		04B780081EE6ACA90049B82E /* JXScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXScheduler.m; sourceTree = "<group>"; };
+		04B7800A1EE6AD330049B82E /* DefaultDirectionInterpretor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultDirectionInterpretor.h; sourceTree = "<group>"; };
+		04B7800B1EE6AD330049B82E /* DefaultDirectionInterpretor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultDirectionInterpretor.m; sourceTree = "<group>"; };
+		04B7800C1EE6AD330049B82E /* DefaultShouldSwipeDeterminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultShouldSwipeDeterminator.h; sourceTree = "<group>"; };
+		04B7800D1EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultShouldSwipeDeterminator.m; sourceTree = "<group>"; };
+		04B7800E1EE6AD330049B82E /* DefaultViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewAnimator.h; sourceTree = "<group>"; };
+		04B7800F1EE6AD330049B82E /* DefaultViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultViewAnimator.m; sourceTree = "<group>"; };
+		04B780131EE6AF810049B82E /* JXSwipeAbleTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeAbleTestViewController.h; sourceTree = "<group>"; };
+		04B780141EE6AF810049B82E /* JXSwipeAbleTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeAbleTestViewController.m; sourceTree = "<group>"; };
 		04BE3FDC1ED13CE600459B2E /* JXPOISearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPOISearchViewController.h; path = ../JXPOISearchViewController.h; sourceTree = "<group>"; };
 		04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPOISearchViewController.m; path = ../JXPOISearchViewController.m; sourceTree = "<group>"; };
 		04BE3FE01ED1453400459B2E /* JXPlaceAroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPlaceAroundTableView.h; sourceTree = "<group>"; };
@@ -760,6 +793,51 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		04B77FEC1EE6992F0049B82E /* 12-卡片效果2 */ = {
+			isa = PBXGroup;
+			children = (
+				04B77FED1EE6992F0049B82E /* JXSwipeAbelView */,
+			);
+			path = "12-卡片效果2";
+			sourceTree = "<group>";
+		};
+		04B77FED1EE6992F0049B82E /* JXSwipeAbelView */ = {
+			isa = PBXGroup;
+			children = (
+				04B77FEE1EE6992F0049B82E /* Internal */,
+				04B77FEF1EE699FB0049B82E /* JXSwipeAbleSwipeOptions.h */,
+				04B77FF01EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m */,
+				04B77FF81EE69C7D0049B82E /* JXSwipeAbleViewMovement.h */,
+				04B77FF91EE69C7D0049B82E /* JXSwipeAbleViewMovement.m */,
+				04B77FF51EE69B510049B82E /* JXSwipeAbleView.h */,
+				04B77FF61EE69B510049B82E /* JXSwipeAbleView.m */,
+				04B780131EE6AF810049B82E /* JXSwipeAbleTestViewController.h */,
+				04B780141EE6AF810049B82E /* JXSwipeAbleTestViewController.m */,
+			);
+			path = JXSwipeAbelView;
+			sourceTree = "<group>";
+		};
+		04B77FEE1EE6992F0049B82E /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				04B780041EE6A3C00049B82E /* Utils.h */,
+				04B780051EE6A3C00049B82E /* Utils.m */,
+				04B7800A1EE6AD330049B82E /* DefaultDirectionInterpretor.h */,
+				04B7800B1EE6AD330049B82E /* DefaultDirectionInterpretor.m */,
+				04B7800C1EE6AD330049B82E /* DefaultShouldSwipeDeterminator.h */,
+				04B7800D1EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m */,
+				04B7800E1EE6AD330049B82E /* DefaultViewAnimator.h */,
+				04B7800F1EE6AD330049B82E /* DefaultViewAnimator.m */,
+				04B77FFE1EE6A1800049B82E /* JXViewManager.h */,
+				04B77FFF1EE6A1800049B82E /* JXViewManager.m */,
+				04B780011EE6A2540049B82E /* JXPanGestureRecognizer.h */,
+				04B780021EE6A2540049B82E /* JXPanGestureRecognizer.m */,
+				04B780071EE6ACA90049B82E /* JXScheduler.h */,
+				04B780081EE6ACA90049B82E /* JXScheduler.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
 		04BE3FDF1ED1451F00459B2E /* POI */ = {
 			isa = PBXGroup;
 			children = (
@@ -804,6 +882,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04B77FEC1EE6992F0049B82E /* 12-卡片效果2 */,
 				04B77FAC1EE64B160049B82E /* 11-卡片效果 */,
 				04F2AE061EE55D5A0038C33C /* 闲鱼新特性界面-视频动画 */,
 				046BFB991EE4EEA6009358B5 /* 本地推送 */,
@@ -1134,6 +1213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
+				04B780151EE6AF810049B82E /* JXSwipeAbleTestViewController.m in Sources */,
+				04B780091EE6ACA90049B82E /* JXScheduler.m in Sources */,
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
@@ -1142,14 +1223,18 @@
 				04D842141EC694CB00E14F48 /* ViewController.m in Sources */,
 				046BFBA11EE4F4B2009358B5 /* NSArray+log.m in Sources */,
 				048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */,
+				04B77FF11EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m in Sources */,
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
 				04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
+				04B780101EE6AD330049B82E /* DefaultDirectionInterpretor.m in Sources */,
+				04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
 				046BFB9C1EE4EF1D009358B5 /* NotificationViewController.m in Sources */,
+				04B780001EE6A1800049B82E /* JXViewManager.m in Sources */,
 				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
@@ -1161,16 +1246,21 @@
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
+				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
+				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				0460B8DE1EDFC6C900C00DA5 /* UIButton+Size.m in Sources */,
+				04B77FFA1EE69C7D0049B82E /* JXSwipeAbleViewMovement.m in Sources */,
 				04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */,
+				04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
+				04B780061EE6A3C00049B82E /* Utils.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
