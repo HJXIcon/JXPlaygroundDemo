@@ -114,6 +114,22 @@
 		04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30E21ED92B9C00841D63 /* ExampleApp.html */; };
 		04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */; };
 		04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E91ED92D2C00841D63 /* PicEditViewController.m */; };
+		04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */; };
+		04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB21EE64BDF0049B82E /* JXSwipeCardView.m */; };
+		04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB51EE64BFE0049B82E /* JXSwipeOverlayView.m */; };
+		04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB81EE650ED0049B82E /* JXSwipeCardViewBackground.m */; };
+		04B77FE01EE653A90049B82E /* menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD41EE653A90049B82E /* menuButton.png */; };
+		04B77FE11EE653A90049B82E /* menuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD51EE653A90049B82E /* menuButton@2x.png */; };
+		04B77FE21EE653A90049B82E /* noButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD61EE653A90049B82E /* noButton.png */; };
+		04B77FE31EE653A90049B82E /* noButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD71EE653A90049B82E /* noButton@2x.png */; };
+		04B77FE41EE653A90049B82E /* xButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD81EE653A90049B82E /* xButton@2x.png */; };
+		04B77FE51EE653A90049B82E /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FD91EE653A90049B82E /* xButton.png */; };
+		04B77FE61EE653A90049B82E /* checkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDA1EE653A90049B82E /* checkButton.png */; };
+		04B77FE71EE653A90049B82E /* checkButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDB1EE653A90049B82E /* checkButton@2x.png */; };
+		04B77FE81EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDC1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png */; };
+		04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDD1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png */; };
+		04B77FEA1EE653A90049B82E /* yesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDE1EE653A90049B82E /* yesButton.png */; };
+		04B77FEB1EE653A90049B82E /* yesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B77FDF1EE653A90049B82E /* yesButton@2x.png */; };
 		04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */; };
 		04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE11ED1453400459B2E /* JXPlaceAroundTableView.m */; };
 		04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3FE61ED1840000459B2E /* JXActivitySearchResultViewController.m */; };
@@ -280,6 +296,26 @@
 		04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeVC.m; sourceTree = "<group>"; };
 		04AC30E81ED92D2C00841D63 /* PicEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicEditViewController.h; sourceTree = "<group>"; };
 		04AC30E91ED92D2C00841D63 /* PicEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicEditViewController.m; sourceTree = "<group>"; };
+		04B77FAE1EE64B650049B82E /* SwipeCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCardViewController.h; sourceTree = "<group>"; };
+		04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCardViewController.m; sourceTree = "<group>"; };
+		04B77FB11EE64BDF0049B82E /* JXSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeCardView.h; sourceTree = "<group>"; };
+		04B77FB21EE64BDF0049B82E /* JXSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeCardView.m; sourceTree = "<group>"; };
+		04B77FB41EE64BFE0049B82E /* JXSwipeOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeOverlayView.h; sourceTree = "<group>"; };
+		04B77FB51EE64BFE0049B82E /* JXSwipeOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeOverlayView.m; sourceTree = "<group>"; };
+		04B77FB71EE650ED0049B82E /* JXSwipeCardViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeCardViewBackground.h; sourceTree = "<group>"; };
+		04B77FB81EE650ED0049B82E /* JXSwipeCardViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSwipeCardViewBackground.m; sourceTree = "<group>"; };
+		04B77FD41EE653A90049B82E /* menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuButton.png; sourceTree = "<group>"; };
+		04B77FD51EE653A90049B82E /* menuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuButton@2x.png"; sourceTree = "<group>"; };
+		04B77FD61EE653A90049B82E /* noButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noButton.png; sourceTree = "<group>"; };
+		04B77FD71EE653A90049B82E /* noButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noButton@2x.png"; sourceTree = "<group>"; };
+		04B77FD81EE653A90049B82E /* xButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xButton@2x.png"; sourceTree = "<group>"; };
+		04B77FD91EE653A90049B82E /* xButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xButton.png; sourceTree = "<group>"; };
+		04B77FDA1EE653A90049B82E /* checkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkButton.png; sourceTree = "<group>"; };
+		04B77FDB1EE653A90049B82E /* checkButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkButton@2x.png"; sourceTree = "<group>"; };
+		04B77FDC1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 8 + Rectangle 8 + Rectangle 9-1.png"; sourceTree = "<group>"; };
+		04B77FDD1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 8 + Rectangle 8 + Rectangle 9.png"; sourceTree = "<group>"; };
+		04B77FDE1EE653A90049B82E /* yesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesButton.png; sourceTree = "<group>"; };
+		04B77FDF1EE653A90049B82E /* yesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yesButton@2x.png"; sourceTree = "<group>"; };
 		04BE3FDC1ED13CE600459B2E /* JXPOISearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPOISearchViewController.h; path = ../JXPOISearchViewController.h; sourceTree = "<group>"; };
 		04BE3FDD1ED13CE600459B2E /* JXPOISearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPOISearchViewController.m; path = ../JXPOISearchViewController.m; sourceTree = "<group>"; };
 		04BE3FE01ED1453400459B2E /* JXPlaceAroundTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPlaceAroundTableView.h; sourceTree = "<group>"; };
@@ -681,6 +717,49 @@
 			path = "图片添加水印";
 			sourceTree = "<group>";
 		};
+		04B77FAC1EE64B160049B82E /* 11-卡片效果 */ = {
+			isa = PBXGroup;
+			children = (
+				04B77FD31EE653A90049B82E /* images */,
+				04B77FAD1EE64B520049B82E /* SwipeCard */,
+				04B77FAE1EE64B650049B82E /* SwipeCardViewController.h */,
+				04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */,
+			);
+			path = "11-卡片效果";
+			sourceTree = "<group>";
+		};
+		04B77FAD1EE64B520049B82E /* SwipeCard */ = {
+			isa = PBXGroup;
+			children = (
+				04B77FB11EE64BDF0049B82E /* JXSwipeCardView.h */,
+				04B77FB21EE64BDF0049B82E /* JXSwipeCardView.m */,
+				04B77FB41EE64BFE0049B82E /* JXSwipeOverlayView.h */,
+				04B77FB51EE64BFE0049B82E /* JXSwipeOverlayView.m */,
+				04B77FB71EE650ED0049B82E /* JXSwipeCardViewBackground.h */,
+				04B77FB81EE650ED0049B82E /* JXSwipeCardViewBackground.m */,
+			);
+			path = SwipeCard;
+			sourceTree = "<group>";
+		};
+		04B77FD31EE653A90049B82E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				04B77FD41EE653A90049B82E /* menuButton.png */,
+				04B77FD51EE653A90049B82E /* menuButton@2x.png */,
+				04B77FD61EE653A90049B82E /* noButton.png */,
+				04B77FD71EE653A90049B82E /* noButton@2x.png */,
+				04B77FD81EE653A90049B82E /* xButton@2x.png */,
+				04B77FD91EE653A90049B82E /* xButton.png */,
+				04B77FDA1EE653A90049B82E /* checkButton.png */,
+				04B77FDB1EE653A90049B82E /* checkButton@2x.png */,
+				04B77FDC1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png */,
+				04B77FDD1EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png */,
+				04B77FDE1EE653A90049B82E /* yesButton.png */,
+				04B77FDF1EE653A90049B82E /* yesButton@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		04BE3FDF1ED1451F00459B2E /* POI */ = {
 			isa = PBXGroup;
 			children = (
@@ -725,6 +804,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04B77FAC1EE64B160049B82E /* 11-卡片效果 */,
 				04F2AE061EE55D5A0038C33C /* 闲鱼新特性界面-视频动画 */,
 				046BFB991EE4EEA6009358B5 /* 本地推送 */,
 				0460B8D61EDFC6A200C00DA5 /* Resource */,
@@ -904,7 +984,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B77FE11EE653A90049B82E /* menuButton@2x.png in Resources */,
+				04B77FE41EE653A90049B82E /* xButton@2x.png in Resources */,
 				0460B9521EDFC95200C00DA5 /* refresh02.png in Resources */,
+				04B77FE31EE653A90049B82E /* noButton@2x.png in Resources */,
 				0460B9381EDFC95200C00DA5 /* recomand_07.jpg in Resources */,
 				0460B9351EDFC95200C00DA5 /* recomand_04.jpg in Resources */,
 				0460B94F1EDFC95200C00DA5 /* header10@2x.jpg in Resources */,
@@ -928,11 +1011,13 @@
 				0460B9481EDFC95200C00DA5 /* header03@2x.jpg in Resources */,
 				0460B93F1EDFC95200C00DA5 /* recomand_14.jpg in Resources */,
 				0460B96B1EDFC96000C00DA5 /* cycle_08.jpg in Resources */,
+				04B77FEB1EE653A90049B82E /* yesButton@2x.png in Resources */,
 				0460B93E1EDFC95200C00DA5 /* recomand_13.jpg in Resources */,
 				0460B93D1EDFC95200C00DA5 /* recomand_12.jpg in Resources */,
 				0460B9651EDFC96000C00DA5 /* cycle_02.jpg in Resources */,
 				04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */,
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
+				04B77FEA1EE653A90049B82E /* yesButton.png in Resources */,
 				0460B9331EDFC95200C00DA5 /* recomand_02.jpg in Resources */,
 				0460B8FA1EDFC93A00C00DA5 /* home_email_red.png in Resources */,
 				04F2AE0D1EE55D850038C33C /* guide1.mp4 in Resources */,
@@ -949,6 +1034,7 @@
 				0460B95A1EDFC95200C00DA5 /* refresh10.png in Resources */,
 				0460B9021EDFC93A00C00DA5 /* tab_publish_add_pressed.png in Resources */,
 				0460B9551EDFC95200C00DA5 /* refresh05.png in Resources */,
+				04B77FE71EE653A90049B82E /* checkButton@2x.png in Resources */,
 				0460B94C1EDFC95200C00DA5 /* header07@2x.jpg in Resources */,
 				0460B9681EDFC96000C00DA5 /* cycle_05.jpg in Resources */,
 				0460B9561EDFC95200C00DA5 /* refresh06.png in Resources */,
@@ -960,6 +1046,7 @@
 				0460B9501EDFC95200C00DA5 /* refresh00.png in Resources */,
 				0460B9421EDFC95200C00DA5 /* recomand_17.jpg in Resources */,
 				04F2AE0F1EE55D850038C33C /* guide3.mp4 in Resources */,
+				04B77FE81EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png in Resources */,
 				0460B8FE1EDFC93A00C00DA5 /* home_watch.png in Resources */,
 				0460B93A1EDFC95200C00DA5 /* recomand_09.jpg in Resources */,
 				04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */,
@@ -968,10 +1055,15 @@
 				0460B9431EDFC95200C00DA5 /* recomand_18.jpg in Resources */,
 				0460B9321EDFC95200C00DA5 /* recomand_01.jpg in Resources */,
 				0460B9401EDFC95200C00DA5 /* recomand_15.jpg in Resources */,
+				04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */,
 				0460B9661EDFC96000C00DA5 /* cycle_03.jpg in Resources */,
 				0460B9371EDFC95200C00DA5 /* recomand_06.jpg in Resources */,
+				04B77FE61EE653A90049B82E /* checkButton.png in Resources */,
+				04B77FE01EE653A90049B82E /* menuButton.png in Resources */,
 				0460B9511EDFC95200C00DA5 /* refresh01.png in Resources */,
+				04B77FE21EE653A90049B82E /* noButton.png in Resources */,
 				0460B9571EDFC95200C00DA5 /* refresh07.png in Resources */,
+				04B77FE51EE653A90049B82E /* xButton.png in Resources */,
 				0460B94A1EDFC95200C00DA5 /* header05@2x.jpg in Resources */,
 				0460B93C1EDFC95200C00DA5 /* recomand_11.jpg in Resources */,
 				0460B9031EDFC93A00C00DA5 /* tab_我的.png in Resources */,
@@ -1064,6 +1156,7 @@
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
+				04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */,
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
@@ -1078,7 +1171,10 @@
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
+				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
+				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
+				04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,

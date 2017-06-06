@@ -18,6 +18,7 @@
 #import "TestAVPlayerViewController.h"
 #import "JXBanTangViewController.h"
 #import "NotificationViewController.h"
+#import "SwipeCardViewController.h"
 
 @interface ViewController ()
 
@@ -38,7 +39,8 @@
                         @"WebViewJavascriptBridge测试",
                         @"图片添加水印",
                         @"仿半塘首页效果",
-                        @"本地推送"
+                        @"本地推送",
+                        @"11-卡片效果"
                         ];
     }
     return _dataSource;
@@ -150,6 +152,11 @@
         case 9:
             vc = [[NotificationViewController alloc]init];
             break;
+            
+        case 10:
+            vc = [[SwipeCardViewController alloc]init];
+            break;
+            
             
         default:
             break;
