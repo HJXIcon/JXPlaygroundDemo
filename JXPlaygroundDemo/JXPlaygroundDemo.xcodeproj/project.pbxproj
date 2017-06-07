@@ -114,6 +114,12 @@
 		04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 04AC30E21ED92B9C00841D63 /* ExampleApp.html */; };
 		04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */; };
 		04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC30E91ED92D2C00841D63 /* PicEditViewController.m */; };
+		04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E551EE78F81001E360C /* JXPullMenuCell.m */; };
+		04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E571EE78F81001E360C /* JXPullMenuModel.m */; };
+		04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E591EE78F81001E360C /* JXPullMenuView.m */; };
+		04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E5E1EE792D0001E360C /* JXPullMenuTestViewController.m */; };
+		04AE5E631EE79977001E360C /* JXWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E621EE79977001E360C /* JXWaveProgressView.m */; };
+		04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E651EE79D35001E360C /* JXWaveProgressViewController.m */; };
 		04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */; };
 		04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB21EE64BDF0049B82E /* JXSwipeCardView.m */; };
 		04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB51EE64BFE0049B82E /* JXSwipeOverlayView.m */; };
@@ -307,6 +313,18 @@
 		04AC30E41ED92B9C00841D63 /* JSBridgeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeVC.m; sourceTree = "<group>"; };
 		04AC30E81ED92D2C00841D63 /* PicEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicEditViewController.h; sourceTree = "<group>"; };
 		04AC30E91ED92D2C00841D63 /* PicEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicEditViewController.m; sourceTree = "<group>"; };
+		04AE5E541EE78F81001E360C /* JXPullMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPullMenuCell.h; sourceTree = "<group>"; };
+		04AE5E551EE78F81001E360C /* JXPullMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPullMenuCell.m; sourceTree = "<group>"; };
+		04AE5E561EE78F81001E360C /* JXPullMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPullMenuModel.h; sourceTree = "<group>"; };
+		04AE5E571EE78F81001E360C /* JXPullMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPullMenuModel.m; sourceTree = "<group>"; };
+		04AE5E581EE78F81001E360C /* JXPullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPullMenuView.h; sourceTree = "<group>"; };
+		04AE5E591EE78F81001E360C /* JXPullMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPullMenuView.m; sourceTree = "<group>"; };
+		04AE5E5D1EE792D0001E360C /* JXPullMenuTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPullMenuTestViewController.h; sourceTree = "<group>"; };
+		04AE5E5E1EE792D0001E360C /* JXPullMenuTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPullMenuTestViewController.m; sourceTree = "<group>"; };
+		04AE5E611EE79977001E360C /* JXWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWaveProgressView.h; sourceTree = "<group>"; };
+		04AE5E621EE79977001E360C /* JXWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWaveProgressView.m; sourceTree = "<group>"; };
+		04AE5E641EE79D35001E360C /* JXWaveProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWaveProgressViewController.h; sourceTree = "<group>"; };
+		04AE5E651EE79D35001E360C /* JXWaveProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWaveProgressViewController.m; sourceTree = "<group>"; };
 		04B77FAE1EE64B650049B82E /* SwipeCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCardViewController.h; sourceTree = "<group>"; };
 		04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCardViewController.m; sourceTree = "<group>"; };
 		04B77FB11EE64BDF0049B82E /* JXSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeCardView.h; sourceTree = "<group>"; };
@@ -750,6 +768,32 @@
 			path = "图片添加水印";
 			sourceTree = "<group>";
 		};
+		04AE5E531EE78D0B001E360C /* 13-下拉选择菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				04AE5E541EE78F81001E360C /* JXPullMenuCell.h */,
+				04AE5E551EE78F81001E360C /* JXPullMenuCell.m */,
+				04AE5E561EE78F81001E360C /* JXPullMenuModel.h */,
+				04AE5E571EE78F81001E360C /* JXPullMenuModel.m */,
+				04AE5E581EE78F81001E360C /* JXPullMenuView.h */,
+				04AE5E591EE78F81001E360C /* JXPullMenuView.m */,
+				04AE5E5D1EE792D0001E360C /* JXPullMenuTestViewController.h */,
+				04AE5E5E1EE792D0001E360C /* JXPullMenuTestViewController.m */,
+			);
+			path = "13-下拉选择菜单";
+			sourceTree = "<group>";
+		};
+		04AE5E601EE798FC001E360C /* 14-球形进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				04AE5E611EE79977001E360C /* JXWaveProgressView.h */,
+				04AE5E621EE79977001E360C /* JXWaveProgressView.m */,
+				04AE5E641EE79D35001E360C /* JXWaveProgressViewController.h */,
+				04AE5E651EE79D35001E360C /* JXWaveProgressViewController.m */,
+			);
+			path = "14-球形进度条";
+			sourceTree = "<group>";
+		};
 		04B77FAC1EE64B160049B82E /* 11-卡片效果 */ = {
 			isa = PBXGroup;
 			children = (
@@ -882,6 +926,8 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04AE5E601EE798FC001E360C /* 14-球形进度条 */,
+				04AE5E531EE78D0B001E360C /* 13-下拉选择菜单 */,
 				04B77FEC1EE6992F0049B82E /* 12-卡片效果2 */,
 				04B77FAC1EE64B160049B82E /* 11-卡片效果 */,
 				04F2AE061EE55D5A0038C33C /* 闲鱼新特性界面-视频动画 */,
@@ -1239,7 +1285,9 @@
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
+				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
+				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
 				04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */,
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
@@ -1262,6 +1310,7 @@
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
 				04B780061EE6A3C00049B82E /* Utils.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
+				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
 				04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */,
@@ -1271,10 +1320,13 @@
 				0460B8D51EDFC60300C00DA5 /* JXBanTangViewController.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
 				043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */,
+				04AE5E631EE79977001E360C /* JXWaveProgressView.m in Sources */,
 				046BFBAE1EE5033E009358B5 /* NotificationService.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,
+				04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
+				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

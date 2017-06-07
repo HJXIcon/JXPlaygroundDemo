@@ -20,6 +20,8 @@
 #import "NotificationViewController.h"
 #import "SwipeCardViewController.h"
 #import "JXSwipeAbleTestViewController.h"
+#import "JXPullMenuTestViewController.h"
+#import "JXWaveProgressViewController.h"
 
 @interface ViewController ()
 
@@ -42,7 +44,9 @@
                         @"仿半塘首页效果",
                         @"本地推送",
                         @"11-卡片效果",
-                        @"12-卡片效果2-支持自定义显示View"
+                        @"12-卡片效果2-支持自定义显示View",
+                        @"13-下拉菜单JXPullMenu",
+                        @"14-JXWaveProgressView"
                         ];
     }
     return _dataSource;
@@ -162,6 +166,16 @@
         case 11:
             vc = [[JXSwipeAbleTestViewController alloc]init];
             break;
+            
+        case 12:
+            vc = [[JXPullMenuTestViewController alloc]init];
+            break;
+            
+            
+        case 13:
+            vc = [[JXWaveProgressViewController alloc]init];
+            break;
+            
             
             
         default:

@@ -112,6 +112,7 @@
 - (UIView *)nextViewForSwipeableView:(JXSwipeAbleView *)swipeableView {
     
     
+    return nil;
     UIView *view = [[UIView alloc] initWithFrame:swipeableView.bounds];
     
     view.backgroundColor = [UIColor blueColor];

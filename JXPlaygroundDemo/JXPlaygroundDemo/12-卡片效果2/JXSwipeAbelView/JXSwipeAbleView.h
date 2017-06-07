@@ -133,7 +133,7 @@ typedef NS_ENUM(NSUInteger, JXSwipeAbleViewDirection) {
 - (NSArray<UIView *> *)activeViews;
 
 - (void)loadViewsIfNeeded;
-
+// 倒回
 - (void)rewind;
 
 - (void)discardAllViews;
