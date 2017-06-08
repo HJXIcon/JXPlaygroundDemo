@@ -13,13 +13,16 @@
 - (instancetype)init{
     if (self = [super init]) {
         self.minAlpha = 0;
-        self.maxRotate = M_PI / 4 / 4 / 3;
+        self.maxRotate = M_PI / 4 / 4 / 2; // 默认旋转大小
+        self.maxOffset = 44;
     }
     return self;
 }
 
 
 - (void)animate:(UICollectionView *)collectionView WithAttributes:(JXAnimatedCollectionViewLayoutAttributes *)attributes{
+    
+  
     
     CGFloat position = attributes.middleOffset;
     
@@ -32,7 +35,15 @@
         attributes.zIndex = attributes.indexPath.row;
         attributes.alpha = 1.0 - abs(position) + self.minAlpha;
         
-        attributes.transform = CGAffineTransformMakeRotation(rotateFactor);
+        // CGAffineTransformConcat  //合并两个Transformation
+        CGAffineTransform t1 = CGAffineTransformMakeRotation(rotateFactor);
+        
+        CGAffineTransform t2 = CGAffineTransformMakeTranslation(self.maxOffset * position, 0);
+        
+          attributes.transform = CGAffineTransformConcat(t2, t1);
+
+    
+        
     }
 }
 

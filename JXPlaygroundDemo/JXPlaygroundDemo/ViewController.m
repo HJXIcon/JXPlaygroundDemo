@@ -183,8 +183,10 @@
         case 14:{
             vc = [[JXImageCollectionViewController alloc]init];
             JXRotateInOutAttributesAnimator *animator = [[JXRotateInOutAttributesAnimator alloc]init];
+            
             JXImageCollectionViewController *C =(JXImageCollectionViewController *)vc;
             C.animator = animator;
+            
             
             vc = C;
         }

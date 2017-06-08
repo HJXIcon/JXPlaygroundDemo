@@ -10,7 +10,7 @@
 #import "JXAnimatedCollectionViewLayout.h"
 #import "JXLayoutAttributesAnimator.h"
 
-@interface JXImageCollectionViewController ()<UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface JXImageCollectionViewController ()<UICollectionViewDataSource, UICollectionViewDelegate>
 @property(nonatomic, strong) UICollectionView *collectionView;
 
 @end
@@ -81,17 +81,13 @@ static NSString * const reuseIdentifier = @"Cell";
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     // Configure the cell
-    cell.contentView.backgroundColor = JXColor(arc4random() / 255.0, arc4random() / 255.0, arc4random() / 255.0);
+    cell.contentView.backgroundColor = [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];
     
     return cell;
 }
 
 
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    
-    return CGSizeMake(kScreenW, kScreenH);
-}
 
 
 @end

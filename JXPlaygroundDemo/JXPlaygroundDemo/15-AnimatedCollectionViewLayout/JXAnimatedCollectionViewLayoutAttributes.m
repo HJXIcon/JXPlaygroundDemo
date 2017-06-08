@@ -12,6 +12,9 @@
 
 - (id)copyWithZone:(NSZone *)zone{
     
+    
+    [self initialize];
+    
     JXAnimatedCollectionViewLayoutAttributes  *copy = (JXAnimatedCollectionViewLayoutAttributes *)[super copyWithZone:zone];
     copy.contentView = self.contentView;
     copy.scrollDirection = self.scrollDirection;
@@ -21,6 +24,13 @@
     
     return copy;
     
+}
+
+- (void)initialize{
+    self.startOffset = 0;
+    self.endOffset = 0;
+    self.middleOffset = 0;
+    self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 }
 
 - (BOOL)isEqual:(id)object{

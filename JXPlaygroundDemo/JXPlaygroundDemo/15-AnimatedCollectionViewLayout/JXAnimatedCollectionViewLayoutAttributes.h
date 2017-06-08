@@ -13,8 +13,11 @@
 
 @property(nonatomic, strong) UIView *contentView;
 @property(nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
+// 开始的cell的 index.row
 @property(nonatomic, assign) CGFloat startOffset;
+// 当前显示的cell的 index.row
 @property(nonatomic, assign) CGFloat middleOffset;
+// 消失的cell的 index.row
 @property(nonatomic, assign) CGFloat endOffset;
 
 

@@ -12,7 +12,7 @@
 @interface JXRotateInOutAttributesAnimator : NSObject<JXLayoutAttributesAnimator>
 
 @property(nonatomic, assign) CGFloat minAlpha;
-@property(nonatomic, assign) CGFloat maxRotate;
-
+@property(nonatomic, assign) CGFloat maxRotate;// 最大旋转角度
+@property(nonatomic, assign) CGFloat maxOffset;// 最大偏移量 正数 向右 
 
 @end
