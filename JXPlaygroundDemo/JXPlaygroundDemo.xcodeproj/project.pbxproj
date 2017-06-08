@@ -120,6 +120,10 @@
 		04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E5E1EE792D0001E360C /* JXPullMenuTestViewController.m */; };
 		04AE5E631EE79977001E360C /* JXWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E621EE79977001E360C /* JXWaveProgressView.m */; };
 		04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E651EE79D35001E360C /* JXWaveProgressViewController.m */; };
+		04AE5E6D1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E6C1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m */; };
+		04AE5E721EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E711EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m */; };
+		04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E741EE7FFFE001E360C /* JXImageCollectionViewController.m */; };
+		04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE5E771EE804C0001E360C /* JXRotateInOutAttributesAnimator.m */; };
 		04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */; };
 		04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB21EE64BDF0049B82E /* JXSwipeCardView.m */; };
 		04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B77FB51EE64BFE0049B82E /* JXSwipeOverlayView.m */; };
@@ -325,6 +329,15 @@
 		04AE5E621EE79977001E360C /* JXWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWaveProgressView.m; sourceTree = "<group>"; };
 		04AE5E641EE79D35001E360C /* JXWaveProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWaveProgressViewController.h; sourceTree = "<group>"; };
 		04AE5E651EE79D35001E360C /* JXWaveProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWaveProgressViewController.m; sourceTree = "<group>"; };
+		04AE5E6B1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAnimatedCollectionViewLayout.h; sourceTree = "<group>"; };
+		04AE5E6C1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAnimatedCollectionViewLayout.m; sourceTree = "<group>"; };
+		04AE5E6F1EE7E9F9001E360C /* JXLayoutAttributesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLayoutAttributesAnimator.h; sourceTree = "<group>"; };
+		04AE5E701EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAnimatedCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		04AE5E711EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAnimatedCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		04AE5E731EE7FFFE001E360C /* JXImageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXImageCollectionViewController.h; sourceTree = "<group>"; };
+		04AE5E741EE7FFFE001E360C /* JXImageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXImageCollectionViewController.m; sourceTree = "<group>"; };
+		04AE5E761EE804C0001E360C /* JXRotateInOutAttributesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXRotateInOutAttributesAnimator.h; sourceTree = "<group>"; };
+		04AE5E771EE804C0001E360C /* JXRotateInOutAttributesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXRotateInOutAttributesAnimator.m; sourceTree = "<group>"; };
 		04B77FAE1EE64B650049B82E /* SwipeCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCardViewController.h; sourceTree = "<group>"; };
 		04B77FAF1EE64B650049B82E /* SwipeCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCardViewController.m; sourceTree = "<group>"; };
 		04B77FB11EE64BDF0049B82E /* JXSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSwipeCardView.h; sourceTree = "<group>"; };
@@ -794,6 +807,22 @@
 			path = "14-球形进度条";
 			sourceTree = "<group>";
 		};
+		04AE5E6A1EE7E4C8001E360C /* 15-AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04AE5E6B1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.h */,
+				04AE5E6C1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m */,
+				04AE5E701EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.h */,
+				04AE5E711EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m */,
+				04AE5E6F1EE7E9F9001E360C /* JXLayoutAttributesAnimator.h */,
+				04AE5E761EE804C0001E360C /* JXRotateInOutAttributesAnimator.h */,
+				04AE5E771EE804C0001E360C /* JXRotateInOutAttributesAnimator.m */,
+				04AE5E731EE7FFFE001E360C /* JXImageCollectionViewController.h */,
+				04AE5E741EE7FFFE001E360C /* JXImageCollectionViewController.m */,
+			);
+			path = "15-AnimatedCollectionViewLayout";
+			sourceTree = "<group>";
+		};
 		04B77FAC1EE64B160049B82E /* 11-卡片效果 */ = {
 			isa = PBXGroup;
 			children = (
@@ -926,6 +955,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04AE5E6A1EE7E4C8001E360C /* 15-AnimatedCollectionViewLayout */,
 				04AE5E601EE798FC001E360C /* 14-球形进度条 */,
 				04AE5E531EE78D0B001E360C /* 13-下拉选择菜单 */,
 				04B77FEC1EE6992F0049B82E /* 12-卡片效果2 */,
@@ -1294,8 +1324,10 @@
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
+				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
+				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
@@ -1308,6 +1340,7 @@
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
+				04AE5E6D1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m in Sources */,
 				04B780061EE6A3C00049B82E /* Utils.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
@@ -1318,6 +1351,7 @@
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
 				0460B8D51EDFC60300C00DA5 /* JXBanTangViewController.m in Sources */,
+				04AE5E721EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
 				043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */,
 				04AE5E631EE79977001E360C /* JXWaveProgressView.m in Sources */,

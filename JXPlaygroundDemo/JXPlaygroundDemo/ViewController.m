@@ -22,6 +22,8 @@
 #import "JXSwipeAbleTestViewController.h"
 #import "JXPullMenuTestViewController.h"
 #import "JXWaveProgressViewController.h"
+#import "JXImageCollectionViewController.h"
+#import "JXRotateInOutAttributesAnimator.h"
 
 @interface ViewController ()
 
@@ -46,7 +48,8 @@
                         @"11-卡片效果",
                         @"12-卡片效果2-支持自定义显示View",
                         @"13-下拉菜单JXPullMenu",
-                        @"14-JXWaveProgressView"
+                        @"14-JXWaveProgressView",
+                        @"15-JXAnimatedCollectionViewLayout"
                         ];
     }
     return _dataSource;
@@ -176,6 +179,16 @@
             vc = [[JXWaveProgressViewController alloc]init];
             break;
             
+            
+        case 14:{
+            vc = [[JXImageCollectionViewController alloc]init];
+            JXRotateInOutAttributesAnimator *animator = [[JXRotateInOutAttributesAnimator alloc]init];
+            JXImageCollectionViewController *C =(JXImageCollectionViewController *)vc;
+            C.animator = animator;
+            
+            vc = C;
+        }
+            break;
             
             
         default:
