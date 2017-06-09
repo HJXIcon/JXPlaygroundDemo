@@ -12,6 +12,12 @@
 		0435A5091EEA3A040097689F /* JXCardViewScaleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5081EEA3A040097689F /* JXCardViewScaleLayout.m */; };
 		0435A50C1EEA3ACD0097689F /* FlowLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A50B1EEA3ACD0097689F /* FlowLayoutTableViewController.m */; };
 		0435A50F1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A50E1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m */; };
+		0435A5141EEA47500097689F /* JXWkWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5131EEA47500097689F /* JXWkWebView.m */; };
+		0435A5161EEA50680097689F /* source.html in Resources */ = {isa = PBXBuildFile; fileRef = 0435A5151EEA50680097689F /* source.html */; };
+		0435A5221EEA552E0097689F /* SDImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A51B1EEA552E0097689F /* SDImageView.m */; };
+		0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A51D1EEA552E0097689F /* SDLoadingView.m */; };
+		0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A51F1EEA552E0097689F /* SDPhotoBrowserd.m */; };
+		0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5271EEA55B20097689F /* JXWkWebViewViewController.m */; };
 		043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E83091EE50B9800854151 /* JXNotificationViewController.m */; };
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
@@ -190,6 +196,18 @@
 		0435A50B1EEA3ACD0097689F /* FlowLayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayoutTableViewController.m; sourceTree = "<group>"; };
 		0435A50D1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCardViewScaleLayoutViewController.h; sourceTree = "<group>"; };
 		0435A50E1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCardViewScaleLayoutViewController.m; sourceTree = "<group>"; };
+		0435A5121EEA47500097689F /* JXWkWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWkWebView.h; sourceTree = "<group>"; };
+		0435A5131EEA47500097689F /* JXWkWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWkWebView.m; sourceTree = "<group>"; };
+		0435A5151EEA50680097689F /* source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = source.html; sourceTree = "<group>"; };
+		0435A5191EEA552E0097689F /* SDBrowserdConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserdConfig.h; sourceTree = "<group>"; };
+		0435A51A1EEA552E0097689F /* SDImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageView.h; sourceTree = "<group>"; };
+		0435A51B1EEA552E0097689F /* SDImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageView.m; sourceTree = "<group>"; };
+		0435A51C1EEA552E0097689F /* SDLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoadingView.h; sourceTree = "<group>"; };
+		0435A51D1EEA552E0097689F /* SDLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLoadingView.m; sourceTree = "<group>"; };
+		0435A51E1EEA552E0097689F /* SDPhotoBrowserd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserd.h; sourceTree = "<group>"; };
+		0435A51F1EEA552E0097689F /* SDPhotoBrowserd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowserd.m; sourceTree = "<group>"; };
+		0435A5261EEA55B20097689F /* JXWkWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWkWebViewViewController.h; sourceTree = "<group>"; };
+		0435A5271EEA55B20097689F /* JXWkWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWkWebViewViewController.m; sourceTree = "<group>"; };
 		043E83081EE50B9800854151 /* JXNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNotificationViewController.h; sourceTree = "<group>"; };
 		043E83091EE50B9800854151 /* JXNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNotificationViewController.m; sourceTree = "<group>"; };
 		0444339D1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangRefreshHeader.h; sourceTree = "<group>"; };
@@ -464,6 +482,41 @@
 			);
 			name = "16-自定义UICollectionViewFlowLayout";
 			path = "16-卡片切换带3D效果";
+			sourceTree = "<group>";
+		};
+		0435A5101EEA46330097689F /* 17-H5图片预览、javascript交互WkWebView */ = {
+			isa = PBXGroup;
+			children = (
+				0435A5151EEA50680097689F /* source.html */,
+				0435A5261EEA55B20097689F /* JXWkWebViewViewController.h */,
+				0435A5271EEA55B20097689F /* JXWkWebViewViewController.m */,
+				0435A5171EEA552E0097689F /* SDPhotoBrowserd */,
+				0435A5111EEA472B0097689F /* JXWkWebView */,
+			);
+			path = "17-H5图片预览、javascript交互WkWebView";
+			sourceTree = "<group>";
+		};
+		0435A5111EEA472B0097689F /* JXWkWebView */ = {
+			isa = PBXGroup;
+			children = (
+				0435A5121EEA47500097689F /* JXWkWebView.h */,
+				0435A5131EEA47500097689F /* JXWkWebView.m */,
+			);
+			path = JXWkWebView;
+			sourceTree = "<group>";
+		};
+		0435A5171EEA552E0097689F /* SDPhotoBrowserd */ = {
+			isa = PBXGroup;
+			children = (
+				0435A5191EEA552E0097689F /* SDBrowserdConfig.h */,
+				0435A51A1EEA552E0097689F /* SDImageView.h */,
+				0435A51B1EEA552E0097689F /* SDImageView.m */,
+				0435A51C1EEA552E0097689F /* SDLoadingView.h */,
+				0435A51D1EEA552E0097689F /* SDLoadingView.m */,
+				0435A51E1EEA552E0097689F /* SDPhotoBrowserd.h */,
+				0435A51F1EEA552E0097689F /* SDPhotoBrowserd.m */,
+			);
+			path = SDPhotoBrowserd;
 			sourceTree = "<group>";
 		};
 		0460526C1ECFCC4300745224 /* ReactiveCocoa练习 */ = {
@@ -988,6 +1041,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0435A5101EEA46330097689F /* 17-H5图片预览、javascript交互WkWebView */,
 				0435A5001EEA26CC0097689F /* 16-自定义UICollectionViewFlowLayout */,
 				04AE5E6A1EE7E4C8001E360C /* 15-AnimatedCollectionViewLayout */,
 				04AE5E601EE798FC001E360C /* 14-球形进度条 */,
@@ -1204,6 +1258,7 @@
 				0460B93E1EDFC95200C00DA5 /* recomand_13.jpg in Resources */,
 				0460B93D1EDFC95200C00DA5 /* recomand_12.jpg in Resources */,
 				0460B9651EDFC96000C00DA5 /* cycle_02.jpg in Resources */,
+				0435A5161EEA50680097689F /* source.html in Resources */,
 				04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */,
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
 				04B77FEA1EE653A90049B82E /* yesButton.png in Resources */,
@@ -1359,12 +1414,14 @@
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
+				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
 				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
+				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
@@ -1380,9 +1437,11 @@
 				04B780061EE6A3C00049B82E /* Utils.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
+				0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
 				04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */,
+				0435A5221EEA552E0097689F /* SDImageView.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
@@ -1397,6 +1456,7 @@
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,
 				04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
+				0435A5141EEA47500097689F /* JXWkWebView.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
 				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,
 				0435A5091EEA3A040097689F /* JXCardViewScaleLayout.m in Sources */,

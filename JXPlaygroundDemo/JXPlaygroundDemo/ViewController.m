@@ -25,6 +25,7 @@
 #import "JXImageCollectionViewController.h"
 #import "JXRotateInOutAttributesAnimator.h"
 #import "FlowLayoutTableViewController.h"
+#import "JXWkWebViewViewController.h"
 
 @interface ViewController ()
 
@@ -51,7 +52,8 @@
                         @"13-下拉菜单JXPullMenu",
                         @"14-JXWaveProgressView",
                         @"15-JXAnimatedCollectionViewLayout",
-                        @"16-自定义UICollectionViewFlowLayout"
+                        @"16-自定义UICollectionViewFlowLayout",
+                        @"17-H5图片预览、javascript交互WkWebView"
                         ];
     }
     return _dataSource;
@@ -197,6 +199,11 @@
             
         case 15:
             vc = [[FlowLayoutTableViewController alloc]init];
+            break;
+            
+           
+        case 16:
+            vc = [[JXWkWebViewViewController alloc]init];
             break;
             
             
