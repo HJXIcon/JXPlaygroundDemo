@@ -18,6 +18,16 @@
 		0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A51D1EEA552E0097689F /* SDLoadingView.m */; };
 		0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A51F1EEA552E0097689F /* SDPhotoBrowserd.m */; };
 		0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5271EEA55B20097689F /* JXWkWebViewViewController.m */; };
+		0435A52B1EEA8CF90097689F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A52A1EEA8CF90097689F /* UIImage+Image.m */; };
+		0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A52D1EEA8D220097689F /* UIImageView+Extension.m */; };
+		0435A5311EEA8D220097689F /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A52F1EEA8D220097689F /* UITextField+Extension.m */; };
+		0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5331EEA8D350097689F /* UIBarButtonItem+Item.m */; };
+		0435A5411EEA8DAF0097689F /* NSDate+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5361EEA8DAF0097689F /* NSDate+Date.m */; };
+		0435A5421EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5381EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m */; };
+		0435A5431EEA8DAF0097689F /* NSString+time.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A53A1EEA8DAF0097689F /* NSString+time.m */; };
+		0435A5441EEA8DAF0097689F /* UIImage+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A53C1EEA8DAF0097689F /* UIImage+JXExtension.m */; };
+		0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A53E1EEA8DAF0097689F /* UISwitch+Expand.m */; };
+		0435A5461EEA8DAF0097689F /* UITextFiled+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5401EEA8DAF0097689F /* UITextFiled+Shake.m */; };
 		043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E83091EE50B9800854151 /* JXNotificationViewController.m */; };
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
@@ -208,6 +218,26 @@
 		0435A51F1EEA552E0097689F /* SDPhotoBrowserd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowserd.m; sourceTree = "<group>"; };
 		0435A5261EEA55B20097689F /* JXWkWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXWkWebViewViewController.h; sourceTree = "<group>"; };
 		0435A5271EEA55B20097689F /* JXWkWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXWkWebViewViewController.m; sourceTree = "<group>"; };
+		0435A5291EEA8CF90097689F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		0435A52A1EEA8CF90097689F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		0435A52C1EEA8D220097689F /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		0435A52D1EEA8D220097689F /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		0435A52E1EEA8D220097689F /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		0435A52F1EEA8D220097689F /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
+		0435A5321EEA8D350097689F /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		0435A5331EEA8D350097689F /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		0435A5351EEA8DAF0097689F /* NSDate+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Date.h"; sourceTree = "<group>"; };
+		0435A5361EEA8DAF0097689F /* NSDate+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Date.m"; sourceTree = "<group>"; };
+		0435A5371EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CalculationAttrStrHeight.h"; sourceTree = "<group>"; };
+		0435A5381EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CalculationAttrStrHeight.m"; sourceTree = "<group>"; };
+		0435A5391EEA8DAF0097689F /* NSString+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+time.h"; sourceTree = "<group>"; };
+		0435A53A1EEA8DAF0097689F /* NSString+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+time.m"; sourceTree = "<group>"; };
+		0435A53B1EEA8DAF0097689F /* UIImage+JXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JXExtension.h"; sourceTree = "<group>"; };
+		0435A53C1EEA8DAF0097689F /* UIImage+JXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JXExtension.m"; sourceTree = "<group>"; };
+		0435A53D1EEA8DAF0097689F /* UISwitch+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Expand.h"; sourceTree = "<group>"; };
+		0435A53E1EEA8DAF0097689F /* UISwitch+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Expand.m"; sourceTree = "<group>"; };
+		0435A53F1EEA8DAF0097689F /* UITextFiled+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextFiled+Shake.h"; sourceTree = "<group>"; };
+		0435A5401EEA8DAF0097689F /* UITextFiled+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextFiled+Shake.m"; sourceTree = "<group>"; };
 		043E83081EE50B9800854151 /* JXNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNotificationViewController.h; sourceTree = "<group>"; };
 		043E83091EE50B9800854151 /* JXNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNotificationViewController.m; sourceTree = "<group>"; };
 		0444339D1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangRefreshHeader.h; sourceTree = "<group>"; };
@@ -577,6 +607,26 @@
 		0460B8D71EDFC6C900C00DA5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0435A5351EEA8DAF0097689F /* NSDate+Date.h */,
+				0435A5361EEA8DAF0097689F /* NSDate+Date.m */,
+				0435A5371EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.h */,
+				0435A5381EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m */,
+				0435A5391EEA8DAF0097689F /* NSString+time.h */,
+				0435A53A1EEA8DAF0097689F /* NSString+time.m */,
+				0435A53B1EEA8DAF0097689F /* UIImage+JXExtension.h */,
+				0435A53C1EEA8DAF0097689F /* UIImage+JXExtension.m */,
+				0435A53D1EEA8DAF0097689F /* UISwitch+Expand.h */,
+				0435A53E1EEA8DAF0097689F /* UISwitch+Expand.m */,
+				0435A53F1EEA8DAF0097689F /* UITextFiled+Shake.h */,
+				0435A5401EEA8DAF0097689F /* UITextFiled+Shake.m */,
+				0435A5321EEA8D350097689F /* UIBarButtonItem+Item.h */,
+				0435A5331EEA8D350097689F /* UIBarButtonItem+Item.m */,
+				0435A52C1EEA8D220097689F /* UIImageView+Extension.h */,
+				0435A52D1EEA8D220097689F /* UIImageView+Extension.m */,
+				0435A52E1EEA8D220097689F /* UITextField+Extension.h */,
+				0435A52F1EEA8D220097689F /* UITextField+Extension.m */,
+				0435A5291EEA8CF90097689F /* UIImage+Image.h */,
+				0435A52A1EEA8CF90097689F /* UIImage+Image.m */,
 				046BFB9D1EE4F4B2009358B5 /* NSArray+log.h */,
 				046BFB9E1EE4F4B2009358B5 /* NSArray+log.m */,
 				046BFB9F1EE4F4B2009358B5 /* NSDictionary+log.h */,
@@ -1380,6 +1430,7 @@
 				0435A50C1EEA3ACD0097689F /* FlowLayoutTableViewController.m in Sources */,
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
 				04B780151EE6AF810049B82E /* JXSwipeAbleTestViewController.m in Sources */,
+				0435A5421EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m in Sources */,
 				04B780091EE6ACA90049B82E /* JXScheduler.m in Sources */,
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
@@ -1398,14 +1449,19 @@
 				04B780101EE6AD330049B82E /* DefaultDirectionInterpretor.m in Sources */,
 				04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
+				0435A5431EEA8DAF0097689F /* NSString+time.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
+				0435A5441EEA8DAF0097689F /* UIImage+JXExtension.m in Sources */,
 				046BFB9C1EE4EF1D009358B5 /* NotificationViewController.m in Sources */,
 				04B780001EE6A1800049B82E /* JXViewManager.m in Sources */,
+				0435A5411EEA8DAF0097689F /* NSDate+Date.m in Sources */,
 				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
+				0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
+				0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */,
 				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
@@ -1414,6 +1470,7 @@
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
+				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
@@ -1453,11 +1510,14 @@
 				04AE5E631EE79977001E360C /* JXWaveProgressView.m in Sources */,
 				046BFBAE1EE5033E009358B5 /* NotificationService.m in Sources */,
 				0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */,
+				0435A5461EEA8DAF0097689F /* UITextFiled+Shake.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,
 				04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */,
+				0435A5311EEA8D220097689F /* UITextField+Extension.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
 				0435A5141EEA47500097689F /* JXWkWebView.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
+				0435A52B1EEA8CF90097689F /* UIImage+Image.m in Sources */,
 				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,
 				0435A5091EEA3A040097689F /* JXCardViewScaleLayout.m in Sources */,
 			);

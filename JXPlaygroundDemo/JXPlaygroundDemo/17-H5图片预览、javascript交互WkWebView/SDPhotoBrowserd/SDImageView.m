@@ -34,8 +34,6 @@
         pinch.delegate = self;
         [self addGestureRecognizer:pinch];
         
-        
-        
     }
     return self;
 }
@@ -52,6 +50,7 @@
     
     CGSize imageSize = self.image.size;
     
+    // 判断图片大小
     if (self.bounds.size.width * (imageSize.height / imageSize.width) > self.bounds.size.height) {
         if (!_scroll) {
             UIScrollView *scroll = [[UIScrollView alloc] init];

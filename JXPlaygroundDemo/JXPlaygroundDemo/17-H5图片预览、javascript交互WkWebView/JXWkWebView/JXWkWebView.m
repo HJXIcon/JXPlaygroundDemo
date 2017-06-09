@@ -17,7 +17,7 @@
  https://mp.weixin.qq.com/s?__biz=MzIzMzA4NjA5Mw==&mid=400327803&idx=1&sn=2a09fa94dd605a9f03bbc16f998e5717#rd
  */
 
-@interface JXWkWebView ()<WKUIDelegate,WKNavigationDelegate,WKScriptMessageHandler>
+@interface JXWkWebView ()<WKUIDelegate,WKNavigationDelegate,WKScriptMessageHandler,SDPhotoBrowserDelegate>
 
 @property (nonatomic, strong) WKUserScript *userScript;
 @end
