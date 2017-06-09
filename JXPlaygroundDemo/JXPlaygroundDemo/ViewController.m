@@ -24,6 +24,7 @@
 #import "JXWaveProgressViewController.h"
 #import "JXImageCollectionViewController.h"
 #import "JXRotateInOutAttributesAnimator.h"
+#import "FlowLayoutTableViewController.h"
 
 @interface ViewController ()
 
@@ -49,7 +50,8 @@
                         @"12-卡片效果2-支持自定义显示View",
                         @"13-下拉菜单JXPullMenu",
                         @"14-JXWaveProgressView",
-                        @"15-JXAnimatedCollectionViewLayout"
+                        @"15-JXAnimatedCollectionViewLayout",
+                        @"16-自定义UICollectionViewFlowLayout"
                         ];
     }
     return _dataSource;
@@ -190,6 +192,11 @@
             
             vc = C;
         }
+            break;
+            
+            
+        case 15:
+            vc = [[FlowLayoutTableViewController alloc]init];
             break;
             
             
