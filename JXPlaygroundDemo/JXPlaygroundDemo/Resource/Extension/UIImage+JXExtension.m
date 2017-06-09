@@ -9,6 +9,8 @@
 #import "UIImage+JXExtension.h"
 #import <AVFoundation/AVFoundation.h>
 #import <UIImageView+WebCache.h>
+#import <SDWebImage/SDWebImageManager.h>
+
 
 @implementation UIImage (JXExtension)
 
@@ -110,9 +112,15 @@
  */
 + (UIImage*)imageFromSdcacheWithURLString:(NSString *)urlString{
     
-    NSData *imageData =nil;
+    NSData *imageData = nil;
     
-    BOOL isExit = [[SDWebImageManager sharedManager]diskImageExistsForURL:[NSURL URLWithString:urlString]];
+//    BOOL isExit = [[SDWebImageManager sharedManager]diskImageExistsForURL:[NSURL URLWithString:urlString]];
+    
+    __block BOOL isExit;
+    [[SDWebImageManager sharedManager]diskImageExistsForURL:[NSURL URLWithString:urlString] completion:^(BOOL isInCache) {
+        
+        isExit = isInCache;
+    }];
     
     if(isExit) {
         

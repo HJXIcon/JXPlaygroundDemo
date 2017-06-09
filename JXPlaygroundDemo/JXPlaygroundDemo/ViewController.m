@@ -26,6 +26,7 @@
 #import "JXRotateInOutAttributesAnimator.h"
 #import "FlowLayoutTableViewController.h"
 #import "JXWkWebViewViewController.h"
+#import "JXMainSDKTableViewController.h"
 
 @interface ViewController ()
 
@@ -53,7 +54,8 @@
                         @"14-JXWaveProgressView",
                         @"15-JXAnimatedCollectionViewLayout",
                         @"16-自定义UICollectionViewFlowLayout",
-                        @"17-H5图片预览、javascript交互WkWebView"
+                        @"17-H5图片预览、javascript交互WkWebView",
+                        @"18-第三方SDK"
                         ];
     }
     return _dataSource;
@@ -204,6 +206,10 @@
            
         case 16:
             vc = [[JXWkWebViewViewController alloc]init];
+            break;
+            
+        case 17:
+            vc = [[JXMainSDKTableViewController alloc]init];
             break;
             
             
