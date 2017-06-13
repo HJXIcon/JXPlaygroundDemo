@@ -27,6 +27,7 @@
 #import "FlowLayoutTableViewController.h"
 #import "JXWkWebViewViewController.h"
 #import "JXMainSDKTableViewController.h"
+#import "APayViewController.h"
 
 @interface ViewController ()
 
@@ -55,7 +56,8 @@
                         @"15-JXAnimatedCollectionViewLayout",
                         @"16-自定义UICollectionViewFlowLayout",
                         @"17-H5图片预览、javascript交互WkWebView",
-                        @"18-第三方SDK"
+                        @"18-第三方SDK",
+                        @"19-模仿支付宝输入支付密码"
                         ];
     }
     return _dataSource;
@@ -212,7 +214,9 @@
             vc = [[JXMainSDKTableViewController alloc]init];
             break;
             
-            
+        case 18:
+            vc = [[APayViewController alloc]init];
+            break;
         default:
             break;
     }

@@ -12,6 +12,7 @@ static NSString *const WX_AppID = @"";
 
 @implementation AppDelegate (Service)
 
+/*!
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [WXApi registerApp:WX_AppID];
@@ -33,6 +34,7 @@ static NSString *const WX_AppID = @"";
     return result;
     
 }
+ */
 
 
 #pragma mark - WXApiDelegate

@@ -16,5 +16,6 @@ target 'JXPlaygroundDemo' do
   pod 'DOPDropDownMenu-Enhanced', '~> 1.0.0'#下拉选择菜单
   pod 'WechatOpenSDK' #微信
 #  pod 'AliPay', '~> 2.1.2' #支付宝
+  pod 'MBProgressHUD', '~> 1.0.0'
 
 end

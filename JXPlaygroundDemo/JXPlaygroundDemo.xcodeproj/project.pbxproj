@@ -119,6 +119,13 @@
 		046BFBAA1EE500EF009358B5 /* test1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 046BFBA71EE500EF009358B5 /* test1.gif */; };
 		046BFBAE1EE5033E009358B5 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFBAD1EE5033E009358B5 /* NotificationService.m */; };
 		046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 046BFBB01EE5034B009358B5 /* NotificationViewController2.m */; };
+		048021101EEF778B008287A8 /* CYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 048021081EEF778B008287A8 /* CYConst.m */; };
+		048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480210A1EEF778B008287A8 /* CYPasswordInputView.m */; };
+		048021121EEF778B008287A8 /* CYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0480210B1EEF778B008287A8 /* CYPasswordView.bundle */; };
+		048021131EEF778B008287A8 /* CYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480210D1EEF778B008287A8 /* CYPasswordView.m */; };
+		048021141EEF778B008287A8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480210F1EEF778B008287A8 /* UIView+Extension.m */; };
+		048021171EEF77A3008287A8 /* APayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048021161EEF77A3008287A8 /* APayViewController.m */; };
+		0480211A1EEF7988008287A8 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 048021191EEF7988008287A8 /* MBProgressHUD+MJ.m */; };
 		048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA051ED126910037DFE0 /* JXAMapViewController.m */; };
 		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
@@ -355,6 +362,19 @@
 		046BFBAD1EE5033E009358B5 /* NotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		046BFBAF1EE5034B009358B5 /* NotificationViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController2.h; sourceTree = "<group>"; };
 		046BFBB01EE5034B009358B5 /* NotificationViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController2.m; sourceTree = "<group>"; };
+		048021071EEF778B008287A8 /* CYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYConst.h; sourceTree = "<group>"; };
+		048021081EEF778B008287A8 /* CYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYConst.m; sourceTree = "<group>"; };
+		048021091EEF778B008287A8 /* CYPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordInputView.h; sourceTree = "<group>"; };
+		0480210A1EEF778B008287A8 /* CYPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordInputView.m; sourceTree = "<group>"; };
+		0480210B1EEF778B008287A8 /* CYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYPasswordView.bundle; sourceTree = "<group>"; };
+		0480210C1EEF778B008287A8 /* CYPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYPasswordView.h; sourceTree = "<group>"; };
+		0480210D1EEF778B008287A8 /* CYPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYPasswordView.m; sourceTree = "<group>"; };
+		0480210E1EEF778B008287A8 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0480210F1EEF778B008287A8 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		048021151EEF77A3008287A8 /* APayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APayViewController.h; sourceTree = "<group>"; };
+		048021161EEF77A3008287A8 /* APayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APayViewController.m; sourceTree = "<group>"; };
+		048021181EEF7988008287A8 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		048021191EEF7988008287A8 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
 		048DCA041ED126910037DFE0 /* JXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAMapViewController.h; sourceTree = "<group>"; };
 		048DCA051ED126910037DFE0 /* JXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAMapViewController.m; sourceTree = "<group>"; };
 		048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomCalloutView.h; sourceTree = "<group>"; };
@@ -867,6 +887,34 @@
 			path = UNNotificationServiceExtension;
 			sourceTree = "<group>";
 		};
+		048021051EEF776F008287A8 /* 19-模仿支付宝输入支付密码 */ = {
+			isa = PBXGroup;
+			children = (
+				048021061EEF778B008287A8 /* CYPasswordView */,
+				048021151EEF77A3008287A8 /* APayViewController.h */,
+				048021161EEF77A3008287A8 /* APayViewController.m */,
+				048021181EEF7988008287A8 /* MBProgressHUD+MJ.h */,
+				048021191EEF7988008287A8 /* MBProgressHUD+MJ.m */,
+			);
+			path = "19-模仿支付宝输入支付密码";
+			sourceTree = "<group>";
+		};
+		048021061EEF778B008287A8 /* CYPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				048021071EEF778B008287A8 /* CYConst.h */,
+				048021081EEF778B008287A8 /* CYConst.m */,
+				048021091EEF778B008287A8 /* CYPasswordInputView.h */,
+				0480210A1EEF778B008287A8 /* CYPasswordInputView.m */,
+				0480210B1EEF778B008287A8 /* CYPasswordView.bundle */,
+				0480210C1EEF778B008287A8 /* CYPasswordView.h */,
+				0480210D1EEF778B008287A8 /* CYPasswordView.m */,
+				0480210E1EEF778B008287A8 /* UIView+Extension.h */,
+				0480210F1EEF778B008287A8 /* UIView+Extension.m */,
+			);
+			path = CYPasswordView;
+			sourceTree = "<group>";
+		};
 		048DCA011ED1258D0037DFE0 /* Map(地图） */ = {
 			isa = PBXGroup;
 			children = (
@@ -1157,6 +1205,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				048021051EEF776F008287A8 /* 19-模仿支付宝输入支付密码 */,
 				0435A5471EEA8F8E0097689F /* 18-第三方SDK接入 */,
 				0435A5101EEA46330097689F /* 17-H5图片预览、javascript交互WkWebView */,
 				0435A5001EEA26CC0097689F /* 16-自定义UICollectionViewFlowLayout */,
@@ -1385,6 +1434,7 @@
 				0460B8FA1EDFC93A00C00DA5 /* home_email_red.png in Resources */,
 				04F2AE0D1EE55D850038C33C /* guide1.mp4 in Resources */,
 				046BFBA91EE500EF009358B5 /* image01.jpg in Resources */,
+				048021121EEF778B008287A8 /* CYPasswordView.bundle in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
 				0460B8FD1EDFC93A00C00DA5 /* home_search_icon.png in Resources */,
 				04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */,
@@ -1540,10 +1590,12 @@
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
 				0435A54E1EEA8FBA0097689F /* JXMainSDKTableViewController.m in Sources */,
+				0480211A1EEF7988008287A8 /* MBProgressHUD+MJ.m in Sources */,
 				04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */,
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
+				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
@@ -1554,17 +1606,21 @@
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
+				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
+				048021101EEF778B008287A8 /* CYConst.m in Sources */,
 				0460B8DE1EDFC6C900C00DA5 /* UIButton+Size.m in Sources */,
 				04B77FFA1EE69C7D0049B82E /* JXSwipeAbleViewMovement.m in Sources */,
 				04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */,
 				04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
+				048021171EEF77A3008287A8 /* APayViewController.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
 				04AE5E6D1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m in Sources */,
+				048021141EEF778B008287A8 /* UIView+Extension.m in Sources */,
 				04B780061EE6A3C00049B82E /* Utils.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,

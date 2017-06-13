@@ -6,6 +6,7 @@ PODS:
     - AMapFoundation (~> 1.2)
   - DOPDropDownMenu-Enhanced (1.0.0)
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - ReactiveObjC (3.0.0)
   - SDCycleScrollView (1.66):
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - AMapSearch
   - DOPDropDownMenu-Enhanced (~> 1.0.0)
   - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
   - MJRefresh (~> 3.1.12)
   - ReactiveObjC (~> 3.0.0)
   - SDCycleScrollView (~> 1.66)
@@ -39,6 +41,7 @@ SPEC CHECKSUMS:
   AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
   DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
@@ -48,6 +51,6 @@ SPEC CHECKSUMS:
   WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: de753f9131585d16e6d2c4ba3a8391244810f8da
+PODFILE CHECKSUM: cfdfcba7e6a45b7b002f9b99939da290e235be48
 
 COCOAPODS: 1.2.0.beta.1
