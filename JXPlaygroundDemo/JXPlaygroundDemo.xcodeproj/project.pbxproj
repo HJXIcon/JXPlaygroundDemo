@@ -204,6 +204,11 @@
 		04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE121EE55DA70038C33C /* NewFeatureViewController.m */; };
 		04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */; };
 		04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE181EE55DA70038C33C /* NewFeatureCell.m */; };
+		04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1591EF1355C00388A0D /* JXTransitionTableViewController.m */; };
+		04FEF15D1EF1367500388A0D /* JXPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF15C1EF1367500388A0D /* JXPushTransition.m */; };
+		04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF15F1EF13AD800388A0D /* JXTransitionViewController.m */; };
+		04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */; };
+		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -512,6 +517,16 @@
 		04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALinFlowLayout.m; sourceTree = "<group>"; };
 		04F2AE171EE55DA70038C33C /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
 		04F2AE181EE55DA70038C33C /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
+		04FEF1581EF1355C00388A0D /* JXTransitionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionTableViewController.h; sourceTree = "<group>"; };
+		04FEF1591EF1355C00388A0D /* JXTransitionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionTableViewController.m; sourceTree = "<group>"; };
+		04FEF15B1EF1367500388A0D /* JXPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPushTransition.h; sourceTree = "<group>"; };
+		04FEF15C1EF1367500388A0D /* JXPushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPushTransition.m; sourceTree = "<group>"; };
+		04FEF15E1EF13AD800388A0D /* JXTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionViewController.h; sourceTree = "<group>"; };
+		04FEF15F1EF13AD800388A0D /* JXTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionViewController.m; sourceTree = "<group>"; };
+		04FEF1611EF13B0C00388A0D /* JXTransitionViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionViewController2.h; sourceTree = "<group>"; };
+		04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionViewController2.m; sourceTree = "<group>"; };
+		04FEF1641EF13EEE00388A0D /* JXPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopTransition.h; sourceTree = "<group>"; };
+		04FEF1651EF13EEE00388A0D /* JXPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopTransition.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXPlaygroundDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1205,6 +1220,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04FEF1571EF1350F00388A0D /* 20-自定义转场 */,
 				048021051EEF776F008287A8 /* 19-模仿支付宝输入支付密码 */,
 				0435A5471EEA8F8E0097689F /* 18-第三方SDK接入 */,
 				0435A5101EEA46330097689F /* 17-H5图片预览、javascript交互WkWebView */,
@@ -1314,6 +1330,23 @@
 				04F2AE181EE55DA70038C33C /* NewFeatureCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		04FEF1571EF1350F00388A0D /* 20-自定义转场 */ = {
+			isa = PBXGroup;
+			children = (
+				04FEF1581EF1355C00388A0D /* JXTransitionTableViewController.h */,
+				04FEF1591EF1355C00388A0D /* JXTransitionTableViewController.m */,
+				04FEF15E1EF13AD800388A0D /* JXTransitionViewController.h */,
+				04FEF15F1EF13AD800388A0D /* JXTransitionViewController.m */,
+				04FEF1611EF13B0C00388A0D /* JXTransitionViewController2.h */,
+				04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */,
+				04FEF15B1EF1367500388A0D /* JXPushTransition.h */,
+				04FEF15C1EF1367500388A0D /* JXPushTransition.m */,
+				04FEF1641EF13EEE00388A0D /* JXPopTransition.h */,
+				04FEF1651EF13EEE00388A0D /* JXPopTransition.m */,
+			);
+			path = "20-自定义转场";
 			sourceTree = "<group>";
 		};
 		10A89E0621688F017225F49B /* Pods */ = {
@@ -1548,6 +1581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */,
 				0435A50C1EEA3ACD0097689F /* FlowLayoutTableViewController.m in Sources */,
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
 				04B780151EE6AF810049B82E /* JXSwipeAbleTestViewController.m in Sources */,
@@ -1579,6 +1613,7 @@
 				04B780001EE6A1800049B82E /* JXViewManager.m in Sources */,
 				0435A5411EEA8DAF0097689F /* NSDate+Date.m in Sources */,
 				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
+				04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
@@ -1589,6 +1624,8 @@
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
+				04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */,
+				04FEF15D1EF1367500388A0D /* JXPushTransition.m in Sources */,
 				0435A54E1EEA8FBA0097689F /* JXMainSDKTableViewController.m in Sources */,
 				0480211A1EEF7988008287A8 /* MBProgressHUD+MJ.m in Sources */,
 				04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */,
@@ -1618,6 +1655,7 @@
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
 				048021171EEF77A3008287A8 /* APayViewController.m in Sources */,
+				04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
 				04AE5E6D1EE7E4F0001E360C /* JXAnimatedCollectionViewLayout.m in Sources */,
 				048021141EEF778B008287A8 /* UIView+Extension.m in Sources */,
