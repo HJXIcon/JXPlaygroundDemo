@@ -4,6 +4,7 @@ PODS:
   - AMapFoundation (1.4.0)
   - AMapSearch (5.0.0):
     - AMapFoundation (~> 1.2)
+  - CYLTabBarController (1.10.0)
   - DOPDropDownMenu-Enhanced (1.0.0)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
@@ -23,6 +24,7 @@ PODS:
 DEPENDENCIES:
   - AMap3DMap
   - AMapSearch
+  - CYLTabBarController (~> 1.10.0)
   - DOPDropDownMenu-Enhanced (~> 1.0.0)
   - Masonry (~> 1.0.2)
   - MBProgressHUD (~> 1.0.0)
@@ -39,6 +41,7 @@ SPEC CHECKSUMS:
   AMap3DMap: 4d0a53d0e57c7c758560225dfdaf593b306bd468
   AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
   AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
@@ -51,6 +54,6 @@ SPEC CHECKSUMS:
   WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: cfdfcba7e6a45b7b002f9b99939da290e235be48
+PODFILE CHECKSUM: 99cdb706a5600949854ec7227f03592f38fc00d1
 
 COCOAPODS: 1.2.0.beta.1

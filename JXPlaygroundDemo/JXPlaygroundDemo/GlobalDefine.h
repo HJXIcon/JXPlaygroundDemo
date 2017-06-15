@@ -116,6 +116,10 @@
 #define kRandomColorKRGBColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1]
 //随机色生成
 
+//中文字体
+#define CHINESE_FONT_NAME  @"Heiti SC"
+#define CHINESE_SYSTEM(x) [UIFont fontWithName:CHINESE_FONT_NAME size:x]
+
 //字体
 
 #define BOLDSYSTEMFONT(FONTSIZE)[UIFont boldSystemFontOfSize:FONTSIZE]

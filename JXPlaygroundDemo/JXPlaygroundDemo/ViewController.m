@@ -29,6 +29,7 @@
 #import "JXMainSDKTableViewController.h"
 #import "APayViewController.h"
 #import "JXTransitionTableViewController.h"
+#import "MPBlankPageViewController.h"
 
 @interface ViewController ()
 
@@ -59,7 +60,8 @@
                         @"17-H5图片预览、javascript交互WkWebView",
                         @"18-第三方SDK",
                         @"19-模仿支付宝输入支付密码",
-                        @"20-自定义转场"
+                        @"20-自定义转场",
+                        @"21-空白页提示"
                         ];
     }
     return _dataSource;
@@ -223,6 +225,12 @@
         case 19:
             vc = [[JXTransitionTableViewController alloc]init];
             break;
+            
+        case 20:
+            vc = [[MPBlankPageViewController alloc]init];
+            break;
+            
+            
             
         default:
             break;

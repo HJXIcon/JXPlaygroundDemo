@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */; };
+		042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */; };
+		042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */; };
+		042E6F9C1EF28DCB0034B579 /* blankpage_image_Sleep@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F931EF28DCB0034B579 /* blankpage_image_Sleep@2x.png */; };
+		042E6F9D1EF28DCB0034B579 /* blankpage_image_Sleep@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F941EF28DCB0034B579 /* blankpage_image_Sleep@3x.png */; };
+		042E6F9E1EF28DCB0034B579 /* EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E6F961EF28DCB0034B579 /* EaseBlankPageView.m */; };
+		042E6F9F1EF28DCB0034B579 /* UIView+EaseBlankPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E6F981EF28DCB0034B579 /* UIView+EaseBlankPage.m */; };
+		042E6FA21EF28F600034B579 /* MPBlankPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E6FA11EF28F600034B579 /* MPBlankPageViewController.m */; };
+		042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E6FA41EF291C70034B579 /* MBProgressHUD+MP.m */; };
 		0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5021EEA271A0097689F /* JXCardView3DLayout.m */; };
 		0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5051EEA273C0097689F /* JXCardView3DViewController.m */; };
 		0435A5091EEA3A040097689F /* JXCardViewScaleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5081EEA3A040097689F /* JXCardViewScaleLayout.m */; };
@@ -213,6 +222,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_button_reload@2x.png"; sourceTree = "<group>"; };
+		042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@2x.png"; sourceTree = "<group>"; };
+		042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@3x.png"; sourceTree = "<group>"; };
+		042E6F931EF28DCB0034B579 /* blankpage_image_Sleep@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_Sleep@2x.png"; sourceTree = "<group>"; };
+		042E6F941EF28DCB0034B579 /* blankpage_image_Sleep@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_Sleep@3x.png"; sourceTree = "<group>"; };
+		042E6F951EF28DCB0034B579 /* EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPageView.h; sourceTree = "<group>"; };
+		042E6F961EF28DCB0034B579 /* EaseBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPageView.m; sourceTree = "<group>"; };
+		042E6F971EF28DCB0034B579 /* UIView+EaseBlankPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EaseBlankPage.h"; sourceTree = "<group>"; };
+		042E6F981EF28DCB0034B579 /* UIView+EaseBlankPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EaseBlankPage.m"; sourceTree = "<group>"; };
+		042E6FA01EF28F600034B579 /* MPBlankPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBlankPageViewController.h; sourceTree = "<group>"; };
+		042E6FA11EF28F600034B579 /* MPBlankPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBlankPageViewController.m; sourceTree = "<group>"; };
+		042E6FA31EF291C70034B579 /* MBProgressHUD+MP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MP.h"; sourceTree = "<group>"; };
+		042E6FA41EF291C70034B579 /* MBProgressHUD+MP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MP.m"; sourceTree = "<group>"; };
 		0435A5011EEA271A0097689F /* JXCardView3DLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCardView3DLayout.h; sourceTree = "<group>"; };
 		0435A5021EEA271A0097689F /* JXCardView3DLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCardView3DLayout.m; sourceTree = "<group>"; };
 		0435A5041EEA273C0097689F /* JXCardView3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCardView3DViewController.h; sourceTree = "<group>"; };
@@ -544,6 +566,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042E6F8E1EF28DB70034B579 /* 21-空白页提示 */ = {
+			isa = PBXGroup;
+			children = (
+				042E6FA01EF28F600034B579 /* MPBlankPageViewController.h */,
+				042E6FA11EF28F600034B579 /* MPBlankPageViewController.m */,
+				042E6F8F1EF28DCB0034B579 /* EaseBlankPage */,
+			);
+			path = "21-空白页提示";
+			sourceTree = "<group>";
+		};
+		042E6F8F1EF28DCB0034B579 /* EaseBlankPage */ = {
+			isa = PBXGroup;
+			children = (
+				042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */,
+				042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */,
+				042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */,
+				042E6F931EF28DCB0034B579 /* blankpage_image_Sleep@2x.png */,
+				042E6F941EF28DCB0034B579 /* blankpage_image_Sleep@3x.png */,
+				042E6F951EF28DCB0034B579 /* EaseBlankPageView.h */,
+				042E6F961EF28DCB0034B579 /* EaseBlankPageView.m */,
+				042E6F971EF28DCB0034B579 /* UIView+EaseBlankPage.h */,
+				042E6F981EF28DCB0034B579 /* UIView+EaseBlankPage.m */,
+			);
+			path = EaseBlankPage;
+			sourceTree = "<group>";
+		};
 		0435A5001EEA26CC0097689F /* 16-自定义UICollectionViewFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -708,6 +756,8 @@
 		0460B8D71EDFC6C900C00DA5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				042E6FA31EF291C70034B579 /* MBProgressHUD+MP.h */,
+				042E6FA41EF291C70034B579 /* MBProgressHUD+MP.m */,
 				0435A5351EEA8DAF0097689F /* NSDate+Date.h */,
 				0435A5361EEA8DAF0097689F /* NSDate+Date.m */,
 				0435A5371EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.h */,
@@ -1220,6 +1270,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				042E6F8E1EF28DB70034B579 /* 21-空白页提示 */,
 				04FEF1571EF1350F00388A0D /* 20-自定义转场 */,
 				048021051EEF776F008287A8 /* 19-模仿支付宝输入支付密码 */,
 				0435A5471EEA8F8E0097689F /* 18-第三方SDK接入 */,
@@ -1451,6 +1502,7 @@
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
+				042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */,
 				046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */,
 				0460B9481EDFC95200C00DA5 /* header03@2x.jpg in Resources */,
 				0460B93F1EDFC95200C00DA5 /* recomand_14.jpg in Resources */,
@@ -1484,6 +1536,7 @@
 				04B77FE71EE653A90049B82E /* checkButton@2x.png in Resources */,
 				0460B94C1EDFC95200C00DA5 /* header07@2x.jpg in Resources */,
 				0460B9681EDFC96000C00DA5 /* cycle_05.jpg in Resources */,
+				042E6F9D1EF28DCB0034B579 /* blankpage_image_Sleep@3x.png in Resources */,
 				0460B9561EDFC95200C00DA5 /* refresh06.png in Resources */,
 				0460B8FC1EDFC93A00C00DA5 /* home_like.png in Resources */,
 				046BFBAA1EE500EF009358B5 /* test1.gif in Resources */,
@@ -1509,8 +1562,10 @@
 				04B77FE61EE653A90049B82E /* checkButton.png in Resources */,
 				04B77FE01EE653A90049B82E /* menuButton.png in Resources */,
 				0460B9511EDFC95200C00DA5 /* refresh01.png in Resources */,
+				042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */,
 				04B77FE21EE653A90049B82E /* noButton.png in Resources */,
 				0460B9571EDFC95200C00DA5 /* refresh07.png in Resources */,
+				042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */,
 				04B77FE51EE653A90049B82E /* xButton.png in Resources */,
 				0460B94A1EDFC95200C00DA5 /* header05@2x.jpg in Resources */,
 				0460B93C1EDFC95200C00DA5 /* recomand_11.jpg in Resources */,
@@ -1520,6 +1575,7 @@
 				0460B94E1EDFC95200C00DA5 /* header09@2x.jpg in Resources */,
 				0460B9441EDFC95200C00DA5 /* recomand_19.jpg in Resources */,
 				0460B9061EDFC93A00C00DA5 /* tab_首页_pressed.png in Resources */,
+				042E6F9C1EF28DCB0034B579 /* blankpage_image_Sleep@2x.png in Resources */,
 				0460B9411EDFC95200C00DA5 /* recomand_16.jpg in Resources */,
 				0460B9691EDFC96000C00DA5 /* cycle_06.jpg in Resources */,
 				04F2AE0C1EE55D850038C33C /* guide0.mp4 in Resources */,
@@ -1590,6 +1646,7 @@
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
+				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
 				0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */,
 				046BFBA21EE4F4B2009358B5 /* NSDictionary+log.m in Sources */,
@@ -1637,6 +1694,7 @@
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
+				042E6F9E1EF28DCB0034B579 /* EaseBlankPageView.m in Sources */,
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
 				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
@@ -1644,6 +1702,7 @@
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
+				042E6F9F1EF28DCB0034B579 /* UIView+EaseBlankPage.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
@@ -1686,6 +1745,7 @@
 				0435A5141EEA47500097689F /* JXWkWebView.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
 				0435A52B1EEA8CF90097689F /* UIImage+Image.m in Sources */,
+				042E6FA21EF28F600034B579 /* MPBlankPageViewController.m in Sources */,
 				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,
 				0435A5091EEA3A040097689F /* JXCardViewScaleLayout.m in Sources */,
 			);

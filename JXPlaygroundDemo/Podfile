@@ -17,5 +17,7 @@ target 'JXPlaygroundDemo' do
   pod 'WechatOpenSDK' #微信
 #  pod 'AliPay', '~> 2.1.2' #支付宝
   pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'CYLTabBarController', '~> 1.10.0'#最低只需传两个数组即可完成主流App框架搭建
+  pod 'MBProgressHUD', '~> 1.0.0'
 
 end

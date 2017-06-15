@@ -23,5 +23,7 @@
 #import <SDWebImage/SDImageCache.h>
 #import "JXBanTangConst.h"
 #import "UIView+Extension.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD+MP.h"
 
 #endif /* JXPlaygroundDemo_pch */
