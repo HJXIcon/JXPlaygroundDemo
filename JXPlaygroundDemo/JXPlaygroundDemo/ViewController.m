@@ -30,6 +30,7 @@
 #import "APayViewController.h"
 #import "JXTransitionTableViewController.h"
 #import "MPBlankPageViewController.h"
+#import "MPAdaptationFontViewController.h"
 
 @interface ViewController ()
 
@@ -61,7 +62,8 @@
                         @"18-第三方SDK",
                         @"19-模仿支付宝输入支付密码",
                         @"20-自定义转场",
-                        @"21-空白页提示"
+                        @"21-空白页提示",
+                        @"22-字体适配机型"
                         ];
     }
     return _dataSource;
@@ -228,6 +230,10 @@
             
         case 20:
             vc = [[MPBlankPageViewController alloc]init];
+            break;
+            
+        case 21:
+            vc = [[MPAdaptationFontViewController alloc]init];
             break;
             
             

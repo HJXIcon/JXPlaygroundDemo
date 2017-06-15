@@ -116,9 +116,21 @@
 #define kRandomColorKRGBColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1]
 //随机色生成
 
+
+
+
+
 //中文字体
 #define CHINESE_FONT_NAME  @"Heiti SC"
 #define CHINESE_SYSTEM(x) [UIFont fontWithName:CHINESE_FONT_NAME size:x]
+
+//不同屏幕尺寸字体适配（320，568是因为效果图为IPHONE5 如果不是则根据实际情况修改）
+#define kScreenWidthRatio  ( kScreenW / 320.0)
+#define kScreenHeightRatio (kScreenH / 568.0)
+#define AdaptedWidth(x)  ceilf((x) * kScreenWidthRatio)
+#define AdaptedHeight(x) ceilf((x) * kScreenHeightRatio)
+#define AdaptedFontSize(R)     CHINESE_SYSTEM(AdaptedWidth(R))
+
 
 //字体
 
@@ -127,6 +139,8 @@
 #define SYSTEMFONT(FONTSIZE)[UIFont systemFontOfSize:FONTSIZE]
 
 #define FONT(NAME,FONTSIZE)[UIFont fontWithName:(NAME)size:(FONTSIZE)]
+
+
 
 //定义UIImage对象
 
