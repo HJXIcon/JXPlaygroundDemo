@@ -11,6 +11,9 @@
 		04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */; };
 		04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */; };
 		04226E8C1EF3787700E8302A /* MPLazyTitleViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */; };
+		04226E931EF3B3EC00E8302A /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E901EF3B3EC00E8302A /* AdvertiseHelper.m */; };
+		04226E941EF3B3EC00E8302A /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E921EF3B3EC00E8302A /* AdvertiseView.m */; };
+		04226E971EF3B40A00E8302A /* JXAdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E961EF3B40A00E8302A /* JXAdvertiseViewController.m */; };
 		042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */; };
 		042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */; };
 		042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */; };
@@ -315,6 +318,12 @@
 		04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLazyLableViewCustomView.m; sourceTree = "<group>"; };
 		04226E881EF3787700E8302A /* MPLazyTitleViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyTitleViewCustomView.h; sourceTree = "<group>"; };
 		04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLazyTitleViewCustomView.m; sourceTree = "<group>"; };
+		04226E8F1EF3B3EC00E8302A /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
+		04226E901EF3B3EC00E8302A /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
+		04226E911EF3B3EC00E8302A /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		04226E921EF3B3EC00E8302A /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		04226E951EF3B40A00E8302A /* JXAdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAdvertiseViewController.h; sourceTree = "<group>"; };
+		04226E961EF3B40A00E8302A /* JXAdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdvertiseViewController.m; sourceTree = "<group>"; };
 		042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_button_reload@2x.png"; sourceTree = "<group>"; };
 		042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@2x.png"; sourceTree = "<group>"; };
 		042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@3x.png"; sourceTree = "<group>"; };
@@ -841,6 +850,27 @@
 				04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */,
 			);
 			path = LazyView;
+			sourceTree = "<group>";
+		};
+		04226E8D1EF3B3DB00E8302A /* 24-启动广告 */ = {
+			isa = PBXGroup;
+			children = (
+				04226E8E1EF3B3EC00E8302A /* AdvertiseHelper */,
+				04226E951EF3B40A00E8302A /* JXAdvertiseViewController.h */,
+				04226E961EF3B40A00E8302A /* JXAdvertiseViewController.m */,
+			);
+			path = "24-启动广告";
+			sourceTree = "<group>";
+		};
+		04226E8E1EF3B3EC00E8302A /* AdvertiseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				04226E8F1EF3B3EC00E8302A /* AdvertiseHelper.h */,
+				04226E901EF3B3EC00E8302A /* AdvertiseHelper.m */,
+				04226E911EF3B3EC00E8302A /* AdvertiseView.h */,
+				04226E921EF3B3EC00E8302A /* AdvertiseView.m */,
+			);
+			path = AdvertiseHelper;
 			sourceTree = "<group>";
 		};
 		042E6F8E1EF28DB70034B579 /* 21-空白页提示 */ = {
@@ -1907,6 +1937,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04226E8D1EF3B3DB00E8302A /* 24-启动广告 */,
 				04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */,
 				042E6FA61EF294510034B579 /* 22-字体适配机型 */,
 				042E6F8E1EF28DB70034B579 /* 21-空白页提示 */,
@@ -2371,6 +2402,7 @@
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
+				04226E941EF3B3EC00E8302A /* AdvertiseView.m in Sources */,
 				042E70DA1EF295C90034B579 /* NSString+RemoveEmoji.m in Sources */,
 				042E70CA1EF295C90034B579 /* NSObject+MKBlockTimer.m in Sources */,
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
@@ -2444,6 +2476,7 @@
 				0435A50F1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m in Sources */,
 				0460B8D51EDFC60300C00DA5 /* JXBanTangViewController.m in Sources */,
 				042E70C51EF295C90034B579 /* NSObject+AutoCoding.m in Sources */,
+				04226E931EF3B3EC00E8302A /* AdvertiseHelper.m in Sources */,
 				04AE5E721EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m in Sources */,
 				042E70DF1EF295C90034B579 /* NSString+UrlEncode.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
@@ -2457,6 +2490,7 @@
 				042E70DD1EF295C90034B579 /* NSString+Size.m in Sources */,
 				0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */,
 				042E70A61EF295C80034B579 /* NSDate+CupertinoYankee.m in Sources */,
+				04226E971EF3B40A00E8302A /* JXAdvertiseViewController.m in Sources */,
 				042E70D81EF295C90034B579 /* NSString+Pinyin.m in Sources */,
 				0435A5461EEA8DAF0097689F /* UITextFiled+Shake.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,

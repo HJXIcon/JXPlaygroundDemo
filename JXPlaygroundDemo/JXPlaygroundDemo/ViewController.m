@@ -32,6 +32,7 @@
 #import "MPBlankPageViewController.h"
 #import "MPAdaptationFontViewController.h"
 #import "JXLazyScrollViewController.h"
+#import "JXAdvertiseViewController.h"
 
 @interface ViewController ()
 
@@ -65,7 +66,8 @@
                         @"20-自定义转场",
                         @"21-空白页提示",
                         @"22-字体适配机型",
-                        @"23-可复用滚动子视图"
+                        @"23-可复用滚动子视图",
+                        @"24-启动广告"
                         ];
     }
     return _dataSource;
@@ -242,7 +244,10 @@
             vc = [[JXLazyScrollViewController alloc]init];
             break;
             
-
+        case 23:
+            vc = [[JXAdvertiseViewController alloc]init];
+            break;
+            
             
         default:
             break;
