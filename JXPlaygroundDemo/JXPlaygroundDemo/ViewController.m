@@ -31,6 +31,7 @@
 #import "JXTransitionTableViewController.h"
 #import "MPBlankPageViewController.h"
 #import "MPAdaptationFontViewController.h"
+#import "JXLazyScrollViewController.h"
 
 @interface ViewController ()
 
@@ -63,7 +64,8 @@
                         @"19-模仿支付宝输入支付密码",
                         @"20-自定义转场",
                         @"21-空白页提示",
-                        @"22-字体适配机型"
+                        @"22-字体适配机型",
+                        @"23-可复用滚动子视图"
                         ];
     }
     return _dataSource;
@@ -236,7 +238,11 @@
             vc = [[MPAdaptationFontViewController alloc]init];
             break;
             
+        case 22:
+            vc = [[JXLazyScrollViewController alloc]init];
+            break;
             
+
             
         default:
             break;

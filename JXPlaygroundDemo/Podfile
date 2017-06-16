@@ -19,5 +19,7 @@ target 'JXPlaygroundDemo' do
   pod 'MBProgressHUD', '~> 1.0.0'
   pod 'CYLTabBarController', '~> 1.10.0'#最低只需传两个数组即可完成主流App框架搭建
   pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'LBXScan', '~> 2.2' #iOS 二维码、条形码
+  pod 'LazyScroll' #iOS高性能异构滚动视图构建方案
 
 end

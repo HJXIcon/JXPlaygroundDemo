@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E811EF370F100E8302A /* JXLazyScrollViewController.m */; };
+		04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */; };
+		04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */; };
+		04226E8C1EF3787700E8302A /* MPLazyTitleViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */; };
 		042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */; };
 		042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */; };
 		042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */; };
@@ -303,6 +307,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04226E801EF370F100E8302A /* JXLazyScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLazyScrollViewController.h; sourceTree = "<group>"; };
+		04226E811EF370F100E8302A /* JXLazyScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLazyScrollViewController.m; sourceTree = "<group>"; };
+		04226E841EF3787700E8302A /* MPLazyImageViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyImageViewCustomView.h; sourceTree = "<group>"; };
+		04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLazyImageViewCustomView.m; sourceTree = "<group>"; };
+		04226E861EF3787700E8302A /* MPLazyLableViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyLableViewCustomView.h; sourceTree = "<group>"; };
+		04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLazyLableViewCustomView.m; sourceTree = "<group>"; };
+		04226E881EF3787700E8302A /* MPLazyTitleViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyTitleViewCustomView.h; sourceTree = "<group>"; };
+		04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPLazyTitleViewCustomView.m; sourceTree = "<group>"; };
 		042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_button_reload@2x.png"; sourceTree = "<group>"; };
 		042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@2x.png"; sourceTree = "<group>"; };
 		042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@3x.png"; sourceTree = "<group>"; };
@@ -808,6 +820,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */ = {
+			isa = PBXGroup;
+			children = (
+				04226E831EF3787700E8302A /* LazyView */,
+				04226E801EF370F100E8302A /* JXLazyScrollViewController.h */,
+				04226E811EF370F100E8302A /* JXLazyScrollViewController.m */,
+			);
+			path = "23-可复用滚动子视图";
+			sourceTree = "<group>";
+		};
+		04226E831EF3787700E8302A /* LazyView */ = {
+			isa = PBXGroup;
+			children = (
+				04226E841EF3787700E8302A /* MPLazyImageViewCustomView.h */,
+				04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */,
+				04226E861EF3787700E8302A /* MPLazyLableViewCustomView.h */,
+				04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */,
+				04226E881EF3787700E8302A /* MPLazyTitleViewCustomView.h */,
+				04226E891EF3787700E8302A /* MPLazyTitleViewCustomView.m */,
+			);
+			path = LazyView;
+			sourceTree = "<group>";
+		};
 		042E6F8E1EF28DB70034B579 /* 21-空白页提示 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1872,6 +1907,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */,
 				042E6FA61EF294510034B579 /* 22-字体适配机型 */,
 				042E6F8E1EF28DB70034B579 /* 21-空白页提示 */,
 				04FEF1571EF1350F00388A0D /* 20-自定义转场 */,
@@ -2216,7 +2252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E12616A9D8BD9AF05C87BED9 /* [CP] Copy Pods Resources */ = {
@@ -2274,6 +2310,7 @@
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
 				04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */,
 				042E70B31EF295C80034B579 /* NSDictionary+URL.m in Sources */,
+				04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */,
 				042E70B71EF295C90034B579 /* NSFileManager+Paths.m in Sources */,
 				042E70CD1EF295C90034B579 /* NSRunLoop+PerformBlock.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
@@ -2286,6 +2323,7 @@
 				042E70CC1EF295C90034B579 /* NSObject+Runtime.m in Sources */,
 				042E70D01EF295C90034B579 /* NSString+Base64.m in Sources */,
 				042E70E91EF295C90034B579 /* NSUserDefaults+iCloudSync.m in Sources */,
+				04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */,
 				042E70A91EF295C80034B579 /* NSDate+InternetDateTime.m in Sources */,
 				0435A5431EEA8DAF0097689F /* NSString+time.m in Sources */,
 				048DCA101ED134A10037DFE0 /* JXCustomAnnotationViewController.m in Sources */,
@@ -2295,6 +2333,7 @@
 				04B780001EE6A1800049B82E /* JXViewManager.m in Sources */,
 				0435A5411EEA8DAF0097689F /* NSDate+Date.m in Sources */,
 				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
+				04226E8C1EF3787700E8302A /* MPLazyTitleViewCustomView.m in Sources */,
 				04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */,
 				042E70C61EF295C90034B579 /* NSObject+Blocks.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
@@ -2344,6 +2383,7 @@
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
 				042E70E41EF295C90034B579 /* NSURL+Param.m in Sources */,
+				04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */,
 				042E70B01EF295C80034B579 /* NSDictionary+JSONString.m in Sources */,
 				042E6F9E1EF28DCB0034B579 /* EaseBlankPageView.m in Sources */,
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,

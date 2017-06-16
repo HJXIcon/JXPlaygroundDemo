@@ -76,7 +76,7 @@
         _tipLabel.text = @"貌似出了点差错";
         
         if (blankPageType==EaseBlankPageTypeMaterialScheduling) {
-            _reloadButton.hidden=YES;
+            _reloadButton.hidden = YES;
         }
         
     }else{
