@@ -18,6 +18,12 @@
 		04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E9E1EF3D3AA00E8302A /* GCDQueue.m */; };
 		04226EA51EF3D3AA00E8302A /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA01EF3D3AA00E8302A /* GCDSemaphore.m */; };
 		04226EA61EF3D3AA00E8302A /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA21EF3D3AA00E8302A /* GCDTimer.m */; };
+		04226EAA1EF3D9A900E8302A /* MPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA91EF3D9A900E8302A /* MPFileManager.m */; };
+		04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EAD1EF3D9FE00E8302A /* introductoryPagesHelper.m */; };
+		04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EAF1EF3D9FE00E8302A /* introductoryPagesView.m */; };
+		04226EB91EF3DE2400E8302A /* FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EB41EF3DE2400E8302A /* FCUUID.m */; };
+		04226EBA1EF3DE2400E8302A /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EB61EF3DE2400E8302A /* UICKeyChainStore.m */; };
+		04226EBB1EF3DE2400E8302A /* UIDevice+FCUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EB81EF3DE2400E8302A /* UIDevice+FCUUID.m */; };
 		042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */; };
 		042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */; };
 		042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */; };
@@ -337,6 +343,18 @@
 		04226EA01EF3D3AA00E8302A /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
 		04226EA11EF3D3AA00E8302A /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		04226EA21EF3D3AA00E8302A /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		04226EA81EF3D9A900E8302A /* MPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFileManager.h; sourceTree = "<group>"; };
+		04226EA91EF3D9A900E8302A /* MPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFileManager.m; sourceTree = "<group>"; };
+		04226EAC1EF3D9FE00E8302A /* introductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introductoryPagesHelper.h; sourceTree = "<group>"; };
+		04226EAD1EF3D9FE00E8302A /* introductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introductoryPagesHelper.m; sourceTree = "<group>"; };
+		04226EAE1EF3D9FE00E8302A /* introductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introductoryPagesView.h; sourceTree = "<group>"; };
+		04226EAF1EF3D9FE00E8302A /* introductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introductoryPagesView.m; sourceTree = "<group>"; };
+		04226EB31EF3DE2400E8302A /* FCUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCUUID.h; sourceTree = "<group>"; };
+		04226EB41EF3DE2400E8302A /* FCUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCUUID.m; sourceTree = "<group>"; };
+		04226EB51EF3DE2400E8302A /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		04226EB61EF3DE2400E8302A /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		04226EB71EF3DE2400E8302A /* UIDevice+FCUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FCUUID.h"; sourceTree = "<group>"; };
+		04226EB81EF3DE2400E8302A /* UIDevice+FCUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FCUUID.m"; sourceTree = "<group>"; };
 		042E6F901EF28DCB0034B579 /* blankpage_button_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_button_reload@2x.png"; sourceTree = "<group>"; };
 		042E6F911EF28DCB0034B579 /* blankpage_image_loadFail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@2x.png"; sourceTree = "<group>"; };
 		042E6F921EF28DCB0034B579 /* blankpage_image_loadFail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blankpage_image_loadFail@3x.png"; sourceTree = "<group>"; };
@@ -889,12 +907,15 @@
 		04226E981EF3D39C00E8302A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				04226E991EF3D3AA00E8302A /* GCDHelper */,
+				04226EB21EF3DE2400E8302A /* FCUUID(获取设备标识) */,
+				04226EAB1EF3D9FE00E8302A /* IntroductoryPages(引导页) */,
+				04226EA71EF3D9A900E8302A /* FileManager(文件管理) */,
+				04226E991EF3D3AA00E8302A /* GCDHelper(GCD助手) */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		04226E991EF3D3AA00E8302A /* GCDHelper */ = {
+		04226E991EF3D3AA00E8302A /* GCDHelper(GCD助手) */ = {
 			isa = PBXGroup;
 			children = (
 				04226E9A1EF3D3AA00E8302A /* GCD.h */,
@@ -907,7 +928,44 @@
 				04226EA11EF3D3AA00E8302A /* GCDTimer.h */,
 				04226EA21EF3D3AA00E8302A /* GCDTimer.m */,
 			);
+			name = "GCDHelper(GCD助手)";
 			path = GCDHelper;
+			sourceTree = "<group>";
+		};
+		04226EA71EF3D9A900E8302A /* FileManager(文件管理) */ = {
+			isa = PBXGroup;
+			children = (
+				04226EA81EF3D9A900E8302A /* MPFileManager.h */,
+				04226EA91EF3D9A900E8302A /* MPFileManager.m */,
+			);
+			name = "FileManager(文件管理)";
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		04226EAB1EF3D9FE00E8302A /* IntroductoryPages(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				04226EAC1EF3D9FE00E8302A /* introductoryPagesHelper.h */,
+				04226EAD1EF3D9FE00E8302A /* introductoryPagesHelper.m */,
+				04226EAE1EF3D9FE00E8302A /* introductoryPagesView.h */,
+				04226EAF1EF3D9FE00E8302A /* introductoryPagesView.m */,
+			);
+			name = "IntroductoryPages(引导页)";
+			path = IntroductoryPages;
+			sourceTree = "<group>";
+		};
+		04226EB21EF3DE2400E8302A /* FCUUID(获取设备标识) */ = {
+			isa = PBXGroup;
+			children = (
+				04226EB31EF3DE2400E8302A /* FCUUID.h */,
+				04226EB41EF3DE2400E8302A /* FCUUID.m */,
+				04226EB51EF3DE2400E8302A /* UICKeyChainStore.h */,
+				04226EB61EF3DE2400E8302A /* UICKeyChainStore.m */,
+				04226EB71EF3DE2400E8302A /* UIDevice+FCUUID.h */,
+				04226EB81EF3DE2400E8302A /* UIDevice+FCUUID.m */,
+			);
+			name = "FCUUID(获取设备标识)";
+			path = FCUUID;
 			sourceTree = "<group>";
 		};
 		042E6F8E1EF28DB70034B579 /* 21-空白页提示 */ = {
@@ -2375,6 +2433,7 @@
 				042E70D51EF295C90034B579 /* NSString+Hash.m in Sources */,
 				0435A5511EEA92F30097689F /* AppDelegate+Service.m in Sources */,
 				04B77FF11EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m in Sources */,
+				04226EAA1EF3D9A900E8302A /* MPFileManager.m in Sources */,
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				042E70D91EF295C90034B579 /* NSString+RegexCategory.m in Sources */,
@@ -2452,9 +2511,11 @@
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
+				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
 				04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
+				04226EB91EF3DE2400E8302A /* FCUUID.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
 				042E70E41EF295C90034B579 /* NSURL+Param.m in Sources */,
 				04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */,
@@ -2476,6 +2537,7 @@
 				042E70BD1EF295C90034B579 /* NSDecimalNumber+CalculatingByString.m in Sources */,
 				042E70C21EF295C90034B579 /* NSObject+AddProperty.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
+				04226EBB1EF3DE2400E8302A /* UIDevice+FCUUID.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				042E709C1EF295C80034B579 /* NSArray+Block.m in Sources */,
@@ -2486,6 +2548,7 @@
 				042E70D31EF295C90034B579 /* NSString+Emoji.m in Sources */,
 				042E70BC1EF295C90034B579 /* NSNotificationCenter+MainThread.m in Sources */,
 				042E70C71EF295C90034B579 /* NSObject+EasyCopy.m in Sources */,
+				04226EBA1EF3DE2400E8302A /* UICKeyChainStore.m in Sources */,
 				04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */,
 				04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
@@ -2539,6 +2602,7 @@
 				04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */,
 				0435A5311EEA8D220097689F /* UITextField+Extension.m in Sources */,
 				042E70E21EF295C90034B579 /* NSTimer+Addition.m in Sources */,
+				04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
 				0435A5141EEA47500097689F /* JXWkWebView.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,

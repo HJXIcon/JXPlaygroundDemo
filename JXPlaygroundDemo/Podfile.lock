@@ -6,6 +6,7 @@ PODS:
     - AMapFoundation (~> 1.2)
   - CYLTabBarController (1.10.0)
   - DOPDropDownMenu-Enhanced (1.0.0)
+  - JDStatusBarNotification (1.5.5)
   - LazyScroll (0.0.2)
   - LBXScan (2.2):
     - LBXScan/All (= 2.2)
@@ -34,6 +35,7 @@ DEPENDENCIES:
   - AMapSearch
   - CYLTabBarController (~> 1.10.0)
   - DOPDropDownMenu-Enhanced (~> 1.0.0)
+  - JDStatusBarNotification (~> 1.5.5)
   - LazyScroll
   - LBXScan (~> 2.2)
   - Masonry (~> 1.0.2)
@@ -53,6 +55,7 @@ SPEC CHECKSUMS:
   AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
+  JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
   LazyScroll: 614022689b8e3b93c7bbe268c1a47b76e4265941
   LBXScan: 31b69c9657404133324e6b68ef814802ef9cacc0
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -67,6 +70,6 @@ SPEC CHECKSUMS:
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: f4a4fd6ef4a2c6dd6862e9db11a5fd326c0395c1
+PODFILE CHECKSUM: 6bf1db6cde534b2b95a112688390a788efe82bce
 
 COCOAPODS: 1.2.1

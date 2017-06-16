@@ -21,5 +21,7 @@ target 'JXPlaygroundDemo' do
   pod 'MBProgressHUD', '~> 1.0.0'
   pod 'LBXScan', '~> 2.2' #iOS 二维码、条形码
   pod 'LazyScroll' #iOS高性能异构滚动视图构建方案
+  #pod 'M13ProgressSuite', '~> 1.2.9' #一个套件包含许多工具来显示iOS上的进度信息
+  pod 'JDStatusBarNotification', '~> 1.5.5' #可定制的通知显示在状态栏的顶部
 
 end
