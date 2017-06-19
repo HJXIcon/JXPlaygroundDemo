@@ -93,30 +93,6 @@
 
 
 
-#pragma mark - UISCrollviewDelegate
-
--(void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    if (scrollView != self.tableView) {
-        return;
-    }
-    
-    CGFloat tabOffsetY = [self.tableView rectForSection:2].origin.y - 64;
-    CGFloat offsetY = scrollView.contentOffset.y;
-    NSLog(@"offsetY ----- %f",offsetY);
-    NSLog(@"tabOffsetY ----- %f",tabOffsetY);
-    
-    if (offsetY >= tabOffsetY) {
-      
-        
-    }else{
-        
-    }
-    
-   
-    
-}
-
-
 
 #pragma mark - DOPDropDownMenuDataSource
 
