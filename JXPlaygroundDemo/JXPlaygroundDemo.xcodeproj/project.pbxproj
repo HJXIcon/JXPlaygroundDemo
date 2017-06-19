@@ -140,6 +140,7 @@
 		0435A5551EEA9DA70097689F /* 设置appid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0435A5531EEA9DA70097689F /* 设置appid.jpg */; };
 		0435A5561EEA9DA70097689F /* WXReadme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0435A5541EEA9DA70097689F /* WXReadme.md */; };
 		0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435A5581EEAA1680097689F /* WXPayViewController.m */; };
+		0435FE111EF7C2A400086FF9 /* JXMenuHoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435FE101EF7C2A400086FF9 /* JXMenuHoverTableViewController.m */; };
 		043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E83091EE50B9800854151 /* JXNotificationViewController.m */; };
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
@@ -579,6 +580,8 @@
 		0435A5541EEA9DA70097689F /* WXReadme.md */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = net.daringfireball.markdown; path = WXReadme.md; sourceTree = "<group>"; };
 		0435A5571EEAA1680097689F /* WXPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPayViewController.h; sourceTree = "<group>"; };
 		0435A5581EEAA1680097689F /* WXPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPayViewController.m; sourceTree = "<group>"; };
+		0435FE0F1EF7C2A400086FF9 /* JXMenuHoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMenuHoverTableViewController.h; sourceTree = "<group>"; };
+		0435FE101EF7C2A400086FF9 /* JXMenuHoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMenuHoverTableViewController.m; sourceTree = "<group>"; };
 		043E83081EE50B9800854151 /* JXNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNotificationViewController.h; sourceTree = "<group>"; };
 		043E83091EE50B9800854151 /* JXNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNotificationViewController.m; sourceTree = "<group>"; };
 		0444339D1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBanTangRefreshHeader.h; sourceTree = "<group>"; };
@@ -1459,6 +1462,15 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		0435FE0E1EF7C25400086FF9 /* 25-下拉菜单悬浮 */ = {
+			isa = PBXGroup;
+			children = (
+				0435FE0F1EF7C2A400086FF9 /* JXMenuHoverTableViewController.h */,
+				0435FE101EF7C2A400086FF9 /* JXMenuHoverTableViewController.m */,
+			);
+			path = "25-下拉菜单悬浮";
+			sourceTree = "<group>";
+		};
 		0460526C1ECFCC4300745224 /* ReactiveCocoa练习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2033,6 +2045,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0435FE0E1EF7C25400086FF9 /* 25-下拉菜单悬浮 */,
 				04226E8D1EF3B3DB00E8302A /* 24-启动广告 */,
 				04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */,
 				042E6FA61EF294510034B579 /* 22-字体适配机型 */,
@@ -2477,6 +2490,7 @@
 				042E70E31EF295C90034B579 /* NSTimer+Blocks.m in Sources */,
 				042E70C91EF295C90034B579 /* NSObject+KVOBlocks.m in Sources */,
 				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
+				0435FE111EF7C2A400086FF9 /* JXMenuHoverTableViewController.m in Sources */,
 				042E70E51EF295C90034B579 /* NSURL+QueryDictionary.m in Sources */,
 				042E70B61EF295C90034B579 /* NSFileHandle+readLine.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,

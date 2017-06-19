@@ -24,4 +24,5 @@ target 'JXPlaygroundDemo' do
   #pod 'M13ProgressSuite', '~> 1.2.9' #一个套件包含许多工具来显示iOS上的进度信息
   pod 'JDStatusBarNotification', '~> 1.5.5' #可定制的通知显示在状态栏的顶部
   pod 'TLYShyNavBar', '~> 1.1.1' #导航条
+  
 end

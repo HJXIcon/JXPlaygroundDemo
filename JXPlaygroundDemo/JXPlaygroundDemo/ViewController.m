@@ -33,6 +33,7 @@
 #import "MPAdaptationFontViewController.h"
 #import "JXLazyScrollViewController.h"
 #import "JXAdvertiseViewController.h"
+#import "JXMenuHoverTableViewController.h"
 
 @interface ViewController ()
 
@@ -67,7 +68,8 @@
                         @"21-空白页提示",
                         @"22-字体适配机型",
                         @"23-可复用滚动子视图",
-                        @"24-启动广告"
+                        @"24-启动广告",
+                        @"25-下拉菜单悬浮"
                         ];
     }
     return _dataSource;
@@ -248,7 +250,10 @@
             vc = [[JXAdvertiseViewController alloc]init];
             break;
             
-            
+        case 24:
+            vc = [[JXMenuHoverTableViewController alloc]init];
+            break;
+    
         default:
             break;
     }
