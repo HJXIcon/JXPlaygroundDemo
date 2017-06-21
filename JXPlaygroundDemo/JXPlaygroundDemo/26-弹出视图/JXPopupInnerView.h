@@ -13,10 +13,13 @@ typedef void(^JXPopupInnerViewSelectBlock)(NSString *, NSInteger);
 
 
 @property (nonatomic, weak)UIViewController *parentVC;
-/*! 选中index */
-@property(nonatomic, assign) NSInteger selIndex;
+/*! 设置初始选中index */
+@property(nonatomic, assign) NSInteger selIndex;// 默认0
 
 @property(nonatomic, copy) JXPopupInnerViewSelectBlock selectCompletion;
+
+/// 内容
+@property(nonatomic, strong) NSArray <NSString *>*contents;
 
 + (instancetype)defaultPopupView;
 

@@ -31,6 +31,14 @@
     view.parentVC = self;
     view.selIndex = 3;
     
+    view.contents = @[
+                      @"拍多",
+                      @"拍错拍错拍错",
+                      @"质量不好",
+                      @"商品不符合",
+                      @"描述不一样"
+                      ];
+    
     [view setSelectCompletion:^(NSString *content, NSInteger index){
         
         NSLog(@"content == %@ index == %ld",content,index);

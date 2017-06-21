@@ -117,7 +117,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 5;
+    return self.contents.count == 0 ? 1 : self.contents.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -126,6 +126,10 @@
     
     if (indexPath.row == self.selIndex) {
         cell.selectBtn.selected = YES;
+    }
+    
+    if (self.contents.count) {
+        cell.contentLabel.text = self.contents[indexPath.row];
     }
     
     return cell;
