@@ -234,6 +234,14 @@
 		048021141EEF778B008287A8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480210F1EEF778B008287A8 /* UIView+Extension.m */; };
 		048021171EEF77A3008287A8 /* APayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048021161EEF77A3008287A8 /* APayViewController.m */; };
 		0480211A1EEF7988008287A8 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 048021191EEF7988008287A8 /* MBProgressHUD+MJ.m */; };
+		048652A51EFA134A004B6136 /* JXPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652A41EFA134A004B6136 /* JXPopupViewController.m */; };
+		048652A91EFA13DA004B6136 /* JXPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652A81EFA13DA004B6136 /* JXPopupBackgroundView.m */; };
+		048652AC1EFA1465004B6136 /* UIViewController+JXPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652AB1EFA1465004B6136 /* UIViewController+JXPopupViewController.m */; };
+		048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652AE1EFA170F004B6136 /* JXPopupViewAnimationDrop.m */; };
+		048652B21EFA1766004B6136 /* JXPopupViewAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652B11EFA1766004B6136 /* JXPopupViewAnimationFade.m */; };
+		048652B51EFA1790004B6136 /* JXPopupViewAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652B41EFA1790004B6136 /* JXPopupViewAnimationSlide.m */; };
+		048652B81EFA1807004B6136 /* JXPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652B71EFA1807004B6136 /* JXPopupViewAnimationSpring.m */; };
+		048652BB1EFA1933004B6136 /* JXPopupInnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652BA1EFA1933004B6136 /* JXPopupInnerView.m */; };
 		048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA051ED126910037DFE0 /* JXAMapViewController.m */; };
 		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
@@ -699,6 +707,23 @@
 		048021161EEF77A3008287A8 /* APayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APayViewController.m; sourceTree = "<group>"; };
 		048021181EEF7988008287A8 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
 		048021191EEF7988008287A8 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		048652A31EFA134A004B6136 /* JXPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupViewController.h; sourceTree = "<group>"; };
+		048652A41EFA134A004B6136 /* JXPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewController.m; sourceTree = "<group>"; };
+		048652A61EFA13AD004B6136 /* JXPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXPopupView.h; sourceTree = "<group>"; };
+		048652A71EFA13DA004B6136 /* JXPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupBackgroundView.h; sourceTree = "<group>"; };
+		048652A81EFA13DA004B6136 /* JXPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupBackgroundView.m; sourceTree = "<group>"; };
+		048652AA1EFA1465004B6136 /* UIViewController+JXPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JXPopupViewController.h"; sourceTree = "<group>"; };
+		048652AB1EFA1465004B6136 /* UIViewController+JXPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JXPopupViewController.m"; sourceTree = "<group>"; };
+		048652AD1EFA170F004B6136 /* JXPopupViewAnimationDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupViewAnimationDrop.h; sourceTree = "<group>"; };
+		048652AE1EFA170F004B6136 /* JXPopupViewAnimationDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewAnimationDrop.m; sourceTree = "<group>"; };
+		048652B01EFA1766004B6136 /* JXPopupViewAnimationFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupViewAnimationFade.h; sourceTree = "<group>"; };
+		048652B11EFA1766004B6136 /* JXPopupViewAnimationFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewAnimationFade.m; sourceTree = "<group>"; };
+		048652B31EFA1790004B6136 /* JXPopupViewAnimationSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupViewAnimationSlide.h; sourceTree = "<group>"; };
+		048652B41EFA1790004B6136 /* JXPopupViewAnimationSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewAnimationSlide.m; sourceTree = "<group>"; };
+		048652B61EFA1807004B6136 /* JXPopupViewAnimationSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupViewAnimationSpring.h; sourceTree = "<group>"; };
+		048652B71EFA1807004B6136 /* JXPopupViewAnimationSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewAnimationSpring.m; sourceTree = "<group>"; };
+		048652B91EFA1933004B6136 /* JXPopupInnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupInnerView.h; sourceTree = "<group>"; };
+		048652BA1EFA1933004B6136 /* JXPopupInnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupInnerView.m; sourceTree = "<group>"; };
 		048DCA041ED126910037DFE0 /* JXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAMapViewController.h; sourceTree = "<group>"; };
 		048DCA051ED126910037DFE0 /* JXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAMapViewController.m; sourceTree = "<group>"; };
 		048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomCalloutView.h; sourceTree = "<group>"; };
@@ -1755,6 +1780,38 @@
 			path = CYPasswordView;
 			sourceTree = "<group>";
 		};
+		048652A11EFA12E8004B6136 /* 26-弹出视图 */ = {
+			isa = PBXGroup;
+			children = (
+				048652A21EFA1334004B6136 /* JXPopupView */,
+				048652A31EFA134A004B6136 /* JXPopupViewController.h */,
+				048652A41EFA134A004B6136 /* JXPopupViewController.m */,
+				048652B91EFA1933004B6136 /* JXPopupInnerView.h */,
+				048652BA1EFA1933004B6136 /* JXPopupInnerView.m */,
+			);
+			path = "26-弹出视图";
+			sourceTree = "<group>";
+		};
+		048652A21EFA1334004B6136 /* JXPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				048652A61EFA13AD004B6136 /* JXPopupView.h */,
+				048652A71EFA13DA004B6136 /* JXPopupBackgroundView.h */,
+				048652A81EFA13DA004B6136 /* JXPopupBackgroundView.m */,
+				048652AA1EFA1465004B6136 /* UIViewController+JXPopupViewController.h */,
+				048652AB1EFA1465004B6136 /* UIViewController+JXPopupViewController.m */,
+				048652AD1EFA170F004B6136 /* JXPopupViewAnimationDrop.h */,
+				048652AE1EFA170F004B6136 /* JXPopupViewAnimationDrop.m */,
+				048652B01EFA1766004B6136 /* JXPopupViewAnimationFade.h */,
+				048652B11EFA1766004B6136 /* JXPopupViewAnimationFade.m */,
+				048652B31EFA1790004B6136 /* JXPopupViewAnimationSlide.h */,
+				048652B41EFA1790004B6136 /* JXPopupViewAnimationSlide.m */,
+				048652B61EFA1807004B6136 /* JXPopupViewAnimationSpring.h */,
+				048652B71EFA1807004B6136 /* JXPopupViewAnimationSpring.m */,
+			);
+			path = JXPopupView;
+			sourceTree = "<group>";
+		};
 		048DCA011ED1258D0037DFE0 /* Map(地图） */ = {
 			isa = PBXGroup;
 			children = (
@@ -2045,6 +2102,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				048652A11EFA12E8004B6136 /* 26-弹出视图 */,
 				0435FE0E1EF7C25400086FF9 /* 25-下拉菜单悬浮 */,
 				04226E8D1EF3B3DB00E8302A /* 24-启动广告 */,
 				04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */,
@@ -2417,6 +2475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048652A91EFA13DA004B6136 /* JXPopupBackgroundView.m in Sources */,
 				04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */,
 				04226EA31EF3D3AA00E8302A /* GCDGroup.m in Sources */,
 				04226EA51EF3D3AA00E8302A /* GCDSemaphore.m in Sources */,
@@ -2459,6 +2518,7 @@
 				042E70CD1EF295C90034B579 /* NSRunLoop+PerformBlock.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
 				04B780101EE6AD330049B82E /* DefaultDirectionInterpretor.m in Sources */,
+				048652B81EFA1807004B6136 /* JXPopupViewAnimationSpring.m in Sources */,
 				04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */,
 				042E70BB1EF295C90034B579 /* NSInvocation+Block.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
@@ -2478,6 +2538,7 @@
 				0435A5411EEA8DAF0097689F /* NSDate+Date.m in Sources */,
 				04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */,
 				04226E8C1EF3787700E8302A /* MPLazyTitleViewCustomView.m in Sources */,
+				048652B21EFA1766004B6136 /* JXPopupViewAnimationFade.m in Sources */,
 				04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */,
 				042E70C61EF295C90034B579 /* NSObject+Blocks.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
@@ -2520,6 +2581,7 @@
 				042E70DA1EF295C90034B579 /* NSString+RemoveEmoji.m in Sources */,
 				042E70CA1EF295C90034B579 /* NSObject+MKBlockTimer.m in Sources */,
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
+				048652AC1EFA1465004B6136 /* UIViewController+JXPopupViewController.m in Sources */,
 				042E709E1EF295C80034B579 /* NSBundle+AppIcon.m in Sources */,
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
@@ -2542,8 +2604,10 @@
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
+				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
 				042E70CB1EF295C90034B579 /* NSObject+Reflection.m in Sources */,
+				048652A51EFA134A004B6136 /* JXPopupViewController.m in Sources */,
 				042E6F9F1EF28DCB0034B579 /* UIView+EaseBlankPage.m in Sources */,
 				042E70AF1EF295C80034B579 /* NSDictionary+Block.m in Sources */,
 				042E70C41EF295C90034B579 /* NSObject+AssociatedObject.m in Sources */,
@@ -2553,6 +2617,7 @@
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04226EBB1EF3DE2400E8302A /* UIDevice+FCUUID.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
+				048652BB1EFA1933004B6136 /* JXPopupInnerView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				042E709C1EF295C80034B579 /* NSArray+Block.m in Sources */,
 				048021101EEF778B008287A8 /* CYConst.m in Sources */,
@@ -2622,6 +2687,7 @@
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
 				042E70E71EF295C90034B579 /* NSMutableURLRequest+Upload.m in Sources */,
 				0435A52B1EEA8CF90097689F /* UIImage+Image.m in Sources */,
+				048652B51EFA1790004B6136 /* JXPopupViewAnimationSlide.m in Sources */,
 				042E6FAC1EF294FC0034B579 /* MPAdaptationCell.m in Sources */,
 				042E6FA21EF28F600034B579 /* MPBlankPageViewController.m in Sources */,
 				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,

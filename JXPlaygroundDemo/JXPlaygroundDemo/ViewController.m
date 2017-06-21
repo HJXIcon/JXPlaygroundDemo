@@ -34,6 +34,7 @@
 #import "JXLazyScrollViewController.h"
 #import "JXAdvertiseViewController.h"
 #import "JXMenuHoverTableViewController.h"
+#import "JXPopupViewController.h"
 
 @interface ViewController ()
 
@@ -69,7 +70,8 @@
                         @"22-字体适配机型",
                         @"23-可复用滚动子视图",
                         @"24-启动广告",
-                        @"25-下拉菜单悬浮"
+                        @"25-下拉菜单悬浮",
+                        @"26-弹出视图"
                         ];
     }
     return _dataSource;
@@ -253,6 +255,12 @@
         case 24:
             vc = [[JXMenuHoverTableViewController alloc]init];
             break;
+            
+        case 25:
+            vc = [[JXPopupViewController alloc]init];
+            break;
+            
+            
     
         default:
             break;
