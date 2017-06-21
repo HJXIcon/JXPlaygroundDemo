@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JXPopupViewController : UIViewController
+@interface JXPopupViewController : UITableViewController
 
 @end

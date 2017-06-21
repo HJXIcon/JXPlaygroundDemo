@@ -4,6 +4,7 @@ PODS:
   - AMapFoundation (1.4.0)
   - AMapSearch (5.0.0):
     - AMapFoundation (~> 1.2)
+  - CNPPopupController (0.3.3)
   - CYLTabBarController (1.10.0)
   - DOPDropDownMenu-Enhanced (1.0.0)
   - JDStatusBarNotification (1.5.5)
@@ -34,6 +35,7 @@ PODS:
 DEPENDENCIES:
   - AMap3DMap
   - AMapSearch
+  - CNPPopupController (~> 0.3.3)
   - CYLTabBarController (~> 1.10.0)
   - DOPDropDownMenu-Enhanced (~> 1.0.0)
   - JDStatusBarNotification (~> 1.5.5)
@@ -55,6 +57,7 @@ SPEC CHECKSUMS:
   AMap3DMap: 4d0a53d0e57c7c758560225dfdaf593b306bd468
   AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
   AMapSearch: cf7fd100d533995822d92c22586abfaf7cdf6eef
+  CNPPopupController: 59b06290762f68beab5fb0bbfa87eb4dcbefb7de
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
   JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
@@ -73,6 +76,6 @@ SPEC CHECKSUMS:
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: 813f919b4159eb34c247bbfef8d6648ca940cc24
+PODFILE CHECKSUM: bd63943ef5d2261695eefbe17c086e43ee497b1a
 
 COCOAPODS: 1.2.1
