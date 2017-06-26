@@ -25,4 +25,5 @@ target 'JXPlaygroundDemo' do
   pod 'JDStatusBarNotification', '~> 1.5.5' #可定制的通知显示在状态栏的顶部
   pod 'TLYShyNavBar', '~> 1.1.1' #导航条
   pod 'CNPPopupController', '~> 0.3.3'
+  pod 'AFNetworking', '~> 3.1.0'
 end

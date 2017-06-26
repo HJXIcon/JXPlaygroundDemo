@@ -25,5 +25,6 @@
 #import "UIView+Extension.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "MBProgressHUD+MP.h"
+#import "MXWechatConfig.h"
 
 #endif /* JXPlaygroundDemo_pch */

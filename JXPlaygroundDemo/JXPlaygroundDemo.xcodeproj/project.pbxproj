@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E001F0102F300D313FA /* MXWechatPayHandler.m */; };
+		04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */; };
+		04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E041F0102F300D313FA /* WXApiManager.m */; };
+		04010E0B1F0102F300D313FA /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E071F0102F300D313FA /* XMLDictionary.m */; };
 		04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E811EF370F100E8302A /* JXLazyScrollViewController.m */; };
 		04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */; };
 		04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */; };
@@ -329,6 +333,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04010DFE1F0102F300D313FA /* MXWechatConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatConfig.h; sourceTree = "<group>"; };
+		04010DFF1F0102F300D313FA /* MXWechatPayHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatPayHandler.h; sourceTree = "<group>"; };
+		04010E001F0102F300D313FA /* MXWechatPayHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXWechatPayHandler.m; sourceTree = "<group>"; };
+		04010E011F0102F300D313FA /* MXWechatSignAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatSignAdaptor.h; sourceTree = "<group>"; };
+		04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXWechatSignAdaptor.m; sourceTree = "<group>"; };
+		04010E031F0102F300D313FA /* WXApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiManager.h; sourceTree = "<group>"; };
+		04010E041F0102F300D313FA /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
+		04010E061F0102F300D313FA /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		04010E071F0102F300D313FA /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		04226E801EF370F100E8302A /* JXLazyScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLazyScrollViewController.h; sourceTree = "<group>"; };
 		04226E811EF370F100E8302A /* JXLazyScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLazyScrollViewController.m; sourceTree = "<group>"; };
 		04226E841EF3787700E8302A /* MPLazyImageViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyImageViewCustomView.h; sourceTree = "<group>"; };
@@ -888,6 +901,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04010DFD1F0102F300D313FA /* WechatTool */ = {
+			isa = PBXGroup;
+			children = (
+				04010DFE1F0102F300D313FA /* MXWechatConfig.h */,
+				04010DFF1F0102F300D313FA /* MXWechatPayHandler.h */,
+				04010E001F0102F300D313FA /* MXWechatPayHandler.m */,
+				04010E011F0102F300D313FA /* MXWechatSignAdaptor.h */,
+				04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */,
+				04010E031F0102F300D313FA /* WXApiManager.h */,
+				04010E041F0102F300D313FA /* WXApiManager.m */,
+				04010E051F0102F300D313FA /* XMLDictionary */,
+			);
+			path = WechatTool;
+			sourceTree = "<group>";
+		};
+		04010E051F0102F300D313FA /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				04010E061F0102F300D313FA /* XMLDictionary.h */,
+				04010E071F0102F300D313FA /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
 		04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1457,6 +1494,7 @@
 		0435A5491EEA8F8E0097689F /* 微信支付 */ = {
 			isa = PBXGroup;
 			children = (
+				04010DFD1F0102F300D313FA /* WechatTool */,
 				0435A5521EEA9D990097689F /* Resource */,
 				0435A5571EEAA1680097689F /* WXPayViewController.h */,
 				0435A5581EEAA1680097689F /* WXPayViewController.m */,
@@ -2540,12 +2578,14 @@
 				04226E8C1EF3787700E8302A /* MPLazyTitleViewCustomView.m in Sources */,
 				048652B21EFA1766004B6136 /* JXPopupViewAnimationFade.m in Sources */,
 				04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */,
+				04010E0B1F0102F300D313FA /* XMLDictionary.m in Sources */,
 				042E70C61EF295C90034B579 /* NSObject+Blocks.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */,
 				042E70A21EF295C80034B579 /* NSData+Gzip.m in Sources */,
+				04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */,
 				042E70E31EF295C90034B579 /* NSTimer+Blocks.m in Sources */,
@@ -2557,6 +2597,7 @@
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				042E70AA1EF295C80034B579 /* NSDate+Reporting.m in Sources */,
+				04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
 				042E70D11EF295C90034B579 /* NSString+Contains.m in Sources */,
 				04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */,
@@ -2646,6 +2687,7 @@
 				042E70D71EF295C90034B579 /* NSString+MIME.m in Sources */,
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
+				04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */,
 				0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
