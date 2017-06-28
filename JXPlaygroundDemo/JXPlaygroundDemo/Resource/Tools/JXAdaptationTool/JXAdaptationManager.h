@@ -11,7 +11,6 @@
 
 @interface JXAdaptationManager : NSObject
 
-@property (nonatomic, assign) CGFloat fontSizeOffset;
 
 // CGFloat
 - (CGFloat)scaleForValue:(CGFloat)value;
@@ -23,5 +22,9 @@
 - (CGRect)scaleCGRect:(CGRect)rect;
 
 + (JXAdaptationManager *)manager;
+
+// 获取屏幕缩放比例
+- (CGFloat)getScaleRate;
+
 
 @end

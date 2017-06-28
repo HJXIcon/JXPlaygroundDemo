@@ -41,6 +41,11 @@
     return manager;
 }
 
+// 获取屏幕缩放比例
+- (CGFloat)getScaleRate{
+    return self.scaleRate;
+}
+
 - (void)initData
 {
     _windowRect   = [UIScreen mainScreen].bounds;
@@ -58,17 +63,8 @@
         self.scaleRate = _windowWidth / (DesignWidth * 1.0);
     }
     
-    self.fontSizeOffset = 0.0;
-    if (!_isIPHONE6P) {
-        if (self.scaleRate < 0.773) {  // iphone5(s) 320/414 < 0.773
-            self.fontSizeOffset = - 1.0;
-        }
-        else if (self.scaleRate < 0.906) // iphone6(s) 375/414 < 0.906
-        {
-            self.fontSizeOffset = - 2.0;
-        }
-        
-    }
+    
+
 }
 
 

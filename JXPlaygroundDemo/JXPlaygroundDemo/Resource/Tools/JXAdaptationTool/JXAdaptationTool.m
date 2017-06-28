@@ -36,7 +36,7 @@
 
 + (CGFloat)scaleFontWithValue:(CGFloat)value
 {
-    return value + [[JXAdaptationManager manager] fontSizeOffset];
+    return value * [[JXAdaptationManager manager] getScaleRate];
 }
 
 
