@@ -26,4 +26,5 @@ target 'JXPlaygroundDemo' do
   pod 'TLYShyNavBar', '~> 1.1.1' #导航条
   pod 'CNPPopupController', '~> 0.3.3'
   pod 'AFNetworking', '~> 3.1.0'
+  pod 'XHWebImageAutoSize', '~> 1.0.2' #网络图片尺寸/高度自适应 - 支持异步缓存imageSize , 支持动态刷新界面
 end

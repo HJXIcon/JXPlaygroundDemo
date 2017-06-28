@@ -20,6 +20,9 @@
  */
 + (UIImage *) OriginImage:(UIImage *)image scaleToSize:(CGSize)size;
 
+
+
+
 /**
  *  生成图片
  *
@@ -60,4 +63,29 @@
  @return 缓存的图片
  */
 + (UIImage*)imageFromSdcacheWithURLString:(NSString *)urlString;
+
+
+/**
+ *  根据颜色生成一张图片
+ *  @param color 提供的颜色
+ */
++ (UIImage *)imageWithColor:(UIColor *)color;
+
+
+/**
+ *  修改图片size，按比例进行缩放
+ *
+ *  @param image      原图片
+ *  @param targetSize 要修改的size
+ *
+ *  @return 修改后的图片
+ */
++ (UIImage *)image:(UIImage*)image byScalingToSize:(CGSize)targetSize;
+//截取图片的某一部分
++(UIImage*)getSubImageRect:(CGRect)rect andImage:(UIImage *)image;
++(UIImage *)reDrawImage:(UIImage *)backImage andImage:(UIImage *)image;
+
++ (UIImage *)imageByApplyingAlpha:(CGFloat)alpha  image:(UIImage*)image;
+
+
 @end

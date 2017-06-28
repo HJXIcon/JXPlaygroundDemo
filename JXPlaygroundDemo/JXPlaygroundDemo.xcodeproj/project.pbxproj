@@ -11,6 +11,7 @@
 		04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */; };
 		04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E041F0102F300D313FA /* WXApiManager.m */; };
 		04010E0B1F0102F300D313FA /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E071F0102F300D313FA /* XMLDictionary.m */; };
+		0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2C41F03879600795285 /* XHWebImageAutoSizeExampleViewController.m */; };
 		04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E811EF370F100E8302A /* JXLazyScrollViewController.m */; };
 		04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */; };
 		04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */; };
@@ -342,6 +343,8 @@
 		04010E041F0102F300D313FA /* WXApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXApiManager.m; sourceTree = "<group>"; };
 		04010E061F0102F300D313FA /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
 		04010E071F0102F300D313FA /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		0405F2C31F03879600795285 /* XHWebImageAutoSizeExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWebImageAutoSizeExampleViewController.h; sourceTree = "<group>"; };
+		0405F2C41F03879600795285 /* XHWebImageAutoSizeExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWebImageAutoSizeExampleViewController.m; sourceTree = "<group>"; };
 		04226E801EF370F100E8302A /* JXLazyScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLazyScrollViewController.h; sourceTree = "<group>"; };
 		04226E811EF370F100E8302A /* JXLazyScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLazyScrollViewController.m; sourceTree = "<group>"; };
 		04226E841EF3787700E8302A /* MPLazyImageViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyImageViewCustomView.h; sourceTree = "<group>"; };
@@ -923,6 +926,15 @@
 				04010E071F0102F300D313FA /* XMLDictionary.m */,
 			);
 			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		0405F2C21F03866000795285 /* 27-网络图片尺寸:高度自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				0405F2C31F03879600795285 /* XHWebImageAutoSizeExampleViewController.h */,
+				0405F2C41F03879600795285 /* XHWebImageAutoSizeExampleViewController.m */,
+			);
+			path = "27-网络图片尺寸:高度自适应";
 			sourceTree = "<group>";
 		};
 		04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */ = {
@@ -2140,6 +2152,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0405F2C21F03866000795285 /* 27-网络图片尺寸:高度自适应 */,
 				048652A11EFA12E8004B6136 /* 26-弹出视图 */,
 				0435FE0E1EF7C25400086FF9 /* 25-下拉菜单悬浮 */,
 				04226E8D1EF3B3DB00E8302A /* 24-启动广告 */,
@@ -2695,6 +2708,7 @@
 				0435A5221EEA552E0097689F /* SDImageView.m in Sources */,
 				042E70DC1EF295C90034B579 /* NSString+Score.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
+				0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */,
 				042E70C11EF295C90034B579 /* NSNumber+Round.m in Sources */,
 				042E70C81EF295C90034B579 /* NSObject+GCD.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
