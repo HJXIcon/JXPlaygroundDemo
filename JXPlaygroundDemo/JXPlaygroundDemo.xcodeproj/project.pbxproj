@@ -12,6 +12,9 @@
 		04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E041F0102F300D313FA /* WXApiManager.m */; };
 		04010E0B1F0102F300D313FA /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E071F0102F300D313FA /* XMLDictionary.m */; };
 		0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2C41F03879600795285 /* XHWebImageAutoSizeExampleViewController.m */; };
+		0405F2C91F0390EB00795285 /* JXAdaptationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2C81F0390EB00795285 /* JXAdaptationTool.m */; };
+		0405F2CC1F03911C00795285 /* JXAdaptationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2CB1F03911C00795285 /* JXAdaptationManager.m */; };
+		0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2CE1F039E9500795285 /* UIView+FontSize.m */; };
 		04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E811EF370F100E8302A /* JXLazyScrollViewController.m */; };
 		04226E8A1EF3787700E8302A /* MPLazyImageViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E851EF3787700E8302A /* MPLazyImageViewCustomView.m */; };
 		04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E871EF3787700E8302A /* MPLazyLableViewCustomView.m */; };
@@ -345,6 +348,12 @@
 		04010E071F0102F300D313FA /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
 		0405F2C31F03879600795285 /* XHWebImageAutoSizeExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWebImageAutoSizeExampleViewController.h; sourceTree = "<group>"; };
 		0405F2C41F03879600795285 /* XHWebImageAutoSizeExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWebImageAutoSizeExampleViewController.m; sourceTree = "<group>"; };
+		0405F2C71F0390EB00795285 /* JXAdaptationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAdaptationTool.h; sourceTree = "<group>"; };
+		0405F2C81F0390EB00795285 /* JXAdaptationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdaptationTool.m; sourceTree = "<group>"; };
+		0405F2CA1F03911C00795285 /* JXAdaptationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAdaptationManager.h; sourceTree = "<group>"; };
+		0405F2CB1F03911C00795285 /* JXAdaptationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdaptationManager.m; sourceTree = "<group>"; };
+		0405F2CD1F039E9500795285 /* UIView+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontSize.h"; sourceTree = "<group>"; };
+		0405F2CE1F039E9500795285 /* UIView+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontSize.m"; sourceTree = "<group>"; };
 		04226E801EF370F100E8302A /* JXLazyScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLazyScrollViewController.h; sourceTree = "<group>"; };
 		04226E811EF370F100E8302A /* JXLazyScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLazyScrollViewController.m; sourceTree = "<group>"; };
 		04226E841EF3787700E8302A /* MPLazyImageViewCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPLazyImageViewCustomView.h; sourceTree = "<group>"; };
@@ -937,6 +946,17 @@
 			path = "27-网络图片尺寸:高度自适应";
 			sourceTree = "<group>";
 		};
+		0405F2C61F0390D600795285 /* JXAdaptationTool */ = {
+			isa = PBXGroup;
+			children = (
+				0405F2C71F0390EB00795285 /* JXAdaptationTool.h */,
+				0405F2C81F0390EB00795285 /* JXAdaptationTool.m */,
+				0405F2CA1F03911C00795285 /* JXAdaptationManager.h */,
+				0405F2CB1F03911C00795285 /* JXAdaptationManager.m */,
+			);
+			path = JXAdaptationTool;
+			sourceTree = "<group>";
+		};
 		04226E7F1EF370AE00E8302A /* 23-可复用滚动子视图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -984,6 +1004,7 @@
 		04226E981EF3D39C00E8302A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				0405F2C61F0390D600795285 /* JXAdaptationTool */,
 				04226EB21EF3DE2400E8302A /* FCUUID(获取设备标识) */,
 				04226EAB1EF3D9FE00E8302A /* IntroductoryPages(引导页) */,
 				04226EA71EF3D9A900E8302A /* FileManager(文件管理) */,
@@ -1074,6 +1095,8 @@
 		042E6FA61EF294510034B579 /* 22-字体适配机型 */ = {
 			isa = PBXGroup;
 			children = (
+				0405F2CD1F039E9500795285 /* UIView+FontSize.h */,
+				0405F2CE1F039E9500795285 /* UIView+FontSize.m */,
 				042E6FAA1EF294FC0034B579 /* MPAdaptationCell.h */,
 				042E6FAB1EF294FC0034B579 /* MPAdaptationCell.m */,
 				042E6FA71EF294DA0034B579 /* MPAdaptationFontViewController.h */,
@@ -2640,6 +2663,7 @@
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
+				0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
 				04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */,
@@ -2671,6 +2695,7 @@
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04226EBB1EF3DE2400E8302A /* UIDevice+FCUUID.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
+				0405F2C91F0390EB00795285 /* JXAdaptationTool.m in Sources */,
 				048652BB1EFA1933004B6136 /* JXPopupInnerView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
 				042E709C1EF295C80034B579 /* NSArray+Block.m in Sources */,
@@ -2735,6 +2760,7 @@
 				0435A5461EEA8DAF0097689F /* UITextFiled+Shake.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,
 				04AE5E5C1EE78F81001E360C /* JXPullMenuView.m in Sources */,
+				0405F2CC1F03911C00795285 /* JXAdaptationManager.m in Sources */,
 				0435A5311EEA8D220097689F /* UITextField+Extension.m in Sources */,
 				042E70E21EF295C90034B579 /* NSTimer+Addition.m in Sources */,
 				04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */,
