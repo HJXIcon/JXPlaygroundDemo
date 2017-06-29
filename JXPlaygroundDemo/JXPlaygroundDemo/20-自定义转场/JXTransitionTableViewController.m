@@ -8,6 +8,9 @@
 
 #import "JXTransitionTableViewController.h"
 #import "JXTransitionViewController.h"
+#import "JXPopPresentViewController.h"
+#import "JXPaperViewController.h"
+#import "JXPasswordViewController.h"
 
 @interface JXTransitionTableViewController ()
 @property(nonatomic, strong) NSArray *datas;
@@ -18,7 +21,10 @@
 - (NSArray *)datas{
     if (_datas == nil) {
         _datas = @[
-                   @"效果1"
+                   @"1 - 效果",
+                   @"2 - POP - PresentModal",
+                   @"3 - pop - paper",
+                   @"4 - 密码强度指示"
                    ];
     }
     return _datas;
@@ -66,6 +72,20 @@
         case 0:
             vc = [[JXTransitionViewController alloc]init];
             break;
+            
+        case 1:
+            vc = [[JXPopPresentViewController alloc]init];
+            break;
+            
+        case 2:
+            vc = [[JXPaperViewController alloc]init];
+            break;
+            
+        case 3:
+            vc = [[JXPasswordViewController alloc]init];
+            break;
+            
+            
             
         default:
             break;
