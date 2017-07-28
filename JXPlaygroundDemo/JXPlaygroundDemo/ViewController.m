@@ -36,7 +36,7 @@
 #import "JXMenuHoverTableViewController.h"
 #import "JXPopupViewController.h"
 #import "XHWebImageAutoSizeExampleViewController.h"
-#import "JXPOPTestViewController.h"
+#import "JXTablePlaceHolderViewController.h"
 
 @interface ViewController ()
 
@@ -75,7 +75,7 @@
                         @"25-下拉菜单悬浮",
                         @"26-弹出视图",
                         @"27-XHWebImageAutoSizeExampleViewController",
-                        @"28-POP的使用"
+                        @"28-tableView无数据占位图"
                         ];
     }
     return _dataSource;
@@ -269,7 +269,7 @@
             break;
             
         case 27:
-            vc = [[JXPOPTestViewController alloc]init];
+            vc = [[JXTablePlaceHolderViewController alloc]init];
             break;
             
             

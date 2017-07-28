@@ -15,7 +15,6 @@
 		0405F2C91F0390EB00795285 /* JXAdaptationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2C81F0390EB00795285 /* JXAdaptationTool.m */; };
 		0405F2CC1F03911C00795285 /* JXAdaptationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2CB1F03911C00795285 /* JXAdaptationManager.m */; };
 		0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405F2CE1F039E9500795285 /* UIView+FontSize.m */; };
-		04087C0B1F04AEB600B3F566 /* JXPOPTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04087C0A1F04AEB600B3F566 /* JXPOPTestViewController.m */; };
 		04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04087C0E1F04D4B800B3F566 /* JXPopPresentViewController.m */; };
 		04087C121F04D64800B3F566 /* JXModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04087C111F04D64800B3F566 /* JXModalViewController.m */; };
 		04087C151F04D75700B3F566 /* JXPresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04087C141F04D75700B3F566 /* JXPresentingAnimator.m */; };
@@ -337,6 +336,12 @@
 		04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE121EE55DA70038C33C /* NewFeatureViewController.m */; };
 		04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */; };
 		04F2AE1B1EE55DA70038C33C /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AE181EE55DA70038C33C /* NewFeatureCell.m */; };
+		04F660D11F2AE1F70051AFDE /* KKTableViewNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F660CB1F2AE1F70051AFDE /* KKTableViewNoDataView.m */; };
+		04F660D21F2AE1F70051AFDE /* no_data.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F660CC1F2AE1F70051AFDE /* no_data.png */; };
+		04F660D31F2AE1F70051AFDE /* no_data@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F660CD1F2AE1F70051AFDE /* no_data@2x.png */; };
+		04F660D41F2AE1F70051AFDE /* no_data@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F660CE1F2AE1F70051AFDE /* no_data@3x.png */; };
+		04F660D51F2AE1F70051AFDE /* UITableView+placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F660D01F2AE1F70051AFDE /* UITableView+placeholder.m */; };
+		04F660D81F2AE2310051AFDE /* JXTablePlaceHolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F660D71F2AE2310051AFDE /* JXTablePlaceHolderViewController.m */; };
 		04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1591EF1355C00388A0D /* JXTransitionTableViewController.m */; };
 		04FEF15D1EF1367500388A0D /* JXPushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF15C1EF1367500388A0D /* JXPushTransition.m */; };
 		04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF15F1EF13AD800388A0D /* JXTransitionViewController.m */; };
@@ -363,8 +368,6 @@
 		0405F2CB1F03911C00795285 /* JXAdaptationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdaptationManager.m; sourceTree = "<group>"; };
 		0405F2CD1F039E9500795285 /* UIView+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontSize.h"; sourceTree = "<group>"; };
 		0405F2CE1F039E9500795285 /* UIView+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontSize.m"; sourceTree = "<group>"; };
-		04087C091F04AEB600B3F566 /* JXPOPTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPOPTestViewController.h; sourceTree = "<group>"; };
-		04087C0A1F04AEB600B3F566 /* JXPOPTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPOPTestViewController.m; sourceTree = "<group>"; };
 		04087C0D1F04D4B800B3F566 /* JXPopPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopPresentViewController.h; sourceTree = "<group>"; };
 		04087C0E1F04D4B800B3F566 /* JXPopPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopPresentViewController.m; sourceTree = "<group>"; };
 		04087C101F04D64800B3F566 /* JXModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXModalViewController.h; sourceTree = "<group>"; };
@@ -913,6 +916,15 @@
 		04F2AE151EE55DA70038C33C /* ALinFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALinFlowLayout.m; sourceTree = "<group>"; };
 		04F2AE171EE55DA70038C33C /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
 		04F2AE181EE55DA70038C33C /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
+		04F660CA1F2AE1F70051AFDE /* KKTableViewNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTableViewNoDataView.h; sourceTree = "<group>"; };
+		04F660CB1F2AE1F70051AFDE /* KKTableViewNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTableViewNoDataView.m; sourceTree = "<group>"; };
+		04F660CC1F2AE1F70051AFDE /* no_data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_data.png; sourceTree = "<group>"; };
+		04F660CD1F2AE1F70051AFDE /* no_data@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_data@2x.png"; sourceTree = "<group>"; };
+		04F660CE1F2AE1F70051AFDE /* no_data@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_data@3x.png"; sourceTree = "<group>"; };
+		04F660CF1F2AE1F70051AFDE /* UITableView+placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+placeholder.h"; sourceTree = "<group>"; };
+		04F660D01F2AE1F70051AFDE /* UITableView+placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+placeholder.m"; sourceTree = "<group>"; };
+		04F660D61F2AE2310051AFDE /* JXTablePlaceHolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTablePlaceHolderViewController.h; sourceTree = "<group>"; };
+		04F660D71F2AE2310051AFDE /* JXTablePlaceHolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTablePlaceHolderViewController.m; sourceTree = "<group>"; };
 		04FEF1581EF1355C00388A0D /* JXTransitionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionTableViewController.h; sourceTree = "<group>"; };
 		04FEF1591EF1355C00388A0D /* JXTransitionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionTableViewController.m; sourceTree = "<group>"; };
 		04FEF15B1EF1367500388A0D /* JXPushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPushTransition.h; sourceTree = "<group>"; };
@@ -982,15 +994,6 @@
 				0405F2CB1F03911C00795285 /* JXAdaptationManager.m */,
 			);
 			path = JXAdaptationTool;
-			sourceTree = "<group>";
-		};
-		04087C081F04AE4A00B3F566 /* 28-pop使用 */ = {
-			isa = PBXGroup;
-			children = (
-				04087C091F04AEB600B3F566 /* JXPOPTestViewController.h */,
-				04087C0A1F04AEB600B3F566 /* JXPOPTestViewController.m */,
-			);
-			path = "28-pop使用";
 			sourceTree = "<group>";
 		};
 		04087C0C1F04D4A300B3F566 /* POP+Present */ = {
@@ -2248,7 +2251,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04087C081F04AE4A00B3F566 /* 28-pop使用 */,
+				04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */,
 				0405F2C21F03866000795285 /* 27-网络图片尺寸:高度自适应 */,
 				048652A11EFA12E8004B6136 /* 26-弹出视图 */,
 				0435FE0E1EF7C25400086FF9 /* 25-下拉菜单悬浮 */,
@@ -2368,6 +2371,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */ = {
+			isa = PBXGroup;
+			children = (
+				04F660C91F2AE1F70051AFDE /* UITableView+placeholder */,
+				04F660D61F2AE2310051AFDE /* JXTablePlaceHolderViewController.h */,
+				04F660D71F2AE2310051AFDE /* JXTablePlaceHolderViewController.m */,
+			);
+			path = "28-tableView无数据占位图";
+			sourceTree = "<group>";
+		};
+		04F660C91F2AE1F70051AFDE /* UITableView+placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				04F660CA1F2AE1F70051AFDE /* KKTableViewNoDataView.h */,
+				04F660CB1F2AE1F70051AFDE /* KKTableViewNoDataView.m */,
+				04F660CC1F2AE1F70051AFDE /* no_data.png */,
+				04F660CD1F2AE1F70051AFDE /* no_data@2x.png */,
+				04F660CE1F2AE1F70051AFDE /* no_data@3x.png */,
+				04F660CF1F2AE1F70051AFDE /* UITableView+placeholder.h */,
+				04F660D01F2AE1F70051AFDE /* UITableView+placeholder.m */,
+			);
+			path = "UITableView+placeholder";
+			sourceTree = "<group>";
+		};
 		04FEF1571EF1350F00388A0D /* 20-自定义转场 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2485,6 +2512,7 @@
 				046BFBA81EE500EF009358B5 /* flv视频测试用例1.mp4 in Resources */,
 				0460B9671EDFC96000C00DA5 /* cycle_04.jpg in Resources */,
 				0460B9541EDFC95200C00DA5 /* refresh04.png in Resources */,
+				04F660D41F2AE1F70051AFDE /* no_data@3x.png in Resources */,
 				04F2AE0E1EE55D850038C33C /* guide2.mp4 in Resources */,
 				0460B9041EDFC93A00C00DA5 /* tab_我的_pressed.png in Resources */,
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
@@ -2525,8 +2553,10 @@
 				0460B94C1EDFC95200C00DA5 /* header07@2x.jpg in Resources */,
 				0460B9681EDFC96000C00DA5 /* cycle_05.jpg in Resources */,
 				042E6F9D1EF28DCB0034B579 /* blankpage_image_Sleep@3x.png in Resources */,
+				04F660D31F2AE1F70051AFDE /* no_data@2x.png in Resources */,
 				0460B9561EDFC95200C00DA5 /* refresh06.png in Resources */,
 				0460B8FC1EDFC93A00C00DA5 /* home_like.png in Resources */,
+				04F660D21F2AE1F70051AFDE /* no_data.png in Resources */,
 				046BFBAA1EE500EF009358B5 /* test1.gif in Resources */,
 				0460B8F91EDFC93A00C00DA5 /* home_email_black.png in Resources */,
 				0460B94D1EDFC95200C00DA5 /* header08@2x.jpg in Resources */,
@@ -2658,7 +2688,6 @@
 				04B77FF11EE699FB0049B82E /* JXSwipeAbleSwipeOptions.m in Sources */,
 				04226EAA1EF3D9A900E8302A /* MPFileManager.m in Sources */,
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
-				04087C0B1F04AEB600B3F566 /* JXPOPTestViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				042E70D91EF295C90034B579 /* NSString+RegexCategory.m in Sources */,
 				04226EA61EF3D3AA00E8302A /* GCDTimer.m in Sources */,
@@ -2720,6 +2749,7 @@
 				042E70D11EF295C90034B579 /* NSString+Contains.m in Sources */,
 				04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */,
 				042E70E01EF295C90034B579 /* NSString+UUID.m in Sources */,
+				04F660D11F2AE1F70051AFDE /* KKTableViewNoDataView.m in Sources */,
 				04FEF15D1EF1367500388A0D /* JXPushTransition.m in Sources */,
 				042E70AB1EF295C80034B579 /* NSDate+TimeAgo.m in Sources */,
 				0435A54E1EEA8FBA0097689F /* JXMainSDKTableViewController.m in Sources */,
@@ -2818,6 +2848,7 @@
 				042E70DC1EF295C90034B579 /* NSString+Score.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */,
+				04F660D51F2AE1F70051AFDE /* UITableView+placeholder.m in Sources */,
 				042E70C11EF295C90034B579 /* NSNumber+Round.m in Sources */,
 				042E70C81EF295C90034B579 /* NSObject+GCD.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
@@ -2838,6 +2869,7 @@
 				042E70A51EF295C80034B579 /* NSData+zlib.m in Sources */,
 				042E70B11EF295C80034B579 /* NSDictionary+Merge.m in Sources */,
 				042E70DD1EF295C90034B579 /* NSString+Size.m in Sources */,
+				04F660D81F2AE2310051AFDE /* JXTablePlaceHolderViewController.m in Sources */,
 				0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */,
 				04087C1F1F04DCE300B3F566 /* JXPaperViewController.m in Sources */,
 				042E70A61EF295C80034B579 /* NSDate+CupertinoYankee.m in Sources */,
