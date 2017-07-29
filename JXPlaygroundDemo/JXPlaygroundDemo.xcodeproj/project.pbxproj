@@ -161,6 +161,7 @@
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
 		044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A41EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m */; };
+		044E2E161F2C70090030C5F4 /* PermanentThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2E151F2C70090030C5F4 /* PermanentThreadViewController.m */; };
 		0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0460526E1ECFCDBE00745224 /* ReactiveCocoaViewController.m */; };
 		046052721ECFD09100745224 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052711ECFD09100745224 /* FlagItem.m */; };
 		046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052761ECFD7ED00745224 /* ReativeSearchViewController.m */; };
@@ -653,6 +654,8 @@
 		044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBanTangTableViewController.m; sourceTree = "<group>"; };
 		044433A31EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBTHomeTableViewCell.h; sourceTree = "<group>"; };
 		044433A41EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBTHomeTableViewCell.m; sourceTree = "<group>"; };
+		044E2E141F2C70090030C5F4 /* PermanentThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermanentThreadViewController.h; sourceTree = "<group>"; };
+		044E2E151F2C70090030C5F4 /* PermanentThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermanentThreadViewController.m; sourceTree = "<group>"; };
 		0460526D1ECFCDBE00745224 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
 		0460526E1ECFCDBE00745224 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
 		046052701ECFD09100745224 /* FlagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagItem.h; sourceTree = "<group>"; };
@@ -1645,6 +1648,15 @@
 			path = "25-下拉菜单悬浮";
 			sourceTree = "<group>";
 		};
+		044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */ = {
+			isa = PBXGroup;
+			children = (
+				044E2E141F2C70090030C5F4 /* PermanentThreadViewController.h */,
+				044E2E151F2C70090030C5F4 /* PermanentThreadViewController.m */,
+			);
+			path = "29-开永久线程";
+			sourceTree = "<group>";
+		};
 		0460526C1ECFCC4300745224 /* ReactiveCocoa练习 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2251,6 +2263,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */,
 				04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */,
 				0405F2C21F03866000795285 /* 27-网络图片尺寸:高度自适应 */,
 				048652A11EFA12E8004B6136 /* 26-弹出视图 */,
@@ -2888,6 +2901,7 @@
 				042E70E71EF295C90034B579 /* NSMutableURLRequest+Upload.m in Sources */,
 				0435A52B1EEA8CF90097689F /* UIImage+Image.m in Sources */,
 				048652B51EFA1790004B6136 /* JXPopupViewAnimationSlide.m in Sources */,
+				044E2E161F2C70090030C5F4 /* PermanentThreadViewController.m in Sources */,
 				042E6FAC1EF294FC0034B579 /* MPAdaptationCell.m in Sources */,
 				042E6FA21EF28F600034B579 /* MPBlankPageViewController.m in Sources */,
 				04AE5E5A1EE78F81001E360C /* JXPullMenuCell.m in Sources */,

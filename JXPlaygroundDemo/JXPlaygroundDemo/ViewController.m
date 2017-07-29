@@ -37,6 +37,7 @@
 #import "JXPopupViewController.h"
 #import "XHWebImageAutoSizeExampleViewController.h"
 #import "JXTablePlaceHolderViewController.h"
+#import "PermanentThreadViewController.h"
 
 @interface ViewController ()
 
@@ -75,7 +76,8 @@
                         @"25-下拉菜单悬浮",
                         @"26-弹出视图",
                         @"27-XHWebImageAutoSizeExampleViewController",
-                        @"28-tableView无数据占位图"
+                        @"28-tableView无数据占位图",
+                        @"29-开永久线程"
                         ];
     }
     return _dataSource;
@@ -272,10 +274,10 @@
             vc = [[JXTablePlaceHolderViewController alloc]init];
             break;
             
+        case 28:
+            vc = [[PermanentThreadViewController alloc]init];
+            break;
             
-            
-            
-    
         default:
             break;
     }
