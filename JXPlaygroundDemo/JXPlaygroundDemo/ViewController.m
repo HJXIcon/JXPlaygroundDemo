@@ -38,6 +38,7 @@
 #import "XHWebImageAutoSizeExampleViewController.h"
 #import "JXTablePlaceHolderViewController.h"
 #import "PermanentThreadViewController.h"
+#import "LocationViewController.h"
 
 @interface ViewController ()
 
@@ -77,7 +78,8 @@
                         @"26-弹出视图",
                         @"27-XHWebImageAutoSizeExampleViewController",
                         @"28-tableView无数据占位图",
-                        @"29-开永久线程"
+                        @"29-开永久线程",
+                        @"30-系统定位封装"
                         ];
     }
     return _dataSource;
@@ -277,6 +279,11 @@
         case 28:
             vc = [[PermanentThreadViewController alloc]init];
             break;
+            
+        case 29:
+            vc = [[LocationViewController alloc]init];
+            break;
+            
             
         default:
             break;

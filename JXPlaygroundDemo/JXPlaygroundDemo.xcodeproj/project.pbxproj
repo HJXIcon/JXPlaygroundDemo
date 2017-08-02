@@ -161,6 +161,8 @@
 		0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444339E1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m */; };
 		044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */; };
 		044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044433A41EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m */; };
+		044765091F30835A00F0E08D /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044765081F30835A00F0E08D /* LocationViewController.m */; };
+		0447650D1F3083B300F0E08D /* JXLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447650C1F3083B300F0E08D /* JXLocationTool.m */; };
 		044E2E161F2C70090030C5F4 /* PermanentThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044E2E151F2C70090030C5F4 /* PermanentThreadViewController.m */; };
 		0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0460526E1ECFCDBE00745224 /* ReactiveCocoaViewController.m */; };
 		046052721ECFD09100745224 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046052711ECFD09100745224 /* FlagItem.m */; };
@@ -259,6 +261,7 @@
 		048652B51EFA1790004B6136 /* JXPopupViewAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652B41EFA1790004B6136 /* JXPopupViewAnimationSlide.m */; };
 		048652B81EFA1807004B6136 /* JXPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652B71EFA1807004B6136 /* JXPopupViewAnimationSpring.m */; };
 		048652BB1EFA1933004B6136 /* JXPopupInnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048652BA1EFA1933004B6136 /* JXPopupInnerView.m */; };
+		048DBA511F315B7C00334864 /* JXLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DBA501F315B7C00334864 /* JXLocationHelper.m */; };
 		048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA051ED126910037DFE0 /* JXAMapViewController.m */; };
 		048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA091ED1327E0037DFE0 /* JXCustomCalloutView.m */; };
 		048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DCA0C1ED133F60037DFE0 /* JXCustomAnnotationView.m */; };
@@ -654,6 +657,10 @@
 		044433A11EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBanTangTableViewController.m; sourceTree = "<group>"; };
 		044433A31EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBTHomeTableViewCell.h; sourceTree = "<group>"; };
 		044433A41EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBTHomeTableViewCell.m; sourceTree = "<group>"; };
+		044765071F30835A00F0E08D /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		044765081F30835A00F0E08D /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		0447650B1F3083B300F0E08D /* JXLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLocationTool.h; sourceTree = "<group>"; };
+		0447650C1F3083B300F0E08D /* JXLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLocationTool.m; sourceTree = "<group>"; };
 		044E2E141F2C70090030C5F4 /* PermanentThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermanentThreadViewController.h; sourceTree = "<group>"; };
 		044E2E151F2C70090030C5F4 /* PermanentThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermanentThreadViewController.m; sourceTree = "<group>"; };
 		0460526D1ECFCDBE00745224 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
@@ -782,6 +789,8 @@
 		048652B71EFA1807004B6136 /* JXPopupViewAnimationSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupViewAnimationSpring.m; sourceTree = "<group>"; };
 		048652B91EFA1933004B6136 /* JXPopupInnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopupInnerView.h; sourceTree = "<group>"; };
 		048652BA1EFA1933004B6136 /* JXPopupInnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopupInnerView.m; sourceTree = "<group>"; };
+		048DBA4F1F315B7C00334864 /* JXLocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLocationHelper.h; sourceTree = "<group>"; };
+		048DBA501F315B7C00334864 /* JXLocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLocationHelper.m; sourceTree = "<group>"; };
 		048DCA041ED126910037DFE0 /* JXAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAMapViewController.h; sourceTree = "<group>"; };
 		048DCA051ED126910037DFE0 /* JXAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAMapViewController.m; sourceTree = "<group>"; };
 		048DCA081ED1327E0037DFE0 /* JXCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCustomCalloutView.h; sourceTree = "<group>"; };
@@ -1648,6 +1657,27 @@
 			path = "25-下拉菜单悬浮";
 			sourceTree = "<group>";
 		};
+		044765061F30833600F0E08D /* 30-系统定位封装 */ = {
+			isa = PBXGroup;
+			children = (
+				0447650A1F30839B00F0E08D /* LocationTools */,
+				044765071F30835A00F0E08D /* LocationViewController.h */,
+				044765081F30835A00F0E08D /* LocationViewController.m */,
+			);
+			path = "30-系统定位封装";
+			sourceTree = "<group>";
+		};
+		0447650A1F30839B00F0E08D /* LocationTools */ = {
+			isa = PBXGroup;
+			children = (
+				0447650B1F3083B300F0E08D /* JXLocationTool.h */,
+				0447650C1F3083B300F0E08D /* JXLocationTool.m */,
+				048DBA4F1F315B7C00334864 /* JXLocationHelper.h */,
+				048DBA501F315B7C00334864 /* JXLocationHelper.m */,
+			);
+			path = LocationTools;
+			sourceTree = "<group>";
+		};
 		044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2263,6 +2293,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				044765061F30833600F0E08D /* 30-系统定位封装 */,
 				044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */,
 				04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */,
 				0405F2C21F03866000795285 /* 27-网络图片尺寸:高度自适应 */,
@@ -2680,6 +2711,7 @@
 				0435A5421EEA8DAF0097689F /* NSString+CalculationAttrStrHeight.m in Sources */,
 				04B780091EE6ACA90049B82E /* JXScheduler.m in Sources */,
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
+				0447650D1F3083B300F0E08D /* JXLocationTool.m in Sources */,
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
 				042E70A41EF295C80034B579 /* NSData+SDDataCache.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
@@ -2860,6 +2892,7 @@
 				0435A5221EEA552E0097689F /* SDImageView.m in Sources */,
 				042E70DC1EF295C90034B579 /* NSString+Score.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
+				044765091F30835A00F0E08D /* LocationViewController.m in Sources */,
 				0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */,
 				04F660D51F2AE1F70051AFDE /* UITableView+placeholder.m in Sources */,
 				042E70C11EF295C90034B579 /* NSNumber+Round.m in Sources */,
@@ -2883,6 +2916,7 @@
 				042E70B11EF295C80034B579 /* NSDictionary+Merge.m in Sources */,
 				042E70DD1EF295C90034B579 /* NSString+Size.m in Sources */,
 				04F660D81F2AE2310051AFDE /* JXTablePlaceHolderViewController.m in Sources */,
+				048DBA511F315B7C00334864 /* JXLocationHelper.m in Sources */,
 				0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */,
 				04087C1F1F04DCE300B3F566 /* JXPaperViewController.m in Sources */,
 				042E70A61EF295C80034B579 /* NSDate+CupertinoYankee.m in Sources */,

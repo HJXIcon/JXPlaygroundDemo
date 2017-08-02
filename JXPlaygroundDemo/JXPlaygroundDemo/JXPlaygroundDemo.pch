@@ -26,5 +26,6 @@
 #import <MBProgressHUD/MBProgressHUD.h>
 #import "MBProgressHUD+MP.h"
 #import "MXWechatConfig.h"
+#import <AFNetworking/AFNetworking.h>
 
 #endif /* JXPlaygroundDemo_pch */
