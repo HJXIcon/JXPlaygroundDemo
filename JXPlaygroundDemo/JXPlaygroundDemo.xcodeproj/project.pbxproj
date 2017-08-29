@@ -352,6 +352,9 @@
 		04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */; };
 		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
+		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
+		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
+		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -949,6 +952,12 @@
 		04FEF1651EF13EEE00388A0D /* JXPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopTransition.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F37608891F542E4000B47CF3 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		F376088A1F542E4000B47CF3 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		F376088B1F542E4000B47CF3 /* UIButton+repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+repeat.h"; sourceTree = "<group>"; };
+		F376088C1F542E4000B47CF3 /* UIButton+repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+repeat.m"; sourceTree = "<group>"; };
+		F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRepeatViewController.h; sourceTree = "<group>"; };
+		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
 		FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXPlaygroundDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2293,6 +2302,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F37608881F542E2900B47CF3 /* 31-防止重复点击Button */,
 				044765061F30833600F0E08D /* 30-系统定位封装 */,
 				044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */,
 				04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */,
@@ -2474,6 +2484,19 @@
 				FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F37608881F542E2900B47CF3 /* 31-防止重复点击Button */ = {
+			isa = PBXGroup;
+			children = (
+				F37608891F542E4000B47CF3 /* MyButton.h */,
+				F376088A1F542E4000B47CF3 /* MyButton.m */,
+				F376088B1F542E4000B47CF3 /* UIButton+repeat.h */,
+				F376088C1F542E4000B47CF3 /* UIButton+repeat.m */,
+				F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */,
+				F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */,
+			);
+			path = "31-防止重复点击Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2704,6 +2727,7 @@
 				04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */,
 				04226EA31EF3D3AA00E8302A /* GCDGroup.m in Sources */,
 				04226EA51EF3D3AA00E8302A /* GCDSemaphore.m in Sources */,
+				F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */,
 				0435A50C1EEA3ACD0097689F /* FlowLayoutTableViewController.m in Sources */,
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
 				042E70B21EF295C80034B579 /* NSDictionary+SafeAccess.m in Sources */,
@@ -2716,6 +2740,7 @@
 				042E70A41EF295C80034B579 /* NSData+SDDataCache.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				042E70BE1EF295C90034B579 /* NSDecimalNumber+Extensions.m in Sources */,
+				F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */,
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
@@ -2885,6 +2910,7 @@
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
 				04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */,
+				F376088D1F542E4000B47CF3 /* MyButton.m in Sources */,
 				0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
@@ -3062,7 +3088,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TM5A6A2L6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
+				GCC_PREFIX_HEADER = "/Users/wangjinxin/Desktop/swift练习/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;
@@ -3077,7 +3103,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7TM5A6A2L6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/数据plist/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
+				GCC_PREFIX_HEADER = "/Users/wangjinxin/Desktop/swift练习/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;

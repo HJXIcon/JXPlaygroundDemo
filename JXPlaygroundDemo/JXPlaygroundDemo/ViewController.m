@@ -39,6 +39,7 @@
 #import "JXTablePlaceHolderViewController.h"
 #import "PermanentThreadViewController.h"
 #import "LocationViewController.h"
+#import "ButtonRepeatViewController.h"
 
 @interface ViewController ()
 
@@ -79,7 +80,8 @@
                         @"27-XHWebImageAutoSizeExampleViewController",
                         @"28-tableView无数据占位图",
                         @"29-开永久线程",
-                        @"30-系统定位封装"
+                        @"30-系统定位封装",
+                        @"31-重复点击button"
                         ];
     }
     return _dataSource;
@@ -282,6 +284,10 @@
             
         case 29:
             vc = [[LocationViewController alloc]init];
+            break;
+            
+        case 30:
+            vc = [[ButtonRepeatViewController alloc]init];
             break;
             
             
