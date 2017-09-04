@@ -43,10 +43,10 @@
 - (void)requestLocationNotification1{
     // 1.创建通知内容
     UNMutableNotificationContent *content = [[UNMutableNotificationContent alloc] init];
-    content.title = @"徐不同测试通知";
+    content.title = @"iOS_Icon测试通知";
     // 推送内容的子标题
     content.subtitle = @"测试通知";
-    content.body = @"来自徐不同的简书";
+    content.body = @"来自iOS_Icon的简书";
     content.badge = @1;
     NSError *error = nil;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"icon_certification_status1@2x" ofType:@"png"];
@@ -83,9 +83,9 @@
     
     
     UNMutableNotificationContent *content = [[UNMutableNotificationContent alloc] init];
-    content.title = @"徐不同测试通知";
+    content.title = @"iOS_Icon测试通知";
     content.subtitle = @"测试通知";
-    content.body = @"来自徐不同的简书";
+    content.body = @"来自iOS_Icon的简书";
     content.badge = @1;
     
     NSError *error = nil;

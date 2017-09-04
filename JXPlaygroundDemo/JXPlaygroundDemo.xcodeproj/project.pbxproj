@@ -355,6 +355,10 @@
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
 		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
+		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
+		F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */; };
+		F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */; };
+		F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3D21F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -958,6 +962,14 @@
 		F376088C1F542E4000B47CF3 /* UIButton+repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+repeat.m"; sourceTree = "<group>"; };
 		F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRepeatViewController.h; sourceTree = "<group>"; };
 		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
+		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
+		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
+		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
+		F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionAnimation.m; sourceTree = "<group>"; };
+		F3F8E3CE1F5D5028003A7C39 /* JXPopInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteraction.h; sourceTree = "<group>"; };
+		F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteraction.m; sourceTree = "<group>"; };
+		F3F8E3D11F5D52B4003A7C39 /* JXPopInteractionDismissViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionDismissViewController.h; sourceTree = "<group>"; };
+		F3F8E3D21F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionDismissViewController.m; sourceTree = "<group>"; };
 		FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXPlaygroundDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2452,6 +2464,7 @@
 		04FEF1571EF1350F00388A0D /* 20-自定义转场 */ = {
 			isa = PBXGroup;
 			children = (
+				F3F8E3C71F5D4F48003A7C39 /* POP+ Interaction */,
 				04087C231F04E8C700B3F566 /* POP+PasswordStrengthIndicator */,
 				04087C191F04DC1900B3F566 /* POP+Paper */,
 				04087C0C1F04D4A300B3F566 /* POP+Present */,
@@ -2497,6 +2510,21 @@
 				F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */,
 			);
 			path = "31-防止重复点击Button";
+			sourceTree = "<group>";
+		};
+		F3F8E3C71F5D4F48003A7C39 /* POP+ Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */,
+				F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */,
+				F3F8E3D11F5D52B4003A7C39 /* JXPopInteractionDismissViewController.h */,
+				F3F8E3D21F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m */,
+				F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */,
+				F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */,
+				F3F8E3CE1F5D5028003A7C39 /* JXPopInteraction.h */,
+				F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */,
+			);
+			path = "POP+ Interaction";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2737,6 +2765,7 @@
 				04D8422D1EC696D300E14F48 /* JXCaculator.m in Sources */,
 				0447650D1F3083B300F0E08D /* JXLocationTool.m in Sources */,
 				04AC30E61ED92B9C00841D63 /* JSBridgeVC.m in Sources */,
+				F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */,
 				042E70A41EF295C80034B579 /* NSData+SDDataCache.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				042E70BE1EF295C90034B579 /* NSDecimalNumber+Extensions.m in Sources */,
@@ -2812,6 +2841,7 @@
 				042E70E51EF295C90034B579 /* NSURL+QueryDictionary.m in Sources */,
 				042E70B61EF295C90034B579 /* NSFileHandle+readLine.m in Sources */,
 				04AC30D11ED91D7000841D63 /* FDTModel.m in Sources */,
+				F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */,
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				042E70AA1EF295C80034B579 /* NSDate+Reporting.m in Sources */,
 				04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */,
@@ -2866,6 +2896,7 @@
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
 				04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */,
+				F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
 				042E70CB1EF295C90034B579 /* NSObject+Reflection.m in Sources */,
 				048652A51EFA134A004B6136 /* JXPopupViewController.m in Sources */,
@@ -2945,6 +2976,7 @@
 				048DBA511F315B7C00334864 /* JXLocationHelper.m in Sources */,
 				0435A5061EEA273C0097689F /* JXCardView3DViewController.m in Sources */,
 				04087C1F1F04DCE300B3F566 /* JXPaperViewController.m in Sources */,
+				F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */,
 				042E70A61EF295C80034B579 /* NSDate+CupertinoYankee.m in Sources */,
 				04226E971EF3B40A00E8302A /* JXAdvertiseViewController.m in Sources */,
 				042E70D81EF295C90034B579 /* NSString+Pinyin.m in Sources */,
@@ -3090,6 +3122,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangjinxin/Desktop/swift练习/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3105,6 +3138,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/wangjinxin/Desktop/swift练习/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo/JXPlaygroundDemo.pch";
 				INFOPLIST_FILE = JXPlaygroundDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fxtz.fxtzapp.JXPlaygroundDemoDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";

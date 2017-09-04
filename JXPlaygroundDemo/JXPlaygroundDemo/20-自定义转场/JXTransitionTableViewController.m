@@ -11,6 +11,7 @@
 #import "JXPopPresentViewController.h"
 #import "JXPaperViewController.h"
 #import "JXPasswordViewController.h"
+#import "JXPopInteractionViewController.h"
 
 @interface JXTransitionTableViewController ()
 @property(nonatomic, strong) NSArray *datas;
@@ -24,7 +25,8 @@
                    @"1 - 效果",
                    @"2 - POP - PresentModal",
                    @"3 - pop - paper",
-                   @"4 - 密码强度指示"
+                   @"4 - 密码强度指示",
+                   @"5 - POP - 带交互的PresentModal"
                    ];
     }
     return _datas;
@@ -85,6 +87,9 @@
             vc = [[JXPasswordViewController alloc]init];
             break;
             
+        case 4:
+            vc = [[JXPopInteractionViewController alloc]init];
+            break;
             
             
         default:

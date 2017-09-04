@@ -23,27 +23,27 @@ static void resetState() {
 
 @dynamic clickDurationTime;
 
-+ (void)load{
-    SEL originSEL = @selector(sendAction:to:forEvent:);
-    
-    SEL mySEL = @selector(my_sendAction:to:forEvent:);
-    
-    Method originM = class_getInstanceMethod([self class], originSEL);
-    
-    const char *typeEncodinds = method_getTypeEncoding(originM);
-    
-    Method newM = class_getInstanceMethod([self class], mySEL);
-    
-    IMP newIMP = method_getImplementation(newM);
-    
-    if (class_addMethod([self class], mySEL, newIMP, typeEncodinds)) {
-         class_replaceMethod([self class], originSEL, newIMP, typeEncodinds);
-        
-        //添加失败了 说明本类中有methodB的实现，此时只需要将methodA和methodB的IMP互换一下即可。
-    }else{
-         method_exchangeImplementations(originM, newM);
-    }
-}
+//+ (void)load{
+//    SEL originSEL = @selector(sendAction:to:forEvent:);
+//    
+//    SEL mySEL = @selector(my_sendAction:to:forEvent:);
+//    
+//    Method originM = class_getInstanceMethod([self class], originSEL);
+//    
+//    const char *typeEncodinds = method_getTypeEncoding(originM);
+//    
+//    Method newM = class_getInstanceMethod([self class], mySEL);
+//    
+//    IMP newIMP = method_getImplementation(newM);
+//    
+//    if (class_addMethod([self class], mySEL, newIMP, typeEncodinds)) {
+//         class_replaceMethod([self class], originSEL, newIMP, typeEncodinds);
+//        
+//        //添加失败了 说明本类中有methodB的实现，此时只需要将methodA和methodB的IMP互换一下即可。
+//    }else{
+//         method_exchangeImplementations(originM, newM);
+//    }
+//}
 
 - (void)my_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
     
@@ -73,6 +73,7 @@ static void resetState() {
         
     }else{
          [self my_sendAction:action to:target forEvent:event];
+
     }
 }
 
