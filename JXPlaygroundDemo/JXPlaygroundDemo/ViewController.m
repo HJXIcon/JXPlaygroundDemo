@@ -40,6 +40,7 @@
 #import "PermanentThreadViewController.h"
 #import "LocationViewController.h"
 #import "ButtonRepeatViewController.h"
+#import "JXMineViewController.h"
 
 @interface ViewController ()
 
@@ -81,7 +82,8 @@
                         @"28-tableView无数据占位图",
                         @"29-开永久线程",
                         @"30-系统定位封装",
-                        @"31-重复点击button"
+                        @"31-重复点击button",
+                        @"32-个人页面图片下拉放大效果"
                         ];
     }
     return _dataSource;
@@ -290,6 +292,9 @@
             vc = [[ButtonRepeatViewController alloc]init];
             break;
             
+        case 31:
+            vc = [[JXMineViewController alloc]init];
+            break;
             
         default:
             break;

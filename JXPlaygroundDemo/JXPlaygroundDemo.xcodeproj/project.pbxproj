@@ -355,6 +355,7 @@
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
 		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
+		F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
 		F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */; };
 		F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */; };
@@ -962,6 +963,8 @@
 		F376088C1F542E4000B47CF3 /* UIButton+repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+repeat.m"; sourceTree = "<group>"; };
 		F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRepeatViewController.h; sourceTree = "<group>"; };
 		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
+		F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMineViewController.h; sourceTree = "<group>"; };
+		F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMineViewController.m; sourceTree = "<group>"; };
 		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
 		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
 		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
@@ -2314,6 +2317,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */,
 				F37608881F542E2900B47CF3 /* 31-防止重复点击Button */,
 				044765061F30833600F0E08D /* 30-系统定位封装 */,
 				044E2E131F2C6FD10030C5F4 /* 29-开永久线程 */,
@@ -2510,6 +2514,15 @@
 				F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */,
 			);
 			path = "31-防止重复点击Button";
+			sourceTree = "<group>";
+		};
+		F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */ = {
+			isa = PBXGroup;
+			children = (
+				F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */,
+				F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */,
+			);
+			path = "32-个人页面图片下拉放大效果 ";
 			sourceTree = "<group>";
 		};
 		F3F8E3C71F5D4F48003A7C39 /* POP+ Interaction */ = {
@@ -2770,6 +2783,7 @@
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				042E70BE1EF295C90034B579 /* NSDecimalNumber+Extensions.m in Sources */,
 				F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */,
+				F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */,
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
