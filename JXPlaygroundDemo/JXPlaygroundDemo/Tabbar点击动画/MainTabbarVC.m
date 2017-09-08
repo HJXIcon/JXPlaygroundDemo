@@ -9,6 +9,7 @@
 #import "MainTabbarVC.h"
 #import "ViewController.h"
 
+
 @interface MainTabbarVC ()<UITabBarControllerDelegate>
 @property (nonatomic,assign) NSInteger  indexFlag;
 @end
@@ -32,6 +33,7 @@
     [self setChildNav:@"shopCart" selectedImg:@"shopCart_r" title:@"购物车"];
     [self setChildNav:@"v2_my" selectedImg:@"v2_my_r" title:@"我"];
     
+
 }
 
 -(void)setChildNav:(NSString *)img selectedImg:(NSString *)selectedImg title:(NSString *)title{

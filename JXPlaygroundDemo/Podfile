@@ -6,7 +6,7 @@ target 'JXPlaygroundDemo' do
   pod 'AMap3DMap' #3D地图SDK #pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使⽤用)
   pod 'AMapSearch' #搜索功能
   pod 'SDWebImage', '~> 4.0.0'
-  pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
   pod 'Masonry', '~> 1.0.2'
   pod 'ZFPlayer'
   pod 'WebViewJavascriptBridge'
@@ -28,4 +28,5 @@ target 'JXPlaygroundDemo' do
   pod 'AFNetworking', '~> 3.1.0'
   pod 'XHWebImageAutoSize', '~> 1.0.2' #网络图片尺寸/高度自适应 - 支持异步缓存imageSize , 支持动态刷新界面
   pod 'pop', '~> 1.0.9'
+  pod 'JPFPSStatus', '~> 0.1' #FPS
 end

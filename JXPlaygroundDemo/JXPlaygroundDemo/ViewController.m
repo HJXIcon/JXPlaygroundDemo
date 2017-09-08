@@ -41,6 +41,7 @@
 #import "LocationViewController.h"
 #import "ButtonRepeatViewController.h"
 #import "JXMineViewController.h"
+#import <JPFPSStatus.h>
 
 @interface ViewController ()
 
@@ -93,7 +94,9 @@
     [super viewDidLoad];
     
     self.tableView.tableFooterView = [[UIView alloc]init];
-    
+#if defined(DEBUG) || defined(_DEBUG)
+    [[JPFPSStatus sharedInstance]open];
+#endif
 }
 
 

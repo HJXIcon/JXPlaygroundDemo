@@ -23,6 +23,7 @@ PODS:
   - CYLTabBarController (1.10.0)
   - DOPDropDownMenu-Enhanced (1.0.0)
   - JDStatusBarNotification (1.5.5)
+  - JPFPSStatus (0.1)
   - LazyScroll (0.0.2)
   - LBXScan (2.2):
     - LBXScan/All (= 2.2)
@@ -41,7 +42,7 @@ PODS:
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
   - TLYShyNavBar (1.1.1)
-  - UITableView+FDTemplateLayoutCell (1.5.beta)
+  - UITableView+FDTemplateLayoutCell (1.6)
   - WebViewJavascriptBridge (6.0.2)
   - WechatOpenSDK (1.7.7)
   - XHWebImageAutoSize (1.0.2)
@@ -57,6 +58,7 @@ DEPENDENCIES:
   - CYLTabBarController (~> 1.10.0)
   - DOPDropDownMenu-Enhanced (~> 1.0.0)
   - JDStatusBarNotification (~> 1.5.5)
+  - JPFPSStatus (~> 0.1)
   - LazyScroll
   - LBXScan (~> 2.2)
   - Masonry (~> 1.0.2)
@@ -67,7 +69,7 @@ DEPENDENCIES:
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
   - TLYShyNavBar (~> 1.1.1)
-  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
+  - UITableView+FDTemplateLayoutCell (~> 1.6)
   - WebViewJavascriptBridge
   - WechatOpenSDK
   - XHWebImageAutoSize (~> 1.0.2)
@@ -82,6 +84,7 @@ SPEC CHECKSUMS:
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   DOPDropDownMenu-Enhanced: 9ec473b16351b5b0b2d6ef87e7f666fe5ff54ad5
   JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
+  JPFPSStatus: 4467a17488382e4c1700bd9d18c92ae581fd6305
   LazyScroll: 614022689b8e3b93c7bbe268c1a47b76e4265941
   LBXScan: 31b69c9657404133324e6b68ef814802ef9cacc0
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
@@ -92,13 +95,13 @@ SPEC CHECKSUMS:
   SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TLYShyNavBar: d200e598923fbc2bd21a5c5efdfabf4898b11da0
-  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
   WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
   WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
   XHWebImageAutoSize: b58704e53d1d444b632d76d8c314f18933c9fbbb
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: d00aa131dfa8a4f54bafde1d55a609712b9ba73f
+PODFILE CHECKSUM: 2f96f73e8523c51f52688373d311904d5a8ca324
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

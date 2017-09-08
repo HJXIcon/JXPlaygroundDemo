@@ -352,10 +352,12 @@
 		04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */; };
 		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
+		F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */; };
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
 		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
 		F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */; };
+		F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C54F611F623700006A851B /* JXTopLeftLabel.m */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
 		F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */; };
 		F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */; };
@@ -957,6 +959,8 @@
 		04FEF1651EF13EEE00388A0D /* JXPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopTransition.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F35E5FA31F60DE5800AE22F4 /* JXMasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMasonryCell.h; sourceTree = "<group>"; };
+		F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMasonryCell.m; sourceTree = "<group>"; };
 		F37608891F542E4000B47CF3 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
 		F376088A1F542E4000B47CF3 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		F376088B1F542E4000B47CF3 /* UIButton+repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+repeat.h"; sourceTree = "<group>"; };
@@ -965,6 +969,8 @@
 		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
 		F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMineViewController.h; sourceTree = "<group>"; };
 		F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMineViewController.m; sourceTree = "<group>"; };
+		F3C54F601F623700006A851B /* JXTopLeftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTopLeftLabel.h; sourceTree = "<group>"; };
+		F3C54F611F623700006A851B /* JXTopLeftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTopLeftLabel.m; sourceTree = "<group>"; };
 		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
 		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
 		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
@@ -2096,6 +2102,10 @@
 				04AC30C91ED91D3200841D63 /* FDTCell.xib */,
 				04AC30CC1ED91D7000841D63 /* FDTMasoryCell.h */,
 				04AC30CD1ED91D7000841D63 /* FDTMasoryCell.m */,
+				F35E5FA31F60DE5800AE22F4 /* JXMasonryCell.h */,
+				F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */,
+				F3C54F601F623700006A851B /* JXTopLeftLabel.h */,
+				F3C54F611F623700006A851B /* JXTopLeftLabel.m */,
 				04AC30CE1ED91D7000841D63 /* FDTModel.h */,
 				04AC30CF1ED91D7000841D63 /* FDTModel.m */,
 			);
@@ -2733,13 +2743,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXPlaygroundDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E12616A9D8BD9AF05C87BED9 /* [CP] Copy Pods Resources */ = {
@@ -2748,9 +2761,19 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2785,6 +2808,7 @@
 				F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */,
 				F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */,
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
+				F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
 				042E709D1EF295C80034B579 /* NSArray+SafeAccess.m in Sources */,
@@ -2892,6 +2916,7 @@
 				0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
+				F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */,
 				04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,

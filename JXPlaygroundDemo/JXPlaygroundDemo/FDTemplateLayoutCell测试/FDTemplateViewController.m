@@ -11,6 +11,7 @@
 #import "FDTMasoryCell.h"
 #import "FDTModel.h"
 #import "UITableView+FDTemplateLayoutCell.h"
+#import "JXMasonryCell.h"
 
 static NSString *const cellID = @"FDTCell";
 static NSString *const cellMasonryID  = @"FDTMasonryCell";
@@ -55,17 +56,29 @@ static NSString *const cellMasonryID  = @"FDTMasonryCell";
     _tableview.dataSource = self;
     //[_tableview registerNib:[UINib nibWithNibName:@"FDTCell" bundle:nil] forCellReuseIdentifier:cellID];
     [_tableview registerClass:[FDTMasoryCell class] forCellReuseIdentifier:cellMasonryID];
+    [_tableview registerClass:[JXMasonryCell class] forCellReuseIdentifier:@"JXMasonryCell"];
     [self.view addSubview:_tableview];
     
     
 }
 
 #pragma mark - tableview
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 2;
+}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataArry.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+       JXMasonryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"JXMasonryCell"];
+        FDTModel *model = self.dataArry[indexPath.row];
+        [cell fill:model];
+        return cell;
+    }
+//
     //FDTCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     FDTMasoryCell *cell = [tableView dequeueReusableCellWithIdentifier:cellMasonryID];
     FDTModel *model = self.dataArry[indexPath.row];
@@ -75,6 +88,17 @@ static NSString *const cellMasonryID  = @"FDTMasonryCell";
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.section == 0) {
+        
+        CGFloat height = [tableView fd_heightForCellWithIdentifier:@"JXMasonryCell" cacheByIndexPath:indexPath configuration:^(id cell) {
+            FDTModel *model = self.dataArry[indexPath.row];
+            [cell fill:model];
+        }];
+        
+        return height;
+    }
+    
     return [tableView fd_heightForCellWithIdentifier:cellMasonryID cacheByIndexPath:indexPath configuration:^(id cell) {
         FDTModel *model = self.dataArry[indexPath.row];
         [cell fill:model];
