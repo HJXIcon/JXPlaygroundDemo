@@ -352,6 +352,22 @@
 		04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */; };
 		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
+		F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E8E1F67C29D006FEF54 /* RETableViewManagerController.m */; };
+		F34A3E921F67C540006FEF54 /* REListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E911F67C540006FEF54 /* REListHeaderView.m */; };
+		F34A3E951F67C600006FEF54 /* REListImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E941F67C600006FEF54 /* REListImageItem.m */; };
+		F34A3E981F67C7C0006FEF54 /* REListImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E971F67C7C0006FEF54 /* REListImageCell.m */; };
+		F34A3EA61F67C89E006FEF54 /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9A1F67C89E006FEF54 /* photo1.jpg */; };
+		F34A3EA71F67C89E006FEF54 /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9B1F67C89E006FEF54 /* photo2.jpg */; };
+		F34A3EA81F67C89E006FEF54 /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9C1F67C89E006FEF54 /* photo3.jpg */; };
+		F34A3EA91F67C89E006FEF54 /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9D1F67C89E006FEF54 /* photo4.jpg */; };
+		F34A3EAA1F67C89E006FEF54 /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9E1F67C89E006FEF54 /* photo5.jpg */; };
+		F34A3EAB1F67C89E006FEF54 /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3E9F1F67C89E006FEF54 /* photo6.jpg */; };
+		F34A3EAC1F67C89E006FEF54 /* userpic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA01F67C89E006FEF54 /* userpic1.jpg */; };
+		F34A3EAD1F67C89E006FEF54 /* userpic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA11F67C89E006FEF54 /* userpic2.jpg */; };
+		F34A3EAE1F67C89E006FEF54 /* userpic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA21F67C89E006FEF54 /* userpic3.jpg */; };
+		F34A3EAF1F67C89E006FEF54 /* userpic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA31F67C89E006FEF54 /* userpic4.jpg */; };
+		F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA41F67C89E006FEF54 /* userpic5.jpg */; };
+		F34A3EB11F67C89E006FEF54 /* userpic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA51F67C89E006FEF54 /* userpic6.jpg */; };
 		F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */; };
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
@@ -959,6 +975,26 @@
 		04FEF1651EF13EEE00388A0D /* JXPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopTransition.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F34A3E8D1F67C29D006FEF54 /* RETableViewManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RETableViewManagerController.h; path = ../RETableViewManagerController.h; sourceTree = "<group>"; };
+		F34A3E8E1F67C29D006FEF54 /* RETableViewManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RETableViewManagerController.m; path = ../RETableViewManagerController.m; sourceTree = "<group>"; };
+		F34A3E901F67C540006FEF54 /* REListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REListHeaderView.h; path = ../REListHeaderView.h; sourceTree = "<group>"; };
+		F34A3E911F67C540006FEF54 /* REListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REListHeaderView.m; path = ../REListHeaderView.m; sourceTree = "<group>"; };
+		F34A3E931F67C600006FEF54 /* REListImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REListImageItem.h; path = ../REListImageItem.h; sourceTree = "<group>"; };
+		F34A3E941F67C600006FEF54 /* REListImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REListImageItem.m; path = ../REListImageItem.m; sourceTree = "<group>"; };
+		F34A3E961F67C7C0006FEF54 /* REListImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = REListImageCell.h; path = ../REListImageCell.h; sourceTree = "<group>"; };
+		F34A3E971F67C7C0006FEF54 /* REListImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = REListImageCell.m; path = ../REListImageCell.m; sourceTree = "<group>"; };
+		F34A3E9A1F67C89E006FEF54 /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		F34A3E9B1F67C89E006FEF54 /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		F34A3E9C1F67C89E006FEF54 /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		F34A3E9D1F67C89E006FEF54 /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		F34A3E9E1F67C89E006FEF54 /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
+		F34A3E9F1F67C89E006FEF54 /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
+		F34A3EA01F67C89E006FEF54 /* userpic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic1.jpg; sourceTree = "<group>"; };
+		F34A3EA11F67C89E006FEF54 /* userpic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic2.jpg; sourceTree = "<group>"; };
+		F34A3EA21F67C89E006FEF54 /* userpic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic3.jpg; sourceTree = "<group>"; };
+		F34A3EA31F67C89E006FEF54 /* userpic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic4.jpg; sourceTree = "<group>"; };
+		F34A3EA41F67C89E006FEF54 /* userpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic5.jpg; sourceTree = "<group>"; };
+		F34A3EA51F67C89E006FEF54 /* userpic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic6.jpg; sourceTree = "<group>"; };
 		F35E5FA31F60DE5800AE22F4 /* JXMasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMasonryCell.h; sourceTree = "<group>"; };
 		F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMasonryCell.m; sourceTree = "<group>"; };
 		F37608891F542E4000B47CF3 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -2327,6 +2363,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F34A3E8C1F67C1FF006FEF54 /* 33-RETableViewManager */,
 				F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */,
 				F37608881F542E2900B47CF3 /* 31-防止重复点击Button */,
 				044765061F30833600F0E08D /* 30-系统定位封装 */,
@@ -2513,6 +2550,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F34A3E8C1F67C1FF006FEF54 /* 33-RETableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3EB51F67CA5C006FEF54 /* Controller */,
+				F34A3EB61F67CA5C006FEF54 /* Model */,
+				F34A3EB71F67CA5C006FEF54 /* View */,
+				F34A3E991F67C89E006FEF54 /* Photos */,
+			);
+			path = "33-RETableViewManager";
+			sourceTree = "<group>";
+		};
+		F34A3E991F67C89E006FEF54 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3E9A1F67C89E006FEF54 /* photo1.jpg */,
+				F34A3E9B1F67C89E006FEF54 /* photo2.jpg */,
+				F34A3E9C1F67C89E006FEF54 /* photo3.jpg */,
+				F34A3E9D1F67C89E006FEF54 /* photo4.jpg */,
+				F34A3E9E1F67C89E006FEF54 /* photo5.jpg */,
+				F34A3E9F1F67C89E006FEF54 /* photo6.jpg */,
+				F34A3EA01F67C89E006FEF54 /* userpic1.jpg */,
+				F34A3EA11F67C89E006FEF54 /* userpic2.jpg */,
+				F34A3EA21F67C89E006FEF54 /* userpic3.jpg */,
+				F34A3EA31F67C89E006FEF54 /* userpic4.jpg */,
+				F34A3EA41F67C89E006FEF54 /* userpic5.jpg */,
+				F34A3EA51F67C89E006FEF54 /* userpic6.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		F34A3EB51F67CA5C006FEF54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3E8D1F67C29D006FEF54 /* RETableViewManagerController.h */,
+				F34A3E8E1F67C29D006FEF54 /* RETableViewManagerController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F34A3EB61F67CA5C006FEF54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3E931F67C600006FEF54 /* REListImageItem.h */,
+				F34A3E941F67C600006FEF54 /* REListImageItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F34A3EB71F67CA5C006FEF54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3E901F67C540006FEF54 /* REListHeaderView.h */,
+				F34A3E911F67C540006FEF54 /* REListHeaderView.m */,
+				F34A3E961F67C7C0006FEF54 /* REListImageCell.h */,
+				F34A3E971F67C7C0006FEF54 /* REListImageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F37608881F542E2900B47CF3 /* 31-防止重复点击Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -2616,6 +2712,7 @@
 				04B77FE41EE653A90049B82E /* xButton@2x.png in Resources */,
 				0460B9521EDFC95200C00DA5 /* refresh02.png in Resources */,
 				04B77FE31EE653A90049B82E /* noButton@2x.png in Resources */,
+				F34A3EB11F67C89E006FEF54 /* userpic6.jpg in Resources */,
 				0460B9381EDFC95200C00DA5 /* recomand_07.jpg in Resources */,
 				0460B9351EDFC95200C00DA5 /* recomand_04.jpg in Resources */,
 				0460B94F1EDFC95200C00DA5 /* header10@2x.jpg in Resources */,
@@ -2636,6 +2733,7 @@
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
+				F34A3EAD1F67C89E006FEF54 /* userpic2.jpg in Resources */,
 				042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */,
 				046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */,
 				0460B9481EDFC95200C00DA5 /* header03@2x.jpg in Resources */,
@@ -2647,6 +2745,7 @@
 				0460B9651EDFC96000C00DA5 /* cycle_02.jpg in Resources */,
 				0435A5161EEA50680097689F /* source.html in Resources */,
 				04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */,
+				F34A3EA91F67C89E006FEF54 /* photo4.jpg in Resources */,
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
 				04B77FEA1EE653A90049B82E /* yesButton.png in Resources */,
 				0460B9331EDFC95200C00DA5 /* recomand_02.jpg in Resources */,
@@ -2656,6 +2755,7 @@
 				048021121EEF778B008287A8 /* CYPasswordView.bundle in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
 				0460B8FD1EDFC93A00C00DA5 /* home_search_icon.png in Resources */,
+				F34A3EAB1F67C89E006FEF54 /* photo6.jpg in Resources */,
 				04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */,
 				04D842171EC694CB00E14F48 /* Main.storyboard in Resources */,
 				0460B96A1EDFC96000C00DA5 /* cycle_07.jpg in Resources */,
@@ -2678,13 +2778,16 @@
 				046BFBAA1EE500EF009358B5 /* test1.gif in Resources */,
 				0460B8F91EDFC93A00C00DA5 /* home_email_black.png in Resources */,
 				0460B94D1EDFC95200C00DA5 /* header08@2x.jpg in Resources */,
+				F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */,
 				0435A5551EEA9DA70097689F /* 设置appid.jpg in Resources */,
 				042E70AD1EF295C80034B579 /* NSDateTimeAgo.bundle in Resources */,
 				0460B9451EDFC95200C00DA5 /* recomand_20.jpg in Resources */,
+				F34A3EA71F67C89E006FEF54 /* photo2.jpg in Resources */,
 				0460B9501EDFC95200C00DA5 /* refresh00.png in Resources */,
 				0460B9421EDFC95200C00DA5 /* recomand_17.jpg in Resources */,
 				04F2AE0F1EE55D850038C33C /* guide3.mp4 in Resources */,
 				04B77FE81EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png in Resources */,
+				F34A3EA81F67C89E006FEF54 /* photo3.jpg in Resources */,
 				0460B8FE1EDFC93A00C00DA5 /* home_watch.png in Resources */,
 				0460B93A1EDFC95200C00DA5 /* recomand_09.jpg in Resources */,
 				04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */,
@@ -2692,6 +2795,7 @@
 				0460B9581EDFC95200C00DA5 /* refresh08.png in Resources */,
 				0460B9431EDFC95200C00DA5 /* recomand_18.jpg in Resources */,
 				0460B9321EDFC95200C00DA5 /* recomand_01.jpg in Resources */,
+				F34A3EA61F67C89E006FEF54 /* photo1.jpg in Resources */,
 				0460B9401EDFC95200C00DA5 /* recomand_15.jpg in Resources */,
 				04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */,
 				0460B9661EDFC96000C00DA5 /* cycle_03.jpg in Resources */,
@@ -2701,6 +2805,8 @@
 				0460B9511EDFC95200C00DA5 /* refresh01.png in Resources */,
 				042E6F991EF28DCB0034B579 /* blankpage_button_reload@2x.png in Resources */,
 				04B77FE21EE653A90049B82E /* noButton.png in Resources */,
+				F34A3EAC1F67C89E006FEF54 /* userpic1.jpg in Resources */,
+				F34A3EAE1F67C89E006FEF54 /* userpic3.jpg in Resources */,
 				0460B9571EDFC95200C00DA5 /* refresh07.png in Resources */,
 				042E6F9A1EF28DCB0034B579 /* blankpage_image_loadFail@2x.png in Resources */,
 				04B77FE51EE653A90049B82E /* xButton.png in Resources */,
@@ -2708,7 +2814,9 @@
 				0460B93C1EDFC95200C00DA5 /* recomand_11.jpg in Resources */,
 				0460B9031EDFC93A00C00DA5 /* tab_我的.png in Resources */,
 				0460B9491EDFC95200C00DA5 /* header04@2x.jpg in Resources */,
+				F34A3EAA1F67C89E006FEF54 /* photo5.jpg in Resources */,
 				0460B9341EDFC95200C00DA5 /* recomand_03.jpg in Resources */,
+				F34A3EAF1F67C89E006FEF54 /* userpic4.jpg in Resources */,
 				0460B94E1EDFC95200C00DA5 /* header09@2x.jpg in Resources */,
 				0460B9441EDFC95200C00DA5 /* recomand_19.jpg in Resources */,
 				0460B9061EDFC93A00C00DA5 /* tab_首页_pressed.png in Resources */,
@@ -2765,6 +2873,7 @@
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/RETableViewManager/RETableViewManager.bundle,
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
@@ -2866,6 +2975,7 @@
 				042E70C61EF295C90034B579 /* NSObject+Blocks.m in Sources */,
 				04AC30CA1ED91D3200841D63 /* FDTCell.m in Sources */,
 				0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */,
+				F34A3E921F67C540006FEF54 /* REListHeaderView.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */,
 				042E70A21EF295C80034B579 /* NSData+Gzip.m in Sources */,
@@ -2883,6 +2993,7 @@
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				042E70AA1EF295C80034B579 /* NSDate+Reporting.m in Sources */,
 				04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */,
+				F34A3E981F67C7C0006FEF54 /* REListImageCell.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
 				042E70D11EF295C90034B579 /* NSString+Contains.m in Sources */,
 				04FEF15A1EF1355C00388A0D /* JXTransitionTableViewController.m in Sources */,
@@ -2933,6 +3044,7 @@
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
+				F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */,
 				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
 				04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */,
 				F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */,
@@ -2993,6 +3105,7 @@
 				04F660D51F2AE1F70051AFDE /* UITableView+placeholder.m in Sources */,
 				042E70C11EF295C90034B579 /* NSNumber+Round.m in Sources */,
 				042E70C81EF295C90034B579 /* NSObject+GCD.m in Sources */,
+				F34A3E951F67C600006FEF54 /* REListImageItem.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
 				0435A50F1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m in Sources */,

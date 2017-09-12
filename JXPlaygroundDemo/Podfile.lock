@@ -36,6 +36,11 @@ PODS:
   - MJRefresh (3.1.12)
   - pop (1.0.9)
   - ReactiveObjC (3.0.0)
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
   - SDCycleScrollView (1.66):
     - SDWebImage (~> 4.0.0)
   - SDWebImage (4.0.0):
@@ -66,6 +71,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.12)
   - pop (~> 1.0.9)
   - ReactiveObjC (~> 3.0.0)
+  - RETableViewManager (~> 1.7)
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
   - TLYShyNavBar (~> 1.1.1)
@@ -92,6 +98,9 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
   SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   TLYShyNavBar: d200e598923fbc2bd21a5c5efdfabf4898b11da0
@@ -102,6 +111,6 @@ SPEC CHECKSUMS:
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
   ZFPlayer: 8dc82b4508fbba4ee59d0304c52e30f8b3390244
 
-PODFILE CHECKSUM: 2f96f73e8523c51f52688373d311904d5a8ca324
+PODFILE CHECKSUM: e885cb609b19f5338a6633a1edcbf0661fd287e4
 
 COCOAPODS: 1.3.1

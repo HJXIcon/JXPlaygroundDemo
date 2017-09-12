@@ -29,4 +29,5 @@ target 'JXPlaygroundDemo' do
   pod 'XHWebImageAutoSize', '~> 1.0.2' #网络图片尺寸/高度自适应 - 支持异步缓存imageSize , 支持动态刷新界面
   pod 'pop', '~> 1.0.9'
   pod 'JPFPSStatus', '~> 0.1' #FPS
+  pod 'RETableViewManager', '~> 1.7' #pod 'RETableViewManager', '~> 1.7'
 end

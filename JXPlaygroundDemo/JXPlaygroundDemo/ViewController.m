@@ -42,6 +42,7 @@
 #import "ButtonRepeatViewController.h"
 #import "JXMineViewController.h"
 #import <JPFPSStatus.h>
+#import "RETableViewManagerController.h"
 
 @interface ViewController ()
 
@@ -84,7 +85,8 @@
                         @"29-开永久线程",
                         @"30-系统定位封装",
                         @"31-重复点击button",
-                        @"32-个人页面图片下拉放大效果"
+                        @"32-个人页面图片下拉放大效果",
+                        @"33-RETableViewManager"
                         ];
     }
     return _dataSource;
@@ -299,6 +301,11 @@
             vc = [[JXMineViewController alloc]init];
             break;
             
+        case 32:
+            vc = [[RETableViewManagerController alloc]init];
+            break;
+            
+
         default:
             break;
     }
