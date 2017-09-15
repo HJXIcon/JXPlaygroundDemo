@@ -1,35 +1,36 @@
 //
-//  ListViewController.m
-//  RETableViewManagerExample
+//  RETableViewManagerController.m
+//  JXPlaygroundDemo
 //
-//  Created by Roman Efimov on 3/17/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by 晓梦影 on 2017/9/12.
+//  Copyright © 2017年 Mr.Gao. All rights reserved.
 //
 
-#import "ListViewController.h"
-#import "ListHeaderView.h"
-#import "ListImageItem.h"
+#import "RETableViewManagerController.h"
+#import <RETableViewManager.h>
+#import "REListHeaderView.h"
+#import "REListImageItem.h"
+#import "REListImageCell.h"
 
-@interface ListViewController ()
-
+@interface RETableViewManagerController ()
 @property (strong, readwrite, nonatomic) RETableViewManager *manager;
+
 
 @end
 
-@implementation ListViewController
+@implementation RETableViewManagerController
 
-- (void)viewDidLoad
-{
+
+- (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"List";
+    self.navigationItem.title = @"RETableViewManager";
     
     // Create manager
-    //
     self.manager = [[RETableViewManager alloc] initWithTableView:self.tableView];
     
     // Map item to a cell
     //
-    self.manager[@"ListImageItem"] = @"ListImageCell"; // which is the same as [self.manager registerClass:@"ListImageItem" forCellWithReuseIdentifier:@"ListImageCell"];
+    self.manager[@"REListImageItem"] = @"REListImageCell"; // which is the same as[self.manager registerClass:@"ListImageItem" forCellWithReuseIdentifier:@"ListImageCell"];
     
     // Set some UITableView properties
     //
@@ -50,6 +51,8 @@
     // Add items
     //
     [self addItems];
+    
+    
 }
 
 - (void)addItems
@@ -82,13 +85,13 @@
     for (NSDictionary *dictionary in items) {
         // Create section with a header view
         //
-        ListHeaderView *headerView = [ListHeaderView headerViewWithImageNamed:dictionary[@"userpic"] username:dictionary[@"username"]];
+        REListHeaderView *headerView = [REListHeaderView headerViewWithImageNamed:dictionary[@"userpic"] username:dictionary[@"username"]];
         RETableViewSection *section = [RETableViewSection sectionWithHeaderView:headerView];
         [self.manager addSection:section];
         
         // Add item (image)
         //
-        [section addItem:[ListImageItem itemWithImageNamed:dictionary[@"image"]]];
+        [section addItem:[REListImageItem itemWithImageNamed:dictionary[@"image"]]];
     }
 }
 
@@ -100,5 +103,14 @@
     [self addItems];
     [self.tableView reloadData];
 }
+
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    
+}
+
+
 
 @end

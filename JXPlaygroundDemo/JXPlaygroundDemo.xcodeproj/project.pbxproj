@@ -30,10 +30,6 @@
 		04226E931EF3B3EC00E8302A /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E901EF3B3EC00E8302A /* AdvertiseHelper.m */; };
 		04226E941EF3B3EC00E8302A /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E921EF3B3EC00E8302A /* AdvertiseView.m */; };
 		04226E971EF3B40A00E8302A /* JXAdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E961EF3B40A00E8302A /* JXAdvertiseViewController.m */; };
-		04226EA31EF3D3AA00E8302A /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E9C1EF3D3AA00E8302A /* GCDGroup.m */; };
-		04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226E9E1EF3D3AA00E8302A /* GCDQueue.m */; };
-		04226EA51EF3D3AA00E8302A /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA01EF3D3AA00E8302A /* GCDSemaphore.m */; };
-		04226EA61EF3D3AA00E8302A /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA21EF3D3AA00E8302A /* GCDTimer.m */; };
 		04226EAA1EF3D9A900E8302A /* MPFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EA91EF3D9A900E8302A /* MPFileManager.m */; };
 		04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EAD1EF3D9FE00E8302A /* introductoryPagesHelper.m */; };
 		04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04226EAF1EF3D9FE00E8302A /* introductoryPagesView.m */; };
@@ -368,6 +364,11 @@
 		F34A3EAF1F67C89E006FEF54 /* userpic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA31F67C89E006FEF54 /* userpic4.jpg */; };
 		F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA41F67C89E006FEF54 /* userpic5.jpg */; };
 		F34A3EB11F67C89E006FEF54 /* userpic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA51F67C89E006FEF54 /* userpic6.jpg */; };
+		F35913C91F6B6C2D007336FF /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C21F6B6C2D007336FF /* GCDGroup.m */; };
+		F35913CA1F6B6C2D007336FF /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C41F6B6C2D007336FF /* GCDQueue.m */; };
+		F35913CB1F6B6C2D007336FF /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C61F6B6C2D007336FF /* GCDSemaphore.m */; };
+		F35913CC1F6B6C2D007336FF /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C81F6B6C2D007336FF /* GCDTimer.m */; };
+		F35913CF1F6B6C44007336FF /* JXGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913CE1F6B6C44007336FF /* JXGCDViewController.m */; };
 		F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */; };
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
@@ -428,15 +429,6 @@
 		04226E921EF3B3EC00E8302A /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		04226E951EF3B40A00E8302A /* JXAdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAdvertiseViewController.h; sourceTree = "<group>"; };
 		04226E961EF3B40A00E8302A /* JXAdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdvertiseViewController.m; sourceTree = "<group>"; };
-		04226E9A1EF3D3AA00E8302A /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
-		04226E9B1EF3D3AA00E8302A /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
-		04226E9C1EF3D3AA00E8302A /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
-		04226E9D1EF3D3AA00E8302A /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
-		04226E9E1EF3D3AA00E8302A /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
-		04226E9F1EF3D3AA00E8302A /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
-		04226EA01EF3D3AA00E8302A /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
-		04226EA11EF3D3AA00E8302A /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
-		04226EA21EF3D3AA00E8302A /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		04226EA81EF3D9A900E8302A /* MPFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPFileManager.h; sourceTree = "<group>"; };
 		04226EA91EF3D9A900E8302A /* MPFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPFileManager.m; sourceTree = "<group>"; };
 		04226EAC1EF3D9FE00E8302A /* introductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introductoryPagesHelper.h; sourceTree = "<group>"; };
@@ -995,6 +987,17 @@
 		F34A3EA31F67C89E006FEF54 /* userpic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic4.jpg; sourceTree = "<group>"; };
 		F34A3EA41F67C89E006FEF54 /* userpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic5.jpg; sourceTree = "<group>"; };
 		F34A3EA51F67C89E006FEF54 /* userpic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic6.jpg; sourceTree = "<group>"; };
+		F35913C01F6B6C2D007336FF /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		F35913C11F6B6C2D007336FF /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		F35913C21F6B6C2D007336FF /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		F35913C31F6B6C2D007336FF /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		F35913C41F6B6C2D007336FF /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		F35913C51F6B6C2D007336FF /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		F35913C61F6B6C2D007336FF /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		F35913C71F6B6C2D007336FF /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		F35913C81F6B6C2D007336FF /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		F35913CD1F6B6C44007336FF /* JXGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGCDViewController.h; sourceTree = "<group>"; };
+		F35913CE1F6B6C44007336FF /* JXGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGCDViewController.m; sourceTree = "<group>"; };
 		F35E5FA31F60DE5800AE22F4 /* JXMasonryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMasonryCell.h; sourceTree = "<group>"; };
 		F35E5FA41F60DE5800AE22F4 /* JXMasonryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMasonryCell.m; sourceTree = "<group>"; };
 		F37608891F542E4000B47CF3 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -1162,26 +1165,8 @@
 				04226EB21EF3DE2400E8302A /* FCUUID(获取设备标识) */,
 				04226EAB1EF3D9FE00E8302A /* IntroductoryPages(引导页) */,
 				04226EA71EF3D9A900E8302A /* FileManager(文件管理) */,
-				04226E991EF3D3AA00E8302A /* GCDHelper(GCD助手) */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		04226E991EF3D3AA00E8302A /* GCDHelper(GCD助手) */ = {
-			isa = PBXGroup;
-			children = (
-				04226E9A1EF3D3AA00E8302A /* GCD.h */,
-				04226E9B1EF3D3AA00E8302A /* GCDGroup.h */,
-				04226E9C1EF3D3AA00E8302A /* GCDGroup.m */,
-				04226E9D1EF3D3AA00E8302A /* GCDQueue.h */,
-				04226E9E1EF3D3AA00E8302A /* GCDQueue.m */,
-				04226E9F1EF3D3AA00E8302A /* GCDSemaphore.h */,
-				04226EA01EF3D3AA00E8302A /* GCDSemaphore.m */,
-				04226EA11EF3D3AA00E8302A /* GCDTimer.h */,
-				04226EA21EF3D3AA00E8302A /* GCDTimer.m */,
-			);
-			name = "GCDHelper(GCD助手)";
-			path = GCDHelper;
 			sourceTree = "<group>";
 		};
 		04226EA71EF3D9A900E8302A /* FileManager(文件管理) */ = {
@@ -2363,6 +2348,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F35913BE1F6B6C1A007336FF /* 34-GCD封装 */,
 				F34A3E8C1F67C1FF006FEF54 /* 33-RETableViewManager */,
 				F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */,
 				F37608881F542E2900B47CF3 /* 31-防止重复点击Button */,
@@ -2607,6 +2593,32 @@
 				F34A3E971F67C7C0006FEF54 /* REListImageCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F35913BE1F6B6C1A007336FF /* 34-GCD封装 */ = {
+			isa = PBXGroup;
+			children = (
+				F35913BF1F6B6C2D007336FF /* GCD */,
+				F35913CD1F6B6C44007336FF /* JXGCDViewController.h */,
+				F35913CE1F6B6C44007336FF /* JXGCDViewController.m */,
+			);
+			path = "34-GCD封装";
+			sourceTree = "<group>";
+		};
+		F35913BF1F6B6C2D007336FF /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				F35913C01F6B6C2D007336FF /* GCD.h */,
+				F35913C11F6B6C2D007336FF /* GCDGroup.h */,
+				F35913C21F6B6C2D007336FF /* GCDGroup.m */,
+				F35913C31F6B6C2D007336FF /* GCDQueue.h */,
+				F35913C41F6B6C2D007336FF /* GCDQueue.m */,
+				F35913C51F6B6C2D007336FF /* GCDSemaphore.h */,
+				F35913C61F6B6C2D007336FF /* GCDSemaphore.m */,
+				F35913C71F6B6C2D007336FF /* GCDTimer.h */,
+				F35913C81F6B6C2D007336FF /* GCDTimer.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 		F37608881F542E2900B47CF3 /* 31-防止重复点击Button */ = {
@@ -2898,8 +2910,6 @@
 			files = (
 				048652A91EFA13DA004B6136 /* JXPopupBackgroundView.m in Sources */,
 				04FEF1601EF13AD800388A0D /* JXTransitionViewController.m in Sources */,
-				04226EA31EF3D3AA00E8302A /* GCDGroup.m in Sources */,
-				04226EA51EF3D3AA00E8302A /* GCDSemaphore.m in Sources */,
 				F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */,
 				0435A50C1EEA3ACD0097689F /* FlowLayoutTableViewController.m in Sources */,
 				04BE3FEA1ED1840000459B2E /* JXActivitySearchViewController.m in Sources */,
@@ -2920,6 +2930,7 @@
 				F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
+				F35913CC1F6B6C2D007336FF /* GCDTimer.m in Sources */,
 				042E709D1EF295C80034B579 /* NSArray+SafeAccess.m in Sources */,
 				0460527A1ECFDE4800745224 /* ReactiveCocoaBlockViewController.m in Sources */,
 				042E70B91EF295C90034B579 /* NSIndexPath+Offset.m in Sources */,
@@ -2936,7 +2947,6 @@
 				04BE3FE91ED1840000459B2E /* JXActivitySearchResultViewController.m in Sources */,
 				04AC30DE1ED923DE00841D63 /* TestZFPlayerViewController.m in Sources */,
 				042E70D91EF295C90034B579 /* NSString+RegexCategory.m in Sources */,
-				04226EA61EF3D3AA00E8302A /* GCDTimer.m in Sources */,
 				04087C121F04D64800B3F566 /* JXModalViewController.m in Sources */,
 				046052771ECFD7ED00745224 /* ReativeSearchViewController.m in Sources */,
 				04F2AE191EE55DA70038C33C /* NewFeatureViewController.m in Sources */,
@@ -2985,6 +2995,7 @@
 				042E70E31EF295C90034B579 /* NSTimer+Blocks.m in Sources */,
 				042E70C91EF295C90034B579 /* NSObject+KVOBlocks.m in Sources */,
 				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
+				F35913CF1F6B6C44007336FF /* JXGCDViewController.m in Sources */,
 				0435FE111EF7C2A400086FF9 /* JXMenuHoverTableViewController.m in Sources */,
 				042E70E51EF295C90034B579 /* NSURL+QueryDictionary.m in Sources */,
 				042E70B61EF295C90034B579 /* NSFileHandle+readLine.m in Sources */,
@@ -3016,6 +3027,7 @@
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,
 				04226E941EF3B3EC00E8302A /* AdvertiseView.m in Sources */,
+				F35913CA1F6B6C2D007336FF /* GCDQueue.m in Sources */,
 				042E70DA1EF295C90034B579 /* NSString+RemoveEmoji.m in Sources */,
 				042E70CA1EF295C90034B579 /* NSObject+MKBlockTimer.m in Sources */,
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
@@ -3028,9 +3040,9 @@
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
 				F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */,
-				04226EA41EF3D3AA00E8302A /* GCDQueue.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
+				F35913CB1F6B6C2D007336FF /* GCDSemaphore.m in Sources */,
 				04226EB91EF3DE2400E8302A /* FCUUID.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
 				042E70E41EF295C90034B579 /* NSURL+Param.m in Sources */,
@@ -3140,6 +3152,7 @@
 				042E70E21EF295C90034B579 /* NSTimer+Addition.m in Sources */,
 				04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
+				F35913C91F6B6C2D007336FF /* GCDGroup.m in Sources */,
 				0435A5141EEA47500097689F /* JXWkWebView.m in Sources */,
 				04AC30D51ED922F600841D63 /* NSThreadViewController.m in Sources */,
 				042E70E71EF295C90034B579 /* NSMutableURLRequest+Upload.m in Sources */,

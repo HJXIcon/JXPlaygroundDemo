@@ -43,6 +43,7 @@
 #import "JXMineViewController.h"
 #import <JPFPSStatus.h>
 #import "RETableViewManagerController.h"
+#import "JXGCDViewController.h"
 
 @interface ViewController ()
 
@@ -86,7 +87,8 @@
                         @"30-系统定位封装",
                         @"31-重复点击button",
                         @"32-个人页面图片下拉放大效果",
-                        @"33-RETableViewManager"
+                        @"33-RETableViewManager",
+                        @"34-GCD封装"
                         ];
     }
     return _dataSource;
@@ -303,6 +305,10 @@
             
         case 32:
             vc = [[RETableViewManagerController alloc]init];
+            break;
+            
+        case 33:
+            vc = [[JXGCDViewController alloc]init];
             break;
             
 
