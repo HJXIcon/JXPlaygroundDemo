@@ -44,6 +44,7 @@
 #import <JPFPSStatus.h>
 #import "RETableViewManagerController.h"
 #import "JXGCDViewController.h"
+#import "JXPickerTableViewController.h"
 
 @interface ViewController ()
 
@@ -88,7 +89,8 @@
                         @"31-重复点击button",
                         @"32-个人页面图片下拉放大效果",
                         @"33-RETableViewManager",
-                        @"34-GCD封装"
+                        @"34-GCD封装",
+                        @"35-PickerView"
                         ];
     }
     return _dataSource;
@@ -311,7 +313,10 @@
             vc = [[JXGCDViewController alloc]init];
             break;
             
-
+        case 34:
+            vc = [[JXPickerTableViewController alloc]init];
+            break;
+            
         default:
             break;
     }

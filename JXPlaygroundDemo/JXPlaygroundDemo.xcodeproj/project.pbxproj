@@ -373,6 +373,11 @@
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
 		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
+		F386A3C31F6F6BF700BABA60 /* JXPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3C21F6F6BF700BABA60 /* JXPickerTableViewController.m */; };
+		F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E41F6FC6B900BABA60 /* JXDatePickerView.m */; };
+		F386A3EB1F6FC6B900BABA60 /* JXDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F386A3E51F6FC6B900BABA60 /* JXDatePickerView.xib */; };
+		F386A3EC1F6FC6B900BABA60 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E71F6FC6B900BABA60 /* NSDate+Extension.m */; };
+		F386A3ED1F6FC6B900BABA60 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */; };
 		F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */; };
 		F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C54F611F623700006A851B /* JXTopLeftLabel.m */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
@@ -1006,6 +1011,15 @@
 		F376088C1F542E4000B47CF3 /* UIButton+repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+repeat.m"; sourceTree = "<group>"; };
 		F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRepeatViewController.h; sourceTree = "<group>"; };
 		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
+		F386A3C11F6F6BF700BABA60 /* JXPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPickerTableViewController.h; sourceTree = "<group>"; };
+		F386A3C21F6F6BF700BABA60 /* JXPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPickerTableViewController.m; sourceTree = "<group>"; };
+		F386A3E31F6FC6B900BABA60 /* JXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDatePickerView.h; sourceTree = "<group>"; };
+		F386A3E41F6FC6B900BABA60 /* JXDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXDatePickerView.m; sourceTree = "<group>"; };
+		F386A3E51F6FC6B900BABA60 /* JXDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JXDatePickerView.xib; sourceTree = "<group>"; };
+		F386A3E61F6FC6B900BABA60 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		F386A3E71F6FC6B900BABA60 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		F386A3E81F6FC6B900BABA60 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMineViewController.h; sourceTree = "<group>"; };
 		F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMineViewController.m; sourceTree = "<group>"; };
 		F3C54F601F623700006A851B /* JXTopLeftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTopLeftLabel.h; sourceTree = "<group>"; };
@@ -2348,6 +2362,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F386A3C01F6F6BDE00BABA60 /* 35-PickerView */,
 				F35913BE1F6B6C1A007336FF /* 34-GCD封装 */,
 				F34A3E8C1F67C1FF006FEF54 /* 33-RETableViewManager */,
 				F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */,
@@ -2634,6 +2649,30 @@
 			path = "31-防止重复点击Button";
 			sourceTree = "<group>";
 		};
+		F386A3C01F6F6BDE00BABA60 /* 35-PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F386A3E21F6FC6B900BABA60 /* DatePicker */,
+				F386A3C11F6F6BF700BABA60 /* JXPickerTableViewController.h */,
+				F386A3C21F6F6BF700BABA60 /* JXPickerTableViewController.m */,
+			);
+			path = "35-PickerView";
+			sourceTree = "<group>";
+		};
+		F386A3E21F6FC6B900BABA60 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F386A3E31F6FC6B900BABA60 /* JXDatePickerView.h */,
+				F386A3E41F6FC6B900BABA60 /* JXDatePickerView.m */,
+				F386A3E51F6FC6B900BABA60 /* JXDatePickerView.xib */,
+				F386A3E61F6FC6B900BABA60 /* NSDate+Extension.h */,
+				F386A3E71F6FC6B900BABA60 /* NSDate+Extension.m */,
+				F386A3E81F6FC6B900BABA60 /* UIView+Frame.h */,
+				F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
 		F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */ = {
 			isa = PBXGroup;
 			children = (
@@ -2763,6 +2802,7 @@
 				0460B9331EDFC95200C00DA5 /* recomand_02.jpg in Resources */,
 				0460B8FA1EDFC93A00C00DA5 /* home_email_red.png in Resources */,
 				04F2AE0D1EE55D850038C33C /* guide1.mp4 in Resources */,
+				F386A3EB1F6FC6B900BABA60 /* JXDatePickerView.xib in Resources */,
 				046BFBA91EE500EF009358B5 /* image01.jpg in Resources */,
 				048021121EEF778B008287A8 /* CYPasswordView.bundle in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
@@ -2929,6 +2969,7 @@
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
+				F386A3EC1F6FC6B900BABA60 /* NSDate+Extension.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
 				F35913CC1F6B6C2D007336FF /* GCDTimer.m in Sources */,
 				042E709D1EF295C80034B579 /* NSArray+SafeAccess.m in Sources */,
@@ -3003,6 +3044,7 @@
 				F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */,
 				04AE5E5F1EE792D0001E360C /* JXPullMenuTestViewController.m in Sources */,
 				042E70AA1EF295C80034B579 /* NSDate+Reporting.m in Sources */,
+				F386A3C31F6F6BF700BABA60 /* JXPickerTableViewController.m in Sources */,
 				04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */,
 				F34A3E981F67C7C0006FEF54 /* REListImageCell.m in Sources */,
 				0444339F1EDFEC5600C8E7C4 /* JXBanTangRefreshHeader.m in Sources */,
@@ -3036,6 +3078,7 @@
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
+				F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */,
 				0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
@@ -3052,6 +3095,7 @@
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				042E70B51EF295C90034B579 /* NSException+Trace.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
+				F386A3ED1F6FC6B900BABA60 /* UIView+Frame.m in Sources */,
 				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
