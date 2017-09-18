@@ -45,6 +45,7 @@
 #import "RETableViewManagerController.h"
 #import "JXGCDViewController.h"
 #import "JXPickerTableViewController.h"
+#import "JXPhotoPreViewViewController.h"
 
 @interface ViewController ()
 
@@ -90,7 +91,8 @@
                         @"32-个人页面图片下拉放大效果",
                         @"33-RETableViewManager",
                         @"34-GCD封装",
-                        @"35-PickerView"
+                        @"35-PickerView",
+                        @"36-PhotoPreview"
                         ];
     }
     return _dataSource;
@@ -315,6 +317,10 @@
             
         case 34:
             vc = [[JXPickerTableViewController alloc]init];
+            break;
+            
+        case 35:
+            vc = [[JXPhotoPreViewViewController alloc]init];
             break;
             
         default:

@@ -378,6 +378,10 @@
 		F386A3EB1F6FC6B900BABA60 /* JXDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F386A3E51F6FC6B900BABA60 /* JXDatePickerView.xib */; };
 		F386A3EC1F6FC6B900BABA60 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E71F6FC6B900BABA60 /* NSDate+Extension.m */; };
 		F386A3ED1F6FC6B900BABA60 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */; };
+		F386A3F61F6FD0E300BABA60 /* PhotoPreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3F11F6FD0E300BABA60 /* PhotoPreViewViewController.m */; };
+		F386A3F71F6FD0E300BABA60 /* PreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3F31F6FD0E300BABA60 /* PreviewCell.m */; };
+		F386A3F81F6FD0E300BABA60 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3F51F6FD0E300BABA60 /* UIView+frame.m */; };
+		F386A3FB1F6FD10900BABA60 /* JXPhotoPreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3FA1F6FD10900BABA60 /* JXPhotoPreViewViewController.m */; };
 		F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */; };
 		F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C54F611F623700006A851B /* JXTopLeftLabel.m */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
@@ -1020,6 +1024,14 @@
 		F386A3E71F6FC6B900BABA60 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		F386A3E81F6FC6B900BABA60 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F386A3F01F6FD0E300BABA60 /* PhotoPreViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreViewViewController.h; sourceTree = "<group>"; };
+		F386A3F11F6FD0E300BABA60 /* PhotoPreViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreViewViewController.m; sourceTree = "<group>"; };
+		F386A3F21F6FD0E300BABA60 /* PreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewCell.h; sourceTree = "<group>"; };
+		F386A3F31F6FD0E300BABA60 /* PreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewCell.m; sourceTree = "<group>"; };
+		F386A3F41F6FD0E300BABA60 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		F386A3F51F6FD0E300BABA60 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		F386A3F91F6FD10900BABA60 /* JXPhotoPreViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPhotoPreViewViewController.h; sourceTree = "<group>"; };
+		F386A3FA1F6FD10900BABA60 /* JXPhotoPreViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPhotoPreViewViewController.m; sourceTree = "<group>"; };
 		F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXMineViewController.h; sourceTree = "<group>"; };
 		F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMineViewController.m; sourceTree = "<group>"; };
 		F3C54F601F623700006A851B /* JXTopLeftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTopLeftLabel.h; sourceTree = "<group>"; };
@@ -2362,6 +2374,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F386A3EE1F6FD0D200BABA60 /* 36-PhotoPreview */,
 				F386A3C01F6F6BDE00BABA60 /* 35-PickerView */,
 				F35913BE1F6B6C1A007336FF /* 34-GCD封装 */,
 				F34A3E8C1F67C1FF006FEF54 /* 33-RETableViewManager */,
@@ -2671,6 +2684,29 @@
 				F386A3E91F6FC6B900BABA60 /* UIView+Frame.m */,
 			);
 			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		F386A3EE1F6FD0D200BABA60 /* 36-PhotoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				F386A3EF1F6FD0E300BABA60 /* PhotoPreview */,
+				F386A3F91F6FD10900BABA60 /* JXPhotoPreViewViewController.h */,
+				F386A3FA1F6FD10900BABA60 /* JXPhotoPreViewViewController.m */,
+			);
+			path = "36-PhotoPreview";
+			sourceTree = "<group>";
+		};
+		F386A3EF1F6FD0E300BABA60 /* PhotoPreview */ = {
+			isa = PBXGroup;
+			children = (
+				F386A3F01F6FD0E300BABA60 /* PhotoPreViewViewController.h */,
+				F386A3F11F6FD0E300BABA60 /* PhotoPreViewViewController.m */,
+				F386A3F21F6FD0E300BABA60 /* PreviewCell.h */,
+				F386A3F31F6FD0E300BABA60 /* PreviewCell.m */,
+				F386A3F41F6FD0E300BABA60 /* UIView+frame.h */,
+				F386A3F51F6FD0E300BABA60 /* UIView+frame.m */,
+			);
+			path = PhotoPreview;
 			sourceTree = "<group>";
 		};
 		F39AE7941F5E7CA900E36DA2 /* 32-个人页面图片下拉放大效果  */ = {
@@ -3080,10 +3116,12 @@
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
 				F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */,
 				0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */,
+				F386A3F81F6FD0E300BABA60 /* UIView+frame.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
 				F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
+				F386A3FB1F6FD10900BABA60 /* JXPhotoPreViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				F35913CB1F6B6C2D007336FF /* GCDSemaphore.m in Sources */,
 				04226EB91EF3DE2400E8302A /* FCUUID.m in Sources */,
@@ -3102,6 +3140,7 @@
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */,
 				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
+				F386A3F71F6FD0E300BABA60 /* PreviewCell.m in Sources */,
 				04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */,
 				F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
@@ -3194,6 +3233,7 @@
 				0405F2CC1F03911C00795285 /* JXAdaptationManager.m in Sources */,
 				0435A5311EEA8D220097689F /* UITextField+Extension.m in Sources */,
 				042E70E21EF295C90034B579 /* NSTimer+Addition.m in Sources */,
+				F386A3F61F6FD0E300BABA60 /* PhotoPreViewViewController.m in Sources */,
 				04226EB01EF3D9FE00E8302A /* introductoryPagesHelper.m in Sources */,
 				04AC30DC1ED923DE00841D63 /* TestAVPlayerViewController.m in Sources */,
 				F35913C91F6B6C2D007336FF /* GCDGroup.m in Sources */,
