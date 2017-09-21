@@ -386,6 +386,8 @@
 		F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C54F611F623700006A851B /* JXTopLeftLabel.m */; };
 		F3F61DEA1F73576B00BDE838 /* JXXMGLearnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */; };
 		F3F61DED1F7358E700BDE838 /* JXPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */; };
+		F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */; };
+		F3F61DF21F737A4C00BDE838 /* PersonDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
 		F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */; };
 		F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */; };
@@ -1042,6 +1044,9 @@
 		F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXXMGLearnTableViewController.m; sourceTree = "<group>"; };
 		F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPersonDetailViewController.h; sourceTree = "<group>"; };
 		F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPersonDetailViewController.m; sourceTree = "<group>"; };
+		F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
+		F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
+		F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonDetailViewController.storyboard; sourceTree = "<group>"; };
 		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
 		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
 		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
@@ -2732,6 +2737,9 @@
 				F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */,
 				F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */,
 				F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */,
+				F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */,
+				F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */,
+				F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */,
 			);
 			path = "37-XMGLearn";
 			sourceTree = "<group>";
@@ -2838,6 +2846,7 @@
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
+				F3F61DF21F737A4C00BDE838 /* PersonDetailViewController.storyboard in Resources */,
 				F34A3EAD1F67C89E006FEF54 /* userpic2.jpg in Resources */,
 				042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */,
 				046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */,
@@ -3130,6 +3139,7 @@
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
 				048652AC1EFA1465004B6136 /* UIViewController+JXPopupViewController.m in Sources */,
 				042E709E1EF295C80034B579 /* NSBundle+AppIcon.m in Sources */,
+				F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */,
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,

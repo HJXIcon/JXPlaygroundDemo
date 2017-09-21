@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 纯代码
+ */
 @interface JXPersonDetailViewController : UIViewController
 
 @end

@@ -8,7 +8,7 @@
 
 #import "JXXMGLearnTableViewController.h"
 #import "JXPersonDetailViewController.h"
-
+#import "PersonDetailViewController.h"
 @interface JXXMGLearnTableViewController ()
 
 @property(nonatomic, strong) NSArray *dataSource;
@@ -19,7 +19,8 @@
 - (NSArray *)dataSource{
     if (_dataSource == nil) {
         _dataSource = @[
-                        @"1.个人详情页"
+                        @"1.个人详情页纯代码",
+                        @"2.个人详情页sb"
                         ];
     }
     return _dataSource;
@@ -61,8 +62,13 @@
     switch (indexPath.row) {
         case 0:
             vc = [[JXPersonDetailViewController alloc]init];
+            
             break;
             
+        case 1:
+            
+            vc = [[UIStoryboard storyboardWithName:NSStringFromClass([PersonDetailViewController class]) bundle:nil] instantiateInitialViewController];
+            break;
         default:
             break;
     }
