@@ -32,6 +32,17 @@
         _scrollView.scrollsToTop = NO;
         _scrollView.showsHorizontalScrollIndicator = NO;
         _scrollView.showsVerticalScrollIndicator = NO;
+        /**!
+         //不会随父视图的改变而改变 
+         UIViewAutoresizingNone = 0, 
+         //自动调整view与父视图左边距，以保证右边距不变 UIViewAutoresizingFlexibleLeftMargin = 1 << 0,
+         //自动调整view的宽度，保证左边距和右边距不变 UIViewAutoresizingFlexibleWidth = 1 << 1,
+         //自动调整view与父视图右边距，以保证左边距不变 UIViewAutoresizingFlexibleRightMargin = 1 << 2, 
+         //自动调整view与父视图上边距，以保证下边距不变 UIViewAutoresizingFlexibleTopMargin = 1 << 3,
+         //自动调整view的高度，以保证上边距和下边距不变 UIViewAutoresizingFlexibleHeight = 1 << 4,
+         //自动调整view与父视图的下边距，以保证上边距不变 UIViewAutoresizingFlexibleBottomMargin = 1 << 5
+         
+         */
         _scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         _scrollView.delaysContentTouches = NO;
         _scrollView.canCancelContentTouches = YES;

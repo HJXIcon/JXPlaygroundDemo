@@ -32,7 +32,8 @@
     [self setupNoti:application];
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [self setupNewFeature];
+//    self.window.rootViewController = [self setupNewFeature];// 闲鱼启动页效果
+     self.window.rootViewController = [[MainTabbarVC alloc]init];
     [self.window makeKeyAndVisible];
     
 

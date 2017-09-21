@@ -46,6 +46,7 @@
 #import "JXGCDViewController.h"
 #import "JXPickerTableViewController.h"
 #import "JXPhotoPreViewViewController.h"
+#import "JXXMGLearnTableViewController.h"
 
 @interface ViewController ()
 
@@ -92,7 +93,8 @@
                         @"33-RETableViewManager",
                         @"34-GCD封装",
                         @"35-PickerView",
-                        @"36-PhotoPreview"
+                        @"36-PhotoPreview",
+                        @"37-XMGLearn"
                         ];
     }
     return _dataSource;
@@ -322,6 +324,11 @@
         case 35:
             vc = [[JXPhotoPreViewViewController alloc]init];
             break;
+            
+        case 36:
+            vc = [[JXXMGLearnTableViewController alloc]init];
+            break;
+            
             
         default:
             break;
