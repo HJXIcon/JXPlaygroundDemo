@@ -8,6 +8,7 @@
 
 #import "MainTabbarVC.h"
 #import "ViewController.h"
+#import "JXNavigationController.h"
 
 
 @interface MainTabbarVC ()<UITabBarControllerDelegate>
@@ -37,7 +38,7 @@
 }
 
 -(void)setChildNav:(NSString *)img selectedImg:(NSString *)selectedImg title:(NSString *)title{
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    JXNavigationController *nav = [[JXNavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:JXColor(254, 213, 48)} forState:UIControlStateSelected];
     nav.navigationItem.title = title;
     nav.tabBarItem.title = title;

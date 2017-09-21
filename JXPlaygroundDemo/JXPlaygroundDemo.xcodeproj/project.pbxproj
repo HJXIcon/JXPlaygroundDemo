@@ -364,6 +364,12 @@
 		F34A3EAF1F67C89E006FEF54 /* userpic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA31F67C89E006FEF54 /* userpic4.jpg */; };
 		F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA41F67C89E006FEF54 /* userpic5.jpg */; };
 		F34A3EB11F67C89E006FEF54 /* userpic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA51F67C89E006FEF54 /* userpic6.jpg */; };
+		F34E0F031F73BF62004C7278 /* JXTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F021F73BF62004C7278 /* JXTransitionAnimationViewController.m */; };
+		F34E0F051F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E0F041F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard */; };
+		F34E0F091F73C260004C7278 /* JXParticleEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F081F73C260004C7278 /* JXParticleEffectsViewController.m */; };
+		F34E0F0B1F73C26A004C7278 /* JXParticleEffectsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E0F0A1F73C26A004C7278 /* JXParticleEffectsViewController.storyboard */; };
+		F34E0F0E1F73C2E0004C7278 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F0D1F73C2E0004C7278 /* DrawView.m */; };
+		F34E0F111F73C714004C7278 /* JXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F101F73C714004C7278 /* JXNavigationController.m */; };
 		F35913C91F6B6C2D007336FF /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C21F6B6C2D007336FF /* GCDGroup.m */; };
 		F35913CA1F6B6C2D007336FF /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C41F6B6C2D007336FF /* GCDQueue.m */; };
 		F35913CB1F6B6C2D007336FF /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = F35913C61F6B6C2D007336FF /* GCDSemaphore.m */; };
@@ -1000,6 +1006,16 @@
 		F34A3EA31F67C89E006FEF54 /* userpic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic4.jpg; sourceTree = "<group>"; };
 		F34A3EA41F67C89E006FEF54 /* userpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic5.jpg; sourceTree = "<group>"; };
 		F34A3EA51F67C89E006FEF54 /* userpic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic6.jpg; sourceTree = "<group>"; };
+		F34E0F011F73BF62004C7278 /* JXTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionAnimationViewController.h; sourceTree = "<group>"; };
+		F34E0F021F73BF62004C7278 /* JXTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionAnimationViewController.m; sourceTree = "<group>"; };
+		F34E0F041F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JXTransitionAnimationViewController.storyboard; sourceTree = "<group>"; };
+		F34E0F071F73C260004C7278 /* JXParticleEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXParticleEffectsViewController.h; sourceTree = "<group>"; };
+		F34E0F081F73C260004C7278 /* JXParticleEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXParticleEffectsViewController.m; sourceTree = "<group>"; };
+		F34E0F0A1F73C26A004C7278 /* JXParticleEffectsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JXParticleEffectsViewController.storyboard; sourceTree = "<group>"; };
+		F34E0F0C1F73C2E0004C7278 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		F34E0F0D1F73C2E0004C7278 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		F34E0F0F1F73C714004C7278 /* JXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNavigationController.h; sourceTree = "<group>"; };
+		F34E0F101F73C714004C7278 /* JXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNavigationController.m; sourceTree = "<group>"; };
 		F35913C01F6B6C2D007336FF /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		F35913C11F6B6C2D007336FF /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
 		F35913C21F6B6C2D007336FF /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
@@ -1042,11 +1058,11 @@
 		F3C54F611F623700006A851B /* JXTopLeftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTopLeftLabel.m; sourceTree = "<group>"; };
 		F3F61DE81F73576B00BDE838 /* JXXMGLearnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXXMGLearnTableViewController.h; sourceTree = "<group>"; };
 		F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXXMGLearnTableViewController.m; sourceTree = "<group>"; };
-		F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPersonDetailViewController.h; sourceTree = "<group>"; };
-		F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPersonDetailViewController.m; sourceTree = "<group>"; };
-		F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
-		F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
-		F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonDetailViewController.storyboard; sourceTree = "<group>"; };
+		F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPersonDetailViewController.h; path = ../JXPersonDetailViewController.h; sourceTree = "<group>"; };
+		F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPersonDetailViewController.m; path = ../JXPersonDetailViewController.m; sourceTree = "<group>"; };
+		F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = ../PersonDetailViewController.h; sourceTree = "<group>"; };
+		F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = ../PersonDetailViewController.m; sourceTree = "<group>"; };
+		F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PersonDetailViewController.storyboard; path = ../PersonDetailViewController.storyboard; sourceTree = "<group>"; };
 		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
 		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
 		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
@@ -2430,6 +2446,8 @@
 				04D842101EC694CB00E14F48 /* AppDelegate.m */,
 				0435A54F1EEA92F30097689F /* AppDelegate+Service.h */,
 				0435A5501EEA92F30097689F /* AppDelegate+Service.m */,
+				F34E0F0F1F73C714004C7278 /* JXNavigationController.h */,
+				F34E0F101F73C714004C7278 /* JXNavigationController.m */,
 				04D842121EC694CB00E14F48 /* ViewController.h */,
 				04D842131EC694CB00E14F48 /* ViewController.m */,
 				04D842151EC694CB00E14F48 /* Main.storyboard */,
@@ -2635,6 +2653,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */,
+				F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */,
+				F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */,
+				F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */,
+				F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */,
+			);
+			path = "1.个人详情页";
+			sourceTree = "<group>";
+		};
+		F34E0F001F73BF3C004C7278 /* 2.转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				F34E0F011F73BF62004C7278 /* JXTransitionAnimationViewController.h */,
+				F34E0F021F73BF62004C7278 /* JXTransitionAnimationViewController.m */,
+				F34E0F041F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard */,
+			);
+			path = "2.转场动画";
+			sourceTree = "<group>";
+		};
+		F34E0F061F73C22A004C7278 /* 3.粒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				F34E0F071F73C260004C7278 /* JXParticleEffectsViewController.h */,
+				F34E0F081F73C260004C7278 /* JXParticleEffectsViewController.m */,
+				F34E0F0A1F73C26A004C7278 /* JXParticleEffectsViewController.storyboard */,
+				F34E0F0C1F73C2E0004C7278 /* DrawView.h */,
+				F34E0F0D1F73C2E0004C7278 /* DrawView.m */,
+			);
+			path = "3.粒子效果";
+			sourceTree = "<group>";
+		};
 		F35913BE1F6B6C1A007336FF /* 34-GCD封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2733,13 +2785,11 @@
 		F3F61DE71F73574100BDE838 /* 37-XMGLearn */ = {
 			isa = PBXGroup;
 			children = (
+				F34E0F061F73C22A004C7278 /* 3.粒子效果 */,
+				F34E0F001F73BF3C004C7278 /* 2.转场动画 */,
+				F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */,
 				F3F61DE81F73576B00BDE838 /* JXXMGLearnTableViewController.h */,
 				F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */,
-				F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */,
-				F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */,
-				F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */,
-				F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */,
-				F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */,
 			);
 			path = "37-XMGLearn";
 			sourceTree = "<group>";
@@ -2891,6 +2941,7 @@
 				0460B8FC1EDFC93A00C00DA5 /* home_like.png in Resources */,
 				04F660D21F2AE1F70051AFDE /* no_data.png in Resources */,
 				046BFBAA1EE500EF009358B5 /* test1.gif in Resources */,
+				F34E0F0B1F73C26A004C7278 /* JXParticleEffectsViewController.storyboard in Resources */,
 				0460B8F91EDFC93A00C00DA5 /* home_email_black.png in Resources */,
 				0460B94D1EDFC95200C00DA5 /* header08@2x.jpg in Resources */,
 				F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */,
@@ -2914,6 +2965,7 @@
 				0460B9401EDFC95200C00DA5 /* recomand_15.jpg in Resources */,
 				04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */,
 				0460B9661EDFC96000C00DA5 /* cycle_03.jpg in Resources */,
+				F34E0F051F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard in Resources */,
 				0460B9371EDFC95200C00DA5 /* recomand_06.jpg in Resources */,
 				04B77FE61EE653A90049B82E /* checkButton.png in Resources */,
 				04B77FE01EE653A90049B82E /* menuButton.png in Resources */,
@@ -3043,6 +3095,7 @@
 				04D842141EC694CB00E14F48 /* ViewController.m in Sources */,
 				042E70A31EF295C80034B579 /* NSData+Hash.m in Sources */,
 				046BFBA11EE4F4B2009358B5 /* NSArray+log.m in Sources */,
+				F34E0F0E1F73C2E0004C7278 /* DrawView.m in Sources */,
 				042E70D61EF295C90034B579 /* NSString+Matcher.m in Sources */,
 				048DCA0A1ED1327E0037DFE0 /* JXCustomCalloutView.m in Sources */,
 				042E70D51EF295C90034B579 /* NSString+Hash.m in Sources */,
@@ -3070,6 +3123,7 @@
 				042E70CC1EF295C90034B579 /* NSObject+Runtime.m in Sources */,
 				042E70D01EF295C90034B579 /* NSString+Base64.m in Sources */,
 				042E70E91EF295C90034B579 /* NSUserDefaults+iCloudSync.m in Sources */,
+				F34E0F091F73C260004C7278 /* JXParticleEffectsViewController.m in Sources */,
 				04226E8B1EF3787700E8302A /* MPLazyLableViewCustomView.m in Sources */,
 				042E70A91EF295C80034B579 /* NSDate+InternetDateTime.m in Sources */,
 				0435A5431EEA8DAF0097689F /* NSString+time.m in Sources */,
@@ -3094,6 +3148,7 @@
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
 				0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */,
 				042E70A21EF295C80034B579 /* NSData+Gzip.m in Sources */,
+				F34E0F031F73BF62004C7278 /* JXTransitionAnimationViewController.m in Sources */,
 				04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */,
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */,
@@ -3201,6 +3256,7 @@
 				04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
 				04D842111EC694CB00E14F48 /* AppDelegate.m in Sources */,
+				F34E0F111F73C714004C7278 /* JXNavigationController.m in Sources */,
 				048021171EEF77A3008287A8 /* APayViewController.m in Sources */,
 				04087C1C1F04DC4700B3F566 /* JXPaperButton.m in Sources */,
 				042E70CE1EF295C90034B579 /* NSSet+Block.m in Sources */,

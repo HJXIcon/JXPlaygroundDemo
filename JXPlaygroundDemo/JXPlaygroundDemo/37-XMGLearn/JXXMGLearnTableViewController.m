@@ -9,6 +9,9 @@
 #import "JXXMGLearnTableViewController.h"
 #import "JXPersonDetailViewController.h"
 #import "PersonDetailViewController.h"
+#import "JXTransitionAnimationViewController.h"
+#import "JXParticleEffectsViewController.h"
+
 @interface JXXMGLearnTableViewController ()
 
 @property(nonatomic, strong) NSArray *dataSource;
@@ -20,7 +23,9 @@
     if (_dataSource == nil) {
         _dataSource = @[
                         @"1.个人详情页纯代码",
-                        @"2.个人详情页sb"
+                        @"2.个人详情页sb",
+                        @"3.转场动画",
+                        @"4.粒子效果"
                         ];
     }
     return _dataSource;
@@ -69,6 +74,18 @@
             
             vc = [[UIStoryboard storyboardWithName:NSStringFromClass([PersonDetailViewController class]) bundle:nil] instantiateInitialViewController];
             break;
+            
+        case 2:
+            
+            vc = [[UIStoryboard storyboardWithName:NSStringFromClass([JXTransitionAnimationViewController class]) bundle:nil] instantiateInitialViewController];
+            break;
+            
+        case 3:
+            
+            vc = [[UIStoryboard storyboardWithName:NSStringFromClass([JXParticleEffectsViewController class]) bundle:nil] instantiateInitialViewController];
+            break;
+            
+            
         default:
             break;
     }
