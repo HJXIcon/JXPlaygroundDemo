@@ -56,7 +56,7 @@ static CGFloat const oriH = 200;
         [_iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
             
             make.centerX.mas_equalTo(_headerView.mas_centerX);
-            make.bottom.mas_equalTo(_headerView.mas_bottom).offset(-60);
+            make.centerY.mas_equalTo(_headerView.mas_centerY);
             make.size.mas_equalTo(CGSizeMake(80, 80));
         }];
         

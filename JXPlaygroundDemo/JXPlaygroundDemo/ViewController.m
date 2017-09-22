@@ -48,6 +48,7 @@
 #import "JXPhotoPreViewViewController.h"
 #import "JXXMGLearnTableViewController.h"
 
+
 @interface ViewController ()
 
 @property(nonatomic, strong) NSArray *dataSource;
@@ -102,6 +103,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.title = @"总览";
     
     self.tableView.tableFooterView = [[UIView alloc]init];
 #if defined(DEBUG) || defined(_DEBUG)
@@ -330,6 +333,8 @@
             break;
             
             
+            break;
+
         default:
             break;
     }

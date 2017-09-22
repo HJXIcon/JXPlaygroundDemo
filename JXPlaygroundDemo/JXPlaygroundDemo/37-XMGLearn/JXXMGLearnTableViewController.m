@@ -11,6 +11,10 @@
 #import "PersonDetailViewController.h"
 #import "JXTransitionAnimationViewController.h"
 #import "JXParticleEffectsViewController.h"
+#import "JXCubeNavigationDemoViewController.h"
+#import "JXDynamicAnimatorJXViewController.h"
+#import "ANViewController.h"
+
 
 @interface JXXMGLearnTableViewController ()
 
@@ -25,7 +29,10 @@
                         @"1.个人详情页纯代码",
                         @"2.个人详情页sb",
                         @"3.转场动画",
-                        @"4.粒子效果"
+                        @"4.粒子效果",
+                        @"5.自定义push pop",
+                        @"6.物理仿真",
+                        @"7.tableView可实现屏幕滚动时的模糊效果"
                         ];
     }
     return _dataSource;
@@ -83,6 +90,21 @@
         case 3:
             
             vc = [[UIStoryboard storyboardWithName:NSStringFromClass([JXParticleEffectsViewController class]) bundle:nil] instantiateInitialViewController];
+            break;
+            
+        case 4:
+            
+            vc = [[JXCubeNavigationDemoViewController alloc]init];
+            break;
+            
+        case 5:
+            
+            vc = [[JXDynamicAnimatorJXViewController alloc]init];
+            break;
+            
+        case 6:
+            vc = [[UIStoryboard storyboardWithName:NSStringFromClass([ANViewController class]) bundle:nil] instantiateInitialViewController];
+            
             break;
             
             

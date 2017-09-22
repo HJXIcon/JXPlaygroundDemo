@@ -379,6 +379,27 @@
 		F376088D1F542E4000B47CF3 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088A1F542E4000B47CF3 /* MyButton.m */; };
 		F376088E1F542E4000B47CF3 /* UIButton+repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = F376088C1F542E4000B47CF3 /* UIButton+repeat.m */; };
 		F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */; };
+		F3854C811F74AEC100B5DDA1 /* NSObject+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C771F74AEC100B5DDA1 /* NSObject+ABExtras.m */; };
+		F3854C821F74AEC100B5DDA1 /* UIImageView+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C791F74AEC100B5DDA1 /* UIImageView+ABExtras.m */; };
+		F3854C831F74AEC100B5DDA1 /* UINavigationController+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C7B1F74AEC100B5DDA1 /* UINavigationController+ABExtras.m */; };
+		F3854C841F74AEC100B5DDA1 /* UIView+ABExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C7D1F74AEC100B5DDA1 /* UIView+ABExtras.m */; };
+		F3854C851F74AEC100B5DDA1 /* CubeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C801F74AEC100B5DDA1 /* CubeNavigationController.m */; };
+		F3854C891F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C881F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m */; };
+		F3854C8C1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C8B1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m */; };
+		F3854C901F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C8F1F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.m */; };
+		F3854C9C1F74B76600B5DDA1 /* FLAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C931F74B76600B5DDA1 /* FLAttachmentView.m */; };
+		F3854C9D1F74B76600B5DDA1 /* FLDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C951F74B76600B5DDA1 /* FLDemoView.m */; };
+		F3854C9E1F74B76600B5DDA1 /* FLPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C971F74B76600B5DDA1 /* FLPushView.m */; };
+		F3854C9F1F74B76600B5DDA1 /* FLSnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C991F74B76600B5DDA1 /* FLSnapView.m */; };
+		F3854CA01F74B76600B5DDA1 /* FLSpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854C9B1F74B76600B5DDA1 /* FLSpringView.m */; };
+		F3854CA31F74B82E00B5DDA1 /* FLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CA21F74B82E00B5DDA1 /* FLDemoViewController.m */; };
+		F3854CAA1F74BA3F00B5DDA1 /* ANBlurredTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CA71F74BA3F00B5DDA1 /* ANBlurredTableView.m */; };
+		F3854CAB1F74BA3F00B5DDA1 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CA91F74BA3F00B5DDA1 /* UIImage+BoxBlur.m */; };
+		F3854CB01F74BA4E00B5DDA1 /* ANTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CAD1F74BA4E00B5DDA1 /* ANTableViewCell.m */; };
+		F3854CB11F74BA4E00B5DDA1 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CAF1F74BA4E00B5DDA1 /* ANViewController.m */; };
+		F3854CB51F74BABE00B5DDA1 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3854CB21F74BABE00B5DDA1 /* beach.jpg */; };
+		F3854CB61F74BABE00B5DDA1 /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = F3854CB41F74BABE00B5DDA1 /* UIView+Borders.m */; };
+		F3854CB81F74BB3C00B5DDA1 /* ANViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3854CB71F74BB3C00B5DDA1 /* ANViewController.storyboard */; };
 		F386A3C31F6F6BF700BABA60 /* JXPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3C21F6F6BF700BABA60 /* JXPickerTableViewController.m */; };
 		F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3E41F6FC6B900BABA60 /* JXDatePickerView.m */; };
 		F386A3EB1F6FC6B900BABA60 /* JXDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F386A3E51F6FC6B900BABA60 /* JXDatePickerView.xib */; };
@@ -1035,6 +1056,46 @@
 		F376088C1F542E4000B47CF3 /* UIButton+repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+repeat.m"; sourceTree = "<group>"; };
 		F376088F1F542E6000B47CF3 /* ButtonRepeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRepeatViewController.h; sourceTree = "<group>"; };
 		F37608901F542E6000B47CF3 /* ButtonRepeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRepeatViewController.m; sourceTree = "<group>"; };
+		F3854C761F74AEC100B5DDA1 /* NSObject+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ABExtras.h"; sourceTree = "<group>"; };
+		F3854C771F74AEC100B5DDA1 /* NSObject+ABExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ABExtras.m"; sourceTree = "<group>"; };
+		F3854C781F74AEC100B5DDA1 /* UIImageView+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ABExtras.h"; sourceTree = "<group>"; };
+		F3854C791F74AEC100B5DDA1 /* UIImageView+ABExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ABExtras.m"; sourceTree = "<group>"; };
+		F3854C7A1F74AEC100B5DDA1 /* UINavigationController+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ABExtras.h"; sourceTree = "<group>"; };
+		F3854C7B1F74AEC100B5DDA1 /* UINavigationController+ABExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ABExtras.m"; sourceTree = "<group>"; };
+		F3854C7C1F74AEC100B5DDA1 /* UIView+ABExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ABExtras.h"; sourceTree = "<group>"; };
+		F3854C7D1F74AEC100B5DDA1 /* UIView+ABExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ABExtras.m"; sourceTree = "<group>"; };
+		F3854C7F1F74AEC100B5DDA1 /* CubeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeNavigationController.h; sourceTree = "<group>"; };
+		F3854C801F74AEC100B5DDA1 /* CubeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeNavigationController.m; sourceTree = "<group>"; };
+		F3854C871F74AEDF00B5DDA1 /* FlipSquaresNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipSquaresNavigationController.h; sourceTree = "<group>"; };
+		F3854C881F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipSquaresNavigationController.m; sourceTree = "<group>"; };
+		F3854C8A1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCubeNavigationDemoViewController.h; sourceTree = "<group>"; };
+		F3854C8B1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCubeNavigationDemoViewController.m; sourceTree = "<group>"; };
+		F3854C8E1F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDynamicAnimatorJXViewController.h; sourceTree = "<group>"; };
+		F3854C8F1F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXDynamicAnimatorJXViewController.m; sourceTree = "<group>"; };
+		F3854C921F74B76600B5DDA1 /* FLAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAttachmentView.h; sourceTree = "<group>"; };
+		F3854C931F74B76600B5DDA1 /* FLAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAttachmentView.m; sourceTree = "<group>"; };
+		F3854C941F74B76600B5DDA1 /* FLDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDemoView.h; sourceTree = "<group>"; };
+		F3854C951F74B76600B5DDA1 /* FLDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDemoView.m; sourceTree = "<group>"; };
+		F3854C961F74B76600B5DDA1 /* FLPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPushView.h; sourceTree = "<group>"; };
+		F3854C971F74B76600B5DDA1 /* FLPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPushView.m; sourceTree = "<group>"; };
+		F3854C981F74B76600B5DDA1 /* FLSnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSnapView.h; sourceTree = "<group>"; };
+		F3854C991F74B76600B5DDA1 /* FLSnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSnapView.m; sourceTree = "<group>"; };
+		F3854C9A1F74B76600B5DDA1 /* FLSpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSpringView.h; sourceTree = "<group>"; };
+		F3854C9B1F74B76600B5DDA1 /* FLSpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSpringView.m; sourceTree = "<group>"; };
+		F3854CA11F74B82E00B5DDA1 /* FLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDemoViewController.h; sourceTree = "<group>"; };
+		F3854CA21F74B82E00B5DDA1 /* FLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDemoViewController.m; sourceTree = "<group>"; };
+		F3854CA61F74BA3F00B5DDA1 /* ANBlurredTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBlurredTableView.h; sourceTree = "<group>"; };
+		F3854CA71F74BA3F00B5DDA1 /* ANBlurredTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBlurredTableView.m; sourceTree = "<group>"; };
+		F3854CA81F74BA3F00B5DDA1 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		F3854CA91F74BA3F00B5DDA1 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+		F3854CAC1F74BA4E00B5DDA1 /* ANTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTableViewCell.h; sourceTree = "<group>"; };
+		F3854CAD1F74BA4E00B5DDA1 /* ANTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTableViewCell.m; sourceTree = "<group>"; };
+		F3854CAE1F74BA4E00B5DDA1 /* ANViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
+		F3854CAF1F74BA4E00B5DDA1 /* ANViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		F3854CB21F74BABE00B5DDA1 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		F3854CB31F74BABE00B5DDA1 /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borders.h"; sourceTree = "<group>"; };
+		F3854CB41F74BABE00B5DDA1 /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Borders.m"; sourceTree = "<group>"; };
+		F3854CB71F74BB3C00B5DDA1 /* ANViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ANViewController.storyboard; sourceTree = "<group>"; };
 		F386A3C11F6F6BF700BABA60 /* JXPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPickerTableViewController.h; sourceTree = "<group>"; };
 		F386A3C21F6F6BF700BABA60 /* JXPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPickerTableViewController.m; sourceTree = "<group>"; };
 		F386A3E31F6FC6B900BABA60 /* JXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXDatePickerView.h; sourceTree = "<group>"; };
@@ -2726,6 +2787,107 @@
 			path = "31-防止重复点击Button";
 			sourceTree = "<group>";
 		};
+		F3854C741F74AEA300B5DDA1 /* 4.自定义push pop效果  */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C861F74AEDF00B5DDA1 /* SquaresFlipNavigation */,
+				F3854C751F74AEC100B5DDA1 /* Categories */,
+				F3854C7E1F74AEC100B5DDA1 /* CubeNavigation */,
+				F3854C8A1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.h */,
+				F3854C8B1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m */,
+			);
+			path = "4.自定义push pop效果 ";
+			sourceTree = "<group>";
+		};
+		F3854C751F74AEC100B5DDA1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C761F74AEC100B5DDA1 /* NSObject+ABExtras.h */,
+				F3854C771F74AEC100B5DDA1 /* NSObject+ABExtras.m */,
+				F3854C781F74AEC100B5DDA1 /* UIImageView+ABExtras.h */,
+				F3854C791F74AEC100B5DDA1 /* UIImageView+ABExtras.m */,
+				F3854C7A1F74AEC100B5DDA1 /* UINavigationController+ABExtras.h */,
+				F3854C7B1F74AEC100B5DDA1 /* UINavigationController+ABExtras.m */,
+				F3854C7C1F74AEC100B5DDA1 /* UIView+ABExtras.h */,
+				F3854C7D1F74AEC100B5DDA1 /* UIView+ABExtras.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F3854C7E1F74AEC100B5DDA1 /* CubeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C7F1F74AEC100B5DDA1 /* CubeNavigationController.h */,
+				F3854C801F74AEC100B5DDA1 /* CubeNavigationController.m */,
+			);
+			path = CubeNavigation;
+			sourceTree = "<group>";
+		};
+		F3854C861F74AEDF00B5DDA1 /* SquaresFlipNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C871F74AEDF00B5DDA1 /* FlipSquaresNavigationController.h */,
+				F3854C881F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m */,
+			);
+			path = SquaresFlipNavigation;
+			sourceTree = "<group>";
+		};
+		F3854C8D1F74B6D000B5DDA1 /* 5.物理仿真模拟 */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C911F74B76600B5DDA1 /* View */,
+				F3854C8E1F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.h */,
+				F3854C8F1F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.m */,
+				F3854CA11F74B82E00B5DDA1 /* FLDemoViewController.h */,
+				F3854CA21F74B82E00B5DDA1 /* FLDemoViewController.m */,
+			);
+			path = "5.物理仿真模拟";
+			sourceTree = "<group>";
+		};
+		F3854C911F74B76600B5DDA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3854C921F74B76600B5DDA1 /* FLAttachmentView.h */,
+				F3854C931F74B76600B5DDA1 /* FLAttachmentView.m */,
+				F3854C941F74B76600B5DDA1 /* FLDemoView.h */,
+				F3854C951F74B76600B5DDA1 /* FLDemoView.m */,
+				F3854C961F74B76600B5DDA1 /* FLPushView.h */,
+				F3854C971F74B76600B5DDA1 /* FLPushView.m */,
+				F3854C981F74B76600B5DDA1 /* FLSnapView.h */,
+				F3854C991F74B76600B5DDA1 /* FLSnapView.m */,
+				F3854C9A1F74B76600B5DDA1 /* FLSpringView.h */,
+				F3854C9B1F74B76600B5DDA1 /* FLSpringView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3854CA41F74BA2F00B5DDA1 /* 6.tableView可实现屏幕滚动时的模糊效果。 */ = {
+			isa = PBXGroup;
+			children = (
+				F3854CAC1F74BA4E00B5DDA1 /* ANTableViewCell.h */,
+				F3854CAD1F74BA4E00B5DDA1 /* ANTableViewCell.m */,
+				F3854CAE1F74BA4E00B5DDA1 /* ANViewController.h */,
+				F3854CAF1F74BA4E00B5DDA1 /* ANViewController.m */,
+				F3854CB71F74BB3C00B5DDA1 /* ANViewController.storyboard */,
+				F3854CB21F74BABE00B5DDA1 /* beach.jpg */,
+				F3854CB31F74BABE00B5DDA1 /* UIView+Borders.h */,
+				F3854CB41F74BABE00B5DDA1 /* UIView+Borders.m */,
+				F3854CA51F74BA3F00B5DDA1 /* ANBlurredTableView */,
+			);
+			path = "6.tableView可实现屏幕滚动时的模糊效果。";
+			sourceTree = "<group>";
+		};
+		F3854CA51F74BA3F00B5DDA1 /* ANBlurredTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F3854CA61F74BA3F00B5DDA1 /* ANBlurredTableView.h */,
+				F3854CA71F74BA3F00B5DDA1 /* ANBlurredTableView.m */,
+				F3854CA81F74BA3F00B5DDA1 /* UIImage+BoxBlur.h */,
+				F3854CA91F74BA3F00B5DDA1 /* UIImage+BoxBlur.m */,
+			);
+			path = ANBlurredTableView;
+			sourceTree = "<group>";
+		};
 		F386A3C01F6F6BDE00BABA60 /* 35-PickerView */ = {
 			isa = PBXGroup;
 			children = (
@@ -2785,6 +2947,9 @@
 		F3F61DE71F73574100BDE838 /* 37-XMGLearn */ = {
 			isa = PBXGroup;
 			children = (
+				F3854CA41F74BA2F00B5DDA1 /* 6.tableView可实现屏幕滚动时的模糊效果。 */,
+				F3854C8D1F74B6D000B5DDA1 /* 5.物理仿真模拟 */,
+				F3854C741F74AEA300B5DDA1 /* 4.自定义push pop效果  */,
 				F34E0F061F73C22A004C7278 /* 3.粒子效果 */,
 				F34E0F001F73BF3C004C7278 /* 2.转场动画 */,
 				F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */,
@@ -2955,6 +3120,7 @@
 				04B77FE81EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9-1.png in Resources */,
 				F34A3EA81F67C89E006FEF54 /* photo3.jpg in Resources */,
 				0460B8FE1EDFC93A00C00DA5 /* home_watch.png in Resources */,
+				F3854CB81F74BB3C00B5DDA1 /* ANViewController.storyboard in Resources */,
 				0460B93A1EDFC95200C00DA5 /* recomand_09.jpg in Resources */,
 				04AC30E51ED92B9C00841D63 /* ExampleApp.html in Resources */,
 				0460B9011EDFC93A00C00DA5 /* tab_publish_add.png in Resources */,
@@ -2965,6 +3131,7 @@
 				0460B9401EDFC95200C00DA5 /* recomand_15.jpg in Resources */,
 				04B77FE91EE653A90049B82E /* Rectangle 8 + Rectangle 8 + Rectangle 9.png in Resources */,
 				0460B9661EDFC96000C00DA5 /* cycle_03.jpg in Resources */,
+				F3854CB51F74BABE00B5DDA1 /* beach.jpg in Resources */,
 				F34E0F051F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard in Resources */,
 				0460B9371EDFC95200C00DA5 /* recomand_06.jpg in Resources */,
 				04B77FE61EE653A90049B82E /* checkButton.png in Resources */,
@@ -3079,8 +3246,10 @@
 				042E70A41EF295C80034B579 /* NSData+SDDataCache.m in Sources */,
 				048DCA061ED126910037DFE0 /* JXAMapViewController.m in Sources */,
 				042E70BE1EF295C90034B579 /* NSDecimalNumber+Extensions.m in Sources */,
+				F3854C8C1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m in Sources */,
 				F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */,
 				F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */,
+				F3854CA01F74B76600B5DDA1 /* FLSpringView.m in Sources */,
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */,
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
@@ -3153,6 +3322,7 @@
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */,
 				042E70E31EF295C90034B579 /* NSTimer+Blocks.m in Sources */,
+				F3854C811F74AEC100B5DDA1 /* NSObject+ABExtras.m in Sources */,
 				042E70C91EF295C90034B579 /* NSObject+KVOBlocks.m in Sources */,
 				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
 				F35913CF1F6B6C44007336FF /* JXGCDViewController.m in Sources */,
@@ -3198,6 +3368,7 @@
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
+				F3854C851F74AEC100B5DDA1 /* CubeNavigationController.m in Sources */,
 				F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */,
 				0405F2CF1F039E9500795285 /* UIView+FontSize.m in Sources */,
 				F386A3F81F6FD0E300BABA60 /* UIView+frame.m in Sources */,
@@ -3208,12 +3379,16 @@
 				F386A3FB1F6FD10900BABA60 /* JXPhotoPreViewViewController.m in Sources */,
 				04BE3FDE1ED13CE600459B2E /* JXPOISearchViewController.m in Sources */,
 				F35913CB1F6B6C2D007336FF /* GCDSemaphore.m in Sources */,
+				F3854C9F1F74B76600B5DDA1 /* FLSnapView.m in Sources */,
 				04226EB91EF3DE2400E8302A /* FCUUID.m in Sources */,
 				04AE5E751EE7FFFE001E360C /* JXImageCollectionViewController.m in Sources */,
+				F3854CAB1F74BA3F00B5DDA1 /* UIImage+BoxBlur.m in Sources */,
 				042E70E41EF295C90034B579 /* NSURL+Param.m in Sources */,
 				04226E821EF370F100E8302A /* JXLazyScrollViewController.m in Sources */,
 				042E70B01EF295C80034B579 /* NSDictionary+JSONString.m in Sources */,
+				F3854CB01F74BA4E00B5DDA1 /* ANTableViewCell.m in Sources */,
 				042E6F9E1EF28DCB0034B579 /* EaseBlankPageView.m in Sources */,
+				F3854CB61F74BABE00B5DDA1 /* UIView+Borders.m in Sources */,
 				04B780031EE6A2540049B82E /* JXPanGestureRecognizer.m in Sources */,
 				042E70B51EF295C90034B579 /* NSException+Trace.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
@@ -3229,6 +3404,7 @@
 				04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */,
 				F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
+				F3854C9D1F74B76600B5DDA1 /* FLDemoView.m in Sources */,
 				042E70CB1EF295C90034B579 /* NSObject+Reflection.m in Sources */,
 				048652A51EFA134A004B6136 /* JXPopupViewController.m in Sources */,
 				042E6F9F1EF28DCB0034B579 /* UIView+EaseBlankPage.m in Sources */,
@@ -3239,7 +3415,11 @@
 				042E70C21EF295C90034B579 /* NSObject+AddProperty.m in Sources */,
 				04D842291EC695A600E14F48 /* JXCaculatorMaker.m in Sources */,
 				04226EBB1EF3DE2400E8302A /* UIDevice+FCUUID.m in Sources */,
+				F3854C831F74AEC100B5DDA1 /* UINavigationController+ABExtras.m in Sources */,
+				F3854CA31F74B82E00B5DDA1 /* FLDemoViewController.m in Sources */,
 				04B77FF71EE69B510049B82E /* JXSwipeAbleView.m in Sources */,
+				F3854CB11F74BA4E00B5DDA1 /* ANViewController.m in Sources */,
+				F3854C821F74AEC100B5DDA1 /* UIImageView+ABExtras.m in Sources */,
 				0405F2C91F0390EB00795285 /* JXAdaptationTool.m in Sources */,
 				048652BB1EFA1933004B6136 /* JXPopupInnerView.m in Sources */,
 				04915ADC1EE00A9F004D282D /* JXBanTangConst.m in Sources */,
@@ -3252,6 +3432,7 @@
 				042E70BC1EF295C90034B579 /* NSNotificationCenter+MainThread.m in Sources */,
 				042E70C71EF295C90034B579 /* NSObject+EasyCopy.m in Sources */,
 				04226EBA1EF3DE2400E8302A /* UICKeyChainStore.m in Sources */,
+				F3854CAA1F74BA3F00B5DDA1 /* ANBlurredTableView.m in Sources */,
 				04F2AE1A1EE55DA70038C33C /* ALinFlowLayout.m in Sources */,
 				04B780111EE6AD330049B82E /* DefaultShouldSwipeDeterminator.m in Sources */,
 				0460B8DF1EDFC6C900C00DA5 /* UIImage+JQImage.m in Sources */,
@@ -3262,6 +3443,7 @@
 				042E70CE1EF295C90034B579 /* NSSet+Block.m in Sources */,
 				04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */,
 				042E70EA1EF295C90034B579 /* NSUserDefaults+SafeAccess.m in Sources */,
+				F3854C9C1F74B76600B5DDA1 /* FLAttachmentView.m in Sources */,
 				042E70B81EF295C90034B579 /* NSHTTPCookieStorage+FreezeDry.m in Sources */,
 				0460B8E01EDFC6C900C00DA5 /* UIView+Extension.m in Sources */,
 				042E70DE1EF295C90034B579 /* NSString+Trims.m in Sources */,
@@ -3273,15 +3455,18 @@
 				04B77FB01EE64B650049B82E /* SwipeCardViewController.m in Sources */,
 				04AE5E5B1EE78F81001E360C /* JXPullMenuModel.m in Sources */,
 				04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */,
+				F3854C901F74B72100B5DDA1 /* JXDynamicAnimatorJXViewController.m in Sources */,
 				F376088D1F542E4000B47CF3 /* MyButton.m in Sources */,
 				0435A5241EEA552E0097689F /* SDPhotoBrowserd.m in Sources */,
 				04AC30BE1ED9187800841D63 /* GCDBaseViewController.m in Sources */,
 				04B77FB31EE64BDF0049B82E /* JXSwipeCardView.m in Sources */,
+				F3854C9E1F74B76600B5DDA1 /* FLPushView.m in Sources */,
 				04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */,
 				0435A5221EEA552E0097689F /* SDImageView.m in Sources */,
 				042E70DC1EF295C90034B579 /* NSString+Score.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				044765091F30835A00F0E08D /* LocationViewController.m in Sources */,
+				F3854C841F74AEC100B5DDA1 /* UIView+ABExtras.m in Sources */,
 				0405F2C51F03879600795285 /* XHWebImageAutoSizeExampleViewController.m in Sources */,
 				04F660D51F2AE1F70051AFDE /* UITableView+placeholder.m in Sources */,
 				042E70C11EF295C90034B579 /* NSNumber+Round.m in Sources */,
@@ -3295,6 +3480,7 @@
 				04226E931EF3B3EC00E8302A /* AdvertiseHelper.m in Sources */,
 				04AE5E721EE7EB2A001E360C /* JXAnimatedCollectionViewLayoutAttributes.m in Sources */,
 				042E70DF1EF295C90034B579 /* NSString+UrlEncode.m in Sources */,
+				F3854C891F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
 				04087C181F04D7A500B3F566 /* JXDismissingAnimator.m in Sources */,
 				042E70A81EF295C80034B579 /* NSDate+Formatter.m in Sources */,
