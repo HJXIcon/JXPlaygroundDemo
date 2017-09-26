@@ -364,6 +364,8 @@
 		F34A3EAF1F67C89E006FEF54 /* userpic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA31F67C89E006FEF54 /* userpic4.jpg */; };
 		F34A3EB01F67C89E006FEF54 /* userpic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA41F67C89E006FEF54 /* userpic5.jpg */; };
 		F34A3EB11F67C89E006FEF54 /* userpic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F34A3EA51F67C89E006FEF54 /* userpic6.jpg */; };
+		F34AEAD91F79F56A000E650A /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F34AEAD81F79F56A000E650A /* UIColor+Extension.m */; };
+		F34AEADF1F7A03AA000E650A /* UIView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F34AEADE1F7A03AA000E650A /* UIView+Placeholder.m */; };
 		F34E0F031F73BF62004C7278 /* JXTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F021F73BF62004C7278 /* JXTransitionAnimationViewController.m */; };
 		F34E0F051F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34E0F041F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard */; };
 		F34E0F091F73C260004C7278 /* JXParticleEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34E0F081F73C260004C7278 /* JXParticleEffectsViewController.m */; };
@@ -1027,6 +1029,10 @@
 		F34A3EA31F67C89E006FEF54 /* userpic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic4.jpg; sourceTree = "<group>"; };
 		F34A3EA41F67C89E006FEF54 /* userpic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic5.jpg; sourceTree = "<group>"; };
 		F34A3EA51F67C89E006FEF54 /* userpic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userpic6.jpg; sourceTree = "<group>"; };
+		F34AEAD71F79F56A000E650A /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		F34AEAD81F79F56A000E650A /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		F34AEADD1F7A03AA000E650A /* UIView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Placeholder.h"; sourceTree = "<group>"; };
+		F34AEADE1F7A03AA000E650A /* UIView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Placeholder.m"; sourceTree = "<group>"; };
 		F34E0F011F73BF62004C7278 /* JXTransitionAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTransitionAnimationViewController.h; sourceTree = "<group>"; };
 		F34E0F021F73BF62004C7278 /* JXTransitionAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTransitionAnimationViewController.m; sourceTree = "<group>"; };
 		F34E0F041F73BF73004C7278 /* JXTransitionAnimationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JXTransitionAnimationViewController.storyboard; sourceTree = "<group>"; };
@@ -1912,6 +1918,8 @@
 		0460B8D71EDFC6C900C00DA5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F34AEAD71F79F56A000E650A /* UIColor+Extension.h */,
+				F34AEAD81F79F56A000E650A /* UIColor+Extension.m */,
 				042E6FA31EF291C70034B579 /* MBProgressHUD+MP.h */,
 				042E6FA41EF291C70034B579 /* MBProgressHUD+MP.m */,
 				0435A5351EEA8DAF0097689F /* NSDate+Date.h */,
@@ -2596,6 +2604,7 @@
 		04F660C71F2AE1520051AFDE /* 28-tableView无数据占位图 */ = {
 			isa = PBXGroup;
 			children = (
+				F34AEAD01F79E7E7000E650A /* UIView+placeholder */,
 				04F660C91F2AE1F70051AFDE /* UITableView+placeholder */,
 				04F660D61F2AE2310051AFDE /* JXTablePlaceHolderViewController.h */,
 				04F660D71F2AE2310051AFDE /* JXTablePlaceHolderViewController.m */,
@@ -2712,6 +2721,15 @@
 				F34A3E971F67C7C0006FEF54 /* REListImageCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F34AEAD01F79E7E7000E650A /* UIView+placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				F34AEADD1F7A03AA000E650A /* UIView+Placeholder.h */,
+				F34AEADE1F7A03AA000E650A /* UIView+Placeholder.m */,
+			);
+			path = "UIView+placeholder";
 			sourceTree = "<group>";
 		};
 		F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */ = {
@@ -3255,6 +3273,7 @@
 				042E70D41EF295C90034B579 /* NSString+Encrypt.m in Sources */,
 				F386A3EC1F6FC6B900BABA60 /* NSDate+Extension.m in Sources */,
 				0435A5591EEAA1680097689F /* WXPayViewController.m in Sources */,
+				F34AEADF1F7A03AA000E650A /* UIView+Placeholder.m in Sources */,
 				F35913CC1F6B6C2D007336FF /* GCDTimer.m in Sources */,
 				042E709D1EF295C80034B579 /* NSArray+SafeAccess.m in Sources */,
 				F3F61DEA1F73576B00BDE838 /* JXXMGLearnTableViewController.m in Sources */,
@@ -3354,6 +3373,7 @@
 				042E70AC1EF295C80034B579 /* NSDate+Utilities.m in Sources */,
 				042E70C31EF295C90034B579 /* NSObject+AppInfo.m in Sources */,
 				042E70E11EF295C90034B579 /* NSString+XML.m in Sources */,
+				F34AEAD91F79F56A000E650A /* UIColor+Extension.m in Sources */,
 				044433A51EDFEF7600C8E7C4 /* JXBTHomeTableViewCell.m in Sources */,
 				0460526F1ECFCDBE00745224 /* ReactiveCocoaViewController.m in Sources */,
 				048DCA0D1ED133F60037DFE0 /* JXCustomAnnotationView.m in Sources */,

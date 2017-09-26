@@ -126,7 +126,7 @@ static CGFloat const oriH = 200;
     
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
     
-    
+    MJWeakSelf
     UILabel *titleL = [[UILabel alloc] init];
     titleL.text = @"个人详情页";
     [titleL sizeToFit];
