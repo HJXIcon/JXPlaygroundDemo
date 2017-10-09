@@ -60,6 +60,7 @@
     lblDesc = [UILabel new];
     lblDesc.backgroundColor = [UIColor redColor];
     lblDesc.numberOfLines = 0;
+    lblDesc.preferredMaxLayoutWidth = kScreenW - 20;
     [self.contentView addSubview:lblDesc];
     //不定高label，顶端距离title 10px，左边距离icon 10px， 右边距离 15px
     [lblDesc mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -72,12 +73,14 @@
     lblDesc2 = [UILabel new];
     lblDesc2.numberOfLines = 0;
     lblDesc2.backgroundColor = [UIColor yellowColor];
+    lblDesc2.preferredMaxLayoutWidth = kScreenW - 20;
     [self.contentView addSubview:lblDesc2];
     //不定高label，顶端距离描述内容1 10px，左边距离icon 10px， 右边距离 15px
     [lblDesc2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(lblDesc.mas_bottom).offset(10);
         make.left.equalTo(icon.mas_right).offset(10);
-        make.right.equalTo(self.contentView).offset(-15);
+//        make.right.equalTo(self.contentView).offset(-15);
+        make.right.bottom.equalTo(self.contentView).offset(-15);
     }];
     
     //其他

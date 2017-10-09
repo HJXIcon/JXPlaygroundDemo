@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JXGuideMaskViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ElZ-4e-WYE">
+                    <rect key="frame" x="16" y="20" width="147" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5gZ-mn-tKq">
+                    <rect key="frame" x="196" y="154" width="147" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ph-po-gTn">
+                    <rect key="frame" x="36" y="283" width="147" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.027409013360738754" green="0.96705645322799683" blue="0.64201289415359497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfL-Y3-XHp">
+                    <rect key="frame" x="160" y="478" width="147" height="128"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pad-VU-aCB">
+                            <rect key="frame" x="50" y="49" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="FK1-mX-1GZ"/>
+                                <constraint firstAttribute="height" constant="30" id="vpD-fi-Qn0"/>
+                            </constraints>
+                            <state key="normal" title="show"/>
+                            <connections>
+                                <action selector="showAction:" destination="-1" eventType="touchUpInside" id="K1h-pr-twf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="3uK-iJ-lIs"/>
+                        <constraint firstAttribute="trailing" secondItem="pad-VU-aCB" secondAttribute="trailing" constant="51" id="A0B-qN-JXU"/>
+                        <constraint firstAttribute="bottom" secondItem="pad-VU-aCB" secondAttribute="bottom" constant="49" id="WG1-JH-TEA"/>
+                        <constraint firstAttribute="width" constant="147" id="lVQ-5C-o9F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="OfL-Y3-XHp" secondAttribute="trailing" constant="68" id="Wu8-e3-6JF"/>
+                <constraint firstAttribute="bottom" secondItem="OfL-Y3-XHp" secondAttribute="bottom" constant="61" id="bEL-2l-yOV"/>
+            </constraints>
+            <point key="canvasLocation" x="38.5" y="98.5"/>
+        </view>
+    </objects>
+</document>

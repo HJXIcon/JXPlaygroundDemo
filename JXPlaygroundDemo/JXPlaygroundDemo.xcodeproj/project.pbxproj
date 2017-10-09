@@ -413,6 +413,10 @@
 		F386A3FB1F6FD10900BABA60 /* JXPhotoPreViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F386A3FA1F6FD10900BABA60 /* JXPhotoPreViewViewController.m */; };
 		F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */; };
 		F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C54F611F623700006A851B /* JXTopLeftLabel.m */; };
+		F3CAA2161F8B14CE0045E454 /* JXGuideMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CAA2141F8B14CE0045E454 /* JXGuideMaskViewController.m */; };
+		F3CAA2171F8B14CE0045E454 /* JXGuideMaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CAA2151F8B14CE0045E454 /* JXGuideMaskViewController.xib */; };
+		F3CAA21B1F8B14DD0045E454 /* guide_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CAA2181F8B14DD0045E454 /* guide_arrow@3x.png */; };
+		F3CAA21C1F8B14DD0045E454 /* XCGuideMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CAA21A1F8B14DD0045E454 /* XCGuideMaskView.m */; };
 		F3F61DEA1F73576B00BDE838 /* JXXMGLearnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */; };
 		F3F61DED1F7358E700BDE838 /* JXPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */; };
 		F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */; };
@@ -1123,6 +1127,12 @@
 		F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXMineViewController.m; sourceTree = "<group>"; };
 		F3C54F601F623700006A851B /* JXTopLeftLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTopLeftLabel.h; sourceTree = "<group>"; };
 		F3C54F611F623700006A851B /* JXTopLeftLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTopLeftLabel.m; sourceTree = "<group>"; };
+		F3CAA2131F8B14CE0045E454 /* JXGuideMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGuideMaskViewController.h; sourceTree = "<group>"; };
+		F3CAA2141F8B14CE0045E454 /* JXGuideMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGuideMaskViewController.m; sourceTree = "<group>"; };
+		F3CAA2151F8B14CE0045E454 /* JXGuideMaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JXGuideMaskViewController.xib; sourceTree = "<group>"; };
+		F3CAA2181F8B14DD0045E454 /* guide_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_arrow@3x.png"; sourceTree = "<group>"; };
+		F3CAA2191F8B14DD0045E454 /* XCGuideMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGuideMaskView.h; sourceTree = "<group>"; };
+		F3CAA21A1F8B14DD0045E454 /* XCGuideMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGuideMaskView.m; sourceTree = "<group>"; };
 		F3F61DE81F73576B00BDE838 /* JXXMGLearnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXXMGLearnTableViewController.h; sourceTree = "<group>"; };
 		F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXXMGLearnTableViewController.m; sourceTree = "<group>"; };
 		F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPersonDetailViewController.h; path = ../JXPersonDetailViewController.h; sourceTree = "<group>"; };
@@ -2470,6 +2480,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F3CAA2111F8B149E0045E454 /* 38-自定义新手引导视图 */,
 				F3F61DE71F73574100BDE838 /* 37-XMGLearn */,
 				F386A3EE1F6FD0D200BABA60 /* 36-PhotoPreview */,
 				F386A3C01F6F6BDE00BABA60 /* 35-PickerView */,
@@ -2962,6 +2973,27 @@
 			path = "32-个人页面图片下拉放大效果 ";
 			sourceTree = "<group>";
 		};
+		F3CAA2111F8B149E0045E454 /* 38-自定义新手引导视图 */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAA2121F8B149E0045E454 /* 自定义新手引导视图 */,
+				F3CAA2131F8B14CE0045E454 /* JXGuideMaskViewController.h */,
+				F3CAA2141F8B14CE0045E454 /* JXGuideMaskViewController.m */,
+				F3CAA2151F8B14CE0045E454 /* JXGuideMaskViewController.xib */,
+			);
+			path = "38-自定义新手引导视图";
+			sourceTree = "<group>";
+		};
+		F3CAA2121F8B149E0045E454 /* 自定义新手引导视图 */ = {
+			isa = PBXGroup;
+			children = (
+				F3CAA2181F8B14DD0045E454 /* guide_arrow@3x.png */,
+				F3CAA2191F8B14DD0045E454 /* XCGuideMaskView.h */,
+				F3CAA21A1F8B14DD0045E454 /* XCGuideMaskView.m */,
+			);
+			path = "自定义新手引导视图";
+			sourceTree = "<group>";
+		};
 		F3F61DE71F73574100BDE838 /* 37-XMGLearn */ = {
 			isa = PBXGroup;
 			children = (
@@ -3109,10 +3141,12 @@
 				0460B96A1EDFC96000C00DA5 /* cycle_07.jpg in Resources */,
 				0460B94B1EDFC95200C00DA5 /* header06@2x.jpg in Resources */,
 				0460B9051EDFC93A00C00DA5 /* tab_首页.png in Resources */,
+				F3CAA2171F8B14CE0045E454 /* JXGuideMaskViewController.xib in Resources */,
 				0460B8FB1EDFC93A00C00DA5 /* home_emared.png in Resources */,
 				0460B9461EDFC95200C00DA5 /* header01@2x.jpg in Resources */,
 				0435A5561EEA9DA70097689F /* WXReadme.md in Resources */,
 				0460B95A1EDFC95200C00DA5 /* refresh10.png in Resources */,
+				F3CAA21B1F8B14DD0045E454 /* guide_arrow@3x.png in Resources */,
 				0460B9021EDFC93A00C00DA5 /* tab_publish_add_pressed.png in Resources */,
 				0460B9551EDFC95200C00DA5 /* refresh05.png in Resources */,
 				04B77FE71EE653A90049B82E /* checkButton@2x.png in Resources */,
@@ -3381,12 +3415,14 @@
 				F35913CA1F6B6C2D007336FF /* GCDQueue.m in Sources */,
 				042E70DA1EF295C90034B579 /* NSString+RemoveEmoji.m in Sources */,
 				042E70CA1EF295C90034B579 /* NSObject+MKBlockTimer.m in Sources */,
+				F3CAA2161F8B14CE0045E454 /* JXGuideMaskViewController.m in Sources */,
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
 				048652AC1EFA1465004B6136 /* UIViewController+JXPopupViewController.m in Sources */,
 				042E709E1EF295C80034B579 /* NSBundle+AppIcon.m in Sources */,
 				F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */,
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
+				F3CAA21C1F8B14DD0045E454 /* XCGuideMaskView.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
 				F3854C851F74AEC100B5DDA1 /* CubeNavigationController.m in Sources */,
 				F386A3EA1F6FC6B900BABA60 /* JXDatePickerView.m in Sources */,

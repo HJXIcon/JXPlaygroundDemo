@@ -60,7 +60,8 @@
     self.desLabel.textColor = [UIColor redColor];
     self.desLabel.backgroundColor = [UIColor yellowColor ];
     self.desLabel.text = @"des的饥饿哦我哈嘿hi哦啊哦哈的饥饿哦我哈嘿hi哦啊哦哈的饥饿哦我哈嘿hi哦啊哦哈";
-    [self.desLabel sizeToFit];
+    
+    
     [self.contentView addSubview:self.imageV];
     [self.imageV mas_makeConstraints:^(MASConstraintMaker *make) {
         
@@ -81,7 +82,7 @@
     }];
     
     self.desLabel.numberOfLines = 0;
-    
+    self.desLabel.preferredMaxLayoutWidth = kScreenW - 20;
     [self.contentView addSubview:self.desLabel];
     [self.desLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(self.titleLabel.mas_left);
