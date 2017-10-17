@@ -30,5 +30,5 @@ target 'JXPlaygroundDemo' do
   pod 'pop', '~> 1.0.9'
   pod 'JPFPSStatus', '~> 0.1' #FPS
   pod 'RETableViewManager', '~> 1.7' #pod 'RETableViewManager', '~> 1.7'
-  
+  pod 'YYImage', '~> 1.0.4'
 end

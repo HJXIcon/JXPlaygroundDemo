@@ -10,13 +10,16 @@
 #import "NewFeatureCell.h"
 #import "ALinFlowLayout.h"
 #import "ViewController.h"
-
+#import <YYImage/YYImage.h>
 
 @interface NewFeatureViewController ()
 /** pageControl */
 @property (nonatomic, strong) UIPageControl *pageControl;
 /** 当前视频是否播放完成 */
 @property (nonatomic, assign, getter=isMovieFinished) BOOL movieFinished;
+
+@property (nonatomic, strong) YYAnimatedImageView *gifImageView;
+
 @end
 
 @implementation NewFeatureViewController
@@ -53,6 +56,15 @@ static NSString * const reuseIdentifier = @"NewFeatureCell";
     [super viewDidLoad];
     
     [self setup];
+    
+    self.gifImageView = [[YYAnimatedImageView alloc]initWithFrame:self.view.bounds];
+    
+    NSString *pathURL = [[NSBundle mainBundle]pathForResource:@"启动页-拷贝.gif" ofType:nil];
+    YYImage * image = [YYImage imageWithContentsOfFile:pathURL];
+    self.gifImageView.image = image;
+    
+    [self.view addSubview:self.gifImageView];
+    [self.view bringSubviewToFront:self.gifImageView];
 }
 
 - (void)viewDidAppear:(BOOL)animated
