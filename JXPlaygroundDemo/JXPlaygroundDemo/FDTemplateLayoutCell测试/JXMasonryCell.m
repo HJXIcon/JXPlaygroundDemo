@@ -88,9 +88,9 @@
         make.left.mas_equalTo(self.titleLabel.mas_left);
         make.right.mas_equalTo(self.titleLabel.mas_right);
         make.top.mas_equalTo(self.titleLabel.mas_bottom);
-        make.bottom.mas_equalTo(self.contentView).with.offset(-10);
         make.height.mas_greaterThanOrEqualTo(102 - 23);
-        
+        make.bottom.mas_equalTo(self.contentView).with.offset(-10).priority(200);
+//        make.bottom.mas_lessThanOrEqualTo(self.contentView).with.offset(-10).priority(200);// 去除警告
     }];
     
     

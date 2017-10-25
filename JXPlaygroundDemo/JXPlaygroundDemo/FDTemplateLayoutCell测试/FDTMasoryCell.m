@@ -49,6 +49,8 @@
     lblTitle = [UILabel new];
     [self.contentView addSubview:lblTitle];
     //高20，左边距离头像10px，顶部距离contentview10px，右边距离15px（为什么是-15，因为ios内左边原点是左上角，印象右边和底部要负数）
+    /// 调试
+    MASAttachKeys(lblTitle);
     [lblTitle mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(icon.mas_right).offset(10);
         make.top.equalTo(self.contentView).offset(10);
@@ -62,6 +64,8 @@
     lblDesc.numberOfLines = 0;
     lblDesc.preferredMaxLayoutWidth = kScreenW - 20;
     [self.contentView addSubview:lblDesc];
+    /// 调试
+    MASAttachKeys(lblDesc);
     //不定高label，顶端距离title 10px，左边距离icon 10px， 右边距离 15px
     [lblDesc mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(lblTitle.mas_bottom).offset(10);
@@ -75,12 +79,14 @@
     lblDesc2.backgroundColor = [UIColor yellowColor];
     lblDesc2.preferredMaxLayoutWidth = kScreenW - 20;
     [self.contentView addSubview:lblDesc2];
+    /// 调试
+    MASAttachKeys(lblDesc2);
     //不定高label，顶端距离描述内容1 10px，左边距离icon 10px， 右边距离 15px
     [lblDesc2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(lblDesc.mas_bottom).offset(10);
         make.left.equalTo(icon.mas_right).offset(10);
 //        make.right.equalTo(self.contentView).offset(-15);
-        make.right.bottom.equalTo(self.contentView).offset(-15);
+        make.right.equalTo(self.contentView).offset(-15);
     }];
     
     //其他
@@ -92,7 +98,8 @@
         make.top.equalTo(lblDesc2.mas_bottom).offset(10);
         make.left.equalTo(lblDesc2);
         make.height.mas_equalTo(25);
-        make.right.bottom.equalTo(self.contentView).offset(-15);
+        make.right.equalTo(self.contentView).offset(-15);
+        make.bottom.equalTo(self.contentView).offset(-15).priority(200);
     }];
 
 }
