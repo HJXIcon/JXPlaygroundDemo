@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSMutableArray+SortTools.h"
 #import "ReactiveCocoaViewController.h"
 #import "JXAMapViewController.h"
 #import "GCDBaseViewController.h"
@@ -111,6 +112,17 @@
 #if defined(DEBUG) || defined(_DEBUG)
     [[JPFPSStatus sharedInstance]open];
 #endif
+    
+    // Set-up code here.
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@45, @2, @63,@11, nil];
+    
+     [array sortByInsert:^BOOL(NSObject *el1, NSObject *el2) {
+         __weak NSNumber *n1 = (NSNumber *)el1;
+         __weak NSNumber *n2 = (NSNumber *)el2;
+         return n1.intValue < n2.intValue;
+    }];
+    NSLog(@"insert == %@",array);
+    
 }
 
 

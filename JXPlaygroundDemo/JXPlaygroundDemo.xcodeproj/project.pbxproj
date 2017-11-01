@@ -348,6 +348,7 @@
 		04FEF1631EF13B0C00388A0D /* JXTransitionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1621EF13B0C00388A0D /* JXTransitionViewController2.m */; };
 		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		829D33341F959BF700B6C7CA /* 启动页-拷贝.gif in Resources */ = {isa = PBXBuildFile; fileRef = 829D33331F959BF700B6C7CA /* 启动页-拷贝.gif */; };
+		82E275301FA9A8060081E88B /* NSMutableArray+SortTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
 		F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E8E1F67C29D006FEF54 /* RETableViewManagerController.m */; };
 		F34A3E921F67C540006FEF54 /* REListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E911F67C540006FEF54 /* REListHeaderView.m */; };
@@ -1013,6 +1014,8 @@
 		04FEF1641EF13EEE00388A0D /* JXPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopTransition.h; sourceTree = "<group>"; };
 		04FEF1651EF13EEE00388A0D /* JXPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopTransition.m; sourceTree = "<group>"; };
 		829D33331F959BF700B6C7CA /* 启动页-拷贝.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "启动页-拷贝.gif"; sourceTree = "<group>"; };
+		82E2752E1FA9A8060081E88B /* NSMutableArray+SortTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SortTools.h"; sourceTree = "<group>"; };
+		82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SortTools.m"; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F34A3E8D1F67C29D006FEF54 /* RETableViewManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RETableViewManagerController.h; path = ../RETableViewManagerController.h; sourceTree = "<group>"; };
@@ -1920,6 +1923,7 @@
 		0460B8D61EDFC6A200C00DA5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				82E2752D1FA9A7F20081E88B /* SortTools（排序） */,
 				04226E981EF3D39C00E8302A /* Tools */,
 				042E6FE71EF295B50034B579 /* FoundtionExtension */,
 				0460B8D71EDFC6C900C00DA5 /* Extension */,
@@ -2670,6 +2674,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		82E2752D1FA9A7F20081E88B /* SortTools（排序） */ = {
+			isa = PBXGroup;
+			children = (
+				82E2752E1FA9A8060081E88B /* NSMutableArray+SortTools.h */,
+				82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */,
+			);
+			path = "SortTools（排序）";
+			sourceTree = "<group>";
+		};
 		AECE77901A97B2CAE8909BAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -3263,7 +3276,7 @@
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
-				"$PODS_CONFIGURATION_BUILD_DIR/RETableViewManager/RETableViewManager.bundle",
+				$PODS_CONFIGURATION_BUILD_DIR/RETableViewManager/RETableViewManager.bundle,
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
 				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
@@ -3425,6 +3438,7 @@
 				042E709E1EF295C80034B579 /* NSBundle+AppIcon.m in Sources */,
 				F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */,
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
+				82E275301FA9A8060081E88B /* NSMutableArray+SortTools.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
 				F3CAA21C1F8B14DD0045E454 /* XCGuideMaskView.m in Sources */,
 				042E70C01EF295C90034B579 /* NSNumber+RomanNumerals.m in Sources */,
