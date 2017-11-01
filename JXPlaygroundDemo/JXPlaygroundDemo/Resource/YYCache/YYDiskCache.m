@@ -34,9 +34,18 @@ static int64_t _YYDiskSpaceFree() {
 /// String's md5 hash.
 static NSString *_YYNSStringMD5(NSString *string) {
     if (!string) return nil;
+    //转换成utf-8
     NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+    //开辟一个16字节（128位：md5加密出来就是128位/bit）的空间（一个字节=8字位=8个二进制数）
     unsigned char result[CC_MD5_DIGEST_LENGTH];
+    
+    /**!
+     extern unsigned char *CC_MD5(const void *data, CC_LONG len, unsigned char *md)官方封装好的加密方法
+     把cStr字符串转换成了32位的16进制数列（这个过程不可逆转） 存储到了result这个空间中
+     */
     CC_MD5(data.bytes, (CC_LONG)data.length, result);
+    
+    //x表示十六进制，%02X  意思是不足两位将用0补齐，如果多余两位则不影响
     return [NSString stringWithFormat:
                 @"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
                 result[0],  result[1],  result[2],  result[3],

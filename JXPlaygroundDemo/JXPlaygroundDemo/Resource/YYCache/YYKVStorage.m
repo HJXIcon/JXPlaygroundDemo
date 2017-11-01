@@ -161,7 +161,14 @@ static UIApplication *_YYSharedApplication() {
     return YES;
 }
 
+/**!
+ YYCache中使用到了大量的数据库优化技术，这些技术包括建立索引、设置数据库访问模式、修改磁盘同步等级等。
+ 数据库索引
+ 数据库提供了一种列表式的存储方式，数据会按照一定的规则组织在表中，每一行代表了一个数据。如果单行数据存在多列时，如下图所示
+ // http://www.jianshu.com/p/b462a228fd98
+ */
 - (BOOL)_dbInitialize {
+    
     NSString *sql = @"pragma journal_mode = wal; pragma synchronous = normal; create table if not exists manifest (key text, filename text, size integer, inline_data blob, modification_time integer, last_access_time integer, extended_data blob, primary key(key)); create index if not exists last_access_time_idx on manifest(last_access_time);";
     return [self _dbExecute:sql];
 }
@@ -171,6 +178,7 @@ static UIApplication *_YYSharedApplication() {
     // Cause a checkpoint to occur, merge `sqlite-wal` file to `sqlite` file.
     sqlite3_wal_checkpoint(_db, NULL);
 }
+
 
 - (BOOL)_dbExecute:(NSString *)sql {
     if (sql.length == 0) return NO;
@@ -186,6 +194,11 @@ static UIApplication *_YYSharedApplication() {
     return result == SQLITE_OK;
 }
 
+/**!
+ 缓存sql命令结构
+ sqlite3_stmt是操作数据库数据的辅助数据类型，每一个sql语句可以解析成对应的辅助数据结构，大量的sql语句解析同样会带来性能上的损耗，因此YYCache采用CFMutableDictionaryRef结构将解析后的辅助数据类型存储起来，每次执行sql语句前查询是否存在已缓存的数据：
+ 链接：http://www.jianshu.com/p/b462a228fd98
+ */
 - (sqlite3_stmt *)_dbPrepareStmt:(NSString *)sql {
     if (![self _dbCheck] || sql.length == 0 || !_dbStmtCache) return NULL;
     // 先尝试从 _dbStmtCache 根据入参 sql 取出已缓存 sqlite3_stmt
@@ -702,9 +715,17 @@ static UIApplication *_YYSharedApplication() {
     _dataPath = [path stringByAppendingPathComponent:kDataDirectoryName];
     _trashPath = [path stringByAppendingPathComponent:kTrashDirectoryName];
     _trashQueue = dispatch_queue_create("com.ibireme.cache.disk.trash", DISPATCH_QUEUE_SERIAL);
+    //生成一个串行队列，队列中的block按照先进先出（FIFO）的顺序去执行，实际上为单线程执行。第一个参数是队列的名称，在调试程序时会非常有用，所有尽量不要重名了。
     _dbPath = [path stringByAppendingPathComponent:kDBFileName];
     _errorLogsEnabled = YES;
     NSError *error = nil;
+    /**!
+     //创建文件夹
+     @param path 要创建文件夹的路径
+     @param createIntermediates 是否创建中间文件夹 经过实验发现 如 @"/Users/plyn/Desktop/实验4/shiyan" 路径中/实验4/shiyan本来是不存在的 如果这个参数是YES则可以成功地创建这个路径地文件夹；如果传NO则无法创建
+     @param attribute 创建文件夹属性  传nil地话系统会自动创建
+     @param error 错误信息
+     */
     if (![[NSFileManager defaultManager] createDirectoryAtPath:path
                                    withIntermediateDirectories:YES
                                                     attributes:nil

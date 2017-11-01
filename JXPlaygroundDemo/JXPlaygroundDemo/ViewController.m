@@ -50,10 +50,22 @@
 #import "JXXMGLearnTableViewController.h"
 #import "JXGuideMaskViewController.h"
 
+
+@interface YYUserModel : NSObject
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *age;
+@property (nonatomic, strong) NSString *year;
+@end
+
+@implementation YYUserModel
+@end
+
 @interface ViewController ()
 
 @property(nonatomic, strong) NSArray *dataSource;
 @end
+
+
 
 @implementation ViewController
 
@@ -122,6 +134,50 @@
          return n1.intValue < n2.intValue;
     }];
     NSLog(@"insert == %@",array);
+    
+    
+    // 0.初始化YYCache
+    YYCache *cache = [YYCache cacheWithName:@"mydb"];
+    // 1.缓存普通字符
+    [cache setObject:@"汉斯哈哈哈" forKey:@"name"];
+    NSString *name = (NSString *)[cache objectForKey:@"name"];
+    NSLog(@"name: %@", name);
+    
+//    YYUserModel *model = [[YYUserModel alloc]init];
+//    model.age = @"20";
+//    model.name = @"icon";
+//    model.year = @"2017";
+//    // 2.缓存模型
+//    [cache setObject:(id<NSCoding>)model forKey:@"user"];
+    // 3.缓存数组
+    
+    NSMutableArray *models = @[].mutableCopy;
+    for (NSInteger i = 0; i < 10; i ++) {
+        YYUserModel *model = [[YYUserModel alloc]init];
+        model.name = [NSString stringWithFormat:@"name--%ld",i];
+        model.age = [NSString stringWithFormat:@"age == %ld",i];
+        model.year = [NSString stringWithFormat:@"year == %ld",i];
+        [models addObject:model];
+    }
+    // 异步缓存
+    [cache setObject:models forKey:@"user" withBlock:^{
+        // 异步回调
+        NSLog(@"%@", [NSThread currentThread]);
+        NSLog(@"models缓存完成....");
+    }];
+    // 延时读取
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        // 异步读取
+        [cache objectForKey:@"user" withBlock:^(NSString * _Nonnull key, id<NSCoding>  _Nonnull object) {
+            // 异步回调
+            NSLog(@"%@", [NSThread currentThread]);
+            NSLog(@"%@", object);
+            NSArray <YYUserModel *>*modelArray = (NSArray <YYUserModel *>*)object;
+            NSLog(@"%@",modelArray.firstObject.name);
+        }];
+    });
+    
+    NSLog(@"diskCache == %@",cache.diskCache.path);
     
 }
 

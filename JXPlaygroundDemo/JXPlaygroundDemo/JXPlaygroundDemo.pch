@@ -27,5 +27,6 @@
 #import "MBProgressHUD+MP.h"
 #import "MXWechatConfig.h"
 #import <AFNetworking/AFNetworking.h>
+#import "YYCache.h"
 
 #endif /* JXPlaygroundDemo_pch */

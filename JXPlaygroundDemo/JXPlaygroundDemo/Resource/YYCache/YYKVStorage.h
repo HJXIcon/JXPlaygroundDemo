@@ -128,7 +128,9 @@ typedef NS_ENUM(NSUInteger, YYKVStorageType) {
  @warning Multiple instances with the same path will make the storage unstable.
  */
 - (nullable instancetype)initWithPath:(NSString *)path type:(YYKVStorageType)type NS_DESIGNATED_INITIALIZER;
-
+/**!
+ NS_DESIGNATED_INITIALIZER 这里之所以要用这个宏，往往是想告诉调用者要用这个方法去初始化（构造）类对象。
+ */
 
 #pragma mark - Save Items
 ///=============================================================================
