@@ -349,6 +349,10 @@
 		04FEF1661EF13EEE00388A0D /* JXPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEF1651EF13EEE00388A0D /* JXPopTransition.m */; };
 		829D33341F959BF700B6C7CA /* 启动页-拷贝.gif in Resources */ = {isa = PBXBuildFile; fileRef = 829D33331F959BF700B6C7CA /* 启动页-拷贝.gif */; };
 		82E275301FA9A8060081E88B /* NSMutableArray+SortTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */; };
+		82E2753A1FA9C56D0081E88B /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E275331FA9C56D0081E88B /* YYCache.m */; };
+		82E2753B1FA9C56D0081E88B /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E275351FA9C56D0081E88B /* YYDiskCache.m */; };
+		82E2753C1FA9C56D0081E88B /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E275371FA9C56D0081E88B /* YYKVStorage.m */; };
+		82E2753D1FA9C56D0081E88B /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E275391FA9C56D0081E88B /* YYMemoryCache.m */; };
 		A0361796ACFAA845B80205C4 /* libPods-JXPlaygroundDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20446F825B822478A3143C /* libPods-JXPlaygroundDemo.a */; };
 		F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E8E1F67C29D006FEF54 /* RETableViewManagerController.m */; };
 		F34A3E921F67C540006FEF54 /* REListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F34A3E911F67C540006FEF54 /* REListHeaderView.m */; };
@@ -1016,6 +1020,14 @@
 		829D33331F959BF700B6C7CA /* 启动页-拷贝.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "启动页-拷贝.gif"; sourceTree = "<group>"; };
 		82E2752E1FA9A8060081E88B /* NSMutableArray+SortTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SortTools.h"; sourceTree = "<group>"; };
 		82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SortTools.m"; sourceTree = "<group>"; };
+		82E275321FA9C56D0081E88B /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		82E275331FA9C56D0081E88B /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		82E275341FA9C56D0081E88B /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		82E275351FA9C56D0081E88B /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		82E275361FA9C56D0081E88B /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		82E275371FA9C56D0081E88B /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		82E275381FA9C56D0081E88B /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		82E275391FA9C56D0081E88B /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
 		A1AA9AA015A97876188DB6F7 /* Pods-JXPlaygroundDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B75B6EC66D133C689B1C3C00 /* Pods-JXPlaygroundDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXPlaygroundDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXPlaygroundDemo/Pods-JXPlaygroundDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F34A3E8D1F67C29D006FEF54 /* RETableViewManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RETableViewManagerController.h; path = ../RETableViewManagerController.h; sourceTree = "<group>"; };
@@ -1923,6 +1935,7 @@
 		0460B8D61EDFC6A200C00DA5 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				82E275311FA9C56D0081E88B /* YYCache */,
 				82E2752D1FA9A7F20081E88B /* SortTools（排序） */,
 				04226E981EF3D39C00E8302A /* Tools */,
 				042E6FE71EF295B50034B579 /* FoundtionExtension */,
@@ -2681,6 +2694,21 @@
 				82E2752F1FA9A8060081E88B /* NSMutableArray+SortTools.m */,
 			);
 			path = "SortTools（排序）";
+			sourceTree = "<group>";
+		};
+		82E275311FA9C56D0081E88B /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				82E275321FA9C56D0081E88B /* YYCache.h */,
+				82E275331FA9C56D0081E88B /* YYCache.m */,
+				82E275341FA9C56D0081E88B /* YYDiskCache.h */,
+				82E275351FA9C56D0081E88B /* YYDiskCache.m */,
+				82E275361FA9C56D0081E88B /* YYKVStorage.h */,
+				82E275371FA9C56D0081E88B /* YYKVStorage.m */,
+				82E275381FA9C56D0081E88B /* YYMemoryCache.h */,
+				82E275391FA9C56D0081E88B /* YYMemoryCache.m */,
+			);
+			path = YYCache;
 			sourceTree = "<group>";
 		};
 		AECE77901A97B2CAE8909BAA /* Frameworks */ = {
@@ -3448,6 +3476,7 @@
 				F386A3F81F6FD0E300BABA60 /* UIView+frame.m in Sources */,
 				042E6FA91EF294DA0034B579 /* MPAdaptationFontViewController.m in Sources */,
 				04226EB11EF3D9FE00E8302A /* introductoryPagesView.m in Sources */,
+				82E2753D1FA9C56D0081E88B /* YYMemoryCache.m in Sources */,
 				F35E5FA51F60DE5800AE22F4 /* JXMasonryCell.m in Sources */,
 				0435A5281EEA55B20097689F /* JXWkWebViewViewController.m in Sources */,
 				F386A3FB1F6FD10900BABA60 /* JXPhotoPreViewViewController.m in Sources */,
@@ -3468,10 +3497,12 @@
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
 				F386A3ED1F6FC6B900BABA60 /* UIView+Frame.m in Sources */,
 				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
+				82E2753B1FA9C56D0081E88B /* YYDiskCache.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
 				F3F61DED1F7358E700BDE838 /* JXPersonDetailViewController.m in Sources */,
+				82E2753C1FA9C56D0081E88B /* YYKVStorage.m in Sources */,
 				F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */,
 				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
 				F386A3F71F6FD0E300BABA60 /* PreviewCell.m in Sources */,
@@ -3548,6 +3579,7 @@
 				F34A3E951F67C600006FEF54 /* REListImageItem.m in Sources */,
 				046052721ECFD09100745224 /* FlagItem.m in Sources */,
 				04D8422A1EC695A600E14F48 /* NSObject+caculator.m in Sources */,
+				82E2753A1FA9C56D0081E88B /* YYCache.m in Sources */,
 				0435A50F1EEA3BC80097689F /* JXCardViewScaleLayoutViewController.m in Sources */,
 				0460B8D51EDFC60300C00DA5 /* JXBanTangViewController.m in Sources */,
 				042E70C51EF295C90034B579 /* NSObject+AutoCoding.m in Sources */,
