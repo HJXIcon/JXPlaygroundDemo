@@ -62,7 +62,14 @@
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[view1(view2)]-[view2]-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[button1]-20-[view1]" options:0 metrics:nil views:views]];
-    
+    // 居中
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:view1
+                                                          attribute:NSLayoutAttributeCenterY
+                                                          relatedBy:NSLayoutRelationEqual
+                                                             toItem:view2
+                                                          attribute:NSLayoutAttributeCenterY
+                                                         multiplier:1
+                                                           constant:0]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[imageView(260)]" options:0 metrics:nil views:views]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[button2]-|" options:0 metrics:nil views:views]];

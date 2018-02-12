@@ -11,6 +11,7 @@
 		01EDF16020313B8B00E6540D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EDF15F20313B8A00E6540D /* leaves.png */; };
 		01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16220313CEA00E6540D /* VFLTableViewController.m */; };
 		01EDF16620313DCB00E6540D /* VFLViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16520313DCB00E6540D /* VFLViewController2.m */; };
+		01EDF16F20316D5300E6540D /* VFLViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16E20316D5300E6540D /* VFLViewController3.m */; };
 		04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E001F0102F300D313FA /* MXWechatPayHandler.m */; };
 		04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */; };
 		04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E041F0102F300D313FA /* WXApiManager.m */; };
@@ -445,6 +446,8 @@
 		01EDF16220313CEA00E6540D /* VFLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFLTableViewController.m; sourceTree = "<group>"; };
 		01EDF16420313DCB00E6540D /* VFLViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFLViewController2.h; sourceTree = "<group>"; };
 		01EDF16520313DCB00E6540D /* VFLViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFLViewController2.m; sourceTree = "<group>"; };
+		01EDF16D20316D5300E6540D /* VFLViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFLViewController3.h; sourceTree = "<group>"; };
+		01EDF16E20316D5300E6540D /* VFLViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFLViewController3.m; sourceTree = "<group>"; };
 		04010DFE1F0102F300D313FA /* MXWechatConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatConfig.h; sourceTree = "<group>"; };
 		04010DFF1F0102F300D313FA /* MXWechatPayHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatPayHandler.h; sourceTree = "<group>"; };
 		04010E001F0102F300D313FA /* MXWechatPayHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXWechatPayHandler.m; sourceTree = "<group>"; };
@@ -1199,6 +1202,8 @@
 				01EDF15D20313B2300E6540D /* VFLViewController.m */,
 				01EDF16420313DCB00E6540D /* VFLViewController2.h */,
 				01EDF16520313DCB00E6540D /* VFLViewController2.m */,
+				01EDF16D20316D5300E6540D /* VFLViewController3.h */,
+				01EDF16E20316D5300E6540D /* VFLViewController3.m */,
 				01EDF16120313CEA00E6540D /* VFLTableViewController.h */,
 				01EDF16220313CEA00E6540D /* VFLTableViewController.m */,
 			);
@@ -3411,6 +3416,7 @@
 				048652B81EFA1807004B6136 /* JXPopupViewAnimationSpring.m in Sources */,
 				04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */,
 				042E70BB1EF295C90034B579 /* NSInvocation+Block.m in Sources */,
+				01EDF16F20316D5300E6540D /* VFLViewController3.m in Sources */,
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
 				042E70A11EF295C80034B579 /* NSData+Encrypt.m in Sources */,
 				042E70AE1EF295C80034B579 /* NSDateFormatter+Make.m in Sources */,

@@ -9,6 +9,7 @@
 #import "VFLTableViewController.h"
 #import "VFLViewController.h"
 #import "VFLViewController2.h"
+#import "VFLViewController3.h"
 
 @interface VFLTableViewController ()
 @property (nonatomic, strong) NSArray *datas;
@@ -19,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.datas = @[@"Demo1",@"Demo2"];
+    self.datas = @[@"Demo1",@"Demo2",@"Demo3"];
     
 }
 
@@ -55,6 +56,10 @@
             vc = vfl;
         }
            
+            break;
+            
+        case 2:
+            vc = [[VFLViewController3 alloc]init];
             break;
             
         default:
