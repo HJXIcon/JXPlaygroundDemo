@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01EDF15E20313B2400E6540D /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF15D20313B2300E6540D /* VFLViewController.m */; };
+		01EDF16020313B8B00E6540D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EDF15F20313B8A00E6540D /* leaves.png */; };
+		01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16220313CEA00E6540D /* VFLTableViewController.m */; };
+		01EDF16620313DCB00E6540D /* VFLViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16520313DCB00E6540D /* VFLViewController2.m */; };
 		04010E081F0102F300D313FA /* MXWechatPayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E001F0102F300D313FA /* MXWechatPayHandler.m */; };
 		04010E091F0102F300D313FA /* MXWechatSignAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E021F0102F300D313FA /* MXWechatSignAdaptor.m */; };
 		04010E0A1F0102F300D313FA /* WXApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04010E041F0102F300D313FA /* WXApiManager.m */; };
@@ -434,6 +438,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01EDF15C20313B2300E6540D /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
+		01EDF15D20313B2300E6540D /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
+		01EDF15F20313B8A00E6540D /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		01EDF16120313CEA00E6540D /* VFLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFLTableViewController.h; sourceTree = "<group>"; };
+		01EDF16220313CEA00E6540D /* VFLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFLTableViewController.m; sourceTree = "<group>"; };
+		01EDF16420313DCB00E6540D /* VFLViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFLViewController2.h; sourceTree = "<group>"; };
+		01EDF16520313DCB00E6540D /* VFLViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFLViewController2.m; sourceTree = "<group>"; };
 		04010DFE1F0102F300D313FA /* MXWechatConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatConfig.h; sourceTree = "<group>"; };
 		04010DFF1F0102F300D313FA /* MXWechatPayHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXWechatPayHandler.h; sourceTree = "<group>"; };
 		04010E001F0102F300D313FA /* MXWechatPayHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXWechatPayHandler.m; sourceTree = "<group>"; };
@@ -1180,6 +1191,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EDF15B20313AED00E6540D /* 39-VFLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01EDF15F20313B8A00E6540D /* leaves.png */,
+				01EDF15C20313B2300E6540D /* VFLViewController.h */,
+				01EDF15D20313B2300E6540D /* VFLViewController.m */,
+				01EDF16420313DCB00E6540D /* VFLViewController2.h */,
+				01EDF16520313DCB00E6540D /* VFLViewController2.m */,
+				01EDF16120313CEA00E6540D /* VFLTableViewController.h */,
+				01EDF16220313CEA00E6540D /* VFLTableViewController.m */,
+			);
+			path = "39-VFLDemo";
+			sourceTree = "<group>";
+		};
 		04010DFD1F0102F300D313FA /* WechatTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -2499,6 +2524,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				01EDF15B20313AED00E6540D /* 39-VFLDemo */,
 				F3CAA2111F8B149E0045E454 /* 38-自定义新手引导视图 */,
 				F3F61DE71F73574100BDE838 /* 37-XMGLearn */,
 				F386A3EE1F6FD0D200BABA60 /* 36-PhotoPreview */,
@@ -3179,6 +3205,7 @@
 				048021121EEF778B008287A8 /* CYPasswordView.bundle in Resources */,
 				0460B9361EDFC95200C00DA5 /* recomand_05.jpg in Resources */,
 				0460B8FD1EDFC93A00C00DA5 /* home_search_icon.png in Resources */,
+				01EDF16020313B8B00E6540D /* leaves.png in Resources */,
 				F34A3EAB1F67C89E006FEF54 /* photo6.jpg in Resources */,
 				04AC30CB1ED91D3200841D63 /* FDTCell.xib in Resources */,
 				04D842171EC694CB00E14F48 /* Main.storyboard in Resources */,
@@ -3388,6 +3415,7 @@
 				042E70A11EF295C80034B579 /* NSData+Encrypt.m in Sources */,
 				042E70AE1EF295C80034B579 /* NSDateFormatter+Make.m in Sources */,
 				042E70CC1EF295C90034B579 /* NSObject+Runtime.m in Sources */,
+				01EDF16620313DCB00E6540D /* VFLViewController2.m in Sources */,
 				042E70D01EF295C90034B579 /* NSString+Base64.m in Sources */,
 				042E70E91EF295C90034B579 /* NSUserDefaults+iCloudSync.m in Sources */,
 				F34E0F091F73C260004C7278 /* JXParticleEffectsViewController.m in Sources */,
@@ -3413,6 +3441,7 @@
 				0435A5031EEA271A0097689F /* JXCardView3DLayout.m in Sources */,
 				F34A3E921F67C540006FEF54 /* REListHeaderView.m in Sources */,
 				046BFBB11EE5034B009358B5 /* NotificationViewController2.m in Sources */,
+				01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */,
 				0435A5341EEA8D350097689F /* UIBarButtonItem+Item.m in Sources */,
 				042E70A21EF295C80034B579 /* NSData+Gzip.m in Sources */,
 				F34E0F031F73BF62004C7278 /* JXTransitionAnimationViewController.m in Sources */,
@@ -3596,6 +3625,7 @@
 				042E70B41EF295C80034B579 /* NSDictionary+XML.m in Sources */,
 				042E70A51EF295C80034B579 /* NSData+zlib.m in Sources */,
 				042E70B11EF295C80034B579 /* NSDictionary+Merge.m in Sources */,
+				01EDF15E20313B2400E6540D /* VFLViewController.m in Sources */,
 				042E70DD1EF295C90034B579 /* NSString+Size.m in Sources */,
 				04F660D81F2AE2310051AFDE /* JXTablePlaceHolderViewController.m in Sources */,
 				048DBA511F315B7C00334864 /* JXLocationHelper.m in Sources */,

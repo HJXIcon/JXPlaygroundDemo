@@ -49,6 +49,7 @@
 #import "JXPhotoPreViewViewController.h"
 #import "JXXMGLearnTableViewController.h"
 #import "JXGuideMaskViewController.h"
+#import "VFLTableViewController.h"
 
 
 @interface YYUserModel : NSObject
@@ -109,7 +110,8 @@
                         @"35-PickerView",
                         @"36-PhotoPreview",
                         @"37-XMGLearn",
-                        @"38-自定义新手引导视图"
+                        @"38-自定义新手引导视图",
+                        @"39-VFLDemo"
                         ];
     }
     return _dataSource;
@@ -405,6 +407,9 @@
             vc = [[JXGuideMaskViewController alloc]init];
             break;
             
+        case 38:
+            vc = [[VFLTableViewController alloc]init];
+            break;
             
             
 
