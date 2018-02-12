@@ -48,8 +48,17 @@
     //通过宏映射成字典参数
     NSDictionary *views = NSDictionaryOfVariableBindings(button1, view1, view2, imageView, button2);
     
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[button1(==100)]-|" options:NSLayoutFormatAlignAllCenterX metrics:nil views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[button1(==100)]" options:NSLayoutFormatAlignAllCenterX metrics:nil views:views]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[button1]" options:0 metrics:nil views:views]];
+    // 居中
+    [self.view addConstraint:[NSLayoutConstraint constraintWithItem:self.view
+                                                         attribute:NSLayoutAttributeCenterX
+                                                         relatedBy:NSLayoutRelationEqual
+                                                            toItem:button1
+                                                         attribute:NSLayoutAttributeCenterX
+                                                        multiplier:1
+                                                          constant:0]];
+    
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[view1(view2)]-[view2]-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:views]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[button1]-20-[view1]" options:0 metrics:nil views:views]];
