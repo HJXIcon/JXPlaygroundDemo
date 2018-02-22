@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014546A0203E774200786557 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0145469F203E774100786557 /* UIButton+EX.m */; };
+		014546A3203E776C00786557 /* UITabBar+HNTabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 014546A2203E776C00786557 /* UITabBar+HNTabber.m */; };
 		01EDF15E20313B2400E6540D /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF15D20313B2300E6540D /* VFLViewController.m */; };
 		01EDF16020313B8B00E6540D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EDF15F20313B8A00E6540D /* leaves.png */; };
 		01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16220313CEA00E6540D /* VFLTableViewController.m */; };
@@ -439,6 +441,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0145469E203E774100786557 /* UIButton+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EX.h"; sourceTree = "<group>"; };
+		0145469F203E774100786557 /* UIButton+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EX.m"; sourceTree = "<group>"; };
+		014546A1203E776C00786557 /* UITabBar+HNTabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HNTabber.h"; sourceTree = "<group>"; };
+		014546A2203E776C00786557 /* UITabBar+HNTabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HNTabber.m"; sourceTree = "<group>"; };
 		01EDF15C20313B2300E6540D /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		01EDF15D20313B2300E6540D /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
 		01EDF15F20313B8A00E6540D /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
@@ -1194,6 +1200,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0145469D203E773400786557 /* 常用分类 */ = {
+			isa = PBXGroup;
+			children = (
+				014546A1203E776C00786557 /* UITabBar+HNTabber.h */,
+				014546A2203E776C00786557 /* UITabBar+HNTabber.m */,
+				0145469E203E774100786557 /* UIButton+EX.h */,
+				0145469F203E774100786557 /* UIButton+EX.m */,
+			);
+			path = "常用分类";
+			sourceTree = "<group>";
+		};
 		01EDF15B20313AED00E6540D /* 39-VFLDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2529,6 +2546,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0145469D203E773400786557 /* 常用分类 */,
 				01EDF15B20313AED00E6540D /* 39-VFLDemo */,
 				F3CAA2111F8B149E0045E454 /* 38-自定义新手引导视图 */,
 				F3F61DE71F73574100BDE838 /* 37-XMGLearn */,
@@ -3480,6 +3498,7 @@
 				0480211A1EEF7988008287A8 /* MBProgressHUD+MJ.m in Sources */,
 				042E70D21EF295C90034B579 /* NSString+DictionaryValue.m in Sources */,
 				042E70E81EF295C90034B579 /* NSURLRequest+ParamsFromDictionary.m in Sources */,
+				014546A0203E774200786557 /* UIButton+EX.m in Sources */,
 				042E709F1EF295C80034B579 /* NSData+APNSToken.m in Sources */,
 				04B77FB61EE64BFE0049B82E /* JXSwipeOverlayView.m in Sources */,
 				042E70BF1EF295C90034B579 /* NSNumber+CGFloat.m in Sources */,
@@ -3543,6 +3562,7 @@
 				F386A3F71F6FD0E300BABA60 /* PreviewCell.m in Sources */,
 				04087C0F1F04D4B800B3F566 /* JXPopPresentViewController.m in Sources */,
 				F3F8E3D31F5D52B4003A7C39 /* JXPopInteractionDismissViewController.m in Sources */,
+				014546A3203E776C00786557 /* UITabBar+HNTabber.m in Sources */,
 				048021111EEF778B008287A8 /* CYPasswordInputView.m in Sources */,
 				F3854C9D1F74B76600B5DDA1 /* FLDemoView.m in Sources */,
 				042E70CB1EF295C90034B579 /* NSObject+Reflection.m in Sources */,
