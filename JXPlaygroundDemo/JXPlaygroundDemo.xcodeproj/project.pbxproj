@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		014546A0203E774200786557 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0145469F203E774100786557 /* UIButton+EX.m */; };
 		014546A3203E776C00786557 /* UITabBar+HNTabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 014546A2203E776C00786557 /* UITabBar+HNTabber.m */; };
+		01A38B562040004E007460C2 /* JXCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B552040004E007460C2 /* JXCountDown.m */; };
 		01EDF15E20313B2400E6540D /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF15D20313B2300E6540D /* VFLViewController.m */; };
 		01EDF16020313B8B00E6540D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EDF15F20313B8A00E6540D /* leaves.png */; };
 		01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16220313CEA00E6540D /* VFLTableViewController.m */; };
@@ -445,6 +446,8 @@
 		0145469F203E774100786557 /* UIButton+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EX.m"; sourceTree = "<group>"; };
 		014546A1203E776C00786557 /* UITabBar+HNTabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HNTabber.h"; sourceTree = "<group>"; };
 		014546A2203E776C00786557 /* UITabBar+HNTabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HNTabber.m"; sourceTree = "<group>"; };
+		01A38B542040004E007460C2 /* JXCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCountDown.h; sourceTree = "<group>"; };
+		01A38B552040004E007460C2 /* JXCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCountDown.m; sourceTree = "<group>"; };
 		01EDF15C20313B2300E6540D /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		01EDF15D20313B2300E6540D /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
 		01EDF15F20313B8A00E6540D /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
@@ -1209,6 +1212,15 @@
 				0145469F203E774100786557 /* UIButton+EX.m */,
 			);
 			path = "常用分类";
+			sourceTree = "<group>";
+		};
+		01A38B532040002D007460C2 /* 倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				01A38B542040004E007460C2 /* JXCountDown.h */,
+				01A38B552040004E007460C2 /* JXCountDown.m */,
+			);
+			path = "倒计时";
 			sourceTree = "<group>";
 		};
 		01EDF15B20313AED00E6540D /* 39-VFLDemo */ = {
@@ -2546,6 +2558,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				01A38B532040002D007460C2 /* 倒计时 */,
 				0145469D203E773400786557 /* 常用分类 */,
 				01EDF15B20313AED00E6540D /* 39-VFLDemo */,
 				F3CAA2111F8B149E0045E454 /* 38-自定义新手引导视图 */,
@@ -3643,6 +3656,7 @@
 				042E70DF1EF295C90034B579 /* NSString+UrlEncode.m in Sources */,
 				F3854C891F74AEDF00B5DDA1 /* FlipSquaresNavigationController.m in Sources */,
 				04AC30C21ED91A7F00841D63 /* MainTabbarVC.m in Sources */,
+				01A38B562040004E007460C2 /* JXCountDown.m in Sources */,
 				04087C181F04D7A500B3F566 /* JXDismissingAnimator.m in Sources */,
 				042E70A81EF295C80034B579 /* NSDate+Formatter.m in Sources */,
 				043E830A1EE50B9800854151 /* JXNotificationViewController.m in Sources */,

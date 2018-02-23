@@ -7,7 +7,7 @@
 //
 
 #import "UITabBar+HNTabber.h"
-#import "HNHeader.h"
+
 
 static int baseTag = 1000;
 
@@ -19,7 +19,7 @@ static int baseTag = 1000;
     label.layer.borderWidth = 1.0;
     label.textAlignment = NSTextAlignmentCenter;
     label.font = [UIFont systemFontOfSize:10];
-    label.backgroundColor = HN_MIAN_STYLE_COLOR;
+    label.backgroundColor = [UIColor orangeColor];
     label.textColor = [UIColor whiteColor];
     label.clipsToBounds = YES;
     [label sizeToFit];
