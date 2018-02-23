@@ -10,6 +10,11 @@
 		014546A0203E774200786557 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0145469F203E774100786557 /* UIButton+EX.m */; };
 		014546A3203E776C00786557 /* UITabBar+HNTabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 014546A2203E776C00786557 /* UITabBar+HNTabber.m */; };
 		01A38B562040004E007460C2 /* JXCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B552040004E007460C2 /* JXCountDown.m */; };
+		01A38B6620401706007460C2 /* JXMinePageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6520401706007460C2 /* JXMinePageTitleView.m */; };
+		01A38B6920401837007460C2 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6820401837007460C2 /* UIViewExt.m */; };
+		01A38B7020401E60007460C2 /* JXPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6D20401E60007460C2 /* JXPersonDetailViewController.m */; };
+		01A38B7120401E60007460C2 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6E20401E60007460C2 /* PersonDetailViewController.m */; };
+		01A38B7220401E60007460C2 /* PersonDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A38B6F20401E60007460C2 /* PersonDetailViewController.storyboard */; };
 		01EDF15E20313B2400E6540D /* VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF15D20313B2300E6540D /* VFLViewController.m */; };
 		01EDF16020313B8B00E6540D /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EDF15F20313B8A00E6540D /* leaves.png */; };
 		01EDF16320313CEA00E6540D /* VFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EDF16220313CEA00E6540D /* VFLTableViewController.m */; };
@@ -432,9 +437,6 @@
 		F3CAA21B1F8B14DD0045E454 /* guide_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CAA2181F8B14DD0045E454 /* guide_arrow@3x.png */; };
 		F3CAA21C1F8B14DD0045E454 /* XCGuideMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CAA21A1F8B14DD0045E454 /* XCGuideMaskView.m */; };
 		F3F61DEA1F73576B00BDE838 /* JXXMGLearnTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */; };
-		F3F61DED1F7358E700BDE838 /* JXPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */; };
-		F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */; };
-		F3F61DF21F737A4C00BDE838 /* PersonDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */; };
 		F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */; };
 		F3F8E3CD1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CC1F5D4FE9003A7C39 /* JXPopInteractionAnimation.m */; };
 		F3F8E3D01F5D5028003A7C39 /* JXPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8E3CF1F5D5028003A7C39 /* JXPopInteraction.m */; };
@@ -448,6 +450,15 @@
 		014546A2203E776C00786557 /* UITabBar+HNTabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HNTabber.m"; sourceTree = "<group>"; };
 		01A38B542040004E007460C2 /* JXCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCountDown.h; sourceTree = "<group>"; };
 		01A38B552040004E007460C2 /* JXCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCountDown.m; sourceTree = "<group>"; };
+		01A38B6420401706007460C2 /* JXMinePageTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXMinePageTitleView.h; sourceTree = "<group>"; };
+		01A38B6520401706007460C2 /* JXMinePageTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXMinePageTitleView.m; sourceTree = "<group>"; };
+		01A38B6720401837007460C2 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		01A38B6820401837007460C2 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		01A38B6B20401E60007460C2 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPersonDetailViewController.h; path = "JXPlaygroundDemo/37-XMGLearn/JXPersonDetailViewController.h"; sourceTree = SOURCE_ROOT; };
+		01A38B6C20401E60007460C2 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = "JXPlaygroundDemo/37-XMGLearn/PersonDetailViewController.h"; sourceTree = SOURCE_ROOT; };
+		01A38B6D20401E60007460C2 /* JXPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPersonDetailViewController.m; path = "JXPlaygroundDemo/37-XMGLearn/JXPersonDetailViewController.m"; sourceTree = SOURCE_ROOT; };
+		01A38B6E20401E60007460C2 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = "JXPlaygroundDemo/37-XMGLearn/PersonDetailViewController.m"; sourceTree = SOURCE_ROOT; };
+		01A38B6F20401E60007460C2 /* PersonDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PersonDetailViewController.storyboard; path = "JXPlaygroundDemo/37-XMGLearn/PersonDetailViewController.storyboard"; sourceTree = SOURCE_ROOT; };
 		01EDF15C20313B2300E6540D /* VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLViewController.h; sourceTree = "<group>"; };
 		01EDF15D20313B2300E6540D /* VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLViewController.m; sourceTree = "<group>"; };
 		01EDF15F20313B8A00E6540D /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
@@ -1175,11 +1186,6 @@
 		F3CAA21A1F8B14DD0045E454 /* XCGuideMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCGuideMaskView.m; sourceTree = "<group>"; };
 		F3F61DE81F73576B00BDE838 /* JXXMGLearnTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXXMGLearnTableViewController.h; sourceTree = "<group>"; };
 		F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXXMGLearnTableViewController.m; sourceTree = "<group>"; };
-		F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXPersonDetailViewController.h; path = ../JXPersonDetailViewController.h; sourceTree = "<group>"; };
-		F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXPersonDetailViewController.m; path = ../JXPersonDetailViewController.m; sourceTree = "<group>"; };
-		F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonDetailViewController.h; path = ../PersonDetailViewController.h; sourceTree = "<group>"; };
-		F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonDetailViewController.m; path = ../PersonDetailViewController.m; sourceTree = "<group>"; };
-		F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PersonDetailViewController.storyboard; path = ../PersonDetailViewController.storyboard; sourceTree = "<group>"; };
 		F3F8E3C81F5D4F94003A7C39 /* JXPopInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionViewController.h; sourceTree = "<group>"; };
 		F3F8E3C91F5D4F94003A7C39 /* JXPopInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPopInteractionViewController.m; sourceTree = "<group>"; };
 		F3F8E3CB1F5D4FE9003A7C39 /* JXPopInteractionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPopInteractionAnimation.h; sourceTree = "<group>"; };
@@ -1221,6 +1227,18 @@
 				01A38B552040004E007460C2 /* JXCountDown.m */,
 			);
 			path = "倒计时";
+			sourceTree = "<group>";
+		};
+		01A38B6A20401E54007460C2 /* 1.个人详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				01A38B6B20401E60007460C2 /* JXPersonDetailViewController.h */,
+				01A38B6D20401E60007460C2 /* JXPersonDetailViewController.m */,
+				01A38B6C20401E60007460C2 /* PersonDetailViewController.h */,
+				01A38B6E20401E60007460C2 /* PersonDetailViewController.m */,
+				01A38B6F20401E60007460C2 /* PersonDetailViewController.storyboard */,
+			);
+			path = "1.个人详情页";
 			sourceTree = "<group>";
 		};
 		01EDF15B20313AED00E6540D /* 39-VFLDemo */ = {
@@ -2849,18 +2867,6 @@
 			path = "UIView+placeholder";
 			sourceTree = "<group>";
 		};
-		F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */ = {
-			isa = PBXGroup;
-			children = (
-				F3F61DEB1F7358E700BDE838 /* JXPersonDetailViewController.h */,
-				F3F61DEC1F7358E700BDE838 /* JXPersonDetailViewController.m */,
-				F3F61DEE1F737A3B00BDE838 /* PersonDetailViewController.h */,
-				F3F61DEF1F737A3B00BDE838 /* PersonDetailViewController.m */,
-				F3F61DF11F737A4C00BDE838 /* PersonDetailViewController.storyboard */,
-			);
-			path = "1.个人详情页";
-			sourceTree = "<group>";
-		};
 		F34E0F001F73BF3C004C7278 /* 2.转场动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3075,6 +3081,10 @@
 			children = (
 				F39AE7951F5E7CBC00E36DA2 /* JXMineViewController.h */,
 				F39AE7961F5E7CBC00E36DA2 /* JXMineViewController.m */,
+				01A38B6420401706007460C2 /* JXMinePageTitleView.h */,
+				01A38B6520401706007460C2 /* JXMinePageTitleView.m */,
+				01A38B6720401837007460C2 /* UIViewExt.h */,
+				01A38B6820401837007460C2 /* UIViewExt.m */,
 			);
 			path = "32-个人页面图片下拉放大效果 ";
 			sourceTree = "<group>";
@@ -3108,7 +3118,7 @@
 				F3854C741F74AEA300B5DDA1 /* 4.自定义push pop效果  */,
 				F34E0F061F73C22A004C7278 /* 3.粒子效果 */,
 				F34E0F001F73BF3C004C7278 /* 2.转场动画 */,
-				F34E0EFF1F73BF19004C7278 /* 1.个人详情页 */,
+				01A38B6A20401E54007460C2 /* 1.个人详情页 */,
 				F3F61DE81F73576B00BDE838 /* JXXMGLearnTableViewController.h */,
 				F3F61DE91F73576B00BDE838 /* JXXMGLearnTableViewController.m */,
 			);
@@ -3217,7 +3227,6 @@
 				0460B9391EDFC95200C00DA5 /* recomand_08.jpg in Resources */,
 				0460B9591EDFC95200C00DA5 /* refresh09.png in Resources */,
 				04D842191EC694CB00E14F48 /* Assets.xcassets in Resources */,
-				F3F61DF21F737A4C00BDE838 /* PersonDetailViewController.storyboard in Resources */,
 				F34A3EAD1F67C89E006FEF54 /* userpic2.jpg in Resources */,
 				042E6F9B1EF28DCB0034B579 /* blankpage_image_loadFail@3x.png in Resources */,
 				046BFBA41EE4FD34009358B5 /* icon_certification_status1@2x.png in Resources */,
@@ -3230,6 +3239,7 @@
 				0460B9651EDFC96000C00DA5 /* cycle_02.jpg in Resources */,
 				0435A5161EEA50680097689F /* source.html in Resources */,
 				04AC30E01ED92A1200841D63 /* 智能拼图.mov in Resources */,
+				01A38B7220401E60007460C2 /* PersonDetailViewController.storyboard in Resources */,
 				F34A3EA91F67C89E006FEF54 /* photo4.jpg in Resources */,
 				0460B9471EDFC95200C00DA5 /* header02@2x.jpg in Resources */,
 				04B77FEA1EE653A90049B82E /* yesButton.png in Resources */,
@@ -3409,6 +3419,7 @@
 				F3854C8C1F74AFB200B5DDA1 /* JXCubeNavigationDemoViewController.m in Sources */,
 				F37608911F542E6000B47CF3 /* ButtonRepeatViewController.m in Sources */,
 				F39AE7971F5E7CBC00E36DA2 /* JXMineViewController.m in Sources */,
+				01A38B7120401E60007460C2 /* PersonDetailViewController.m in Sources */,
 				F3854CA01F74B76600B5DDA1 /* FLSpringView.m in Sources */,
 				042E6FA51EF291C70034B579 /* MBProgressHUD+MP.m in Sources */,
 				F3C54F621F623700006A851B /* JXTopLeftLabel.m in Sources */,
@@ -3451,6 +3462,7 @@
 				0460B8E51EDFC8D000C00DA5 /* JXBanTangHeaderView.m in Sources */,
 				042E70A11EF295C80034B579 /* NSData+Encrypt.m in Sources */,
 				042E70AE1EF295C80034B579 /* NSDateFormatter+Make.m in Sources */,
+				01A38B6620401706007460C2 /* JXMinePageTitleView.m in Sources */,
 				042E70CC1EF295C90034B579 /* NSObject+Runtime.m in Sources */,
 				01EDF16620313DCB00E6540D /* VFLViewController2.m in Sources */,
 				042E70D01EF295C90034B579 /* NSString+Base64.m in Sources */,
@@ -3531,7 +3543,6 @@
 				042E70E61EF295C90034B579 /* NSURLConnection+SelfSigned.m in Sources */,
 				048652AC1EFA1465004B6136 /* UIViewController+JXPopupViewController.m in Sources */,
 				042E709E1EF295C80034B579 /* NSBundle+AppIcon.m in Sources */,
-				F3F61DF01F737A3B00BDE838 /* PersonDetailViewController.m in Sources */,
 				048021131EEF778B008287A8 /* CYPasswordView.m in Sources */,
 				82E275301FA9A8060081E88B /* NSMutableArray+SortTools.m in Sources */,
 				0435A5451EEA8DAF0097689F /* UISwitch+Expand.m in Sources */,
@@ -3563,12 +3574,12 @@
 				042E70B51EF295C90034B579 /* NSException+Trace.m in Sources */,
 				04915AD81EDFF121004D282D /* JXBTHomeRecomandModel.m in Sources */,
 				F386A3ED1F6FC6B900BABA60 /* UIView+Frame.m in Sources */,
+				01A38B6920401837007460C2 /* UIViewExt.m in Sources */,
 				04AE5E781EE804C0001E360C /* JXRotateInOutAttributesAnimator.m in Sources */,
 				82E2753B1FA9C56D0081E88B /* YYDiskCache.m in Sources */,
 				04AC30D01ED91D7000841D63 /* FDTMasoryCell.m in Sources */,
 				0435A5231EEA552E0097689F /* SDLoadingView.m in Sources */,
 				04AC30EA1ED92D2C00841D63 /* PicEditViewController.m in Sources */,
-				F3F61DED1F7358E700BDE838 /* JXPersonDetailViewController.m in Sources */,
 				82E2753C1FA9C56D0081E88B /* YYKVStorage.m in Sources */,
 				F34A3E8F1F67C29D006FEF54 /* RETableViewManagerController.m in Sources */,
 				048652AF1EFA170F004B6136 /* JXPopupViewAnimationDrop.m in Sources */,
@@ -3674,6 +3685,7 @@
 				F3F8E3CA1F5D4F94003A7C39 /* JXPopInteractionViewController.m in Sources */,
 				042E70A61EF295C80034B579 /* NSDate+CupertinoYankee.m in Sources */,
 				04226E971EF3B40A00E8302A /* JXAdvertiseViewController.m in Sources */,
+				01A38B7020401E60007460C2 /* JXPersonDetailViewController.m in Sources */,
 				042E70D81EF295C90034B579 /* NSString+Pinyin.m in Sources */,
 				0435A5461EEA8DAF0097689F /* UITextFiled+Shake.m in Sources */,
 				044433A21EDFEEDB00C8E7C4 /* JXBanTangTableViewController.m in Sources */,

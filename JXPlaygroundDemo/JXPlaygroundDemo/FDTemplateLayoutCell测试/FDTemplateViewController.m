@@ -10,7 +10,7 @@
 #import "FDTCell.h"
 #import "FDTMasoryCell.h"
 #import "FDTModel.h"
-#import "UITableView+FDTemplateLayoutCell.h"
+#import <UITableView+FDTemplateLayoutCell.h>
 #import "JXMasonryCell.h"
 
 static NSString *const cellID = @"FDTCell";
