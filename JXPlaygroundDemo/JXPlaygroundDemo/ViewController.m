@@ -50,6 +50,7 @@
 #import "JXXMGLearnTableViewController.h"
 #import "JXGuideMaskViewController.h"
 #import "VFLTableViewController.h"
+#import "JXSupspensionViewController.h"
 
 
 @interface YYUserModel : NSObject
@@ -111,7 +112,8 @@
                         @"36-PhotoPreview",
                         @"37-XMGLearn",
                         @"38-自定义新手引导视图",
-                        @"39-VFLDemo"
+                        @"39-VFLDemo",
+                        @"40-悬浮按钮"
                         ];
     }
     return _dataSource;
@@ -411,7 +413,9 @@
             vc = [[VFLTableViewController alloc]init];
             break;
             
-            
+        case 39:
+            vc = [[JXSupspensionViewController alloc]init];
+            break;
 
         default:
             break;

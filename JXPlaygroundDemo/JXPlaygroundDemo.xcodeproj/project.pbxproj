@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		014546A0203E774200786557 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 0145469F203E774100786557 /* UIButton+EX.m */; };
 		014546A3203E776C00786557 /* UITabBar+HNTabber.m in Sources */ = {isa = PBXBuildFile; fileRef = 014546A2203E776C00786557 /* UITabBar+HNTabber.m */; };
+		015C3704204EB47500266EF4 /* JXSuspension.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C36FF204EB47400266EF4 /* JXSuspension.m */; };
+		015C370A204EB4A600266EF4 /* JXSupspensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C3709204EB4A500266EF4 /* JXSupspensionViewController.m */; };
+		015C370D204EB5C100266EF4 /* UIView+JXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 015C370C204EB5C100266EF4 /* UIView+JXExtension.m */; };
 		01A38B562040004E007460C2 /* JXCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B552040004E007460C2 /* JXCountDown.m */; };
 		01A38B6620401706007460C2 /* JXMinePageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6520401706007460C2 /* JXMinePageTitleView.m */; };
 		01A38B6920401837007460C2 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A38B6820401837007460C2 /* UIViewExt.m */; };
@@ -448,6 +451,12 @@
 		0145469F203E774100786557 /* UIButton+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EX.m"; sourceTree = "<group>"; };
 		014546A1203E776C00786557 /* UITabBar+HNTabber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HNTabber.h"; sourceTree = "<group>"; };
 		014546A2203E776C00786557 /* UITabBar+HNTabber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HNTabber.m"; sourceTree = "<group>"; };
+		015C36FF204EB47400266EF4 /* JXSuspension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSuspension.m; sourceTree = "<group>"; };
+		015C3702204EB47500266EF4 /* JXSuspension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSuspension.h; sourceTree = "<group>"; };
+		015C3708204EB4A500266EF4 /* JXSupspensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXSupspensionViewController.h; sourceTree = "<group>"; };
+		015C3709204EB4A500266EF4 /* JXSupspensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXSupspensionViewController.m; sourceTree = "<group>"; };
+		015C370B204EB5C000266EF4 /* UIView+JXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXExtension.h"; sourceTree = "<group>"; };
+		015C370C204EB5C100266EF4 /* UIView+JXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXExtension.m"; sourceTree = "<group>"; };
 		01A38B542040004E007460C2 /* JXCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCountDown.h; sourceTree = "<group>"; };
 		01A38B552040004E007460C2 /* JXCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCountDown.m; sourceTree = "<group>"; };
 		01A38B6420401706007460C2 /* JXMinePageTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXMinePageTitleView.h; sourceTree = "<group>"; };
@@ -1218,6 +1227,27 @@
 				0145469F203E774100786557 /* UIButton+EX.m */,
 			);
 			path = "常用分类";
+			sourceTree = "<group>";
+		};
+		015C36FD204EB46000266EF4 /* 40-悬浮按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				015C3708204EB4A500266EF4 /* JXSupspensionViewController.h */,
+				015C3709204EB4A500266EF4 /* JXSupspensionViewController.m */,
+				015C3707204EB48A00266EF4 /* Class */,
+			);
+			path = "40-悬浮按钮";
+			sourceTree = "<group>";
+		};
+		015C3707204EB48A00266EF4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				015C370B204EB5C000266EF4 /* UIView+JXExtension.h */,
+				015C370C204EB5C100266EF4 /* UIView+JXExtension.m */,
+				015C3702204EB47500266EF4 /* JXSuspension.h */,
+				015C36FF204EB47400266EF4 /* JXSuspension.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		01A38B532040002D007460C2 /* 倒计时 */ = {
@@ -2576,6 +2606,7 @@
 		04D8420B1EC694CB00E14F48 /* JXPlaygroundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				015C36FD204EB46000266EF4 /* 40-悬浮按钮 */,
 				01A38B532040002D007460C2 /* 倒计时 */,
 				0145469D203E773400786557 /* 常用分类 */,
 				01EDF15B20313AED00E6540D /* 39-VFLDemo */,
@@ -3454,6 +3485,7 @@
 				042E70B71EF295C90034B579 /* NSFileManager+Paths.m in Sources */,
 				042E70CD1EF295C90034B579 /* NSRunLoop+PerformBlock.m in Sources */,
 				04BE3FE21ED1453400459B2E /* JXPlaceAroundTableView.m in Sources */,
+				015C370A204EB4A600266EF4 /* JXSupspensionViewController.m in Sources */,
 				04B780101EE6AD330049B82E /* DefaultDirectionInterpretor.m in Sources */,
 				048652B81EFA1807004B6136 /* JXPopupViewAnimationSpring.m in Sources */,
 				04B780121EE6AD330049B82E /* DefaultViewAnimator.m in Sources */,
@@ -3498,6 +3530,7 @@
 				04AC30C61ED91CE300841D63 /* FDTemplateViewController.m in Sources */,
 				0435A5301EEA8D220097689F /* UIImageView+Extension.m in Sources */,
 				042E70E31EF295C90034B579 /* NSTimer+Blocks.m in Sources */,
+				015C3704204EB47500266EF4 /* JXSuspension.m in Sources */,
 				F3854C811F74AEC100B5DDA1 /* NSObject+ABExtras.m in Sources */,
 				042E70C91EF295C90034B579 /* NSObject+KVOBlocks.m in Sources */,
 				04AE5E661EE79D35001E360C /* JXWaveProgressViewController.m in Sources */,
@@ -3648,6 +3681,7 @@
 				04B77FB91EE650ED0049B82E /* JXSwipeCardViewBackground.m in Sources */,
 				0435A5221EEA552E0097689F /* SDImageView.m in Sources */,
 				042E70DC1EF295C90034B579 /* NSString+Score.m in Sources */,
+				015C370D204EB5C100266EF4 /* UIView+JXExtension.m in Sources */,
 				04D8420E1EC694CB00E14F48 /* main.m in Sources */,
 				044765091F30835A00F0E08D /* LocationViewController.m in Sources */,
 				F3854C841F74AEC100B5DDA1 /* UIView+ABExtras.m in Sources */,
