@@ -10,6 +10,7 @@
 @interface JXCountDown ()
 @property(nonatomic,retain) dispatch_source_t timer;
 @property(nonatomic,retain) NSDateFormatter *dateFormatter;
+@property (nonatomic, assign) NSInteger time;
 
 @end
 
@@ -25,7 +26,7 @@
     return self;
 }
 #pragma mark - *** Public Method
-- (void)countDownWithStratDate:(NSDate *)startDate
+- (void)jx_countDownWithStratDate:(NSDate *)startDate
                    finishDate:(NSDate *)finishDate
                 completeBlock:(void (^)(NSInteger day,NSInteger hour,NSInteger minute,NSInteger second))completeBlock{
     if (_timer == nil) {
@@ -57,7 +58,25 @@
         }
     }
 }
-- (void)countDownWithPER_SECBlock:(void (^)())PER_SECBlock{
+
+- (void)jx_countDownWithTime:(NSInteger)time
+                PER_SECBlock:(void (^)(NSInteger lefTime))PER_SECBlock{
+    self.time = time;
+    if (_timer == nil) {
+        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);
+        dispatch_source_set_timer(_timer,dispatch_walltime(NULL, 0),1.0*NSEC_PER_SEC, 0); //每秒执行
+        dispatch_source_set_event_handler(_timer, ^{
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.time --;
+                PER_SECBlock(self.time);
+            });
+        });
+        dispatch_resume(_timer);
+    }
+}
+
+- (void)jx_countDownWithPER_SECBlock:(void (^)())PER_SECBlock{
     if (_timer == nil) {
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);
@@ -70,7 +89,7 @@
         dispatch_resume(_timer);
     }
 }
-- (NSDate *)dateWithLongLong:(long long)longlongValue{
+- (NSDate *)jx_dateWithLongLong:(long long)longlongValue{
     long long value = longlongValue/1000;
     NSNumber *time = [NSNumber numberWithLongLong:value];
     //转换成NSTimeInterval,用longLongValue，防止溢出
@@ -78,12 +97,12 @@
     NSDate *date = [[NSDate alloc] initWithTimeIntervalSince1970:nsTimeInterval];
     return date;
 }
-- (void)countDownWithStratTimeStamp:(long long)starTimeStamp
+- (void)jx_countDownWithStratTimeStamp:(long long)starTimeStamp
                    finishTimeStamp:(long long)finishTimeStamp
                      completeBlock:(void (^)(NSInteger day,NSInteger hour,NSInteger minute,NSInteger second))completeBlock{
     if (_timer == nil) {
-        NSDate *finishDate = [self dateWithLongLong:finishTimeStamp];
-        NSDate *startDate  = [self dateWithLongLong:starTimeStamp];
+        NSDate *finishDate = [self jx_dateWithLongLong:finishTimeStamp];
+        NSDate *startDate  = [self jx_dateWithLongLong:starTimeStamp];
         NSTimeInterval timeInterval =[finishDate timeIntervalSinceDate:startDate];
         __block int timeout = timeInterval; //倒计时时间
         if (timeout!=0) {
@@ -127,7 +146,8 @@
  *  主动销毁定时器
  *  
  */
--(void)destoryTimer{
+-(void)jx_destoryTimer{
+    if (self.time) self.time = 0;
     if (_timer) {
         dispatch_source_cancel(_timer);
         _timer = nil;

@@ -219,7 +219,7 @@
         self.countDown = [[JXCountDown alloc]init];
         self.time = self.stateDuration;
         __weak typeof(self) weakSelf = self;
-        [self.countDown countDownWithPER_SECBlock:^{
+        [self.countDown jx_countDownWithPER_SECBlock:^{
             weakSelf.time --;
             if (weakSelf.time < 0) {
                 [weakSelf dealWindowCenter:weakSelf.lastCenter];
@@ -334,7 +334,7 @@
         self.window.userInteractionEnabled = YES;
         // 定时器
         if (self.countDown) {
-            [self.countDown destoryTimer];
+            [self.countDown jx_destoryTimer];
         }
         
     } completion:^(BOOL finished) {
